@@ -94,9 +94,12 @@
 .module-cloud article {
   background: #080f1e;
   overflow: hidden;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  align-items: stretch;
 }
 .module-cloud article > div {
-  height: 220px;
+  height: 92px;
   overflow: hidden;
   background: #e7e2d8;
 }
@@ -109,7 +112,8 @@
 }
 .module-cloud article:hover img { transform: scale(1.025); }
 .module-cloud span {
-  display: block;
+  display: flex;
+  align-items: center;
   padding: 17px 21px;
   color: #b8c4d8;
   font-size: 13px;
@@ -699,7 +703,7 @@
     padding: 60px 22px;
   }
   .module-cloud { grid-template-columns: 1fr; }
-  .module-cloud article > div { height: 260px; }
+  .module-cloud article > div { height: 92px; }
   .split {
     gap: 35px;
   }

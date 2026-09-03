@@ -57,7 +57,7 @@ nav a:hover { color: #1f5c4d; }
 .module-cloud { background: #c9cec7; border-color: #c9cec7; }
 .module-cloud article { background: #fffefa; }
 .module-cloud article:nth-child(even) { background: #f0eee8; }
-.module-cloud article > div { border-bottom: 1px solid #c9cec7; }
+.module-cloud article > div { border-right: 1px solid #c9cec7; }
 .module-cloud span { color: #31413c; background: transparent; border: 0; box-shadow: none; }
 .integration { background: #24332f; border: 0; color: #f5f3ee; }
 .integration .section-index { color: #d89576; }
