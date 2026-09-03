@@ -94,6 +94,18 @@ nav a:hover { color: #1f5c4d; }
 .website-preview { background: #fffefa; border-color: #aeb8b1; box-shadow: 10px 10px 0 #d1d1c8; }
 .website-preview svg { color: #a24e31; }
 .website-preview span { color: #616d68; }
+.pricing-hero > p, .pricing-heading p { color: #5d6965; }
+.pricing-icon { color: #1f5c4d; background: #e7ede8; border-color: #cad5cd; }
+.pricing-group .pricing-grid article { background: #fffefa; border-color: #bfc7c0; box-shadow: none; }
+.pricing-group .pricing-grid article.popular { border: 1px solid #1f5c4d; box-shadow: 8px 8px 0 #1f5c4d; }
+.popular-label { color: #fff; background: #a24e31; }
+.pricing-group .price { color: #172227; }
+.pricing-group .price-note { color: #6e7974; }
+.pricing-group .pricing-grid article > p, .pricing-group .pricing-grid li { color: #5d6965; }
+.pricing-group .pricing-grid li svg, .pricing-group .pricing-grid article > a { color: #1f5c4d; }
+.pricing-notes { background: #e5e4dc; border: 0; border-left: 5px solid #a24e31; }
+.pricing-notes span, .pricing-notes > p { color: #5d6965; }
+.pricing-notes span svg { color: #1f5c4d; }
 footer { color: #5f6c67; background: #e5e4dc; border-color: #c1c6c0; }
 .footer-logo { width: 205px; height: 60px; flex: none; }
 .footer-logo img { width: 205px; }
