@@ -48,6 +48,7 @@ nav a:hover { color: #1f5c4d; }
 .problem-grid article:nth-child(even), .detail-grid article:nth-child(even), .web-service-grid article:nth-child(even) { background: #f0eee8; }
 .problem-grid p, .feature-grid h3, .industry-grid a, .process-track span, .why article h3, .detail-grid h2 { color: #21302c; }
 .problem-grid b, .detail-grid article > b, .process-track b, .why article b { color: #a24e31; }
+.problem-visual { border-bottom: 1px solid #c9cec7; }
 .band { background: #e5e4dc; border: 0; border-left: 5px solid #1f5c4d; }
 .capability-list, .capability-list > div { border-color: #bcc3bc; }
 .capability-list > div { color: #30413b; }
