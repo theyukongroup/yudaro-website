@@ -78,6 +78,8 @@ nav a:hover { color: #1f5c4d; }
 .inner-hero { position: relative; }
 .inner-hero::after { content: ""; position: absolute; width: 140px; height: 5px; left: 28px; bottom: 70px; background: #a24e31; }
 .detail-grid p { color: #616d68; }
+.detail-visual { border-bottom: 1px solid #c9cec7; }
+.detail-copy > svg { color: #1f5c4d; }
 .mini-cta { background: #e5e4dc; border: 0; border-left: 5px solid #a24e31; }
 .contact-hero form { background: #fffefa; border-color: #bfc7c0; box-shadow: 10px 10px 0 #ddd9ce; }
 .contact-hero input, .contact-hero select, .contact-hero textarea { color: #172227; background: #f5f3ee; border-color: #b8c1ba; }

@@ -371,6 +371,13 @@
   line-height: 1.7;
   font-size: 14px;
 }
+.detail-grid article.detail-card-image { padding: 0; }
+.detail-visual { height: 210px; overflow: hidden; background: #e7e2d8; }
+.detail-visual img { width: 100%; height: 100%; display: block; object-fit: cover; transition: transform .45s ease; }
+.detail-card-image:hover .detail-visual img { transform: scale(1.025); }
+.detail-copy { position: relative; padding: 28px 34px 34px; min-height: 245px; }
+.detail-copy > svg { position: absolute; right: 30px; top: 27px; color: #5f93f8; }
+.detail-copy h2 { margin-top: 48px; }
 .mini-cta {
   padding-top: 70px;
   padding-bottom: 70px;
