@@ -7,8 +7,7 @@ export const metadata: Metadata = {
   description: 'The practical on-premises server platforms Nexavoris recommends for Odoo ERP and private AI workloads.',
 };
 
-const odooLink = 'https://www.amazon.com/dp/B0C4ZM76SV';
-const aiLink = 'https://www.amazon.com/dp/B0FKYZF9HL';
+const aiLink = 'https://www.gmktec.com/products/amd-ryzen%E2%84%A2-ai-max-395-evo-x2-ai-mini-pc';
 
 const sizing = [
   ['01', 'Workload', 'We map users, modules, integrations, automation, and expected peak activity.'],
@@ -43,7 +42,6 @@ export default function Page() {
             <span><HardDrive size={18}/><b>Storage resilience</b><small>RAID-ready storage and a planned backup path for operational data.</small></span>
             <span><Network size={18}/><b>Serviceability</b><small>Remote administration and room to expand as users and records grow.</small></span>
           </div>
-          <a className="equipment-link" href={odooLink} target="_blank" rel="noreferrer">View the referenced HPE option <ArrowRight size={16}/></a>
         </div>
       </article>
 
@@ -68,7 +66,7 @@ export default function Page() {
             <li><Check size={16}/> 2.5 GbE, Wi-Fi 7, Bluetooth 5.4, and USB4 connectivity</li>
             <li><Check size={16}/> Well suited to private chat, retrieval, document search, and local inference</li>
           </ul>
-          <a className="equipment-link" href={aiLink} target="_blank" rel="noreferrer">View the recommended AI system <ArrowRight size={16}/></a>
+          <a className="equipment-link" href={aiLink} target="_blank" rel="noreferrer">View the EVO-X2 on GMKtec <ArrowRight size={16}/></a>
         </div>
       </article>
     </section>
