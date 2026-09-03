@@ -54,7 +54,11 @@ nav a:hover { color: #1f5c4d; }
 .capability-list > div { color: #30413b; }
 .capability-list svg, .automation svg, .industry-grid svg, .text-link, .feature-grid a { color: #1f5c4d; }
 .capability-list svg:last-child { color: #a24e31; }
-.module-cloud span { color: #31413c; background: transparent; border-color: #aeb8b1; box-shadow: none; }
+.module-cloud { background: #c9cec7; border-color: #c9cec7; }
+.module-cloud article { background: #fffefa; }
+.module-cloud article:nth-child(even) { background: #f0eee8; }
+.module-cloud article > div { border-bottom: 1px solid #c9cec7; }
+.module-cloud span { color: #31413c; background: transparent; border: 0; box-shadow: none; }
 .integration { background: #24332f; border: 0; color: #f5f3ee; }
 .integration .section-index { color: #d89576; }
 .integration .section-head p { color: #bdc7c1; }
