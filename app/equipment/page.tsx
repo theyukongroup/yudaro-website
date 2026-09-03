@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
-import { ArrowRight, Bot, Check, Database, Gauge, HardDrive, Network, Server, ShieldCheck } from 'lucide-react';
+import Image from 'next/image';
+import { ArrowRight, Check, Database, Gauge, HardDrive, Network, ShieldCheck } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Business Server Equipment',
@@ -29,7 +30,10 @@ export default function Page() {
     <section className="equipment-showcase section-shell">
       <article className="equipment-card equipment-card-odoo">
         <div className="equipment-number">01 / ERP INFRASTRUCTURE</div>
-        <div className="equipment-icon"><Server size={42}/></div>
+        <div className="equipment-product">
+          <Image src="/equipment/hpe-proliant-ml30-gen11.png" alt="HPE ProLiant ML30 Gen11 tower server" width={800} height={600} sizes="(max-width: 800px) 100vw, 330px"/>
+          <small>HPE ProLiant ML30 Gen11 shown</small>
+        </div>
         <div className="equipment-copy">
           <span className="equipment-tag">Representative server class</span>
           <h2>HPE ProLiant-class Odoo server</h2>
@@ -45,7 +49,10 @@ export default function Page() {
 
       <article className="equipment-card equipment-card-ai">
         <div className="equipment-number">02 / PRIVATE AI</div>
-        <div className="equipment-icon"><Bot size={42}/></div>
+        <div className="equipment-product">
+          <Image src="/equipment/gmktec-evo-x2.png" alt="GMKtec EVO-X2 compact AI workstation" width={1000} height={1000} sizes="(max-width: 800px) 100vw, 330px"/>
+          <small>GMKtec EVO-X2 shown</small>
+        </div>
         <div className="equipment-copy">
           <span className="equipment-tag">Recommended reference configuration</span>
           <h2>GMKtec EVO-X2 AI workstation</h2>
