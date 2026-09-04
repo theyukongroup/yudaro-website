@@ -7,6 +7,7 @@ import './extended.css';
 import './pricing.css';
 import './equipment.css';
 import './theme-v2.css';
+import './industries.css';
 const sans=Manrope({variable:'--font-sans',subsets:['latin']}); const display=Newsreader({variable:'--font-display',subsets:['latin']}); const mono=Geist_Mono({variable:'--font-mono',subsets:['latin']});
 export const metadata:Metadata={title:{default:'Nexavoris | AI & ERP Systems',template:'%s | Nexavoris'},description:'Private enterprise AI, ERP implementation, and intelligent business automation for growing companies.',metadataBase:new URL('https://nexavoris.com'),icons:{icon:'/favicon.svg'},openGraph:{title:'Nexavoris AI & ERP Systems',description:'One integrated operating system for your business.',type:'website',images:[{url:'/og.png',width:1200,height:630,alt:'Nexavoris AI & ERP Systems'}]},twitter:{card:'summary_large_image',title:'Nexavoris AI & ERP Systems',description:'Private AI, ERP, and automation for operational businesses.',images:['/og.png']}};
 const nav=[['AI Solutions','/ai-solutions'],['ERP Solutions','/erp-solutions'],['Website Design','/website-design'],['AI + ERP','/ai-erp'],['Equipment','/equipment'],['Industries','/industries'],['Pricing','/pricing'],['About','/about']];
