@@ -16,6 +16,27 @@ const sizing = [
   ['04', 'Headroom', 'We leave practical capacity for new users, larger models, and future workflows.'],
 ];
 
+const systems = [
+  {
+    number: '01', name: 'Nexavoris Basic', label: 'Capable local foundation',
+    image: '/equipment/nexavoris-basic.webp', alt: 'Nexavoris Basic MSI Codex R2 tower PC',
+    lead: 'A strong entry point for local AI assistance, document workflows, content production, and demanding everyday business use.',
+    specs: [['Processor', 'Intel Core Ultra 7 265, 20 cores, up to 5.3 GHz'], ['Graphics', 'NVIDIA GeForce RTX 5060 Ti, 8 GB GDDR7'], ['Memory', '32 GB high-speed DDR5 RAM'], ['Storage', '2 TB PCIe NVMe solid-state drive'], ['Cooling', 'Frozr AI Cooling with optimized airflow and RGB fans'], ['Connectivity', 'Wi-Fi, Bluetooth, Ethernet, HDMI, DisplayPort, and USB'], ['Software', 'Windows 11 Home'], ['Included', 'Keyboard and mouse']],
+  },
+  {
+    number: '02', name: 'Nexavoris Business', label: 'High-performance operations',
+    image: '/equipment/nexavoris-business.webp', alt: 'Nexavoris Business HP OMEN MAX 45L tower PC',
+    lead: 'Substantial memory and flagship graphics for larger local models, concurrent workloads, visualization, and accelerated business applications.',
+    specs: [['Processor', 'AMD Ryzen 9 9900X3D, 12 cores / 24 threads, up to 5.5 GHz'], ['Graphics', 'NVIDIA GeForce RTX 5090, 32 GB GDDR7'], ['Memory', '128 GB DDR5 RAM'], ['Storage', '4 TB PCIe NVMe M.2 solid-state drive'], ['Cooling', 'Second-generation OMEN Cryo Chamber for high-load cooling'], ['Networking', 'Wi-Fi 7, Bluetooth, and RJ-45 Ethernet'], ['Display', '1 HDMI and 3 DisplayPort outputs'], ['USB & audio', '4 USB-A 5 Gbps, 3 USB-C 10 Gbps, 4 USB-A 2.0, and 4 audio ports'], ['Software', 'Windows 11 Pro']],
+  },
+  {
+    number: '03', name: 'Nexavoris Enterprise', label: 'Professional AI workstation',
+    image: '/equipment/nexavoris-enterprise.webp', alt: 'Nexavoris Enterprise CLX professional workstation',
+    lead: 'A professional workstation for advanced local AI, very large datasets, complex rendering, and mission-critical accelerated workflows.',
+    specs: [['Processor', 'AMD Ryzen 9 9950X3D, 16 cores, up to 5.6 GHz'], ['Graphics', 'NVIDIA RTX Pro 6000 Blackwell Edition'], ['Video memory', '96 GB GDDR7 ECC'], ['System memory', '192 GB DDR5 RAM'], ['Storage', '4 TB NVMe M.2 solid-state drive'], ['Cooling', 'Premium 360 mm liquid CPU cooler'], ['Networking', '2.5 Gigabit Ethernet and high-speed Wi-Fi'], ['Chassis', 'Professional black mid-tower'], ['Software', 'Windows 11 Pro'], ['Support', 'Expert technical support']],
+  },
+];
+
 export default function Page() {
   return <main>
     <section className="equipment-hero section-shell">
@@ -24,6 +45,26 @@ export default function Page() {
         <h1>Practical hardware for systems that stay under your control.</h1>
       </div>
       <p>We match each workload to business-ready equipment—from dependable Odoo hosting to high-memory local AI. Every final configuration is sized around your operation, data, and availability requirements.</p>
+    </section>
+
+    <section className="systems-section section-shell">
+      <div className="section-head">
+        <span className="section-index">NEXAVORIS SYSTEMS</span>
+        <h2>Three levels of private computing power.</h2>
+        <p>Choose a practical starting point for your workload. We configure, secure, and validate every system around the applications and data it will support.</p>
+      </div>
+      <div className="systems-grid">
+        {systems.map((system) => <article className="system-card" key={system.name}>
+          <div className="system-card-head"><span>{system.number}</span><small>{system.label}</small></div>
+          <div className="system-image"><Image src={system.image} alt={system.alt} width={900} height={700} sizes="(max-width: 800px) 100vw, 33vw"/></div>
+          <div className="system-copy">
+            <h3>{system.name}</h3>
+            <p>{system.lead}</p>
+            <dl>{system.specs.map(([term, value]) => <div key={term}><dt><Check size={14}/>{term}</dt><dd>{value}</dd></div>)}</dl>
+          </div>
+        </article>)}
+      </div>
+      <p className="equipment-note">Configurations are based on the specified reference systems and may change as components are updated or become unavailable. Final hardware is confirmed before procurement.</p>
     </section>
 
     <section className="equipment-showcase section-shell">
