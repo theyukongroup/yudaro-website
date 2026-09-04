@@ -54,9 +54,9 @@ export default function AboutPage() {
       <div className="section-shell">
         <div className="about-method-heading"><span className="section-index">WHAT TO EXPECT</span><h2>A partnership built around clear decisions.</h2></div>
         <div className="about-method-steps">
-          <article><b>01</b><h3>Understand</h3><p>We listen to the people doing the work and map the systems, constraints, and opportunities around them.</p></article>
-          <article><b>02</b><h3>Design & implement</h3><p>We build the right combination of AI, ERP, and automation around measurable operational priorities.</p></article>
-          <article><b>03</b><h3>Adopt & improve</h3><p>We support your team through launch, then continue refining the system as the business learns and grows.</p></article>
+          <article><div className="about-step-image"><Image src="/about/step-understand.webp" alt="Operations team explaining and mapping a business workflow" fill sizes="(max-width: 640px) 100vw, 33vw"/></div><div className="about-step-copy"><b>01</b><h3>Understand</h3><p>We listen to the people doing the work and map the systems, constraints, and opportunities around them.</p></div></article>
+          <article><div className="about-step-image"><Image src="/about/step-design-implement.webp" alt="Technology specialist and operations lead implementing a practical workflow" fill sizes="(max-width: 640px) 100vw, 33vw"/></div><div className="about-step-copy"><b>02</b><h3>Design & implement</h3><p>We build the right combination of AI, ERP, and automation around measurable operational priorities.</p></div></article>
+          <article><div className="about-step-image"><Image src="/about/step-adopt-improve.webp" alt="Operational team reviewing results and planning the next improvement" fill sizes="(max-width: 640px) 100vw, 33vw"/></div><div className="about-step-copy"><b>03</b><h3>Adopt & improve</h3><p>We support your team through launch, then continue refining the system as the business learns and grows.</p></div></article>
         </div>
       </div>
     </section>
