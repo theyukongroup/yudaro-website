@@ -10,7 +10,7 @@
 }
 body { background: #f5f3ee; color: var(--foreground); font-variation-settings: "wght" 450; }
 h1, h2, .price strong { font-family: var(--font-display), Georgia, serif; font-weight: 500; }
-header { height: 82px; background: rgba(245, 243, 238, 0.96); border-bottom: 1px solid #c9cec7; box-shadow: none; }
+header { height: 82px; background: rgba(245, 243, 238, 0.96); border-bottom: 1px solid #c9cec7; box-shadow: none; position: sticky; top: 0; z-index: 50; }
 .logo-brand { width: 210px; height: 58px; overflow: hidden; display: flex; align-items: center; }
 .logo-brand img { width: 210px; height: auto; display: block; mix-blend-mode: multiply; }
 nav { gap: 28px; }
