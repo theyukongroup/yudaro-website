@@ -1,8 +1,8 @@
 import { NextResponse, type NextRequest } from 'next/server';
 import { isLocale } from '@/lib/i18n';
-import { localizedUrls, marketingRoutes } from '@/lib/seo';
+import { localizedUrls, publicRoutes } from '@/lib/seo';
 
-const publicPaths = new Set<string>(marketingRoutes.map((route) => route || '/'));
+const publicPaths = new Set<string>(publicRoutes.map((route) => route || '/'));
 
 function withLanguageHeaders(response: NextResponse, path: string, locale = 'en-US') {
   const urls = localizedUrls(path === '/' ? '' : path);
@@ -27,6 +27,15 @@ export function proxy(request: NextRequest) {
     return withLanguageHeaders(
       NextResponse.next({ request: { headers: requestHeaders } }),
       request.nextUrl.pathname,
+    );
+  }
+
+  if (request.nextUrl.pathname.startsWith('/resources')) {
+    requestHeaders.set('x-nexavoris-locale', locale);
+    return withLanguageHeaders(
+      NextResponse.next({ request: { headers: requestHeaders } }),
+      request.nextUrl.pathname,
+      locale === 'zh-cn' ? 'zh-CN' : locale === 'zh-tw' ? 'zh-TW' : 'es',
     );
   }
 

@@ -15,6 +15,24 @@ export const marketingRoutes = [
   '/contact',
 ] as const;
 
+export const resourceRoutes = [
+  '/resources',
+  '/resources/private-ai',
+  '/resources/odoo-erp',
+  '/resources/ai-erp',
+  '/resources/business-automation',
+  '/resources/comparisons',
+  '/resources/guides',
+  '/resources/industries/wholesale-distribution',
+  '/resources/industries/hvac-field-service',
+  '/resources/industries/construction',
+  '/resources/industries/manufacturing',
+  '/resources/industries/retail',
+  '/resources/industries/professional-services',
+] as const;
+
+export const publicRoutes = [...marketingRoutes, ...resourceRoutes] as const;
+
 export function localizedUrls(path = '') {
   const url = `${SITE_URL}${path || '/'}`;
   return {

@@ -16,6 +16,7 @@ import './equipment.css';
 import './theme-v2.css';
 import './industries.css';
 import './about.css';
+import './resources.css';
 
 const sans = Manrope({ variable: '--font-sans', subsets: ['latin'] });
 const display = Newsreader({ variable: '--font-display', subsets: ['latin'] });
@@ -72,6 +73,7 @@ const nav = [
   ['AI + ERP', '/ai-erp'],
   ['Equipment', '/equipment'],
   ['Industries', '/industries'],
+  ['Resources', '/resources'],
   ['Pricing', '/pricing'],
   ['About', '/about'],
 ];

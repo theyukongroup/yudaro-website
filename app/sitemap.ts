@@ -1,8 +1,8 @@
 import type { MetadataRoute } from 'next';
-import { localizedUrls, marketingRoutes, SITE_URL } from '@/lib/seo';
+import { localizedUrls, publicRoutes, SITE_URL } from '@/lib/seo';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return marketingRoutes.flatMap((route) => {
+  return publicRoutes.flatMap((route) => {
     const canonical = `${SITE_URL}${route || '/'}`;
     const entries = [
       canonical,
