@@ -150,6 +150,12 @@ export function LanguageRuntime() {
 }
 export function LanguageSelector() {
   const [locale, setLocale] = useState<Locale>('en');
+  const selectorLabels: Record<Locale, string> = {
+    en: 'Select display language',
+    'zh-cn': '选择显示语言',
+    'zh-tw': '選擇顯示語言',
+    es: 'Seleccionar idioma de visualización',
+  };
   useEffect(() => setLocale(selectedLocale()), []);
   const changeLanguage = (next: Locale) => {
     setLocale(next);
@@ -162,11 +168,11 @@ export function LanguageSelector() {
   return (
     <label className="language-selector" data-no-translate>
       <Globe2 size={16} />
-      <span className="sr-only">Language</span>
+      <span className="sr-only">{selectorLabels[locale]}</span>
       <select
         value={locale}
         onChange={(event) => changeLanguage(event.target.value as Locale)}
-        aria-label="Select display language"
+        aria-label={selectorLabels[locale]}
       >
         {locales.map((code) => (
           <option value={code} key={code}>

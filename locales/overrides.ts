@@ -23,6 +23,22 @@ export const overrides: Record<string, Record<string, string>> = {
       '与 Nexavoris 讨论私有 AI、ERP、自动化、设备或网站设计需求。',
     'Private enterprise AI, ERP implementation, and intelligent business automation for growing companies.':
       '为成长型企业提供私有化企业 AI、ERP 实施与智能业务自动化服务。',
+    'Secure company knowledge AI, SOP search, document intelligence, and AI automation.':
+      '提供安全的企业知识 AI、SOP 检索、文档智能与 AI 自动化。',
+    'ERP consulting, Odoo implementation, integration, migration, training, and support.':
+      '提供 ERP 咨询、Odoo 实施、系统集成、数据迁移、培训与支持。',
+    'Professional website design, ecommerce, integrations, and ongoing optimization with clear project pricing.':
+      '提供专业网站设计、电子商务、系统集成与持续优化，并采用清晰的项目定价。',
+    'Connect private AI to live ERP data and controlled business workflows.':
+      '将私有 AI 与实时 ERP 数据及受控业务流程连接起来。',
+    'The practical on-premises server platforms Nexavoris recommends for Odoo ERP and private AI workloads.':
+      '了解 Nexavoris 为 Odoo ERP 与私有 AI 工作负载推荐的实用本地服务器平台。',
+    'See how Nexavoris combines AI, ERP, and workflow automation for distribution, field service, construction, retail, manufacturing, and service companies.':
+      '了解 Nexavoris 如何为分销、现场服务、建筑、零售、制造与服务企业整合 AI、ERP 和工作流程自动化。',
+    'Planning-level pricing for private enterprise AI, ERP implementation, and ongoing Nexavoris support.':
+      '私有企业 AI、ERP 实施与 Nexavoris 持续支持的规划级价格参考。',
+    'Meet Nexavoris: practical AI, ERP, automation, and long-term technology partnership for operational businesses.':
+      '了解 Nexavoris 如何为运营型企业提供务实的 AI、ERP、自动化与长期技术合作。',
     'One integrated operating system for your business.':
       '为您的企业打造一体化运营系统。',
     'Private AI, ERP, and automation for operational businesses.':
@@ -85,6 +101,22 @@ export const overrides: Record<string, Record<string, string>> = {
       '與 Nexavoris 討論私有 AI、ERP、自動化、設備或網站設計需求。',
     'Private enterprise AI, ERP implementation, and intelligent business automation for growing companies.':
       '為成長型企業提供私有化企業 AI、ERP 實施與智能業務自動化服務。',
+    'Secure company knowledge AI, SOP search, document intelligence, and AI automation.':
+      '提供安全的企業知識 AI、SOP 檢索、文件智能與 AI 自動化。',
+    'ERP consulting, Odoo implementation, integration, migration, training, and support.':
+      '提供 ERP 諮詢、Odoo 實施、系統整合、資料遷移、培訓與支援。',
+    'Professional website design, ecommerce, integrations, and ongoing optimization with clear project pricing.':
+      '提供專業網站設計、電子商務、系統整合與持續優化，並採用清晰的項目定價。',
+    'Connect private AI to live ERP data and controlled business workflows.':
+      '將私有 AI 與即時 ERP 資料及受控業務流程連接起來。',
+    'The practical on-premises server platforms Nexavoris recommends for Odoo ERP and private AI workloads.':
+      '了解 Nexavoris 為 Odoo ERP 與私有 AI 工作負載推薦的實用本地伺服器平台。',
+    'See how Nexavoris combines AI, ERP, and workflow automation for distribution, field service, construction, retail, manufacturing, and service companies.':
+      '了解 Nexavoris 如何為分銷、現場服務、建築、零售、製造與服務企業整合 AI、ERP 和工作流程自動化。',
+    'Planning-level pricing for private enterprise AI, ERP implementation, and ongoing Nexavoris support.':
+      '私有企業 AI、ERP 實施與 Nexavoris 持續支援的規劃級價格參考。',
+    'Meet Nexavoris: practical AI, ERP, automation, and long-term technology partnership for operational businesses.':
+      '了解 Nexavoris 如何為營運型企業提供務實的 AI、ERP、自動化與長期技術合作。',
     'One integrated operating system for your business.':
       '為您的企業打造一體化營運系統。',
     'Private AI, ERP, and automation for operational businesses.':
@@ -145,6 +177,22 @@ export const overrides: Record<string, Record<string, string>> = {
       'Hable con Nexavoris sobre sus necesidades de IA privada, ERP, automatización, equipos o diseño web.',
     'Private enterprise AI, ERP implementation, and intelligent business automation for growing companies.':
       'IA empresarial privada, implementación de ERP y automatización inteligente para empresas en crecimiento.',
+    'Secure company knowledge AI, SOP search, document intelligence, and AI automation.':
+      'IA segura basada en el conocimiento empresarial, búsqueda de procedimientos, inteligencia documental y automatización.',
+    'ERP consulting, Odoo implementation, integration, migration, training, and support.':
+      'Consultoría ERP, implementación de Odoo, integración, migración, capacitación y soporte.',
+    'Professional website design, ecommerce, integrations, and ongoing optimization with clear project pricing.':
+      'Diseño web profesional, comercio electrónico, integraciones y optimización continua con precios claros.',
+    'Connect private AI to live ERP data and controlled business workflows.':
+      'Conecte la IA privada con datos ERP actuales y flujos de trabajo empresariales controlados.',
+    'The practical on-premises server platforms Nexavoris recommends for Odoo ERP and private AI workloads.':
+      'Plataformas prácticas de servidor local recomendadas por Nexavoris para Odoo ERP y cargas de IA privada.',
+    'See how Nexavoris combines AI, ERP, and workflow automation for distribution, field service, construction, retail, manufacturing, and service companies.':
+      'Vea cómo Nexavoris combina IA, ERP y automatización para distribución, servicio de campo, construcción, comercio, manufactura y servicios.',
+    'Planning-level pricing for private enterprise AI, ERP implementation, and ongoing Nexavoris support.':
+      'Precios orientativos para IA empresarial privada, implementación ERP y soporte continuo de Nexavoris.',
+    'Meet Nexavoris: practical AI, ERP, automation, and long-term technology partnership for operational businesses.':
+      'Conozca a Nexavoris: IA práctica, ERP, automatización y colaboración tecnológica a largo plazo para empresas operativas.',
     'One integrated operating system for your business.':
       'Un sistema operativo integrado para su empresa.',
     'Private AI, ERP, and automation for operational businesses.':

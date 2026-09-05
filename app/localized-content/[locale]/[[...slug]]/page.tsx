@@ -73,7 +73,15 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   const urls = localizedUrls(path);
   const canonical = locale === 'zh-cn' ? urls['zh-CN'] : locale === 'zh-tw' ? urls['zh-TW'] : urls.es;
   metadata.alternates = { canonical };
-  if (metadata.openGraph) metadata.openGraph.url = canonical;
+  if (metadata.openGraph) {
+    metadata.openGraph.url = canonical;
+    metadata.openGraph.locale = locale === 'zh-cn' ? 'zh_CN' : locale === 'zh-tw' ? 'zh_TW' : 'es_ES';
+    metadata.openGraph.alternateLocale = locale === 'zh-cn'
+      ? ['en_US', 'zh_TW', 'es_ES']
+      : locale === 'zh-tw'
+        ? ['en_US', 'zh_CN', 'es_ES']
+        : ['en_US', 'zh_CN', 'zh_TW'];
+  }
   if (key === '') metadata.title = { absolute: translate(messages, title) };
   return metadata;
 }
