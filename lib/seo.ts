@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-export const SITE_URL = 'https://nexavoris.ai';
+export const SITE_URL = 'https://nexavoris-ai-erp.l-leung.chatgpt.site';
 
 export const marketingRoutes = [
   '',
