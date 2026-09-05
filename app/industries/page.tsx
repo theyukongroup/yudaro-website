@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
 import { ArrowUpRight } from 'lucide-react';
 import { IndustryStories, type IndustryStory } from '@/components/industry-stories';
+import { pageMetadata } from '@/lib/seo';
 
-export const metadata: Metadata = { title: 'Industries', description: 'See how Nexavoris combines AI, ERP, and workflow automation for distribution, field service, construction, retail, manufacturing, and service companies.' };
+export const metadata: Metadata = pageMetadata('Industries', 'See how Nexavoris combines AI, ERP, and workflow automation for distribution, field service, construction, retail, manufacturing, and service companies.', '/industries');
 
 const stories: IndustryStory[] = [
   { industry: 'Wholesale & Distribution', industrySubtitle: 'Inventory, purchasing, fulfillment, and margin control', image: { src: '/industries/wholesale-distribution.webp', alt: 'Warehouse manager coordinating inventory and fulfillment' }, storytellerRole: 'Warehouse Manager', companyType: 'Regional Wholesale Distributor', shortQuote: 'We stopped chasing three versions of inventory and gave the warehouse and sales team one reliable answer.', fullStory: [

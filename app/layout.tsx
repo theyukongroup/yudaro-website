@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { headers } from 'next/headers';
 import { Manrope, Newsreader, Geist_Mono } from 'next/font/google';
 import Image from 'next/image';
 import { ArrowUpRight, Mail, MapPin, Phone } from 'lucide-react';
@@ -6,6 +7,8 @@ import {
   LanguageRuntime,
   LanguageSelector,
 } from '@/components/language-runtime';
+import { SITE_URL } from '@/lib/seo';
+import { isLocale, languageTags } from '@/lib/i18n';
 import './globals.css';
 import './extended.css';
 import './pricing.css';
@@ -24,11 +27,27 @@ export const metadata: Metadata = {
   },
   description:
     'Private enterprise AI, ERP implementation, and intelligent business automation for growing companies.',
-  metadataBase: new URL('https://nexavoris.ai'),
+  metadataBase: new URL(SITE_URL),
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      'max-video-preview': -1,
+    },
+  },
+  category: 'business technology services',
   icons: { icon: '/favicon.svg' },
   openGraph: {
     title: 'Nexavoris AI & ERP Systems',
     description: 'One integrated operating system for your business.',
+    url: SITE_URL,
+    siteName: 'Nexavoris',
+    locale: 'en_US',
+    alternateLocale: ['zh_CN', 'zh_TW', 'es'],
     type: 'website',
     images: [
       {
@@ -57,14 +76,19 @@ const nav = [
   ['About', '/about'],
 ];
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const localeHeader = (await headers()).get('x-nexavoris-locale');
+  const documentLanguage = isLocale(localeHeader) ? languageTags[localeHeader] : 'en-US';
   return (
-    <html lang="en-US" suppressHydrationWarning>
+    <html lang={documentLanguage} suppressHydrationWarning>
       <body className={`${sans.variable} ${display.variable} ${mono.variable}`}>
+        <a className="skip-link" href="#main-content">
+          Skip to main content
+        </a>
         <LanguageRuntime />
         <header>
           <a className="brand logo-brand" href="/" aria-label="Nexavoris home">
@@ -76,7 +100,7 @@ export default function RootLayout({
               priority
             />
           </a>
-          <nav>
+          <nav aria-label="Primary navigation">
             {nav.map(([label, href]) => (
               <a key={label} href={href}>
                 {label}
@@ -88,7 +112,7 @@ export default function RootLayout({
             Schedule a Consultation <ArrowUpRight size={16} />
           </a>
         </header>
-        {children}
+        <div id="main-content">{children}</div>
         <footer>
           <div className="footer-company">
             <a
@@ -127,6 +151,64 @@ export default function RootLayout({
             © 2026 Nexavoris. All rights reserved.
           </span>
         </footer>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@graph': [
+                {
+                  '@type': ['Organization', 'ProfessionalService'],
+                  '@id': `${SITE_URL}/#organization`,
+                  name: 'Nexavoris',
+                  url: SITE_URL,
+                  logo: `${SITE_URL}/nexavoris-logo.png`,
+                  image: `${SITE_URL}/og.png`,
+                  email: 'info@nexavoris.ai',
+                  telephone: '+1-281-258-8000',
+                  address: {
+                    '@type': 'PostalAddress',
+                    streetAddress: '13366 Murphy Road',
+                    addressLocality: 'Stafford',
+                    addressRegion: 'TX',
+                    postalCode: '77477',
+                    addressCountry: 'US',
+                  },
+                  areaServed: { '@type': 'Country', name: 'United States' },
+                  knowsAbout: [
+                    'Private enterprise AI',
+                    'ERP consulting and implementation',
+                    'Odoo implementation',
+                    'Business process automation',
+                    'Website design and development',
+                  ],
+                  hasOfferCatalog: {
+                    '@type': 'OfferCatalog',
+                    name: 'Nexavoris business technology services',
+                    itemListElement: [
+                      'Private enterprise AI solutions',
+                      'ERP consulting and Odoo implementation',
+                      'AI and ERP integration',
+                      'Business workflow automation',
+                      'Website design and development',
+                    ].map((name) => ({
+                      '@type': 'Offer',
+                      itemOffered: { '@type': 'Service', name },
+                    })),
+                  },
+                },
+                {
+                  '@type': 'WebSite',
+                  '@id': `${SITE_URL}/#website`,
+                  url: SITE_URL,
+                  name: 'Nexavoris',
+                  publisher: { '@id': `${SITE_URL}/#organization` },
+                  inLanguage: ['en-US', 'zh-CN', 'zh-TW', 'es'],
+                },
+              ],
+            }),
+          }}
+        />
       </body>
     </html>
   );

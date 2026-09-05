@@ -1,5 +1,5 @@
-import type { Metadata } from 'next'; import { SolutionPage } from '@/components/solution-page'; import { ScreenshotGallery } from '@/components/screenshot-gallery';
-export const metadata:Metadata={title:'Private Enterprise AI Solutions',description:'Secure company knowledge AI, SOP search, document intelligence, and AI automation.'};
+import { SolutionPage } from '@/components/solution-page'; import { ScreenshotGallery } from '@/components/screenshot-gallery'; import { pageMetadata } from '@/lib/seo';
+export const metadata=pageMetadata('Private Enterprise AI Solutions','Secure company knowledge AI, SOP search, document intelligence, and AI automation.','/ai-solutions');
 const items=[
   {title:'Private AI Server',body:'A controlled AI environment designed around your security, performance, and governance requirements.',image:{src:'/ai-solutions/private-ai-server.webp',alt:'Private server secured inside a locked cabinet'}},
   {title:'Company Knowledge AI',body:'Turn internal documents, product information, policies, and expertise into a reliable knowledge layer.',image:{src:'/ai-solutions/company-knowledge-ai.webp',alt:'Organized company files and product knowledge connected to a central index'}},

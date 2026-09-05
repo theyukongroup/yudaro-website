@@ -9,6 +9,7 @@
   --radius: 2px;
 }
 body { background: #f5f3ee; color: var(--foreground); font-variation-settings: "wght" 450; }
+.skip-link{position:fixed;left:16px;top:10px;z-index:1000;padding:10px 14px;background:#172227;color:#fff;transform:translateY(-150%);transition:transform .15s}.skip-link:focus{transform:translateY(0)}
 h1, h2, .price strong { font-family: var(--font-display), Georgia, serif; font-weight: 500; }
 header { height: 82px; background: rgba(245, 243, 238, 0.96); border-bottom: 1px solid #c9cec7; box-shadow: none; position: sticky; top: 0; z-index: 50; }
 .logo-brand { width: 210px; height: 58px; overflow: hidden; display: flex; align-items: center; }

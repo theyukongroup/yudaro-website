@@ -1,5 +1,8 @@
 import { ArrowRight, Database, Sparkles, Workflow, Users, BrainCircuit, Boxes, Search, ChartNoAxesCombined, FileText, GraduationCap, MonitorSmartphone, Wrench, Factory, Store, HardHat, Truck, Check } from 'lucide-react';
 import Image from 'next/image';
+import type { Metadata } from 'next';
+import { pageMetadata } from '@/lib/seo';
+export const metadata: Metadata = pageMetadata('Nexavoris | AI & ERP Systems', 'Private enterprise AI, ERP implementation, and intelligent business automation for growing companies.', '');
 const layers=[{label:'Employees',icon:Users},{label:'Private AI',icon:BrainCircuit},{label:'ERP',icon:Boxes},{label:'Company Data',icon:Database},{label:'Automated Processes',icon:Workflow}];
 const problems=['Hours lost searching for information','Critical procedures live with experienced employees','Data scattered across spreadsheets and software','No easy access to real-time management insight','Administrative work consumes skilled labor','Business systems do not communicate'];
 const problemImages=[

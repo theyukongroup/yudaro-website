@@ -13,6 +13,14 @@ export const overrides: Record<string, Record<string, string>> = {
     'ERP That Runs It.': '让 ERP 推动业务运营。',
     'Nexavoris | AI & ERP Systems': 'Nexavoris | AI 与 ERP 系统',
     'Nexavoris AI & ERP Systems': 'Nexavoris AI 与 ERP 系统',
+    'Private Enterprise AI Solutions': '私有化企业 AI 解决方案',
+    'ERP Consulting & Implementation': 'ERP 咨询与实施',
+    'AI + ERP Integration': 'AI 与 ERP 集成',
+    'Business Server Equipment': '企业服务器设备',
+    'Website Design Services & Pricing': '网站设计服务与价格',
+    'Contact Nexavoris': '联系 Nexavoris',
+    'Discuss private AI, ERP, automation, equipment, or website design requirements with Nexavoris.':
+      '与 Nexavoris 讨论私有 AI、ERP、自动化、设备或网站设计需求。',
     'Private enterprise AI, ERP implementation, and intelligent business automation for growing companies.':
       '为成长型企业提供私有化企业 AI、ERP 实施与智能业务自动化服务。',
     'One integrated operating system for your business.':
@@ -67,6 +75,14 @@ export const overrides: Record<string, Record<string, string>> = {
     'ERP That Runs It.': '讓 ERP 推動業務營運。',
     'Nexavoris | AI & ERP Systems': 'Nexavoris | AI 與 ERP 系統',
     'Nexavoris AI & ERP Systems': 'Nexavoris AI 與 ERP 系統',
+    'Private Enterprise AI Solutions': '私有化企業 AI 解決方案',
+    'ERP Consulting & Implementation': 'ERP 諮詢與實施',
+    'AI + ERP Integration': 'AI 與 ERP 整合',
+    'Business Server Equipment': '企業伺服器設備',
+    'Website Design Services & Pricing': '網站設計服務與價格',
+    'Contact Nexavoris': '聯絡 Nexavoris',
+    'Discuss private AI, ERP, automation, equipment, or website design requirements with Nexavoris.':
+      '與 Nexavoris 討論私有 AI、ERP、自動化、設備或網站設計需求。',
     'Private enterprise AI, ERP implementation, and intelligent business automation for growing companies.':
       '為成長型企業提供私有化企業 AI、ERP 實施與智能業務自動化服務。',
     'One integrated operating system for your business.':
@@ -119,6 +135,14 @@ export const overrides: Record<string, Record<string, string>> = {
     'ERP That Runs It.': 'ERP que lo impulsa.',
     'Nexavoris | AI & ERP Systems': 'Nexavoris | Sistemas de IA y ERP',
     'Nexavoris AI & ERP Systems': 'Sistemas de IA y ERP de Nexavoris',
+    'Private Enterprise AI Solutions': 'Soluciones privadas de IA empresarial',
+    'ERP Consulting & Implementation': 'Consultoría e implementación de ERP',
+    'AI + ERP Integration': 'Integración de IA y ERP',
+    'Business Server Equipment': 'Equipos de servidores empresariales',
+    'Website Design Services & Pricing': 'Servicios y precios de diseño web',
+    'Contact Nexavoris': 'Contactar a Nexavoris',
+    'Discuss private AI, ERP, automation, equipment, or website design requirements with Nexavoris.':
+      'Hable con Nexavoris sobre sus necesidades de IA privada, ERP, automatización, equipos o diseño web.',
     'Private enterprise AI, ERP implementation, and intelligent business automation for growing companies.':
       'IA empresarial privada, implementación de ERP y automatización inteligente para empresas en crecimiento.',
     'One integrated operating system for your business.':

@@ -1,11 +1,9 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import { ArrowDown, ArrowUpRight, Check } from 'lucide-react';
+import { pageMetadata } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'About',
-  description: 'Meet Nexavoris: practical AI, ERP, automation, and long-term technology partnership for operational businesses.',
-};
+export const metadata: Metadata = pageMetadata('About', 'Meet Nexavoris: practical AI, ERP, automation, and long-term technology partnership for operational businesses.', '/about');
 
 const principles = [
   { number: '01', title: 'Business before software', eyebrow: 'START WITH THE WORK', image: '/about/business-before-software.webp', alt: 'Business owner and technology consultant mapping an operational workflow', body: 'We begin by understanding how work actually moves through your company: where decisions happen, where information gets lost, and what your team needs to do its best work. Only then do we design the technology.', note: 'Processes, constraints, people, and outcomes come first.' },
