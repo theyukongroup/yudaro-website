@@ -8,6 +8,7 @@ import {
   LanguageSelector,
 } from '@/components/language-runtime';
 import { SITE_URL } from '@/lib/seo';
+import { chatGPTSignInPath, getChatGPTUser } from '@/app/chatgpt-auth';
 import { isLocale, languageTags } from '@/lib/i18n';
 import './globals.css';
 import './extended.css';
@@ -17,6 +18,7 @@ import './theme-v2.css';
 import './industries.css';
 import './about.css';
 import './resources.css';
+import './member.css';
 
 const sans = Manrope({ variable: '--font-sans', subsets: ['latin'] });
 const display = Newsreader({ variable: '--font-display', subsets: ['latin'] });
@@ -84,7 +86,10 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
   const localeHeader = (await headers()).get('x-nexavoris-locale');
-  const documentLanguage = isLocale(localeHeader) ? languageTags[localeHeader] : 'en-US';
+  const documentLanguage = isLocale(localeHeader)
+    ? languageTags[localeHeader]
+    : 'en-US';
+  const member = await getChatGPTUser();
   return (
     <html lang={documentLanguage} suppressHydrationWarning>
       <body className={`${sans.variable} ${display.variable} ${mono.variable}`}>
@@ -110,8 +115,15 @@ export default async function RootLayout({
             ))}
           </nav>
           <LanguageSelector />
-          <a className="nav-cta" href="/contact">
-            Schedule a Consultation <ArrowUpRight size={16} />
+          <a
+            className="member-header-link"
+            href={member ? '/account' : chatGPTSignInPath('/account')}
+            target={member ? undefined : '_top'}
+          >
+            {member ? 'My Account' : 'Sign In'}
+          </a>
+          <a className="nav-cta" href="/assessment">
+            Free AI + ERP Assessment <ArrowUpRight size={16} />
           </a>
         </header>
         <div id="main-content">{children}</div>
@@ -132,6 +144,7 @@ export default async function RootLayout({
             <p>AI that understands your business. ERP that runs it.</p>
           </div>
           <address className="footer-contact">
+            <a href="/free-account">Free Business Account</a>
             <span>
               <MapPin size={16} />
               <span>

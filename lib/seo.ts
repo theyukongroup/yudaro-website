@@ -13,6 +13,8 @@ export const marketingRoutes = [
   '/pricing',
   '/about',
   '/contact',
+  '/free-account',
+  '/assessment',
 ] as const;
 
 export const resourceRoutes = [

@@ -1,5 +1,23 @@
 export const overrides: Record<string, Record<string, string>> = {
   'zh-cn': {
+    'My Account': '我的账户',
+    'Sign In': '登录',
+    'Free Business Account': '免费企业账户',
+    'Free AI + ERP Assessment': '免费 AI + ERP 评估',
+    'FREE BUSINESS ASSESSMENT': '免费企业评估',
+    'How ready is your business for AI + ERP?':
+      '您的企业为 AI + ERP 做好准备了吗？',
+    'Take the free Nexavoris Business Technology Assessment to see where AI, ERP, workflow automation, and better data could make the biggest difference.':
+      '参加免费的 Nexavoris 企业技术评估，了解 AI、ERP、工作流程自动化和优质数据可以在哪些方面发挥最大作用。',
+    'Get My Free Score': '获取免费评分',
+    'Free • About 5 minutes • No credit card required':
+      '免费 • 约 5 分钟 • 无需信用卡',
+    'FREE INDUSTRY ASSESSMENT': '免费行业评估',
+    'How ready is your operation for AI + ERP?':
+      '您的运营为 AI + ERP 做好准备了吗？',
+    'Identify practical opportunities across reporting, employee knowledge, customer workflows, purchasing, inventory, and automation.':
+      '发现报告、员工知识、客户流程、采购、库存和自动化方面的实用机会。',
+    'Analyze My Operation': '分析我的运营',
     'AI Solutions': 'AI 解决方案',
     'ERP Solutions': 'ERP 解决方案',
     'Website Design': '网站设计',
@@ -84,6 +102,24 @@ export const overrides: Record<string, Record<string, string>> = {
     'Project Description': '项目说明',
   },
   'zh-tw': {
+    'My Account': '我的帳戶',
+    'Sign In': '登入',
+    'Free Business Account': '免費企業帳戶',
+    'Free AI + ERP Assessment': '免費 AI + ERP 評估',
+    'FREE BUSINESS ASSESSMENT': '免費企業評估',
+    'How ready is your business for AI + ERP?':
+      '您的企業為 AI + ERP 做好準備了嗎？',
+    'Take the free Nexavoris Business Technology Assessment to see where AI, ERP, workflow automation, and better data could make the biggest difference.':
+      '參加免費的 Nexavoris 企業技術評估，了解 AI、ERP、工作流程自動化和優質資料可以在哪些方面發揮最大作用。',
+    'Get My Free Score': '取得免費評分',
+    'Free • About 5 minutes • No credit card required':
+      '免費 • 約 5 分鐘 • 無需信用卡',
+    'FREE INDUSTRY ASSESSMENT': '免費產業評估',
+    'How ready is your operation for AI + ERP?':
+      '您的營運為 AI + ERP 做好準備了嗎？',
+    'Identify practical opportunities across reporting, employee knowledge, customer workflows, purchasing, inventory, and automation.':
+      '找出報告、員工知識、客戶流程、採購、庫存和自動化方面的實用機會。',
+    'Analyze My Operation': '分析我的營運',
     'AI Solutions': 'AI 解決方案',
     'ERP Solutions': 'ERP 解決方案',
     'Website Design': '網站設計',
@@ -168,6 +204,24 @@ export const overrides: Record<string, Record<string, string>> = {
     'Project Description': '項目說明',
   },
   es: {
+    'My Account': 'Mi cuenta',
+    'Sign In': 'Iniciar sesión',
+    'Free Business Account': 'Cuenta empresarial gratuita',
+    'Free AI + ERP Assessment': 'Evaluación gratuita de IA + ERP',
+    'FREE BUSINESS ASSESSMENT': 'EVALUACIÓN EMPRESARIAL GRATUITA',
+    'How ready is your business for AI + ERP?':
+      '¿Qué tan preparada está su empresa para IA + ERP?',
+    'Take the free Nexavoris Business Technology Assessment to see where AI, ERP, workflow automation, and better data could make the biggest difference.':
+      'Realice la evaluación tecnológica gratuita de Nexavoris para descubrir dónde la IA, el ERP, la automatización y mejores datos pueden aportar más valor.',
+    'Get My Free Score': 'Obtener mi puntuación gratuita',
+    'Free • About 5 minutes • No credit card required':
+      'Gratis • Aproximadamente 5 minutos • Sin tarjeta de crédito',
+    'FREE INDUSTRY ASSESSMENT': 'EVALUACIÓN GRATUITA DE LA INDUSTRIA',
+    'How ready is your operation for AI + ERP?':
+      '¿Qué tan preparada está su operación para IA + ERP?',
+    'Identify practical opportunities across reporting, employee knowledge, customer workflows, purchasing, inventory, and automation.':
+      'Identifique oportunidades prácticas en informes, conocimiento del personal, flujos de clientes, compras, inventario y automatización.',
+    'Analyze My Operation': 'Analizar mi operación',
     'AI Solutions': 'Soluciones de IA',
     'ERP Solutions': 'Soluciones ERP',
     'Website Design': 'Diseño web',
@@ -230,10 +284,12 @@ export const overrides: Record<string, Record<string, string>> = {
     'Request a scoped estimate': 'Solicitar una estimación',
     'Discuss this package': 'Consultar este paquete',
     'Start a website project': 'Iniciar un proyecto web',
-    'Read the practical guide to private AI': 'Lea la guía práctica de IA privada',
+    'Read the practical guide to private AI':
+      'Lea la guía práctica de IA privada',
     'Read the practical guide to Odoo ERP': 'Lea la guía práctica de Odoo ERP',
     'Read the practical AI + ERP guide': 'Lea la guía práctica de IA + ERP',
-    'Read the cost and implementation planning guide': 'Lea la guía de costos e implementación',
+    'Read the cost and implementation planning guide':
+      'Lea la guía de costos e implementación',
     'Read the practical industry guide': 'Lea la guía práctica del sector',
     Pricing: 'Precios',
     Industries: 'Industrias',

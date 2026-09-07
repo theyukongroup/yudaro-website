@@ -30,7 +30,7 @@ export function proxy(request: NextRequest) {
     );
   }
 
-  if (request.nextUrl.pathname.startsWith('/resources')) {
+  if (request.nextUrl.pathname.startsWith('/resources') || request.nextUrl.pathname === '/free-account' || request.nextUrl.pathname === '/assessment') {
     requestHeaders.set('x-nexavoris-locale', locale);
     return withLanguageHeaders(
       NextResponse.next({ request: { headers: requestHeaders } }),
