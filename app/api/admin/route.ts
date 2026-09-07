@@ -56,6 +56,7 @@ async function loadUsers() {
         events,
         consultation,
         saved,
+        staffRole,
       ] = await Promise.all([
         db
           .prepare(
@@ -107,6 +108,12 @@ async function loadUsers() {
           )
           .bind(id)
           .all<Row>(),
+        db
+          .prepare(
+            'SELECT role,active FROM admin_staff WHERE user_id=? OR lower(email)=lower(?) LIMIT 1',
+          )
+          .bind(id, String(profileRow.email))
+          .first<Row>(),
       ]);
       const profile = parseJSON<Row>(profileRow.profile_json, {});
       const responses = assessment
@@ -164,6 +171,12 @@ async function loadUsers() {
         consultation,
         registrationDate: profileRow.created_at,
         lastLogin: profileRow.updated_at,
+        accountRole:
+          staffRole?.active && staffRole.role === 'admin'
+            ? 'admin'
+            : staffRole?.active && staffRole.role === 'sales'
+              ? 'sales'
+              : 'member',
       };
       user.leadScore = leadScore(user);
       return user;
@@ -264,7 +277,7 @@ function summarize(users: Row[]) {
 }
 
 export async function GET(request: Request) {
-  const actor = await requireAdminActor();
+  const actor = await requireAdminActor('admin');
   if (!actor) return json({ error: 'Administrator access required' }, 403);
   const url = new URL(request.url),
     users = await loadUsers();
@@ -341,16 +354,13 @@ export async function GET(request: Request) {
 }
 
 export async function POST(request: Request) {
-  const actor = await requireAdminActor();
+  const actor = await requireAdminActor('admin');
   if (!actor) return json({ error: 'Administrator access required' }, 403);
   const body = (await request.json()) as Row,
     action = String(body.action ?? '');
   let target = String(body.userId ?? '');
   const db = memberDB(),
     now = new Date().toISOString();
-  const adminOnly = ['account_status', 'staff_role'];
-  if (adminOnly.includes(action) && actor.role !== 'admin')
-    return json({ error: 'Admin role required' }, 403);
   let detail: Row = {};
   if (action === 'lead_update') {
     const status = String(body.leadStatus ?? 'New'),
@@ -397,24 +407,54 @@ export async function POST(request: Request) {
     const email = String(body.email ?? '')
         .trim()
         .toLowerCase(),
-      role = body.role === 'sales' ? 'sales' : 'admin';
+      role = String(body.role ?? '');
     if (!email) return json({ error: 'Email required' }, 400);
-    await db
+    if (!['member', 'sales', 'admin'].includes(role))
+      return json({ error: 'Invalid role' }, 400);
+    const member = await db
       .prepare(
-        'INSERT INTO admin_staff (user_id,email,display_name,role,active,created_at,updated_at) VALUES (?,?,?,?,?,?,?) ON CONFLICT(email) DO UPDATE SET role=excluded.role,active=excluded.active,updated_at=excluded.updated_at',
+        'SELECT user_id,email,profile_json FROM member_profiles WHERE lower(email)=lower(?) LIMIT 1',
       )
-      .bind(
-        String(body.staffUserId || `pending:${email}`),
-        email,
-        body.displayName || null,
-        role,
-        body.active === false ? 0 : 1,
-        now,
-        now,
+      .bind(email)
+      .first<Row>();
+    if (!member)
+      return json(
+        { error: 'No registered Nexavoris member has that email address' },
+        404,
+      );
+    target = String(member.user_id);
+    const current = await db
+      .prepare(
+        'SELECT role,active FROM admin_staff WHERE user_id=? OR lower(email)=lower(?) LIMIT 1',
       )
-      .run();
-    target = String(body.staffUserId || `pending:${email}`);
-    detail = { email, role, active: body.active !== false };
+      .bind(target, email)
+      .first<Row>();
+    if (current?.role === 'admin' && current.active && role !== 'admin') {
+      const adminCount = await db
+        .prepare("SELECT count(*) AS count FROM admin_staff WHERE role='admin' AND active=1")
+        .first<{ count: number }>();
+      if (Number(adminCount?.count ?? 0) <= 1)
+        return json({ error: 'The last active administrator cannot be demoted' }, 409);
+    }
+    const profile = parseJSON<Row>(member.profile_json, {});
+    const displayName =
+      [profile.firstName, profile.lastName].filter(Boolean).join(' ') ||
+      profile.name ||
+      null;
+    if (role === 'member') {
+      await db
+        .prepare('DELETE FROM admin_staff WHERE user_id=? OR lower(email)=lower(?)')
+        .bind(target, email)
+        .run();
+    } else {
+      await db
+        .prepare(
+          'INSERT INTO admin_staff (user_id,email,display_name,role,active,created_at,updated_at) VALUES (?,?,?,?,1,?,?) ON CONFLICT(email) DO UPDATE SET user_id=excluded.user_id,display_name=excluded.display_name,role=excluded.role,active=1,updated_at=excluded.updated_at',
+        )
+        .bind(target, String(member.email), displayName, role, now, now)
+        .run();
+    }
+    detail = { email, previousRole: current?.role ?? 'member', role };
   } else return json({ error: 'Unsupported action' }, 400);
   await db
     .prepare(

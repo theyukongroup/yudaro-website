@@ -20,6 +20,7 @@ import {
 type Row = Record<string, any>;
 type Props = {
   actor: { id: string; email: string; name?: string; role: 'admin' | 'sales' };
+  initialTab?: string;
 };
 const labels: Record<string, string> = {
   dashboard: 'Dashboard',
@@ -50,9 +51,9 @@ const name = (u: Row) =>
   u.profile?.name ||
   u.email;
 
-export function AdminDashboard({ actor }: Props) {
+export function AdminDashboard({ actor, initialTab = 'dashboard' }: Props) {
   const [data, setData] = useState<Row | null>(null),
-    [tab, setTab] = useState('dashboard'),
+    [tab, setTab] = useState(initialTab),
     [selected, setSelected] = useState<Row | null>(null),
     [query, setQuery] = useState(''),
     [industry, setIndustry] = useState(''),
@@ -158,7 +159,10 @@ export function AdminDashboard({ actor }: Props) {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(body),
     });
-    setMessage(r.ok ? 'Saved securely.' : 'Update was not permitted.');
+    const response = (await r.json().catch(() => ({}))) as Row;
+    setMessage(
+      r.ok ? 'Saved securely.' : response.error || 'Update was not permitted.',
+    );
     if (r.ok) {
       await load();
       if (selected)
@@ -261,7 +265,7 @@ export function AdminDashboard({ actor }: Props) {
         )}
         {tab === 'analytics' && <Analytics data={data} />}{' '}
         {tab === 'settings' && actor.role === 'admin' && (
-          <SettingsView data={data} mutate={mutate} />
+          <SettingsView data={data} />
         )}
       </section>
       {selected && (
@@ -682,22 +686,14 @@ function Analytics({ data }: { data: Row }) {
   );
 }
 
-function SettingsView({
-  data,
-  mutate,
-}: {
-  data: Row;
-  mutate: (b: Row) => void;
-}) {
-  const [email, setEmail] = useState(''),
-    [role, setRole] = useState('sales');
+function SettingsView({ data }: { data: Row }) {
   return (
     <div className="admin-grid">
       <section className="admin-card">
         <h2>Administrator and advisor access</h2>
         <p>
-          Access is enforced on the server. Pending staff access activates when
-          that email signs in.
+          Access is enforced on the server. Open a registered member from Users
+          to assign Member, Sales / Advisor, or Administrator access.
         </p>
         {data.staff.map((s: Row) => (
           <div className="staff-row" key={s.email}>
@@ -708,26 +704,6 @@ function SettingsView({
             <b>{s.role}</b>
           </div>
         ))}
-        <div className="staff-add">
-          <input
-            type="email"
-            placeholder="Staff email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
-          <select value={role} onChange={(e) => setRole(e.target.value)}>
-            <option value="sales">Sales / Advisor</option>
-            <option value="admin">Admin</option>
-          </select>
-          <button
-            onClick={() => {
-              mutate({ action: 'staff_role', email, role, active: true });
-              setEmail('');
-            }}
-          >
-            Add staff access
-          </button>
-        </div>
       </section>
       <section className="admin-card">
         <h2>Activity log</h2>
@@ -766,6 +742,7 @@ function UserDrawer({
       user.admin.consultation_status ?? 'New',
     ),
     [note, setNote] = useState('');
+  const [accountRole, setAccountRole] = useState(user.accountRole ?? 'member');
   const profile = user.profile,
     responses = user.responses;
   return (
@@ -785,6 +762,31 @@ function UserDrawer({
           {profile.company || 'Company not provided'} · {user.email}
         </p>
         <div className="drawer-actions">
+          {role === 'admin' && (
+            <>
+              <label htmlFor="account-role">Nexavoris role</label>
+              <select
+                id="account-role"
+                value={accountRole}
+                onChange={(e) => setAccountRole(e.target.value)}
+              >
+                <option value="member">Member</option>
+                <option value="sales">Sales / Advisor</option>
+                <option value="admin">Administrator</option>
+              </select>
+              <button
+                onClick={() =>
+                  mutate({
+                    action: 'staff_role',
+                    email: user.email,
+                    role: accountRole,
+                  })
+                }
+              >
+                Save role
+              </button>
+            </>
+          )}
           <select
             value={leadStatus}
             onChange={(e) => setLeadStatus(e.target.value)}
