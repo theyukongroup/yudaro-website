@@ -9,6 +9,7 @@ import {
 } from '@/components/language-runtime';
 import { SITE_URL } from '@/lib/seo';
 import { chatGPTSignInPath, getChatGPTUser } from '@/app/chatgpt-auth';
+import { MobileNavigation } from '@/components/mobile-navigation';
 import { isLocale, languageTags } from '@/lib/i18n';
 import './globals.css';
 import './extended.css';
@@ -107,7 +108,7 @@ export default async function RootLayout({
               priority
             />
           </a>
-          <nav aria-label="Primary navigation">
+          <nav className="desktop-navigation" aria-label="Primary navigation">
             {nav.map(([label, href]) => (
               <a key={label} href={href}>
                 {label}
@@ -122,9 +123,13 @@ export default async function RootLayout({
           >
             {member ? 'My Account' : 'Sign In'}
           </a>
-          <a className="nav-cta" href="/assessment">
+          <a className="nav-cta desktop-assessment" href="/assessment">
             Free AI + ERP Assessment <ArrowUpRight size={16} />
           </a>
+          <MobileNavigation
+            signedIn={Boolean(member)}
+            accountHref={chatGPTSignInPath('/account')}
+          />
         </header>
         <div id="main-content">{children}</div>
         <footer>
