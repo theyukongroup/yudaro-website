@@ -6,4 +6,9 @@ export const memberTables = [
   'member_roadmaps',
   'saved_resources',
   'member_events',
+  'admin_staff',
+  'member_admin_records',
+  'admin_notes',
+  'admin_audit_log',
+  'consultation_requests',
 ] as const;
