@@ -743,6 +743,7 @@ function UserDrawer({
     ),
     [note, setNote] = useState('');
   const [accountRole, setAccountRole] = useState(user.accountRole ?? 'member');
+  const [primaryIndustry, setPrimaryIndustry] = useState(user.profile.industry ?? 'Other');
   const profile = user.profile,
     responses = user.responses;
   return (
@@ -764,6 +765,11 @@ function UserDrawer({
         <div className="drawer-actions">
           {role === 'admin' && (
             <>
+              <label htmlFor="primary-industry">Primary industry</label>
+              <select id="primary-industry" value={primaryIndustry} onChange={(e) => setPrimaryIndustry(e.target.value)}>
+                {['Wholesale Distribution','HVAC / Field Service','Construction','Manufacturing','Retail','Professional Services','Other'].map((option) => <option key={option}>{option}</option>)}
+              </select>
+              <button onClick={() => mutate({ action: 'profile_industry', userId: user.id, industry: primaryIndustry })}>Save industry</button>
               <label htmlFor="account-role">Nexavoris role</label>
               <select
                 id="account-role"

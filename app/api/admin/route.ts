@@ -403,6 +403,32 @@ export async function POST(request: Request) {
       .bind(target, status, now)
       .run();
     detail = { status };
+  } else if (action === 'profile_industry') {
+    const industry = String(body.industry ?? '').trim();
+    const allowed = [
+      'Wholesale Distribution',
+      'HVAC / Field Service',
+      'Construction',
+      'Manufacturing',
+      'Retail',
+      'Professional Services',
+      'Other',
+    ];
+    if (!allowed.includes(industry))
+      return json({ error: 'Invalid primary industry' }, 400);
+    const member = await db
+      .prepare('SELECT profile_json FROM member_profiles WHERE user_id=?')
+      .bind(target)
+      .first<Row>();
+    if (!member) return json({ error: 'Registered member not found' }, 404);
+    const profile = parseJSON<Row>(member.profile_json, {});
+    const previousIndustry = profile.industry ?? null;
+    profile.industry = industry;
+    await db
+      .prepare('UPDATE member_profiles SET profile_json=?,updated_at=? WHERE user_id=?')
+      .bind(JSON.stringify(profile), now, target)
+      .run();
+    detail = { previousIndustry, industry };
   } else if (action === 'staff_role') {
     const email = String(body.email ?? '')
         .trim()

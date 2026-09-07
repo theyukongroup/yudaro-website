@@ -115,6 +115,21 @@ export async function POST(request: Request) {
         now,
       )
       .run();
+    const selectedIndustry = String(body.responses?.industry ?? '').trim();
+    if (selectedIndustry) {
+      const existing = await db
+        .prepare('SELECT profile_json FROM member_profiles WHERE user_id=?')
+        .bind(user.id)
+        .first<{ profile_json: string }>();
+      const profile = parseJSON<Record<string, unknown>>(existing?.profile_json, {});
+      if (!profile.industry) {
+        profile.industry = selectedIndustry;
+        await db
+          .prepare('UPDATE member_profiles SET profile_json=?,updated_at=? WHERE user_id=?')
+          .bind(JSON.stringify(profile), now, user.id)
+          .run();
+      }
+    }
   } else if (body.type === 'opportunity') {
     await db
       .prepare(

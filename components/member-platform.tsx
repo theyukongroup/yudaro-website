@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useMemo, useState } from 'react';
+import Image from 'next/image';
 import {
   ArrowRight,
   BarChart3,
@@ -14,11 +15,16 @@ import {
 import type { Locale } from '@/lib/i18n';
 import { memberCopy } from '@/lib/member-copy';
 import {
+  industryChoices,
+  industryConfig,
+  industryKey,
+  localized,
+  type IndustryKey,
+} from '@/lib/industry-personalization';
+import {
   assessmentQuestions,
   buildOpportunities,
-  buildRoadmap,
   calculateROI,
-  opportunityOptions,
   scoreAssessment,
   type AssessmentAnswers,
   type ROIInputs,
@@ -286,7 +292,7 @@ type MemberData = {
     results: ReturnType<typeof buildOpportunities>;
   } | null;
   roi: { inputs: ROIInputs; results: ReturnType<typeof calculateROI> } | null;
-  roadmap: ReturnType<typeof buildRoadmap> | null;
+  roadmap: { industry: string; disclaimer: string; phases: Array<{ title: string; items: string[] }> } | null;
 };
 export function MemberDashboard({
   locale,
@@ -357,25 +363,18 @@ export function MemberDashboard({
     ['roadmap', t.roadmap, FileSearch],
   ] as const;
   const industry = String(
-    data.assessment?.responses.industry ?? data.profile.industry ?? '',
+    data.profile.industry ?? data.assessment?.responses.industry ?? '',
   );
-  const recommendations = industry.includes('Wholesale')
-    ? [
-        '/resources/industries/wholesale-distribution',
-        '/resources/odoo-erp',
-        '/resources/private-ai',
-      ]
-    : industry.includes('HVAC')
-      ? [
-          '/resources/industries/hvac-field-service',
-          '/resources/ai-erp',
-          '/resources/business-automation',
-        ]
-      : [
-          '/resources/private-ai',
-          '/resources/odoo-erp',
-          '/resources/comparisons',
-        ];
+  const key = industryKey(industry);
+  const config = industryConfig[key];
+  const firstName = data.profile.firstName || name?.split(' ')[0] || email.split('@')[0];
+  const ui = {
+    personalize: locale === 'es' ? 'Personalice su experiencia Nexavoris' : locale === 'zh-cn' ? '个性化您的 Nexavoris 体验' : locale === 'zh-tw' ? '個人化您的 Nexavoris 體驗' : 'Personalize Your Nexavoris Experience',
+    ask: locale === 'es' ? '¿Qué industria describe mejor su empresa?' : locale === 'zh-cn' ? '哪个行业最符合您的业务？' : locale === 'zh-tw' ? '哪個行業最符合您的業務？' : 'What industry best describes your business?',
+    recommended: locale === 'es' ? 'Herramientas recomendadas para su industria' : locale === 'zh-cn' ? '为您的行业推荐的工具' : locale === 'zh-tw' ? '為您的行業推薦的工具' : 'Recommended Tools for My Industry',
+    top: locale === 'es' ? 'Principales oportunidades' : locale === 'zh-cn' ? '主要机会' : locale === 'zh-tw' ? '主要機會' : 'Top Opportunities',
+    resources: locale === 'es' ? 'Recursos recomendados' : locale === 'zh-cn' ? '推荐资源' : locale === 'zh-tw' ? '推薦資源' : 'Recommended Resources',
+  };
   return (
     <main className="member-shell">
       <aside className="member-sidebar">
@@ -410,8 +409,30 @@ export function MemberDashboard({
         {message && <div className="save-toast">{message}</div>}
         {tab === 'dashboard' && (
           <>
-            <span className="member-kicker">{t.welcome}</span>
-            <h1>{t.dashboard}</h1>
+            {!industry && (
+              <section className="industry-picker">
+                <span className="member-kicker">{ui.personalize}</span>
+                <h1>{ui.ask}</h1>
+                <div>
+                  {industryChoices.map((choice) => (
+                    <button key={choice} onClick={() => {
+                      const selectedIndustry = localized(industryConfig[choice].label, locale);
+                      void save({ type: 'profile', profile: { ...data.profile, industry: selectedIndustry } });
+                      emit('industry_selected', { industry: choice });
+                    }}>{localized(industryConfig[choice].label, locale)}</button>
+                  ))}
+                </div>
+              </section>
+            )}
+            <section className="member-industry-hero">
+              <div>
+                <span className="member-kicker">{localized(config.label, locale)}</span>
+                <h1>{t.welcome}, {firstName}</h1>
+                {data.profile.company && <strong>{data.profile.company}</strong>}
+                <p>{localized(config.hero, locale)}</p>
+              </div>
+              <Image src={config.image} alt={localized(config.imageAlt, locale)} width={720} height={440} priority />
+            </section>
             {data.assessment ? (
               <ScoreCards scores={data.assessment.scores} locale={locale} />
             ) : (
@@ -444,22 +465,27 @@ export function MemberDashboard({
               )}
             </section>
             <section>
-              <h2>{t.tools}</h2>
+              <h2>{ui.recommended}</h2>
               <div className="member-tool-grid">
-                {tools.map(([id, label, Icon]) => (
-                  <button key={id} onClick={() => setTab(id)}>
+                {config.tools.map((label, index) => {
+                  const [id, , Icon] = tools[index % tools.length];
+                  return <button key={localized(label, locale)} onClick={() => { setTab(id); emit('industry_tool_clicked', { industry: key, tool: index }); }}>
                     <Icon />
-                    <strong>{label}</strong>
+                    <strong>{localized(label, locale)}</strong>
                     <ArrowRight />
-                  </button>
-                ))}
+                  </button>;
+                })}
               </div>
             </section>
+            <section className="member-top-opportunities">
+              <h2>{ui.top}</h2>
+              {config.opportunities.slice(0, 3).map((item) => <button key={item.id} onClick={() => setTab('opportunity')}><strong>{localized(item.label, locale)}</strong><span>{localized(item.solution, locale)}</span></button>)}
+            </section>
             <section className="member-recommendations">
-              <h2>{t.recommend}</h2>
-              {recommendations.map((url) => (
-                <a key={url} href={url}>
-                  {url.split('/').pop()?.replaceAll('-', ' ')}
+              <h2>{ui.resources}</h2>
+              {config.resources.map((resource) => (
+                <a key={resource.href} href={`${resource.href}${langSuffix(locale)}`} onClick={() => emit('industry_resource_clicked', { industry: key })}>
+                  {localized(resource.label, locale)}
                   <ArrowRight size={16} />
                 </a>
               ))}
@@ -495,6 +521,7 @@ export function MemberDashboard({
         {tab === 'opportunity' && (
           <OpportunityTool
             locale={locale}
+            industry={key}
             initial={data.opportunity?.selections ?? []}
             onSave={(selections, results) =>
               save({ type: 'opportunity', selections, results })
@@ -511,6 +538,7 @@ export function MemberDashboard({
           <RoadmapTool
             locale={locale}
             data={data}
+            industry={key}
             onSave={(roadmap) => save({ type: 'roadmap', roadmap })}
           />
         )}
@@ -555,14 +583,24 @@ function ProfileTool({
         {field('lastName', 'Last name')}
         {field('company', t.company)}
         {field('role', t.role)}
-        {field('industry', 'Industry')}
+        <label>
+          {locale === 'es' ? 'Industria principal' : locale === 'zh-cn' ? '主要行业' : locale === 'zh-tw' ? '主要行業' : 'Primary industry'}
+          <select value={profile.industry ?? ''} onChange={(event) => setProfile({ ...profile, industry: event.target.value })}>
+            <option value="">{t.select}</option>
+            {industryChoices.map((choice) => <option key={choice} value={localized(industryConfig[choice].label, locale)}>{localized(industryConfig[choice].label, locale)}</option>)}
+          </select>
+        </label>
         {field('employees', 'Number of employees')}
         {field('locations', 'Number of locations')}
         {field('erp', 'Current ERP')}
         {field('phone', t.phone, 'tel')}
         {field('challenge', t.challenge)}
       </div>
-      <button className="button primary" onClick={() => onSave(profile)}>
+      <button className="button primary" onClick={() => {
+        if (profile.industry && profile.industry !== initial.industry)
+          emit('industry_changed', { industry: industryKey(profile.industry) });
+        onSave(profile);
+      }}>
         {t.update}
       </button>
     </section>
@@ -571,16 +609,19 @@ function ProfileTool({
 
 function OpportunityTool({
   locale,
+  industry,
   initial,
   onSave,
 }: {
   locale: Locale;
+  industry: IndustryKey;
   initial: string[];
   onSave: (s: string[], r: ReturnType<typeof buildOpportunities>) => void;
 }) {
   const t = memberCopy[locale];
+  const options = industryConfig[industry].opportunities;
   const [selected, setSelected] = useState(initial);
-  const results = useMemo(() => buildOpportunities(selected), [selected]);
+  const results = useMemo(() => options.filter((item) => selected.includes(item.id)).map((item, index) => ({ id: item.id, rank: index + 1, problem: localized(item.label, locale), solution: localized(item.solution, locale), priority: 'High', implementation: localized(item.solution, locale) })), [selected, options, locale]);
   return (
     <section>
       <span className="member-kicker">{t.tools}</span>
@@ -590,20 +631,20 @@ function OpportunityTool({
         and based only on your selections.
       </p>
       <div className="opportunity-list">
-        {opportunityOptions.map(([id, problem]) => (
-          <label key={id}>
+        {options.map((item) => (
+          <label key={item.id}>
             <input
               type="checkbox"
-              checked={selected.includes(id)}
+              checked={selected.includes(item.id)}
               onChange={() =>
                 setSelected(
-                  selected.includes(id)
-                    ? selected.filter((x) => x !== id)
-                    : [...selected, id],
+                  selected.includes(item.id)
+                    ? selected.filter((x) => x !== item.id)
+                    : [...selected, item.id],
                 )
               }
             />
-            <span>{problem}</span>
+            <span>{localized(item.label, locale)}</span>
           </label>
         ))}
       </div>
@@ -739,18 +780,21 @@ function ROITool({
 function RoadmapTool({
   locale,
   data,
+  industry,
   onSave,
 }: {
   locale: Locale;
   data: MemberData;
-  onSave: (r: ReturnType<typeof buildRoadmap>) => void;
+  industry: IndustryKey;
+  onSave: (r: { industry: string; disclaimer: string; phases: Array<{ title: string; items: string[] }> }) => void;
 }) {
   const t = memberCopy[locale];
-  const roadmap = buildRoadmap(
-    data.assessment?.scores ?? null,
-    data.opportunity?.results ?? [],
-    String(data.assessment?.responses.industry ?? 'Your business'),
-  );
+  const config = industryConfig[industry];
+  const roadmap = {
+    industry: localized(config.label, locale),
+    disclaimer: locale === 'es' ? 'Recomendación representativa basada en su perfil. La implementación final requiere una revisión.' : locale === 'zh-cn' ? '根据您的资料提供的代表性建议。最终实施需要评审。' : locale === 'zh-tw' ? '根據您的資料提供的代表性建議。最終實施需要評審。' : 'Representative recommendation based on your profile. Final implementation requires a discovery review.',
+    phases: config.roadmap.map((phase) => ({ title: localized(phase.title, locale), items: [localized(phase.item, locale)] })),
+  };
   return (
     <section>
       <span className="member-kicker">{t.recommend}</span>
@@ -775,7 +819,7 @@ function RoadmapTool({
         className="button primary"
         onClick={() => {
           onSave(roadmap);
-          emit('roadmap_generated', { tool: 'roadmap' });
+          emit('industry_roadmap_generated', { industry });
         }}
       >
         {t.generate}
