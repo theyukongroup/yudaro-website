@@ -9,6 +9,7 @@ import {
   Compass,
   FileSearch,
   LockKeyhole,
+  LogOut,
   Save,
   UserRound,
 } from 'lucide-react';
@@ -406,6 +407,17 @@ export function MemberDashboard({
         </a>
       </aside>
       <section className="member-main">
+        <div className="member-account-bar">
+          <span>{name || email}</span>
+          <a
+            className="member-signout"
+            href={`/signout-with-chatgpt?return_to=${encodeURIComponent('/' + langSuffix(locale))}`}
+            target="_top"
+          >
+            <LogOut size={16} aria-hidden="true" />
+            {t.signout}
+          </a>
+        </div>
         {message && <div className="save-toast">{message}</div>}
         {tab === 'dashboard' && (
           <>
