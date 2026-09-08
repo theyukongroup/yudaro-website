@@ -9,6 +9,7 @@
     "dev": "vinext dev",
     "build": "vinext build",
     "start": "wrangler dev --config dist/server/wrangler.json",
+    "audit:seo": "node scripts/seo-regression.mjs",
     "lint": "oxlint",
     "format": "oxfmt"
   },

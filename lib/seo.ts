@@ -82,3 +82,32 @@ export function pageMetadata(
     },
   };
 }
+
+export function localizedPageMetadata(
+  title: string,
+  description: string,
+  path: string,
+  locale: 'en' | 'zh-cn' | 'zh-tw' | 'es',
+): Metadata {
+  const metadata = pageMetadata(title, description, path);
+  const urls = localizedUrls(path);
+  const canonical = locale === 'zh-cn'
+    ? urls['zh-CN']
+    : locale === 'zh-tw'
+      ? urls['zh-TW']
+      : locale === 'es'
+        ? urls.es
+        : urls['en-US'];
+  metadata.alternates = { canonical, languages: urls };
+  if (metadata.openGraph) {
+    metadata.openGraph.url = canonical;
+    metadata.openGraph.locale = locale === 'zh-cn'
+      ? 'zh_CN'
+      : locale === 'zh-tw'
+        ? 'zh_TW'
+        : locale === 'es'
+          ? 'es_ES'
+          : 'en_US';
+  }
+  return metadata;
+}
