@@ -72,7 +72,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   const metadata = pageMetadata(translate(messages, title), translate(messages, description), path);
   const urls = localizedUrls(path);
   const canonical = locale === 'zh-cn' ? urls['zh-CN'] : locale === 'zh-tw' ? urls['zh-TW'] : urls.es;
-  metadata.alternates = { canonical };
+  metadata.alternates = { canonical, languages: urls };
   if (metadata.openGraph) {
     metadata.openGraph.url = canonical;
     metadata.openGraph.locale = locale === 'zh-cn' ? 'zh_CN' : locale === 'zh-tw' ? 'zh_TW' : 'es_ES';
