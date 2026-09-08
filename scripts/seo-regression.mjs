@@ -14,6 +14,7 @@ const routes = [
   '/resources/industries/manufacturing', '/resources/industries/retail',
   '/resources/industries/professional-services',
 ];
+const authorityRoutes = ['/case-studies','/how-nexavoris-works','/methodology/ai-erp-readiness','/methodology/roi-calculator','/trust','/privacy','/terms'];
 const locales = [
   ['en-US', ''], ['zh-CN', '?lang=zh-cn'],
   ['zh-TW', '?lang=zh-tw'], ['es', '?lang=es'],
@@ -54,10 +55,20 @@ for (const route of routes) {
   }
 }
 
+for (const route of authorityRoutes) {
+  const response = await fetch(`${target}${route}`, { redirect: 'manual' });
+  const html = await response.text();
+  assert(response.status === 200, `${route} returns 200`);
+  assert(attrs(html, 'canonical')[0]?.href === `${canonicalHost}${route}`, `${route} has its expected self-canonical`);
+  assert((html.match(/<h1[ >]/gi) || []).length === 1, `${route} has exactly one H1`);
+  assert(!/(chatgpt\.site|vercel\.app|netlify\.app|github\.io|localhost|127\.0\.0\.1)/i.test(html), `${route} has no SEO preview-host leak`);
+}
+
 const sitemapResponse = await fetch(`${target}/sitemap.xml`);
 const sitemap = await sitemapResponse.text();
 const sitemapUrls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => match[1].replaceAll('&amp;', '&'));
 const expectedUrls = routes.flatMap((route) => locales.map(([, suffix]) => `${canonicalHost}${route}${suffix}`));
+expectedUrls.push(...authorityRoutes.map((route)=>`${canonicalHost}${route}`));
 assert(sitemapResponse.status === 200, 'sitemap returns 200');
 assert(sitemapUrls.length === expectedUrls.length, `sitemap contains ${expectedUrls.length} URLs`);
 assert(new Set(sitemapUrls).size === sitemapUrls.length, 'sitemap contains no duplicates');

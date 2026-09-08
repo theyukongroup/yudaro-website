@@ -33,7 +33,7 @@ const stories: IndustryStory[] = [
 ];
 
 export default function IndustriesPage() { return <main className="industries-page">
-  <section className="industries-hero section-shell"><span className="eyebrow">INDUSTRIES / CLIENT STORIES</span><h1>How Nexavoris Works in Your Industry</h1><p>Every business operates differently. See how Nexavoris combines AI, ERP and workflow automation around the way your industry actually works.</p></section>
+  <section className="industries-hero section-shell"><span className="eyebrow">INDUSTRIES / REPRESENTATIVE SCENARIOS</span><h1>How Nexavoris Works in Your Industry</h1><p>Every business operates differently. These representative scenarios illustrate how AI, ERP, and workflow automation may support common industry operations. They are not presented as verified customer case studies.</p></section>
   <IndustryStories stories={stories}/>
   <section className="member-promo section-shell"><div><span className="section-index">FREE INDUSTRY ASSESSMENT</span><h2>How ready is your operation for AI + ERP?</h2><p>Identify practical opportunities across reporting, employee knowledge, customer workflows, purchasing, inventory, and automation.</p></div><a className="button primary" href="/assessment">Analyze My Operation <ArrowUpRight size={16}/></a></section>
   <section className="section-shell industries-cta"><div><span className="section-index">YOUR OPERATION</span><h2>Your workflow will be different. That is where the conversation starts.</h2></div><a className="button primary" href="/contact?service=industry-workflow">Talk to Nexavoris <ArrowUpRight size={16}/></a></section>

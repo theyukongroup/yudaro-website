@@ -33,7 +33,20 @@ export const resourceRoutes = [
   '/resources/industries/professional-services',
 ] as const;
 
+export const authorityRoutes = [
+  '/case-studies', '/how-nexavoris-works',
+  '/methodology/ai-erp-readiness', '/methodology/roi-calculator',
+  '/trust', '/privacy', '/terms',
+] as const;
+
 export const publicRoutes = [...marketingRoutes, ...resourceRoutes] as const;
+export const indexableRoutes = [...publicRoutes, ...authorityRoutes] as const;
+
+export function authorityMetadata(title: string, description: string, path: string): Metadata {
+  const metadata = pageMetadata(title, description, path);
+  metadata.alternates = { canonical: `${SITE_URL}${path}` };
+  return metadata;
+}
 
 export function localizedUrls(path = '') {
   const url = `${SITE_URL}${path || '/'}`;

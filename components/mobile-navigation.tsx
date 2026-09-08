@@ -42,6 +42,8 @@ const groups = [
       ['Comparisons', '/resources/comparisons'],
       ['Business Automation', '/resources/business-automation'],
       ['Industry Resources', '/resources/industries/wholesale-distribution'],
+      ['Case Studies', '/case-studies'],
+      ['How Nexavoris Works', '/how-nexavoris-works'],
     ],
   },
 ] as const;

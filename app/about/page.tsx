@@ -59,6 +59,11 @@ export default function AboutPage() {
       </div>
     </section>
 
+    <section className="authority-body section-shell">
+      <section><span>05</span><div><h2>What Nexavoris does not promise</h2><p>We do not represent AI as error-free, ERP as a shortcut around process decisions, or automation as a substitute for accountable people. We do not promise savings, timing, security, or business outcomes before the current environment and scope are understood.</p></div></section>
+      <section><span>06</span><div><h2>Who we serve</h2><p>Nexavoris works with operational small and medium-sized businesses across the United States, with particular attention to wholesale distribution, HVAC and field service, construction, manufacturing, retail, and professional services.</p><p><a href="/how-nexavoris-works">Read the implementation process</a>{' · '}<a href="/trust">Review trust and data practices</a>{' · '}<a href="/case-studies">Understand our evidence standard</a></p></div></section>
+    </section>
+
     <section className="about-cta section-shell">
       <div><span className="section-index">START A CONVERSATION</span><h2>Tell us how your business really works.</h2><p>We’ll help you identify a practical path forward—whether that begins with AI, ERP, automation, or a better website.</p></div>
       <a className="button primary" href="/contact">Schedule a Consultation <ArrowUpRight size={16}/></a>

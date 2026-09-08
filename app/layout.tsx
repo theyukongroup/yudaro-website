@@ -19,6 +19,7 @@ import './theme-v2.css';
 import './industries.css';
 import './about.css';
 import './resources.css';
+import './authority.css';
 import './member.css';
 
 const sans = Manrope({ variable: '--font-sans', subsets: ['latin'] });
@@ -150,6 +151,9 @@ export default async function RootLayout({
           </div>
           <address className="footer-contact">
             <a href="/free-account">Free Business Account</a>
+            <a href="/how-nexavoris-works">How Nexavoris Works</a>
+            <a href="/case-studies">Case Studies</a>
+            <a href="/trust">Trust &amp; Data Practices</a>
             <span>
               <MapPin size={16} />
               <span>
@@ -169,6 +173,7 @@ export default async function RootLayout({
           </address>
           <span className="footer-copyright">
             © 2026 Nexavoris. All rights reserved.
+            {' · '}<a href="/privacy">Privacy</a>{' · '}<a href="/terms">Terms</a>
           </span>
         </footer>
         <script

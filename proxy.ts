@@ -1,8 +1,9 @@
 import { NextResponse, type NextRequest } from 'next/server';
 import { isLocale } from '@/lib/i18n';
-import { localizedUrls, publicRoutes } from '@/lib/seo';
+import { authorityRoutes, localizedUrls, publicRoutes } from '@/lib/seo';
 
 const publicPaths = new Set<string>(publicRoutes.map((route) => route || '/'));
+const authorityPaths = new Set<string>(authorityRoutes);
 
 function withLanguageHeaders(response: NextResponse, path: string, locale = 'en-US') {
   const urls = localizedUrls(path === '/' ? '' : path);
@@ -18,6 +19,7 @@ function withLanguageHeaders(response: NextResponse, path: string, locale = 'en-
 
 export function proxy(request: NextRequest) {
   const locale = request.nextUrl.searchParams.get('lang');
+  if (authorityPaths.has(request.nextUrl.pathname)) return NextResponse.next();
   if (!publicPaths.has(request.nextUrl.pathname)) {
     return NextResponse.next();
   }

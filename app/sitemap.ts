@@ -1,8 +1,8 @@
 import type { MetadataRoute } from 'next';
-import { localizedUrls, publicRoutes, SITE_URL } from '@/lib/seo';
+import { authorityRoutes, localizedUrls, publicRoutes, SITE_URL } from '@/lib/seo';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return publicRoutes.flatMap((route) => {
+  const localized = publicRoutes.flatMap((route) => {
     const canonical = `${SITE_URL}${route || '/'}`;
     const entries = [
       canonical,
@@ -18,4 +18,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       alternates: { languages: localizedUrls(route) },
     }));
   });
+  return [...localized, ...authorityRoutes.map((route) => ({ url: `${SITE_URL}${route}`, changeFrequency: 'monthly' as const, priority: 0.7 }))];
 }
