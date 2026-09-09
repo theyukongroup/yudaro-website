@@ -71,6 +71,48 @@ export async function ensureMemberSchema() {
     db.prepare(
       'CREATE INDEX IF NOT EXISTS idx_consultations_created ON consultation_requests(created_at DESC)',
     ),
+    db.prepare(
+      "CREATE TABLE IF NOT EXISTS seo_keywords (id TEXT PRIMARY KEY, keyword TEXT NOT NULL UNIQUE, category TEXT NOT NULL CHECK (category IN ('Branded','Core','Industry','Buyer')), target_url TEXT NOT NULL, priority TEXT NOT NULL DEFAULT 'Medium' CHECK (priority IN ('High','Medium','Low')), active INTEGER NOT NULL DEFAULT 1, created_at TEXT NOT NULL, updated_at TEXT NOT NULL)",
+    ),
+    db.prepare(
+      'CREATE INDEX IF NOT EXISTS idx_seo_keywords_category_active ON seo_keywords(category,active)',
+    ),
+    db.prepare(
+      "CREATE TABLE IF NOT EXISTS seo_google_rankings (id TEXT PRIMARY KEY, keyword_id TEXT NOT NULL, checked_date TEXT NOT NULL, position REAL NOT NULL, target_url TEXT NOT NULL, actual_url TEXT, result_page INTEGER, country TEXT, language TEXT, device TEXT, notes TEXT, checked_by TEXT NOT NULL, source_type TEXT NOT NULL DEFAULT 'MANUAL GOOGLE SEARCH', created_at TEXT NOT NULL)",
+    ),
+    db.prepare(
+      'CREATE INDEX IF NOT EXISTS idx_seo_rankings_keyword_date ON seo_google_rankings(keyword_id,checked_date DESC)',
+    ),
+    db.prepare(
+      "CREATE TABLE IF NOT EXISTS seo_gsc_metrics (id TEXT PRIMARY KEY, metric_date TEXT NOT NULL, query TEXT NOT NULL, page TEXT NOT NULL, clicks INTEGER NOT NULL DEFAULT 0, impressions INTEGER NOT NULL DEFAULT 0, ctr REAL NOT NULL DEFAULT 0, average_position REAL, country TEXT, device TEXT, source_type TEXT NOT NULL DEFAULT 'GOOGLE SEARCH CONSOLE', imported_by TEXT NOT NULL, created_at TEXT NOT NULL)",
+    ),
+    db.prepare(
+      'CREATE INDEX IF NOT EXISTS idx_seo_gsc_date_query ON seo_gsc_metrics(metric_date DESC,query)',
+    ),
+    db.prepare(
+      "CREATE TABLE IF NOT EXISTS seo_indexing_status (url TEXT PRIMARY KEY, indexed_status TEXT NOT NULL DEFAULT 'Unknown' CHECK (indexed_status IN ('Yes','No','Unknown')), google_canonical TEXT, expected_canonical TEXT NOT NULL, in_sitemap INTEGER NOT NULL DEFAULT 1, last_checked TEXT, notes TEXT, checked_by TEXT, updated_at TEXT NOT NULL)",
+    ),
+    db.prepare(
+      "CREATE TABLE IF NOT EXISTS seo_geo_tests (id TEXT PRIMARY KEY, platform TEXT NOT NULL CHECK (platform IN ('Google AI','ChatGPT','Bing/Copilot')), checked_date TEXT NOT NULL, prompt TEXT NOT NULL, keyword TEXT, mentioned TEXT NOT NULL DEFAULT 'Unknown' CHECK (mentioned IN ('Yes','No','Unknown')), cited TEXT NOT NULL DEFAULT 'Unknown' CHECK (cited IN ('Yes','No','Unknown')), cited_url TEXT, correct_description TEXT NOT NULL DEFAULT 'Unknown' CHECK (correct_description IN ('Yes','No','Unknown')), position_value REAL, competitors TEXT, notes TEXT, checked_by TEXT NOT NULL, source_type TEXT NOT NULL, created_at TEXT NOT NULL)",
+    ),
+    db.prepare(
+      'CREATE INDEX IF NOT EXISTS idx_seo_geo_platform_date ON seo_geo_tests(platform,checked_date DESC)',
+    ),
+    db.prepare(
+      "CREATE TABLE IF NOT EXISTS seo_backlinks (id TEXT PRIMARY KEY, referring_domain TEXT NOT NULL, source_url TEXT NOT NULL, target_url TEXT NOT NULL, first_discovered TEXT NOT NULL, link_type TEXT NOT NULL DEFAULT 'Unknown' CHECK (link_type IN ('Follow','NoFollow','Unknown')), authority_notes TEXT, industry TEXT, status TEXT NOT NULL DEFAULT 'Active' CHECK (status IN ('Active','Lost','Pending','Outreach','Rejected')), notes TEXT, checked_by TEXT NOT NULL, source_type TEXT NOT NULL DEFAULT 'MANUAL BACKLINK ENTRY', created_at TEXT NOT NULL, updated_at TEXT NOT NULL)",
+    ),
+    db.prepare(
+      'CREATE INDEX IF NOT EXISTS idx_seo_backlinks_domain_status ON seo_backlinks(referring_domain,status)',
+    ),
+    db.prepare(
+      "CREATE TABLE IF NOT EXISTS seo_authority_profiles (id TEXT PRIMARY KEY, platform TEXT NOT NULL, profile_url TEXT NOT NULL, verified_status TEXT NOT NULL DEFAULT 'Unknown' CHECK (verified_status IN ('Yes','No','Unknown')), backlink_status TEXT NOT NULL DEFAULT 'Unknown' CHECK (backlink_status IN ('Yes','No','Unknown')), created_date TEXT, status TEXT, notes TEXT, checked_by TEXT NOT NULL, created_at TEXT NOT NULL, updated_at TEXT NOT NULL)",
+    ),
+    db.prepare(
+      "CREATE TABLE IF NOT EXISTS seo_manual_tasks (id TEXT PRIMARY KEY, title TEXT NOT NULL, task_type TEXT NOT NULL, cadence TEXT NOT NULL CHECK (cadence IN ('Weekly','Monthly','One-time')), due_date TEXT, status TEXT NOT NULL DEFAULT 'Pending' CHECK (status IN ('Pending','Complete','Skipped')), checked_date TEXT, result TEXT, notes TEXT, assigned_to TEXT, created_at TEXT NOT NULL, updated_at TEXT NOT NULL)",
+    ),
+    db.prepare(
+      'CREATE INDEX IF NOT EXISTS idx_seo_tasks_status_due ON seo_manual_tasks(status,due_date)',
+    ),
   ]);
   initialized = true;
 }

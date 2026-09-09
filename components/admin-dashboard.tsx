@@ -14,6 +14,7 @@ import {
   Search,
   Settings,
   ShieldCheck,
+  ScanSearch,
   Users,
 } from 'lucide-react';
 
@@ -30,6 +31,7 @@ const labels: Record<string, string> = {
   assessments: 'Assessments',
   roadmaps: 'Roadmaps',
   analytics: 'Analytics',
+  seoGeo: 'SEO + GEO',
   settings: 'Admin Settings',
 };
 const icons = {
@@ -40,6 +42,7 @@ const icons = {
   assessments: FileText,
   roadmaps: Activity,
   analytics: BarChart3,
+  seoGeo: ScanSearch,
   settings: Settings,
 };
 const val = (o: Row | undefined, ...keys: string[]) =>
@@ -199,6 +202,10 @@ export function AdminDashboard({ actor, initialTab = 'dashboard' }: Props) {
                 key={id}
                 className={tab === id ? 'active' : ''}
                 onClick={() => {
+                  if (id === 'seoGeo') {
+                    window.location.href = '/admin/seo-geo';
+                    return;
+                  }
                   setTab(id);
                   setSelected(null);
                   setPage(1);

@@ -11,4 +11,12 @@ export const memberTables = [
   'admin_notes',
   'admin_audit_log',
   'consultation_requests',
+  'seo_keywords',
+  'seo_google_rankings',
+  'seo_gsc_metrics',
+  'seo_indexing_status',
+  'seo_geo_tests',
+  'seo_backlinks',
+  'seo_authority_profiles',
+  'seo_manual_tasks',
 ] as const;
