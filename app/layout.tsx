@@ -45,7 +45,13 @@ export const metadata: Metadata = {
     },
   },
   category: 'business technology services',
-  icons: { icon: '/favicon.svg' },
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: '48x48' },
+      { url: '/favicon.png', type: 'image/png', sizes: '512x512' },
+    ],
+    apple: '/apple-touch-icon.png',
+  },
   openGraph: {
     title: 'Nexavoris AI & ERP Systems',
     description: 'One integrated operating system for your business.',
