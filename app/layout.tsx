@@ -191,7 +191,8 @@ export default async function RootLayout({
                 {
                   '@type': ['Organization', 'ProfessionalService'],
                   '@id': `${SITE_URL}/#organization`,
-                  name: 'Nexavoris',
+                  name: 'Nexavoris AI & ERP Systems',
+                  alternateName: 'Nexavoris',
                   url: SITE_URL,
                   logo: `${SITE_URL}/nexavoris-logo.png`,
                   image: `${SITE_URL}/og.png`,
@@ -210,6 +211,7 @@ export default async function RootLayout({
                     'Private enterprise AI',
                     'ERP consulting and implementation',
                     'Odoo implementation',
+                    'AI ERP integration',
                     'Business process automation',
                     'Website design and development',
                   ],
