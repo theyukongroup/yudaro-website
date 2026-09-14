@@ -1,112 +1,65 @@
 import type { AssessmentAnswers, Scores } from '@/lib/member-tools';
 
-export type RestaurantType = 'makeToOrder' | 'chineseBuffet' | 'hybrid';
-export type RestaurantCategory =
-  | 'foodCost' | 'purchasing' | 'inventory' | 'operations' | 'waste'
-  | 'labor' | 'pos' | 'customer' | 'reporting' | 'training' | 'accounting' | 'ai';
+export type RestaurantType='makeToOrder'|'chineseBuffet'|'hybrid';
+export type RestaurantCategory='foodCost'|'purchasing'|'inventory'|'operations'|'waste'|'labor'|'pos'|'customer'|'reporting'|'training'|'accounting'|'ai';
+export type RestaurantScores=Scores&{restaurant:true;restaurantType:RestaurantType;categories:Record<RestaurantCategory,number>;health:Record<'foodCost'|'labor'|'inventory'|'waste'|'technology'|'aiReadiness'|'ownerIndependence',number>;status:string};
+export type DerivedMetric={label:string;value:string;note?:string};
+export type DiagnosticRecommendation={title:string;priority:'Critical'|'High'|'Medium'|'Low';impact:string;difficulty:'Easy'|'Moderate'|'Advanced';timeline:'0–30 days'|'30–90 days'|'3–6 months'|'6–12 months';reason:string;solution:string};
 
-export type RestaurantQuestion = {
-  id: string;
-  category: RestaurantCategory;
-  label: string;
-  help?: string;
-  models?: RestaurantType[];
-  reverse?: boolean;
-};
+export const categoryLabels:Record<RestaurantCategory,string>={foodCost:'Food Cost & Recipe Control',purchasing:'Purchasing & Vendor Management',inventory:'Food & Ingredient Inventory',operations:'Kitchen & Service Operations',waste:'Waste & Shrinkage',labor:'Labor & Scheduling',pos:'POS & Order Integration',customer:'Customer & Marketing',reporting:'Management Reporting',training:'Employee Training & SOP',accounting:'Accounting & Financial Integration',ai:'AI & Automation Readiness'};
+export const restaurantTypeLabels:Record<RestaurantType,string>={makeToOrder:'Make-to-Order Restaurant',chineseBuffet:'Chinese Buffet Restaurant',hybrid:'Hybrid Restaurant'};
+export const list=(value:unknown)=>(typeof value==='string'||typeof value==='number'?String(value):'').split('|').filter(Boolean);
+export const num=(answers:AssessmentAnswers,id:string)=>{const value=Number(String(answers[id]??'').replace(/[$,%\s,]/g,''));return Number.isFinite(value)&&value>=0?value:0};
+const yn=(answers:AssessmentAnswers,id:string)=>answers[id]==='yes'?3:answers[id]==='partly'?2:answers[id]==='no'?0:1;
+const freq=(value:unknown)=>({'daily':3,'weekly':3,'monthly':2,'occasionally':1,'never':0}[String(value)]??1);
+const average=(values:number[])=>Math.round(values.reduce((a,b)=>a+b,0)/Math.max(1,values.length)/3*100);
 
-export const restaurantProfileFields = [
-  { id: 'restaurantType', label: 'Restaurant type', options: [['makeToOrder','Make-to-Order'],['chineseBuffet','Chinese Buffet'],['hybrid','Hybrid / Both']] },
-  { id: 'restaurantLocations', label: 'Number of locations', options: [['1','1'],['2–5','2–5'],['6–20','6–20'],['20+','20+']] },
-  { id: 'monthlyRevenue', label: 'Monthly revenue', options: [['under-50k','Under $50,000'],['50k-100k','$50,000–$100,000'],['100k-250k','$100,000–$250,000'],['250k-500k','$250,000–$500,000'],['500k+','$500,000+']] },
-  { id: 'restaurantEmployees', label: 'Number of employees', options: [['under-10','Under 10'],['10-25','10–25'],['26-50','26–50'],['50+','50+']] },
-  { id: 'currentPos', label: 'Current POS', options: ['Toast','Square','Clover','SpotOn','Lightspeed','Other','None'].map(x=>[x,x]) },
-  { id: 'accountingSystem', label: 'Accounting system', options: ['QuickBooks','Xero','Odoo','Spreadsheet','Accountant only','Other'].map(x=>[x,x]) },
-  { id: 'inventorySystem', label: 'Inventory system', options: ['Dedicated inventory software','POS inventory','Spreadsheet','Manual / paper','No formal system'].map(x=>[x,x]) },
-] as const;
-
-export const orderingChannels = ['Dine-in','Takeout','Own website','DoorDash','Uber Eats','Grubhub','Phone orders','Other'];
-
-export const categoryLabels: Record<RestaurantCategory,string> = {
-  foodCost:'Food Cost & Recipe Control', purchasing:'Purchasing & Vendor Management', inventory:'Food & Ingredient Inventory',
-  operations:'Kitchen & Service Operations', waste:'Waste & Shrinkage', labor:'Labor & Scheduling', pos:'POS & Order Integration',
-  customer:'Customer & Marketing', reporting:'Management Reporting', training:'Employee Training & SOP',
-  accounting:'Accounting & Financial Integration', ai:'AI & Automation Readiness',
-};
-
-const q = (id:string, category:RestaurantCategory, label:string, models?:RestaurantType[], reverse=false):RestaurantQuestion => ({id,category,label,models,reverse});
-export const restaurantQuestions: RestaurantQuestion[] = [
-  q('recipeCost','foodCost','Do you know the current ingredient cost of every menu item?',['makeToOrder','hybrid']),
-  q('recipeStandard','foodCost','Are recipes and portion quantities standardized?',['makeToOrder','hybrid']),
-  q('menuMargin','foodCost','Can management identify the highest- and lowest-margin menu items?',['makeToOrder','hybrid']),
-  q('buffetFoodCost','foodCost','Can management calculate food cost per buffet customer by service period?',['chineseBuffet','hybrid']),
-  q('vendorCompare','purchasing','Are purchase prices compared across qualified vendors?'),
-  q('vendorIncrease','purchasing','Can management identify ingredient price increases promptly?'),
-  q('purchaseHistory','purchasing','Do you maintain ingredient and vendor purchasing history?'),
-  q('inventoryFrequency','inventory','Is food inventory counted on a consistent schedule?'),
-  q('estimatedInventory','inventory','Can inventory be estimated from purchases, recipes, and sales?'),
-  q('storageInventory','inventory','Do you track cooler, freezer, and dry-storage inventory?'),
-  q('ticketRouting','operations','Are orders routed from the POS to the correct kitchen station?',['makeToOrder','hybrid']),
-  q('ticketTime','operations','Can management measure ticket preparation time and peak bottlenecks?',['makeToOrder','hybrid']),
-  q('batchForecast','operations','Are buffet batch quantities based on demand by day and service period?',['chineseBuffet','hybrid']),
-  q('replenishment','operations','Can staff anticipate which buffet trays need replenishment next?',['chineseBuffet','hybrid']),
-  q('wasteMeasured','waste','Is discarded food measured consistently and valued in dollars?'),
-  q('overproduction','waste','Can management identify recurring overproduction or unusual usage?'),
-  q('lateFullTrays','waste','Do you avoid preparing full trays near the end of buffet service?',['chineseBuffet','hybrid']),
-  q('laborSchedule','labor','Are labor schedules informed by expected customer demand?'),
-  q('productivity','labor','Can management compare labor productivity by shift or service period?'),
-  q('orderIntegration','pos','Are online and delivery orders integrated without manual re-entry?'),
-  q('channelProfit','pos','Can you compare profitability across dine-in, takeout, direct, and delivery channels?'),
-  q('menuSync','pos','Are menu items and prices synchronized across ordering channels?',['makeToOrder','hybrid']),
-  q('retention','customer','Can you identify and follow up with valuable or inactive customers?'),
-  q('promotionResults','customer','Can management measure promotion results beyond total sales?'),
-  q('dailyView','reporting','Can owners see sales, food cost, labor, waste, and cash information promptly?'),
-  q('periodCompare','reporting','Can management compare shifts, locations, weekdays, and service periods?'),
-  q('trainingDocs','training','Are recipes, opening, closing, service, and food-safety procedures documented?'),
-  q('searchableSops','training','Can employees quickly find the current approved procedure?'),
-  q('managerDependency','training','Can new employees learn routine procedures without repeatedly interrupting a manager?'),
-  q('accountingIntegration','accounting','Do POS, purchasing, payroll, and expenses reach accounting without repeated entry?'),
-  q('locationFinancials','accounting','Can management review timely profit and loss information by location?'),
-  q('forecastData','ai','Do you retain clean historical sales, customer-count, purchasing, and waste data for forecasting?'),
-  q('aiGovernance','ai','Could a private AI assistant use approved restaurant documents with controlled access?'),
-  q('anomalyAlerts','ai','Would your current data support alerts for unusual food cost, waste, or vendor pricing?'),
-];
-
-const makeWeights:Record<RestaurantCategory,number>={foodCost:15,purchasing:10,inventory:10,operations:10,waste:8,labor:8,pos:10,customer:5,reporting:8,training:6,accounting:5,ai:5};
-const buffetWeights:Record<RestaurantCategory,number>={foodCost:12,purchasing:10,inventory:10,operations:12,waste:15,labor:7,pos:7,customer:0,reporting:8,training:5,accounting:5,ai:9};
-
-export function questionsFor(type:RestaurantType){return restaurantQuestions.filter(question=>!question.models||question.models.includes(type));}
-const numeric=(answers:AssessmentAnswers,id:string)=>Math.max(0,Math.min(3,Number(answers[id]??0)));
-export type RestaurantScores = Scores & {restaurant:true; restaurantType:RestaurantType; categories:Record<RestaurantCategory,number>; status:string};
-export function scoreRestaurantAssessment(answers:AssessmentAnswers):RestaurantScores{
-  const type=(answers.restaurantType||'makeToOrder') as RestaurantType;
-  const questions=questionsFor(type);
-  const categories=Object.fromEntries((Object.keys(categoryLabels) as RestaurantCategory[]).map(category=>{
-    const entries=questions.filter(question=>question.category===category);
-    const score=entries.length?Math.round(entries.reduce((sum,item)=>sum+numeric(answers,item.id),0)/(entries.length*3)*100):100;
-    return [category,score];
-  })) as Record<RestaurantCategory,number>;
-  const weights=type==='chineseBuffet'?buffetWeights:type==='makeToOrder'?makeWeights:Object.fromEntries((Object.keys(makeWeights) as RestaurantCategory[]).map(key=>[key,(makeWeights[key]+buffetWeights[key])/2])) as Record<RestaurantCategory,number>;
-  const totalWeight=Object.values(weights).reduce((a,b)=>a+b,0);
-  const overall=Math.round((Object.keys(weights) as RestaurantCategory[]).reduce((sum,key)=>sum+categories[key]*weights[key],0)/totalWeight);
-  const status=overall<40?'Critical Operational Gaps':overall<60?'High Automation Opportunity':overall<80?'Growth Ready':'Digitally Advanced';
-  return {restaurant:true,restaurantType:type,categories,status,overall,ai:categories.ai,erp:Math.round((categories.purchasing+categories.inventory+categories.accounting+categories.reporting)/4),automation:Math.round((categories.operations+categories.waste+categories.labor+categories.pos)/4),data:Math.round((categories.inventory+categories.reporting+categories.accounting+categories.ai)/4)};
+export function scoreRestaurantAssessment(a:AssessmentAnswers):RestaurantScores{
+ const type=(a.restaurantType||'makeToOrder') as RestaurantType;
+ const foodCost=average([yn(a,'targetFoodCost'),freq(a.foodCostFrequency),list(a.foodCostTracking).length>=3?3:list(a.foodCostTracking).length?2:0,type==='chineseBuffet'?yn(a,'buffetCostPerCustomer'):yn(a,'exactMenuCost')]);
+ const purchasing=average([yn(a,'compareVendors'),yn(a,'vendorHistory'),yn(a,'vendorPriceAlerts'),a.purchaseOrderMethod==='Formal PO'?3:a.purchaseOrderMethod==='No formal process'?0:1]);
+ const inventory=average([freq(a.inventoryFrequency),['POS','ERP'].includes(String(a.inventoryLocation))?3:a.inventoryLocation==='Spreadsheet'?2:a.inventoryLocation==='No formal tracking'?0:1,list(a.inventoryControls).length>=4?3:list(a.inventoryControls).length>=2?2:list(a.inventoryControls).length?1:0]);
+ const operations=average([yn(a,'systemsConnected'),yn(a,'remotePerformance'),type==='makeToOrder'?yn(a,'recipesStandardized'):yn(a,'smallerClosingTrays')]);
+ const waste=average([a.wasteRecording==='System'?3:a.wasteRecording==='Spreadsheet'?2:a.wasteRecording==='Paper log'?1:0,yn(a,'wasteReviewed'),num(a,'monthlyWaste')>0?2:1]);
+ const labor=average([list(a.laborTracking).length>=4?3:list(a.laborTracking).length>=2?2:list(a.laborTracking).length?1:0,['POS scheduling module','Dedicated scheduling software'].includes(String(a.schedulingMethod))?3:a.schedulingMethod==='Spreadsheet'?2:1,yn(a,'scheduleForecast')]);
+ const pos=average([yn(a,'systemsConnected'),yn(a,'duplicateEntry')===0?3:0,num(a,'systemsCount')<=2?3:num(a,'systemsCount')<=4?2:1]);
+ const customer=average([num(a,'directOrderingPct')>=20?3:num(a,'directOrderingPct')>0?2:1,num(a,'thirdPartyPct')<=15?3:num(a,'thirdPartyPct')<=25?2:1]);
+ const reporting=average([list(a.reports).length>=7?3:list(a.reports).length>=3?2:list(a.reports).length?1:0,a.reportFrequency==='Real-time'?3:a.reportFrequency==='Daily'?2:a.reportFrequency==='Weekly'?1:0,yn(a,'remotePerformance')]);
+ const training=average([yn(a,'proceduresDigital'),yn(a,'recipesDigital'),num(a,'ownerIndependence')>=4?3:num(a,'ownerIndependence')>=3?2:1]);
+ const accounting=average([['QuickBooks','Xero','Odoo'].includes(String(a.accountingSystem))?3:a.accountingSystem==='Spreadsheet'?1:2,yn(a,'duplicateEntry')===0?3:1]);
+ const ai=average([yn(a,'proceduresDigital'),yn(a,'historicalPos'),yn(a,'digitalPurchasing'),yn(a,'inventoryHistory'),list(a.aiData).length>=4?3:list(a.aiData).length>=2?2:list(a.aiData).length?1:0]);
+ const categories={foodCost,purchasing,inventory,operations,waste,labor,pos,customer,reporting,training,accounting,ai};
+ const weights:Record<RestaurantCategory,number>=type==='chineseBuffet'?{foodCost:12,purchasing:10,inventory:10,operations:12,waste:15,labor:7,pos:7,customer:0,reporting:8,training:5,accounting:5,ai:9}:{foodCost:15,purchasing:10,inventory:10,operations:10,waste:8,labor:8,pos:10,customer:5,reporting:8,training:6,accounting:5,ai:5};
+ if(type==='hybrid'){weights.waste=12;weights.operations=11;weights.customer=3;weights.ai=7}
+ const totalWeight=Object.values(weights).reduce((x,y)=>x+y,0);const overall=Math.round((Object.keys(weights) as RestaurantCategory[]).reduce((sum,key)=>sum+categories[key]*weights[key],0)/totalWeight);
+ const ownerIndependence=Math.min(100,Math.round(num(a,'ownerIndependence')/5*100));
+ return{restaurant:true,restaurantType:type,categories,health:{foodCost,labor,inventory,waste,technology:Math.round((pos+accounting+reporting)/3),aiReadiness:ai,ownerIndependence},status:overall<40?'Critical Operational Gaps':overall<60?'High Improvement Opportunity':overall<80?'Growth Ready':'Digitally Advanced',overall,ai,erp:Math.round((purchasing+inventory+accounting+reporting)/4),automation:Math.round((operations+waste+labor+pos)/4),data:Math.round((inventory+reporting+accounting+ai)/4)};
 }
 
-const recommendations:Record<RestaurantCategory,string>={
-  foodCost:'Implement recipe costing and menu or buffet food-cost controls', purchasing:'Centralize purchasing history and vendor price comparison',
-  inventory:'Connect ingredient inventory across cooler, freezer, and dry storage', operations:'Standardize kitchen and service workflows with demand visibility',
-  waste:'Measure waste in units and dollars, then analyze overproduction patterns', labor:'Align staffing and productivity reporting with service demand',
-  pos:'Integrate POS and online-order data through a governed integration layer', customer:'Build practical customer retention and promotion measurement workflows',
-  reporting:'Create an owner dashboard for current operating and financial signals', training:'Deploy a private AI assistant grounded in approved recipes and SOPs',
-  accounting:'Connect purchasing, expenses, POS summaries, and accounting controls', ai:'Prepare clean operating data for forecasting, anomaly detection, and management questions',
-};
-export function restaurantRecommendations(scores:RestaurantScores){return (Object.keys(categoryLabels) as RestaurantCategory[]).sort((a,b)=>scores.categories[a]-scores.categories[b]).slice(0,7).map((category,index)=>({category,label:recommendations[category],priority:index<3?'Quick Win':index<5?'Next Phase':'Advanced AI'}));}
-
-const revenueMidpoints:Record<string,number>={'under-50k':42000,'50k-100k':75000,'100k-250k':175000,'250k-500k':375000,'500k+':600000};
-export function restaurantOpportunityEstimate(answers:AssessmentAnswers,scores:RestaurantScores){
-  const annualRevenue=(revenueMidpoints[String(answers.monthlyRevenue)]||75000)*12;
-  const gap=(category:RestaurantCategory)=>(100-scores.categories[category])/100;
-  const range=(rate:number,category:RestaurantCategory)=>[Math.round(annualRevenue*rate*gap(category)*.45/500)*500,Math.round(annualRevenue*rate*gap(category)/500)*500] as const;
-  const areas=[['Food Cost Control',range(.025,'foodCost')],['Waste Reduction',range(.018,'waste')],['Purchasing Optimization',range(.012,'purchasing')],['Labor / Management Efficiency',range(.016,'labor')]] as const;
-  return {areas,total:[areas.reduce((n,x)=>n+x[1][0],0),areas.reduce((n,x)=>n+x[1][1],0)] as const,disclaimer:'Potential opportunity based on reported revenue and readiness gaps—not a savings guarantee. Actual results require operational and financial analysis.'};
+const money=(n:number)=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n);
+export function restaurantDerivedMetrics(a:AssessmentAnswers):DerivedMetric[]{
+ const monthly=num(a,'monthlySales'),food=num(a,'monthlyFoodPurchases'),payroll=num(a,'monthlyPayroll'),transactions=num(a,'monthlyTransactions'),customers=num(a,'customersPerDay')*30,waste=num(a,'monthlyWaste');const locations=Math.max(1,num(a,'locationCount')||1);const employees=['kitchenEmployees','servers','cashiers','managers','deliveryStaff','otherEmployees'].reduce((s,k)=>s+num(a,k),0);
+ const metrics:DerivedMetric[]=[];if(monthly)metrics.push({label:'Estimated annual revenue',value:money(monthly*12),note:'Monthly sales × 12'});if(monthly&&food)metrics.push({label:'Estimated food cost',value:`${(food/monthly*100).toFixed(1)}%`,note:`${money(food)} monthly purchases ÷ ${money(monthly)} sales`});if(monthly&&payroll)metrics.push({label:'Estimated labor cost',value:`${(payroll/monthly*100).toFixed(1)}%`});if(monthly&&food&&payroll)metrics.push({label:'Estimated prime cost',value:`${((food+payroll)/monthly*100).toFixed(1)}%`,note:'Food purchases plus payroll; excludes other operating costs'});if(monthly&&(transactions||customers))metrics.push({label:'Estimated revenue per customer',value:money(monthly/(transactions||customers)),note:transactions?'Based on reported transactions':'Based on customers per day × 30'});if(monthly)metrics.push({label:'Sales per location',value:money(monthly/locations),note:'Monthly estimate'});if(monthly&&employees)metrics.push({label:'Sales per employee',value:money(monthly/employees),note:'Monthly estimate'});if(monthly&&num(a,'thirdPartyPct'))metrics.push({label:'Third-party delivery exposure',value:`${num(a,'thirdPartyPct').toFixed(0)}%`,note:`Approximately ${money(monthly*num(a,'thirdPartyPct')/100)} monthly sales`});if(monthly&&waste)metrics.push({label:'Reported food waste exposure',value:`${money(waste*12)} / year`,note:`${(waste/monthly*100).toFixed(1)}% of sales`});return metrics;
 }
+
+export function restaurantRecommendations(a:AssessmentAnswers,s:RestaurantScores):DiagnosticRecommendation[]{
+ const monthly=num(a,'monthlySales'),food=num(a,'monthlyFoodPurchases'),foodPct=monthly&&food?food/monthly*100:num(a,'foodCostPct'),laborPct=monthly&&num(a,'monthlyPayroll')?num(a,'monthlyPayroll')/monthly*100:num(a,'laborCostPct'),third=num(a,'thirdPartyPct'),waste=num(a,'monthlyWaste'),concerns=list(a.ownerConcerns),goals=list(a.ownerGoals);const recs:DiagnosticRecommendation[]=[];
+ const add=(r:DiagnosticRecommendation)=>{if(!recs.some(x=>x.title===r.title))recs.push(r)};
+ if(foodPct>35||concerns.includes('Food cost too high')||s.health.foodCost<55)add({title:'Establish a food-cost control baseline',priority:foodPct>38?'Critical':'High',impact:'Cost / Profit margin',difficulty:'Moderate',timeline:'0–30 days',reason:`Reported data indicates an estimated ${foodPct?foodPct.toFixed(1)+'%':'unverified'} food cost${monthly&&food?` (${money(food)} of ${money(monthly)} monthly sales)`:''}.`,solution:'Odoo purchasing visibility, vendor price history, recipe or buffet cost controls, and a weekly management dashboard.'});
+ if(waste||concerns.includes('Food waste')||s.health.waste<55)add({title:'Measure waste at the source',priority:waste>monthly*.02?'Critical':'High',impact:'Food Cost / Waste',difficulty:'Easy',timeline:'0–30 days',reason:waste?`Reported waste is approximately ${money(waste)} per month, or ${money(waste*12)} annualized.`:'Waste is a stated concern, but no dependable dollar baseline is available.',solution:'Digital waste logging by cause, dish or station, shift, and dollar value; buffet operations should add tray-level tracking.'});
+ if(third>25)add({title:'Measure delivery-channel net profitability',priority:'High',impact:'Revenue / Margin',difficulty:'Moderate',timeline:'30–90 days',reason:`Approximately ${third.toFixed(0)}% of sales are reported through third-party delivery, creating material commission and packaging exposure.`,solution:'Integrate delivery revenue, commissions, promotions, refunds, and packaging costs into an owner dashboard; grow direct ordering where viable.'});
+ if(s.categories.purchasing<60||concerns.includes('Vendor prices'))add({title:'Create vendor price and purchasing controls',priority:'High',impact:'Cost / Risk',difficulty:'Moderate',timeline:'30–90 days',reason:`Vendor control is currently ${s.categories.purchasing}/100; price history, comparisons, or formal approvals are incomplete.`,solution:'Odoo purchase workflow with approved vendors, invoice capture, historical unit cost, price-change alerts, and approval rules.'});
+ if(s.health.inventory<60||concerns.includes('Inventory problems'))add({title:'Replace estimated inventory with repeatable counts',priority:'High',impact:'Cost / Risk',difficulty:'Moderate',timeline:'30–90 days',reason:`Inventory maturity scores ${s.health.inventory}/100, indicating gaps in count frequency, storage visibility, or reorder controls.`,solution:'Ingredient-level inventory, storage locations, minimum levels, reorder points, spoilage and expiration tracking.'});
+ if(laborPct>35||concerns.includes('Labor cost too high'))add({title:'Align labor plans with forecast demand',priority:laborPct>40?'Critical':'High',impact:'Labor / Service',difficulty:'Moderate',timeline:'30–90 days',reason:`Estimated labor cost is ${laborPct?laborPct.toFixed(1)+'%':'not yet quantified'}${goals.includes('Reduce labor')?', and labor reduction is a stated owner goal':''}.`,solution:'Sales-by-service-period forecasting, schedule-vs-actual analysis, overtime alerts, and sales-per-labor-hour reporting.'});
+ if(s.health.ownerIndependence<60||concerns.includes('Difficulty managing remotely'))add({title:'Reduce dependence on the owner',priority:s.health.ownerIndependence<40?'Critical':'High',impact:'Management / Risk',difficulty:'Moderate',timeline:'30–90 days',reason:`Owner independence is ${s.health.ownerIndependence}/100; routine decisions and employee questions remain concentrated with the owner.`,solution:'Digitize SOPs and recipes, add approval workflows and automated reporting, then deploy a private AI employee knowledge assistant.'});
+ if(s.health.technology<65)add({title:'Connect the restaurant management stack',priority:'High',impact:'Management / Labor',difficulty:'Advanced',timeline:'3–6 months',reason:`Technology integration scores ${s.health.technology}/100; management reports multiple systems or repeated data entry.`,solution:'Governed POS, delivery, accounting, purchasing, inventory, payroll, and Odoo integration with one management reporting layer.'});
+ if(s.health.aiReadiness>=45)add({title:'Pilot a private restaurant AI assistant',priority:'Medium',impact:'Labor / Management',difficulty:'Advanced',timeline:'3–6 months',reason:`AI readiness is ${s.health.aiReadiness}/100 and useful digital operating records are available.`,solution:'Ground a permission-controlled assistant in approved recipes, SOPs, training, purchasing, and reporting data.'});
+ if((s.restaurantType==='chineseBuffet'||s.restaurantType==='hybrid')&&(waste||s.health.waste<70))add({title:'Introduce buffet demand and replenishment forecasting',priority:'High',impact:'Food Cost / Waste',difficulty:'Advanced',timeline:'6–12 months',reason:'Buffet production relies on demand timing, tray replenishment, closing-time controls, and high-cost item usage.',solution:'Build customer-count forecasts and preparation recommendations by weekday, service period, station, and item.'});
+ return recs.slice(0,8);
+}
+
+export function restaurantOpportunityEstimate(a:AssessmentAnswers,s:RestaurantScores){const monthly=num(a,'monthlySales'),food=num(a,'monthlyFoodPurchases'),waste=num(a,'monthlyWaste'),hours=num(a,'ownerAdminHours'),annualFood=food*12;const areas:[string,[number,number],string][]=[];if(annualFood)areas.push(['Food cost control',[annualFood*.01,annualFood*.03],'Conservative 1–3% improvement applied to reported annual food purchases.']);if(waste)areas.push(['Waste reduction',[waste*12*.1,waste*12*.3],'10–30% of reported annual waste exposure.']);if(annualFood)areas.push(['Purchasing visibility',[annualFood*.005,annualFood*.015],'0.5–1.5% purchasing opportunity; may overlap food-cost opportunity.']);if(hours)areas.push(['Management time',[hours*52*20,hours*52*40],'Reported administrative hours valued at $20–$40/hour; not a cash-savings guarantee.']);if(!areas.length&&monthly){const gap=(100-s.overall)/100;areas.push(['Operational improvement',[monthly*12*.005*gap,monthly*12*.02*gap],'Directional range based on sales and readiness gaps; detailed inputs would improve accuracy.'])}return{areas:areas.map(([label,[low,high],basis])=>[label,[Math.round(low/100)*100,Math.round(high/100)*100] as const,basis] as const),disclaimer:'All figures are preliminary estimates based on self-reported inputs. Opportunities may overlap and must not be added as guaranteed savings. Validate with restaurant financial and operating records.'};}
+
+export function restaurantRoadmap(recs:DiagnosticRecommendation[]){return[{phase:'PHASE 1 — VISIBILITY',timeline:'0–30 Days',items:recs.filter(r=>r.timeline==='0–30 days').map(r=>r.title).concat(['Confirm sales, food-cost, labor, and waste baselines']).slice(0,4)},{phase:'PHASE 2 — CONTROL',timeline:'30–90 Days',items:recs.filter(r=>r.timeline==='30–90 days').map(r=>r.title).concat(['Standardize purchasing, inventory, recipes, and SOPs']).slice(0,4)},{phase:'PHASE 3 — AUTOMATION',timeline:'3–6 Months',items:recs.filter(r=>r.timeline==='3–6 months').map(r=>r.title).concat(['Connect POS, ERP, and automated management reporting']).slice(0,4)},{phase:'PHASE 4 — INTELLIGENCE',timeline:'6–12 Months',items:recs.filter(r=>r.timeline==='6–12 months').map(r=>r.title).concat(['Apply forecasting and anomaly detection to governed data']).slice(0,4)}]};
+
+export function consultationSummary(a:AssessmentAnswers,s:RestaurantScores,recs:DiagnosticRecommendation[],opportunity:ReturnType<typeof restaurantOpportunityEstimate>){return{businessName:String(a.businessName||''),restaurantType:restaurantTypeLabels[s.restaurantType],locations:String(a.restaurantLocations||'Not provided'),monthlyRevenue:num(a,'monthlySales')||String(a.monthlyRevenue||'Not provided'),foodCostPercent:restaurantDerivedMetrics(a).find(x=>x.label==='Estimated food cost')?.value||String(a.foodCostPct||'Not provided'),laborCostPercent:restaurantDerivedMetrics(a).find(x=>x.label==='Estimated labor cost')?.value||String(a.laborCostPct||'Not provided'),systems:[a.currentPos,a.accountingSystem,a.inventorySystem,a.payrollSystem,a.schedulingSystem].filter(Boolean),topProblems:list(a.ownerConcerns).slice(0,5),topRecommendations:recs.slice(0,5).map(x=>x.title),estimatedOpportunity:opportunity.areas.map(x=>({area:x[0],low:x[1][0],high:x[1][1],basis:x[2]})),aiReadiness:s.ai,erpReadiness:s.erp,recommendedPhase1:recs.filter(x=>x.timeline==='0–30 days').slice(0,4).map(x=>x.title)};}
