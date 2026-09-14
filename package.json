@@ -10,6 +10,7 @@
     "build": "vinext build",
     "start": "wrangler dev --config dist/server/wrangler.json",
     "audit:seo": "node scripts/seo-regression.mjs",
+    "test:restaurant": "node --experimental-strip-types scripts/restaurant-diagnostic-tests.mjs",
     "lint": "oxlint",
     "format": "oxfmt"
   },
