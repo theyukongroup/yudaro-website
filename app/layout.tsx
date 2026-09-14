@@ -21,6 +21,7 @@ import './about.css';
 import './resources.css';
 import './authority.css';
 import './member.css';
+import './restaurants.css';
 
 const sans = Manrope({ variable: '--font-sans', subsets: ['latin'] });
 const display = Newsreader({ variable: '--font-display', subsets: ['latin'] });
