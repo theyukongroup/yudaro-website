@@ -117,11 +117,15 @@ export default async function RootLayout({
             />
           </a>
           <nav className="desktop-navigation" aria-label="Primary navigation">
-            {nav.map(([label, href]) => (
-              <a key={label} href={href}>
-                {label}
-              </a>
-            ))}
+            {nav.map(([label, href]) => label === 'Industries' ? (
+              <div className="nav-dropdown" key={label}>
+                <a href={href} aria-haspopup="true">{label}</a>
+                <div className="nav-dropdown-menu">
+                  <a href="/industries">All Industries</a>
+                  <a href="/industries/restaurants">Restaurants</a>
+                </div>
+              </div>
+            ) : <a key={label} href={href}>{label}</a>)}
           </nav>
           <LanguageSelector />
           <a
