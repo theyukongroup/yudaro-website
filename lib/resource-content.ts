@@ -88,7 +88,7 @@ export const industryDefinitions = [
   ['manufacturing','Manufacturing','物料需求、生产计划、工单、质量程序、版本控制和停机异常','物料需求、生產計劃、工單、品質程序、版本控制和停機異常','materiales, planificación, órdenes de trabajo, calidad, control de revisiones y excepciones de producción'],
   ['retail','Retail','多门店库存、商品、采购、退货、客户记录和补货','多門店庫存、商品、採購、退貨、客戶記錄和補貨','inventario multitienda, productos, compras, devoluciones, clientes y reposición'],
   ['professional-services','Professional Services','商机、项目范围、资源、工时、交付标准、周期工作和开票','商機、項目範圍、資源、工時、交付標準、週期工作和開票','oportunidades, alcance, recursos, tiempo, estándares de entrega, trabajo recurrente y facturación'],
-  ['restaurants','Restaurants','食品成本、供应商价格、采购、库存、劳动力、浪费、食谱和管理报告','食品成本、供應商價格、採購、庫存、勞動力、浪費、食譜和管理報表','costos de alimentos, precios de proveedores, compras, inventario, mano de obra, desperdicio, recetas e informes de gestión'],
+  ['restaurants','Restaurant','食品成本、供应商价格、采购、库存、劳动力、浪费、食谱和管理报告','食品成本、供應商價格、採購、庫存、勞動力、浪費、食譜和管理報表','costos de alimentos, precios de proveedores, compras, inventario, mano de obra, desperdicio, recetas e informes de gestión'],
 ] as const;
 
 for (const [slug, name, cnFocus, twFocus, esFocus] of industryDefinitions) {
