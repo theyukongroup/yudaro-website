@@ -31,6 +31,7 @@ export const resourceRoutes = [
   '/resources/industries/manufacturing',
   '/resources/industries/retail',
   '/resources/industries/professional-services',
+  '/resources/industries/restaurants',
 ] as const;
 
 export const authorityRoutes = [

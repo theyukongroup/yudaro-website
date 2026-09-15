@@ -33,7 +33,7 @@ h2,
   font-family: var(--font-display), Georgia, serif;
   font-weight: 500;
 }
-header {
+.site-header {
   height: 82px;
   background: rgba(245, 243, 238, 0.96);
   border-bottom: 1px solid #c9cec7;
@@ -128,7 +128,7 @@ html[lang='zh-TW'] h2 {
   letter-spacing: -0.025em;
 }
 @media (max-width: 1250px) {
-  header {
+  .site-header {
     gap: 17px;
   }
   nav {
@@ -567,7 +567,7 @@ html[lang='zh-TW'] h2 {
 .pricing-notes span svg {
   color: #1f5c4d;
 }
-footer {
+.site-footer {
   color: #5f6c67;
   background: #e5e4dc;
   border-color: #c1c6c0;
@@ -627,7 +627,7 @@ footer {
   }
 }
 @media (max-width: 1050px) {
-  footer {
+  .site-footer {
     flex-wrap: wrap;
   }
   .footer-contact {
@@ -640,7 +640,7 @@ footer {
   }
 }
 @media (max-width: 640px) {
-  header {
+  .site-header {
     height: 72px;
     gap: 8px;
   }
@@ -696,16 +696,16 @@ footer {
   display: none;
 }
 @media (max-width: 1000px) {
-  header {
+  .site-header {
     gap: 10px;
     padding-left: 18px;
     padding-right: 18px;
   }
-  header > .brand {
+  .site-header > .brand {
     margin-right: auto;
   }
-  header > .desktop-navigation,
-  header > .desktop-assessment {
+  .site-header > .desktop-navigation,
+  .site-header > .desktop-assessment {
     display: none;
   }
   .mobile-menu-button {
@@ -894,16 +894,16 @@ footer {
   }
 }
 @media (max-width: 430px) {
-  header {
+  .site-header {
     padding-left: 10px;
     padding-right: 10px;
     gap: 5px;
   }
-  header > .logo-brand {
+  .site-header > .logo-brand {
     width: 110px;
     height: 44px;
   }
-  header > .logo-brand img {
+  .site-header > .logo-brand img {
     width: 124px;
   }
   .member-header-link {
@@ -918,21 +918,21 @@ footer {
   }
 }
 @media (max-width: 360px) {
-  header > .language-selector {
+  .site-header > .language-selector {
     width: 30px;
     justify-content: center;
   }
-  header > .language-selector svg {
+  .site-header > .language-selector svg {
     display: block;
   }
-  header > .language-selector select {
+  .site-header > .language-selector select {
     position: absolute;
     width: 30px !important;
     height: 44px;
     opacity: 0;
     cursor: pointer;
   }
-  header > .logo-brand {
+  .site-header > .logo-brand {
     width: 108px;
   }
   .mobile-menu-button {

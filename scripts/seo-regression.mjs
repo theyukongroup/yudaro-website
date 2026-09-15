@@ -13,6 +13,7 @@ const routes = [
   '/resources/industries/construction',
   '/resources/industries/manufacturing', '/resources/industries/retail',
   '/resources/industries/professional-services',
+  '/resources/industries/restaurants',
 ];
 const authorityRoutes = ['/case-studies','/how-nexavoris-works','/methodology/ai-erp-readiness','/methodology/roi-calculator','/trust','/privacy','/terms','/industries/restaurants'];
 const locales = [

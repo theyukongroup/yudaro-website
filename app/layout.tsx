@@ -106,7 +106,7 @@ export default async function RootLayout({
           Skip to main content
         </a>
         <LanguageRuntime />
-        <header>
+        <header className="site-header">
           <a className="brand logo-brand" href="/" aria-label="Nexavoris home">
             <Image
               src="/nexavoris-logo.png"
@@ -150,7 +150,7 @@ export default async function RootLayout({
           />
         </header>
         <div id="main-content">{children}</div>
-        <footer>
+        <footer className="site-footer">
           <div className="footer-company">
             <a
               className="logo-brand footer-logo"
