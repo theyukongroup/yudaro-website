@@ -21,7 +21,9 @@ export type AdminActor = {
 function bootstrapEmails() {
   return new Set(
     requireEnv('YUDARO_ADMIN_EMAILS', 'NEXAVORIS_ADMIN_EMAILS')
-      .split(',')
+      // Tolerate commas, semicolons or newlines: a stray separator would
+      // otherwise silently drop every administrator after the first.
+      .split(/[\s,;]+/)
       .map((email) => email.trim().toLowerCase())
       .filter(Boolean),
   );
@@ -34,20 +36,28 @@ export async function getAdminActor(): Promise<AdminActor | null> {
   await ensureMemberSchema();
   const db = memberDB();
   const now = new Date().toISOString();
-  if (bootstrapEmails().has(user.email.toLowerCase())) {
+  const lookup = () =>
+    db
+      .prepare(
+        'SELECT role,active,user_id FROM admin_staff WHERE user_id=? OR lower(email)=lower(?)',
+      )
+      .bind(user.id, user.email)
+      .first<{ role: StaffRole; active: number; user_id: string }>();
+
+  let staff = await lookup();
+  // Read before writing. This runs on every admin page and every admin API
+  // call, and repeating the same-row upsert made concurrent requests queue on
+  // its row lock until the function timed out, pinning a pooler connection
+  // each time. Only write when the record is genuinely missing or disabled.
+  if (bootstrapEmails().has(user.email.toLowerCase()) && (!staff || !staff.active)) {
     await db
       .prepare(
         "INSERT INTO admin_staff (user_id,email,display_name,role,active,created_at,updated_at) VALUES (?,?,?,'admin',1,?,?) ON CONFLICT(email) DO UPDATE SET user_id=excluded.user_id,display_name=excluded.display_name,active=1,updated_at=excluded.updated_at",
       )
       .bind(user.id, user.email, user.name ?? null, now, now)
       .run();
+    staff = await lookup();
   }
-  const staff = await db
-    .prepare(
-      'SELECT role,active,user_id FROM admin_staff WHERE user_id=? OR lower(email)=lower(?)',
-    )
-    .bind(user.id, user.email)
-    .first<{ role: StaffRole; active: number; user_id: string }>();
   if (!staff || !staff.active) return null;
   if (staff.user_id !== user.id)
     await db

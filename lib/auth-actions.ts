@@ -1,7 +1,7 @@
 'use server';
 import { headers } from 'next/headers';
 import { redirect } from 'next/navigation';
-import { safeReturnTo } from '@/lib/auth';
+import { isBootstrapAdminEmail, safeReturnTo } from '@/lib/auth';
 import { authCopy, resolveAuthLocale, withLang, type AuthCopy } from '@/lib/auth-copy';
 import type { Locale } from '@/lib/i18n';
 import { memberDB } from '@/lib/member-db';
@@ -97,7 +97,20 @@ export async function signInAction(_: AuthState, form: FormData): Promise<AuthSt
     await supabase.auth.signOut({ scope: 'local' });
     return { status: 'error', message: t.suspended, email };
   }
+  // Administrators land where they actually work. A deep link still wins - if
+  // someone followed a link to a saved assessment, that is where they go.
+  if (next === '/account' && (await isAdministrator(data.user.id, email))) redirect('/admin');
   redirect(next);
+}
+
+/** Can this person open /admin: an active admin record, or on the bootstrap list. */
+async function isAdministrator(userId: string, email: string) {
+  if (isBootstrapAdminEmail(email)) return true;
+  const staff = await memberDB()
+    .prepare('SELECT role FROM admin_staff WHERE (user_id=? OR lower(email)=lower(?)) AND active=1')
+    .bind(userId, email)
+    .first<{ role: string }>();
+  return staff?.role === 'admin';
 }
 
 export async function signUpAction(_: AuthState, form: FormData): Promise<AuthState> {

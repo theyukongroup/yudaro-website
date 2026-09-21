@@ -2,6 +2,10 @@ import { requireAdminActor } from '@/lib/admin-auth';
 import { ensureMemberSchema, memberDB, parseJSON } from '@/lib/member-db';
 import { ensureSeoGeoSeed } from '@/lib/seo-geo-data';
 
+// A blocked query must not hold a pooler connection for the platform's
+// five-minute default; the 20s statement guard in member-db.ts trips first.
+export const maxDuration = 30;
+
 export const dynamic='force-dynamic';
 type Row=Record<string,any>;
 const json=(data:unknown,status=200)=>Response.json(data,{status,headers:{'Cache-Control':'no-store'}});

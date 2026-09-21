@@ -11,7 +11,7 @@ import { translateSql } from '@/lib/sql-dialect';
 // lib/sql-dialect.ts. Tables come from supabase/migrations; this module only
 // checks that they exist.
 
-type Row = Record<string, unknown>;
+type Row = Record<string, any>;
 export type D1Result<T = Row> = { results: T[]; success: true; meta: { changes: number } };
 export interface D1PreparedStatement {
   bind(...values: unknown[]): D1PreparedStatement;
@@ -33,7 +33,10 @@ const connect = () => {
     // Supabase's transaction pooler (port 6543) cannot use prepared statements.
     prepare: false,
     ssl: 'require',
-    max: 5,
+    // One connection per instance. A serverless function serves one request at
+    // a time, and a larger pool only pins more pooler connections when the
+    // platform freezes an instance mid-query.
+    max: 1,
     idle_timeout: 20,
     connect_timeout: 10,
     // count(*) and other int8 results come back as numbers, as they do on D1.
@@ -51,11 +54,62 @@ type Sql = ReturnType<typeof connect>;
 let client: Sql | undefined;
 const sql = () => (client ??= connect());
 
+const QUERY_TIMEOUT_MS = 20_000;
+
+/**
+ * Nothing in this schema should take twenty seconds. If something does, it is
+ * blocked on a lock rather than slow, so drop the connection: that aborts the
+ * statement server-side instead of leaving a transaction pinned in the pooler
+ * until the platform kills the function minutes later, which is what made one
+ * stuck admin request wedge every later one.
+ */
+let queue: Promise<unknown> = Promise.resolve();
+
+/**
+ * Run statements one at a time. With a single connection, postgres.js would
+ * otherwise pipeline concurrent queries down it, and Supabase's
+ * transaction-mode pooler stalls on that - the SEO/GEO route fires eleven at
+ * once and hung. Sequential costs a few hundred milliseconds and is reliable.
+ */
+function serialize<T>(work: () => Promise<T>): Promise<T> {
+  const result = queue.then(work, work);
+  queue = result.then(
+    () => undefined,
+    () => undefined,
+  );
+  return result;
+}
+
+async function withTimeout<T>(work: Promise<T>, statement: string): Promise<T> {
+  let timer: ReturnType<typeof setTimeout> | undefined;
+  try {
+    return await Promise.race([
+      work,
+      new Promise<never>((_, reject) => {
+        timer = setTimeout(() => {
+          const stuck = client;
+          client = undefined;
+          void stuck?.end({ timeout: 0 }).catch(() => undefined);
+          reject(
+            new Error(
+              `Database statement exceeded ${QUERY_TIMEOUT_MS}ms and was abandoned: ${statement.slice(0, 120)}`,
+            ),
+          );
+        }, QUERY_TIMEOUT_MS);
+      }),
+    ]);
+  } finally {
+    if (timer) clearTimeout(timer);
+  }
+}
+
 let schemaCheck: Promise<void> | undefined;
 function schemaReady() {
   schemaCheck ??= (async () => {
-    const rows = await sql().unsafe<{ tablename: string }[]>(
-      "select tablename from pg_catalog.pg_tables where schemaname = 'public'",
+    const rows = await serialize(() =>
+      sql().unsafe<{ tablename: string }[]>(
+        "select tablename from pg_catalog.pg_tables where schemaname = 'public'",
+      ),
     );
     const present = new Set(rows.map((row) => row.tablename));
     const missing = memberTables.filter((table) => !present.has(table));
@@ -75,7 +129,7 @@ function checkValue(value: unknown, source: string) {
   if (typeof value === 'boolean') return value ? 1 : 0;
   if (value === null || typeof value === 'string') return value;
   if (typeof value === 'number' && Number.isFinite(value)) return value;
-  throw new TypeError(`Unsupported value type ${typeof value} bound to SQL: ${source.slice(0, 120)}`);
+  throw new TypeError(`Unsupported value ${String(value)} bound to SQL: ${source.slice(0, 120)}`);
 }
 
 function toResult<T>(rows: Iterable<unknown> & { length: number; count?: number | null }): D1Result<T> {
@@ -103,13 +157,13 @@ class Statement implements D1PreparedStatement {
 
   async first<T = Row>(): Promise<T | null> {
     await schemaReady();
-    const rows = await this.query(sql());
+    const rows = await serialize(() => withTimeout(this.query(sql()), this.source));
     return (rows[0] as T | undefined) ?? null;
   }
 
   async all<T = Row>(): Promise<D1Result<T>> {
     await schemaReady();
-    return toResult<T>(await this.query(sql()));
+    return toResult<T>(await serialize(() => withTimeout(this.query(sql()), this.source)));
   }
 
   run<T = Row>(): Promise<D1Result<T>> {
@@ -130,7 +184,12 @@ const database: D1Database = {
     });
     await schemaReady();
     // Like D1: pipelined in one transaction, all or nothing.
-    const rowsets = await sql().begin((tx) => list.map((statement) => statement.query(tx)));
+    const rowsets = await serialize(() =>
+      withTimeout(
+        sql().begin((tx) => list.map((statement) => statement.query(tx))),
+        `batch of ${list.length} statements`,
+      ),
+    );
     return rowsets.map((rows) => toResult<T>(rows));
   },
 };

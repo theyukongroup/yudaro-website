@@ -1,6 +1,10 @@
 import { getChatGPTUser } from '@/app/chatgpt-auth';
 import { ensureMemberSchema, memberDB, parseJSON } from '@/lib/member-db';
 
+// A blocked query must not hold a pooler connection for the platform's
+// five-minute default; the 20s statement guard in member-db.ts trips first.
+export const maxDuration = 30;
+
 export const dynamic = 'force-dynamic';
 const json = (data: unknown, status = 200) =>
   Response.json(data, { status, headers: { 'Cache-Control': 'no-store' } });

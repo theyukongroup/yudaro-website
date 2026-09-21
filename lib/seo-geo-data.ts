@@ -16,7 +16,20 @@ export const geoPrompts = [
 
 const idFor = (value:string) => value.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 
+let seeded = false;
+
 export async function ensureSeoGeoSeed() {
+  // The seed is 91 statements in a single transaction. Running it on every
+  // request to this route was the heaviest thing in the application and the
+  // main source of lock contention; once the rows exist there is nothing to do.
+  if (seeded) return;
+  const existing = await memberDB()
+    .prepare('SELECT count(*) AS n FROM seo_keywords')
+    .first<{ n: number }>();
+  if (Number(existing?.n ?? 0) >= strategicKeywords.length) {
+    seeded = true;
+    return;
+  }
   const db=memberDB(), now=new Date().toISOString();
   const keywordStatements=strategicKeywords.map(([keyword,category,target,priority])=>db.prepare("INSERT OR IGNORE INTO seo_keywords (id,keyword,category,target_url,priority,active,created_at,updated_at) VALUES (?,?,?,?,?,1,?,?)").bind(`kw-${idFor(keyword)}`,keyword,category,target,priority,now,now));
   const indexingStatements=importantRoutes.map(route=>db.prepare("INSERT OR IGNORE INTO seo_indexing_status (url,indexed_status,expected_canonical,in_sitemap,updated_at) VALUES (?,'Unknown',?,1,?)").bind(route,`https://yudaro.com${route==='/'?'':route}`,now));
@@ -25,4 +38,5 @@ export async function ensureSeoGeoSeed() {
   ] as const;
   const taskStatements=[...taskRows,...geoPrompts.map(prompt=>[`Test GEO prompt: “${prompt}”`,'GEO prompt','Monthly'] as const)].map(([title,type,cadence])=>db.prepare("INSERT OR IGNORE INTO seo_manual_tasks (id,title,task_type,cadence,status,created_at,updated_at) VALUES (?,?,?,?, 'Pending',?,?)").bind(`task-${idFor(title)}`,title,type,cadence,now,now));
   await db.batch([...keywordStatements,...indexingStatements,...taskStatements]);
+  seeded = true;
 }
