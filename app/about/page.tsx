@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { ArrowDown, ArrowUpRight, Check } from 'lucide-react';
 import { pageMetadata } from '@/lib/seo';
 
-export const metadata: Metadata = pageMetadata('About Nexavoris AI & ERP Systems', 'Nexavoris serves operational small and midsize businesses with Private AI, Odoo ERP, AI ERP integration, automation, and practical implementation support.', '/about');
+export const metadata: Metadata = pageMetadata('About Yudaro AI & ERP Systems', 'Yudaro serves operational small and midsize businesses with Private AI, Odoo ERP, AI ERP integration, automation, and practical implementation support.', '/about');
 
 const principles = [
   { number: '01', title: 'Business before software', eyebrow: 'START WITH THE WORK', image: '/about/business-before-software.webp', alt: 'Business owner and technology consultant mapping an operational workflow', body: 'We begin by understanding how work actually moves through your company: where decisions happen, where information gets lost, and what your team needs to do its best work. Only then do we design the technology.', note: 'Processes, constraints, people, and outcomes come first.' },
@@ -16,9 +16,9 @@ export default function AboutPage() {
   return <main className="about-page">
     <section className="about-hero section-shell">
       <div className="about-hero-copy">
-        <span className="eyebrow">ABOUT NEXAVORIS</span>
+        <span className="eyebrow">ABOUT YUDARO</span>
         <h1>Technology should fit the business. Not the other way around.</h1>
-        <p>Nexavoris AI &amp; ERP Systems helps established small and medium-sized businesses modernize with Private AI, Odoo ERP, AI ERP integration, and business automation—without losing the knowledge, discipline, and relationships that made them successful.</p>
+        <p>Yudaro AI &amp; ERP Systems helps established small and medium-sized businesses modernize with Private AI, Odoo ERP, AI ERP integration, and business automation—without losing the knowledge, discipline, and relationships that made them successful.</p>
         <a className="about-scroll" href="#our-approach">See how we work <ArrowDown size={16}/></a>
       </div>
       <aside className="about-hero-statement">
@@ -60,8 +60,8 @@ export default function AboutPage() {
     </section>
 
     <section className="authority-body section-shell">
-      <section><span>05</span><div><h2>What Nexavoris does not promise</h2><p>We do not represent AI as error-free, ERP as a shortcut around process decisions, or automation as a substitute for accountable people. We do not promise savings, timing, security, or business outcomes before the current environment and scope are understood.</p></div></section>
-      <section><span>06</span><div><h2>Who we serve</h2><p>Nexavoris works with operational small and medium-sized businesses across the United States, with particular attention to wholesale distribution, HVAC and field service, construction, manufacturing, retail, and professional services.</p><p><a href="/how-nexavoris-works">Read the implementation process</a>{' · '}<a href="/trust">Review trust and data practices</a>{' · '}<a href="/case-studies">Understand our evidence standard</a></p></div></section>
+      <section><span>05</span><div><h2>What Yudaro does not promise</h2><p>We do not represent AI as error-free, ERP as a shortcut around process decisions, or automation as a substitute for accountable people. We do not promise savings, timing, security, or business outcomes before the current environment and scope are understood.</p></div></section>
+      <section><span>06</span><div><h2>Who we serve</h2><p>Yudaro works with operational small and medium-sized businesses across the United States, with particular attention to wholesale distribution, HVAC and field service, construction, manufacturing, retail, and professional services.</p><p><a href="/how-yudaro-works">Read the implementation process</a>{' · '}<a href="/trust">Review trust and data practices</a>{' · '}<a href="/case-studies">Understand our evidence standard</a></p></div></section>
     </section>
 
     <section className="about-cta section-shell">
