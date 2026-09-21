@@ -29,7 +29,11 @@
     "build/**",
     "dist/**",
     "coverage/**",
-    "next-env.d.ts"
+    "next-env.d.ts",
+    "tmp/**",
+    "header-fix/**",
+    "output/**",
+    "scripts/__pycache__/**"
   ],
   "rules": {
     "no-array-constructor": "error",
