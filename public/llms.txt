@@ -6,14 +6,14 @@ Yudaro combines private AI grounded in a company's own documents, SOPs, and oper
 
 ## Pages
 
-- [AI Solutions](https://www.yudaro.com/ai-solutions): Private AI servers, company knowledge AI, SOP search, employee training AI, document intelligence, and AI business automation.
-- [ERP Solutions](https://www.yudaro.com/erp-solutions): ERP consulting, Odoo implementation, CRM & sales, purchasing & inventory, accounting integration, field service, custom modules, data migration, and support.
-- [Website Design](https://www.yudaro.com/website-design): Website strategy, design, development, ecommerce, and integrations, with project packages starting at $2,500.
-- [AI + ERP](https://www.yudaro.com/ai-erp): How natural-language AI connects to live ERP data across CRM, sales, inventory, purchasing, and operations.
-- [Equipment](https://www.yudaro.com/equipment): Recommended on-premise server hardware for private AI and Odoo ERP deployments, with sizing guidance.
-- [Industries](https://www.yudaro.com/industries): Wholesale & distribution, HVAC & field service, construction, retail, manufacturing, and professional services.
-- [Pricing](https://www.yudaro.com/pricing): Planning-level packages for AI implementation ($7,500+), ERP implementation ($5,000+), and monthly care plans ($300+/month).
-- [About](https://www.yudaro.com/about): Who Yudaro is and how we work.
-- [Contact](https://www.yudaro.com/contact): Schedule a consultation. Phone 281-258-8000, 13366 Murphy Road, Stafford, TX 77477.
+- [AI Solutions](https://yudaro.com/ai-solutions): Private AI servers, company knowledge AI, SOP search, employee training AI, document intelligence, and AI business automation.
+- [ERP Solutions](https://yudaro.com/erp-solutions): ERP consulting, Odoo implementation, CRM & sales, purchasing & inventory, accounting integration, field service, custom modules, data migration, and support.
+- [Website Design](https://yudaro.com/website-design): Website strategy, design, development, ecommerce, and integrations, with project packages starting at $2,500.
+- [AI + ERP](https://yudaro.com/ai-erp): How natural-language AI connects to live ERP data across CRM, sales, inventory, purchasing, and operations.
+- [Equipment](https://yudaro.com/equipment): Recommended on-premise server hardware for private AI and Odoo ERP deployments, with sizing guidance.
+- [Industries](https://yudaro.com/industries): Wholesale & distribution, HVAC & field service, construction, retail, manufacturing, and professional services.
+- [Pricing](https://yudaro.com/pricing): Planning-level packages for AI implementation ($7,500+), ERP implementation ($5,000+), and monthly care plans ($300+/month).
+- [About](https://yudaro.com/about): Who Yudaro is and how we work.
+- [Contact](https://yudaro.com/contact): Schedule a consultation. Phone 281-258-8000, 13366 Murphy Road, Stafford, TX 77477.
 
 The site is available in English, Simplified Chinese, Traditional Chinese, and Spanish (append ?lang=zh-cn, ?lang=zh-tw, or ?lang=es to any page URL).

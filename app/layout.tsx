@@ -177,7 +177,7 @@ export default async function RootLayout({
                 <Phone size={16} />
                 281-258-8000
               </Link>
-              <Link href="mailto:info@nexavoris.ai">
+              <Link href="mailto:info@yudaro.com">
                 <Mail size={16} />
                 Contact our team
               </Link>

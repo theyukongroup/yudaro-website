@@ -19,7 +19,7 @@ const idFor = (value:string) => value.toLowerCase().replace(/[^a-z0-9]+/g,'-').r
 export async function ensureSeoGeoSeed() {
   const db=memberDB(), now=new Date().toISOString();
   const keywordStatements=strategicKeywords.map(([keyword,category,target,priority])=>db.prepare("INSERT OR IGNORE INTO seo_keywords (id,keyword,category,target_url,priority,active,created_at,updated_at) VALUES (?,?,?,?,?,1,?,?)").bind(`kw-${idFor(keyword)}`,keyword,category,target,priority,now,now));
-  const indexingStatements=importantRoutes.map(route=>db.prepare("INSERT OR IGNORE INTO seo_indexing_status (url,indexed_status,expected_canonical,in_sitemap,updated_at) VALUES (?,'Unknown',?,1,?)").bind(route,`https://www.yudaro.com${route==='/'?'':route}`,now));
+  const indexingStatements=importantRoutes.map(route=>db.prepare("INSERT OR IGNORE INTO seo_indexing_status (url,indexed_status,expected_canonical,in_sitemap,updated_at) VALUES (?,'Unknown',?,1,?)").bind(route,`https://yudaro.com${route==='/'?'':route}`,now));
   const taskRows=[
     ['Check Google ranking for “AI ERP integration”','Google ranking','Weekly'],['Review Google Search Console performance and sitemap','Search Console','Weekly'],['Review indexing and striking-distance keywords','Indexing','Weekly'],['Review organic conversion events','Conversions','Weekly'],['Run the strategic ChatGPT GEO test set','ChatGPT','Monthly'],['Review Google AI visibility','Google AI','Monthly'],['Review Bing rankings and Copilot citations','Bing/Copilot','Monthly'],['Review new and lost backlinks','Backlinks','Monthly'],
   ] as const;

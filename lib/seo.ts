@@ -1,6 +1,11 @@
 import type { Metadata } from 'next';
 
-export const SITE_URL = 'https://www.yudaro.com';
+// The apex serves; www redirects to it (see next.config.ts). This decides every
+// canonical tag, sitemap entry and share-preview address, and it is read at
+// build time -- changing NEXT_PUBLIC_SITE_URL needs a redeploy to take effect.
+export const SITE_URL = (
+  process.env.NEXT_PUBLIC_SITE_URL || 'https://yudaro.com'
+).replace(/\/+$/, '');
 
 export const marketingRoutes = [
   '',
