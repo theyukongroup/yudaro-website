@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Menu dialog visible 375",
+    "ok": true
+  },
+  {
+    "name": "Menu within viewport 375",
+    "ok": true
+  },
+  {
+    "name": "Restaurant submenu 375",
+    "ok": true
+  },
+  {
+    "name": "Keyboard remains in dialog 375",
+    "ok": true
+  },
+  {
+    "name": "Escape restores trigger 375",
+    "ok": true
+  },
+  {
+    "name": "Menu dialog visible 430",
+    "ok": true
+  },
+  {
+    "name": "Menu within viewport 430",
+    "ok": true
+  },
+  {
+    "name": "Restaurant submenu 430",
+    "ok": true
+  },
+  {
+    "name": "Keyboard remains in dialog 430",
+    "ok": true
+  },
+  {
+    "name": "Escape restores trigger 430",
+    "ok": true
+  },
+  {
+    "name": "Menu dialog visible 768",
+    "ok": true
+  },
+  {
+    "name": "Menu within viewport 768",
+    "ok": true
+  },
+  {
+    "name": "Restaurant submenu 768",
+    "ok": true
+  },
+  {
+    "name": "Keyboard remains in dialog 768",
+    "ok": true
+  },
+  {
+    "name": "Escape restores trigger 768",
+    "ok": true
+  },
+  {
+    "name": "Menu dialog visible 1024",
+    "ok": true
+  },
+  {
+    "name": "Menu within viewport 1024",
+    "ok": true
+  },
+  {
+    "name": "Restaurant submenu 1024",
+    "ok": true
+  },
+  {
+    "name": "Keyboard remains in dialog 1024",
+    "ok": true
+  },
+  {
+    "name": "Escape restores trigger 1024",
+    "ok": true
+  },
+  {
+    "name": "Desktop submenu keyboard visible",
+    "ok": true
+  },
+  {
+    "name": "Contact required fields",
+    "ok": true
+  },
+  {
+    "name": "Login required fields",
+    "ok": true
+  },
+  {
+    "name": "Assessment industry choices",
+    "ok": true
+  },
+  {
+    "name": "Contact invalid input 400",
+    "ok": true
+  },
+  {
+    "name": "Malformed contact JSON 400",
+    "ok": true
+  },
+  {
+    "name": "Member API denies signed-out user",
+    "ok": true
+  },
+  {
+    "name": "Admin API denies signed-out user",
+    "ok": true
+  },
+  {
+    "name": "Forged platform identity refused",
+    "ok": true
+  },
+  {
+    "name": "Cross-site contact POST rejected",
+    "ok": true
+  },
+  {
+    "name": "Apex redirect keeps path/query",
+    "ok": true
+  },
+  {
+    "name": "Legacy path redirect",
+    "ok": true
+  }
+]

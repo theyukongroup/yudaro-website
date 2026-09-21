@@ -37,3 +37,11 @@ next-env.d.ts
 /outputs/
 /work/
 *.tsbuildinfo
+
+# Local backups, exports, and temporary artifacts
+/tmp/
+/header-fix/
+/output/
+**/__pycache__/
+*.pyc
+*.key

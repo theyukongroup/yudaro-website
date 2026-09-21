@@ -1,29 +1,19 @@
 import 'server-only';
-import { headers } from 'next/headers';
-import { redirect } from 'next/navigation';
+import { getSessionUser, loginPath, requireSessionUser, type SessionUser } from '@/lib/auth';
 
-export type ChatGPTUser = { id: string; email: string; name?: string };
+// VERCEL-ONLY SHIM - NEVER OVERWRITE THIS FILE FROM THE ORIGIN.
+// The origin's version trusts `oai-authenticated-user-*` request headers that
+// only OpenAI Sites can set. On Vercel any client can send those headers, so
+// copying it here would let anyone sign in as anyone. Identity comes from the
+// Supabase session instead (lib/auth.ts). The export names match the origin so
+// its pages and routes copy over unchanged.
 
-export async function getChatGPTUser(): Promise<ChatGPTUser | null> {
-  const values = await headers();
-  const id = values.get('oai-authenticated-user-id');
-  const email = values.get('oai-authenticated-user-email');
-  if (!id || !email) return null;
-  let name: string | undefined;
-  if (values.get('oai-authenticated-user-full-name-encoding') === 'percent-encoded-utf-8') {
-    const encoded = values.get('oai-authenticated-user-full-name');
-    if (encoded) try { name = decodeURIComponent(encoded); } catch { name = undefined; }
-  }
-  return { id, email, name };
-}
+export type ChatGPTUser = SessionUser;
+
+export const getChatGPTUser = getSessionUser;
 
 export function chatGPTSignInPath(returnTo = '/account') {
-  const safe = returnTo.startsWith('/') && !returnTo.startsWith('//') ? returnTo : '/account';
-  return `/signin-with-chatgpt?return_to=${encodeURIComponent(safe)}`;
+  return loginPath(returnTo);
 }
 
-export async function requireChatGPTUser(returnTo = '/account') {
-  const user = await getChatGPTUser();
-  if (!user) redirect(chatGPTSignInPath(returnTo));
-  return user;
-}
+export const requireChatGPTUser = requireSessionUser;

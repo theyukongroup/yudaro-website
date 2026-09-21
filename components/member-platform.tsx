@@ -152,7 +152,7 @@ export function AssessmentTool({
   const [scores, setScores] = useState<Scores | null>(null);
   useEffect(() => {
     if (!member) {
-      const raw = localStorage.getItem('nexavoris-assessment-draft');
+      const raw = (localStorage.getItem('yudaro-assessment-draft') ?? localStorage.getItem('nexavoris-assessment-draft'));
       if (raw)
         try {
           queueMicrotask(() => setAnswers(JSON.parse(raw)));
@@ -163,7 +163,7 @@ export function AssessmentTool({
     const next = { ...answers, [id]: value };
     setAnswers(next);
     if (!member)
-      localStorage.setItem('nexavoris-assessment-draft', JSON.stringify(next));
+      localStorage.setItem('yudaro-assessment-draft', JSON.stringify(next));
   };
   const finish = () => {
     const result = scoreAssessment(answers);
@@ -316,19 +316,19 @@ export function MemberDashboard({
   const [message, setMessage] = useState('');
   const load = async (): Promise<void> => {
     const loaded = (await (await fetch('/api/member')).json()) as MemberData;
-    const draft = localStorage.getItem('nexavoris-assessment-draft');
+    const draft = localStorage.getItem('yudaro-assessment-draft');
     if (draft && !loaded.assessment) {
       try {
         const responses = JSON.parse(draft);
-            const scores = responses.industry === 'Restaurant'
-              ? scoreRestaurantAssessment(responses)
-              : scoreAssessment(responses);
+        const scores = responses.industry === 'Restaurant'
+          ? scoreRestaurantAssessment(responses)
+          : scoreAssessment(responses);
         await fetch('/api/member', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ type: 'assessment', responses, scores }),
         });
-        localStorage.removeItem('nexavoris-assessment-draft');
+        localStorage.removeItem('yudaro-assessment-draft');
         emit('signup_completed', { source: 'assessment' });
         await load();
         return;
@@ -378,7 +378,7 @@ export function MemberDashboard({
   const config = industryConfig[key];
   const firstName = data.profile.firstName || name?.split(' ')[0] || email.split('@')[0];
   const ui = {
-    personalize: locale === 'es' ? 'Personalice su experiencia Nexavoris' : locale === 'zh-cn' ? '个性化您的 Nexavoris 体验' : locale === 'zh-tw' ? '個人化您的 Nexavoris 體驗' : 'Personalize Your Nexavoris Experience',
+    personalize: locale === 'es' ? 'Personalice su experiencia Yudaro' : locale === 'zh-cn' ? '个性化您的 Yudaro 体验' : locale === 'zh-tw' ? '個人化您的 Yudaro 體驗' : 'Personalize Your Yudaro Experience',
     ask: locale === 'es' ? '¿Qué industria describe mejor su empresa?' : locale === 'zh-cn' ? '哪个行业最符合您的业务？' : locale === 'zh-tw' ? '哪個行業最符合您的業務？' : 'What industry best describes your business?',
     recommended: locale === 'es' ? 'Herramientas recomendadas para su industria' : locale === 'zh-cn' ? '为您的行业推荐的工具' : locale === 'zh-tw' ? '為您的行業推薦的工具' : 'Recommended Tools for My Industry',
     top: locale === 'es' ? 'Principales oportunidades' : locale === 'zh-cn' ? '主要机会' : locale === 'zh-tw' ? '主要機會' : 'Top Opportunities',
@@ -387,7 +387,7 @@ export function MemberDashboard({
   return (
     <main className="member-shell">
       <aside className="member-sidebar">
-        <h2>Nexavoris</h2>
+        <h2>Yudaro</h2>
         <span>{name || email}</span>
         <nav>
           {(
@@ -682,7 +682,7 @@ function OpportunityTool({
           <button
             className="button primary"
             onClick={() => {
-              onSave(selected, results);
+              onSave(selected, results as ReturnType<typeof buildOpportunities>);
               emit('opportunity_finder_completed', { tool: 'opportunity' });
             }}
           >

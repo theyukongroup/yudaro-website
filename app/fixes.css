@@ -1,0 +1,35 @@
+/* ============================================================
+   fixes.css — Vercel-copy bug/accessibility fixes only.
+   NOT part of the origin OpenAI-Sites site; kept separate so the
+   origin-synced stylesheets stay byte-identical to the origin
+   (apart from the pricing-selector scoping fix documented in the
+   README). No visual redesign lives here.
+   ============================================================ */
+
+/* 1. Visible keyboard focus (the site defines none of its own) */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #075b88;
+  outline-offset: 3px;
+}
+.integration a:focus-visible,
+.quote-band a:focus-visible {
+  outline-color: #d89576;
+}
+
+/* 2. Respect the user's reduced-motion preference site-wide */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
+  }
+}

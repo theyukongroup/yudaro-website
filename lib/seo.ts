@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-export const SITE_URL = 'https://nexavoris.ai';
+export const SITE_URL = 'https://www.yudaro.com';
 
 export const marketingRoutes = [
   '',
@@ -35,7 +35,7 @@ export const resourceRoutes = [
 ] as const;
 
 export const authorityRoutes = [
-  '/case-studies', '/how-nexavoris-works',
+  '/case-studies', '/how-yudaro-works',
   '/methodology/ai-erp-readiness', '/methodology/roi-calculator',
   '/trust', '/privacy', '/terms', '/industries/restaurants',
 ] as const;
@@ -66,25 +66,25 @@ export function pageMetadata(
   path: string,
 ): Metadata {
   const canonical = `${SITE_URL}${path || '/'}`;
-  const fullTitle = title.startsWith('Nexavoris |') ? title : `${title} | Nexavoris`;
+  const fullTitle = title.startsWith('Yudaro |') ? title : `${title} | Yudaro`;
   return {
-    title: title.startsWith('Nexavoris |') ? { absolute: title } : title,
+    title: title.startsWith('Yudaro |') ? { absolute: title } : title,
     description,
     alternates: { canonical, languages: localizedUrls(path) },
     openGraph: {
       title: fullTitle,
       description,
       url: canonical,
-      siteName: 'Nexavoris',
+      siteName: 'Yudaro',
       type: 'website',
       locale: 'en_US',
       alternateLocale: ['zh_CN', 'zh_TW', 'es'],
       images: [
         {
-          url: `${SITE_URL}/og.png`,
+          url: `${SITE_URL}/yudaro-social.png`,
           width: 1200,
           height: 630,
-          alt: 'Nexavoris AI and ERP systems',
+          alt: 'Yudaro AI and ERP systems',
         },
       ],
     },
@@ -92,7 +92,7 @@ export function pageMetadata(
       card: 'summary_large_image',
       title: fullTitle,
       description,
-      images: [`${SITE_URL}/og.png`],
+      images: [`${SITE_URL}/yudaro-social.png`],
     },
   };
 }

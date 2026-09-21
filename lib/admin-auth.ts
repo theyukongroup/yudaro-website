@@ -1,7 +1,14 @@
 import 'server-only';
-import { env } from 'cloudflare:workers';
-import { getChatGPTUser } from '@/app/chatgpt-auth';
+import { getVerifiedUser } from '@/lib/auth';
+import { requireEnv } from '@/lib/env';
 import { ensureMemberSchema, memberDB } from '@/lib/member-db';
+
+// VERCEL-ONLY replacement for the origin's version - never overwrite it from
+// the origin. The SQL is unchanged. What differs is where identity comes from
+// (Supabase instead of ChatGPT headers), and that an email address is trusted
+// only once Supabase has confirmed it. Without that, anyone could register an
+// administrator's address and inherit the role through the bootstrap list or
+// the email match below.
 
 export type StaffRole = 'admin' | 'sales';
 export type AdminActor = {
@@ -12,11 +19,8 @@ export type AdminActor = {
 };
 
 function bootstrapEmails() {
-  const value =
-    (env as unknown as { NEXAVORIS_ADMIN_EMAILS?: string })
-      .NEXAVORIS_ADMIN_EMAILS ?? '';
   return new Set(
-    value
+    requireEnv('YUDARO_ADMIN_EMAILS', 'NEXAVORIS_ADMIN_EMAILS')
       .split(',')
       .map((email) => email.trim().toLowerCase())
       .filter(Boolean),
@@ -24,8 +28,9 @@ function bootstrapEmails() {
 }
 
 export async function getAdminActor(): Promise<AdminActor | null> {
-  const user = await getChatGPTUser();
-  if (!user) return null;
+  const verified = await getVerifiedUser();
+  if (!verified?.emailConfirmed) return null;
+  const user = { id: verified.id, email: verified.email, name: verified.name };
   await ensureMemberSchema();
   const db = memberDB();
   const now = new Date().toISOString();

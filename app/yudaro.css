@@ -1,0 +1,41 @@
+/* Official Yudaro navy and teal, with light surfaces and retained warm accents. */
+:root { --background:#f4f7f8; --foreground:#092b46; --card:#fff; --blue:#075b88; --teal:#007d8b; --muted:#526976; --line:rgba(9,43,70,.16); }
+body { background:var(--background); }
+.site-header { background:rgba(248,251,252,.97); border-color:#cddce2; }
+.logo-brand { flex:0 0 220px; width:220px; height:72px; overflow:hidden; }
+.logo-brand img { width:245px; max-width:none; height:auto; flex:none; margin-left:-12px; mix-blend-mode:normal; }
+.site-footer { background:#e8f0f3; color:#425c6d; }
+.button.primary { background:#075b88; border-color:#075b88; color:#fff; }
+.button.primary:hover { background:#06476b; border-color:#06476b; }
+.nav-cta { border-color:#075b88; color:#075b88; }
+.eyebrow,.section-index,.text-link { color:#007080; }
+.hero h1 span { color:#007d8b; }
+.site-header nav a:hover { color:#006674; }
+.nav-dropdown-menu a:hover,.nav-dropdown-menu a:focus-visible { background:#e6f3f5; color:#06476b; }
+:where(a,button,input,select,textarea,summary):focus-visible { outline:2px solid #007d8b; outline-offset:4px; }
+.site-header { gap:18px; padding-inline:max(22px,calc((100vw - 1480px)/2)); }
+.site-header .desktop-navigation { gap:16px; }
+.site-header .desktop-navigation > a,.site-header .nav-dropdown > a { font-size:12px; }
+.mobile-menu-head img { width:210px; height:auto; }
+.mobile-menu-drawer { overscroll-behavior:contain; }
+@media(max-width:1390px) {
+ .site-header > .desktop-navigation,.site-header > .desktop-assessment { display:none; }
+ .mobile-menu-button { display:inline-flex; align-items:center; justify-content:center; }
+}
+@media(max-width:640px) {
+ .site-header { gap:8px; padding-inline:12px; }
+ .site-header > .logo-brand { flex-basis:150px; width:150px; height:64px; }
+ .site-header > .logo-brand img { width:170px; margin-left:-9px; }
+ .site-header .member-header-link { display:none; }
+ .section-shell { min-width:0; }
+}
+@media(max-width:430px) {
+ .site-header > .logo-brand { flex-basis:138px; width:138px; }
+ .site-header > .logo-brand img { width:156px; }
+}
+
+.site-header .nav-cta.primary { color:#fff; }
+.site-header nav a { color:#425c6d; }
+.mobile-menu-backdrop { margin:0; padding:0; border:0; max-width:none; max-height:none; width:100vw; height:100dvh; }
+.mobile-menu-backdrop::backdrop { background:rgba(9,43,70,.5); }
+.site-header .nav-cta { color:#fff; }

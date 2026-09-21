@@ -580,13 +580,13 @@
   padding: 110px 0;
   margin-bottom: 100px;
 }
-.pricing-grid {
+.pricing .pricing-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 18px;
   align-items: stretch;
 }
-.pricing-grid article {
+.pricing .pricing-grid article {
   background: #fff;
   border: 1px solid #d5e4ea;
   padding: 34px;
@@ -595,11 +595,11 @@
   position: relative;
   box-shadow: 0 14px 40px rgba(8, 57, 89, 0.06);
 }
-.pricing-grid article.featured {
+.pricing .pricing-grid article.featured {
   border: 2px solid #079ba9;
   box-shadow: 0 22px 55px rgba(7, 143, 159, 0.14);
 }
-.popular {
+.pricing .popular {
   position: absolute;
   right: 18px;
   top: 18px;
@@ -607,35 +607,35 @@
   letter-spacing: 0.1em;
   color: #078ca8;
 }
-.pricing-grid h3 {
+.pricing .pricing-grid h3 {
   font-size: 22px;
   margin: 0 0 12px;
 }
-.pricing-grid article > p {
+.pricing .pricing-grid article > p {
   color: #617487;
   line-height: 1.6;
   font-size: 14px;
   min-height: 68px;
 }
-.price {
+.pricing .price {
   border-block: 1px solid #dce8ed;
   padding: 22px 0;
   margin: 12px 0 22px;
 }
-.price small {
+.pricing .price small {
   display: block;
   color: #6a8093;
   font: 600 9px var(--font-mono);
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
-.price strong {
+.pricing .price strong {
   display: block;
   font-size: 38px;
   letter-spacing: -0.04em;
   margin-top: 5px;
 }
-.pricing-grid ul {
+.pricing .pricing-grid ul {
   list-style: none;
   padding: 0;
   margin: 0 0 28px;
@@ -643,18 +643,18 @@
   gap: 13px;
   flex: 1;
 }
-.pricing-grid li {
+.pricing .pricing-grid li {
   display: flex;
   align-items: center;
   gap: 9px;
   color: #35546b;
   font-size: 13px;
 }
-.pricing-grid li svg {
+.pricing .pricing-grid li svg {
   color: #08a39f;
   flex: none;
 }
-.pricing-note {
+.pricing .pricing-note {
   text-align: center;
   color: #617487;
   font-size: 13px;
@@ -705,10 +705,10 @@
     gap: 30px;
   }
   .web-service-grid,
-  .pricing-grid {
+  .pricing .pricing-grid {
     grid-template-columns: 1fr 1fr;
   }
-  .pricing-grid article:last-child {
+  .pricing .pricing-grid article:last-child {
     grid-column: 1/-1;
   }
   .module-cloud { grid-template-columns: 1fr 1fr; }
@@ -720,7 +720,7 @@
   .industry-grid,
   .showcase-grid,
   .web-service-grid,
-  .pricing-grid {
+  .pricing .pricing-grid {
     grid-template-columns: 1fr;
   }
   .problem-grid,
@@ -828,10 +828,10 @@
   .pricing {
     padding: 75px 0;
   }
-  .pricing-grid {
+  .pricing .pricing-grid {
     padding: 0 18px;
   }
-  .pricing-grid article:last-child {
+  .pricing .pricing-grid article:last-child {
     grid-column: auto;
   }
   .web-hero h1 {

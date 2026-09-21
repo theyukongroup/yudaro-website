@@ -152,7 +152,7 @@ export function AdminDashboard({ actor, initialTab = 'dashboard' }: Props) {
     ...new Set(
       (data?.users ?? [])
         .map((u: Row) => String(val(u.profile, 'industry')))
-        .filter((x) => x !== '—'),
+        .filter((x: string) => x !== '—'),
     ),
   ] as string[];
   const mutate = async (body: Row) => {
@@ -188,7 +188,7 @@ export function AdminDashboard({ actor, initialTab = 'dashboard' }: Props) {
       <aside className="admin-sidebar">
         <div>
           <ShieldCheck />
-          <b>Nexavoris Admin</b>
+          <b>Yudaro Admin</b>
           <small>
             {actor.role === 'admin' ? 'Administrator' : 'Sales / Advisor'}
           </small>
@@ -774,10 +774,10 @@ function UserDrawer({
             <>
               <label htmlFor="primary-industry">Primary industry</label>
               <select id="primary-industry" value={primaryIndustry} onChange={(e) => setPrimaryIndustry(e.target.value)}>
-                {['Wholesale Distribution','HVAC / Field Service','Construction','Manufacturing','Retail','Professional Services','Other'].map((option) => <option key={option}>{option}</option>)}
+                {['Wholesale Distribution','HVAC / Field Service','Construction','Restaurant','Manufacturing','Retail','Professional Services','Other'].map((option) => <option key={option}>{option}</option>)}
               </select>
               <button onClick={() => mutate({ action: 'profile_industry', userId: user.id, industry: primaryIndustry })}>Save industry</button>
-              <label htmlFor="account-role">Nexavoris role</label>
+              <label htmlFor="account-role">Yudaro role</label>
               <select
                 id="account-role"
                 value={accountRole}
@@ -992,7 +992,7 @@ function UserDrawer({
         <section>
           <h2>Internal notes</h2>
           <p className="privacy-note">
-            Visible only to authorized Nexavoris staff.
+            Visible only to authorized Yudaro staff.
           </p>
           <textarea
             value={note}

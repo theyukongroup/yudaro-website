@@ -1,5 +1,5 @@
 import {AuthorityPage} from '@/components/authority-page';import {authorityMetadata} from '@/lib/seo';
-export const metadata=authorityMetadata('Productivity Calculator Methodology','Assumptions, inputs, interpretation, and limitations for the Nexavoris AI and ERP productivity calculator.','/methodology/roi-calculator');
+export const metadata=authorityMetadata('Productivity Calculator Methodology','Assumptions, inputs, interpretation, and limitations for the Yudaro AI and ERP productivity calculator.','/methodology/roi-calculator');
 export default function Page(){return <AuthorityPage eyebrow="CALCULATOR METHODOLOGY" title="An illustrative productivity estimate—not a financial promise." intro="The calculator organizes user-provided operating assumptions into a planning estimate. It supports questions; it does not forecast guaranteed savings, revenue, profit, or payback." sections={[
 {title:'Inputs',body:'The estimate uses values entered by the user, such as people involved, time spent, frequency, and an assumed value of time. Inputs should reflect a defined workflow and representative period.'},
 {title:'Calculation approach',body:'Entered frequency, time, and labor-value assumptions produce an addressable productivity estimate. Any scenario should be checked against actual payroll, utilization, exceptions, and adoption.'},

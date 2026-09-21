@@ -22,17 +22,19 @@ import './resources.css';
 import './authority.css';
 import './member.css';
 import './restaurants.css';
+import './fixes.css';
+import './yudaro.css';
 
 const sans = Manrope({ variable: '--font-sans', subsets: ['latin'] });
 const display = Newsreader({ variable: '--font-display', subsets: ['latin'] });
 const mono = Geist_Mono({ variable: '--font-mono', subsets: ['latin'] });
 export const metadata: Metadata = {
   title: {
-    default: 'Nexavoris | AI & ERP Systems',
-    template: '%s | Nexavoris',
+    default: 'Yudaro | Private AI, ERP & Business Automation',
+    template: '%s | Yudaro',
   },
   description:
-    'Private enterprise AI, ERP implementation, and intelligent business automation for growing companies.',
+    'Yudaro helps businesses connect private AI, ERP, Odoo, company knowledge and workflow automation to improve operations, reporting and decision-making.',
   metadataBase: new URL(SITE_URL),
   robots: {
     index: true,
@@ -48,33 +50,33 @@ export const metadata: Metadata = {
   category: 'business technology services',
   icons: {
     icon: [
-      { url: '/favicon.ico', sizes: '48x48' },
-      { url: '/favicon.png', type: 'image/png', sizes: '512x512' },
+      { url: '/yudaro-mark.png', type: 'image/png' },
+
     ],
-    apple: '/apple-touch-icon.png',
+    apple: '/yudaro-mark.png',
   },
   openGraph: {
-    title: 'Nexavoris AI & ERP Systems',
+    title: 'Yudaro AI & ERP Systems',
     description: 'One integrated operating system for your business.',
     url: SITE_URL,
-    siteName: 'Nexavoris',
+    siteName: 'Yudaro',
     locale: 'en_US',
     alternateLocale: ['zh_CN', 'zh_TW', 'es'],
     type: 'website',
     images: [
       {
-        url: '/og.png',
+        url: '/yudaro-social.png',
         width: 1200,
         height: 630,
-        alt: 'Nexavoris AI & ERP Systems',
+        alt: 'Yudaro AI & ERP Systems',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Nexavoris AI & ERP Systems',
+    title: 'Yudaro AI & ERP Systems',
     description: 'Private AI, ERP, and automation for operational businesses.',
-    images: ['/og.png'],
+    images: ['/yudaro-social.png'],
   },
 };
 const nav = [
@@ -94,7 +96,7 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const localeHeader = (await headers()).get('x-nexavoris-locale');
+  const localeHeader = (await headers()).get('x-yudaro-locale');
   const documentLanguage = isLocale(localeHeader)
     ? languageTags[localeHeader]
     : 'en-US';
@@ -107,10 +109,10 @@ export default async function RootLayout({
         </a>
         <LanguageRuntime />
         <header className="site-header">
-          <a className="brand logo-brand" href="/" aria-label="Nexavoris home">
+          <a className="brand logo-brand" href="/" aria-label="Yudaro home">
             <Image
-              src="/nexavoris-logo.png"
-              alt="Nexavoris AI & ERP Systems"
+              src="/yudaro-logo.png"
+              alt="Yudaro AI & ERP Systems"
               width={210}
               height={105}
               priority
@@ -155,11 +157,11 @@ export default async function RootLayout({
             <a
               className="logo-brand footer-logo"
               href="/"
-              aria-label="Nexavoris home"
+              aria-label="Yudaro home"
             >
               <Image
-                src="/nexavoris-logo.png"
-                alt="Nexavoris AI & ERP Systems"
+                src="/yudaro-logo.png"
+                alt="Yudaro AI & ERP Systems"
                 width={205}
                 height={103}
               />
@@ -168,7 +170,7 @@ export default async function RootLayout({
           </div>
           <address className="footer-contact">
             <a href="/free-account">Free Business Account</a>
-            <a href="/how-nexavoris-works">How Nexavoris Works</a>
+            <a href="/how-yudaro-works">How Yudaro Works</a>
             <a href="/case-studies">Case Studies</a>
             <a href="/trust">Trust &amp; Data Practices</a>
             <span>
@@ -185,11 +187,11 @@ export default async function RootLayout({
             </a>
             <a href="mailto:info@nexavoris.ai">
               <Mail size={16} />
-              info@nexavoris.ai
+              Contact our team
             </a>
           </address>
           <span className="footer-copyright">
-            © 2026 Nexavoris. All rights reserved.
+            © 2026 Yudaro. All rights reserved.
             {' · '}<a href="/privacy">Privacy</a>{' · '}<a href="/terms">Terms</a>
           </span>
         </footer>
@@ -202,12 +204,11 @@ export default async function RootLayout({
                 {
                   '@type': ['Organization', 'ProfessionalService'],
                   '@id': `${SITE_URL}/#organization`,
-                  name: 'Nexavoris AI & ERP Systems',
-                  alternateName: 'Nexavoris',
+                  name: 'Yudaro AI & ERP Systems',
+                  alternateName: 'Yudaro',
                   url: SITE_URL,
-                  logo: `${SITE_URL}/nexavoris-logo.png`,
-                  image: `${SITE_URL}/og.png`,
-                  email: 'info@nexavoris.ai',
+                  logo: `${SITE_URL}/yudaro-logo.png`,
+                  image: `${SITE_URL}/yudaro-social.png`,
                   telephone: '+1-281-258-8000',
                   address: {
                     '@type': 'PostalAddress',
@@ -228,7 +229,7 @@ export default async function RootLayout({
                   ],
                   hasOfferCatalog: {
                     '@type': 'OfferCatalog',
-                    name: 'Nexavoris business technology services',
+                    name: 'Yudaro business technology services',
                     itemListElement: [
                       'Private enterprise AI solutions',
                       'ERP consulting and Odoo implementation',
@@ -245,7 +246,7 @@ export default async function RootLayout({
                   '@type': 'WebSite',
                   '@id': `${SITE_URL}/#website`,
                   url: SITE_URL,
-                  name: 'Nexavoris',
+                  name: 'Yudaro',
                   publisher: { '@id': `${SITE_URL}/#organization` },
                   inLanguage: ['en-US', 'zh-CN', 'zh-TW', 'es'],
                 },

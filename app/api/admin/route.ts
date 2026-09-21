@@ -319,7 +319,7 @@ export async function GET(request: Request) {
     return new Response([header.map(esc).join(','), ...lines].join('\r\n'), {
       headers: {
         'Content-Type': 'text/csv; charset=utf-8',
-        'Content-Disposition': 'attachment; filename="nexavoris-leads.csv"',
+        'Content-Disposition': 'attachment; filename="yudaro-leads.csv"',
         'Cache-Control': 'no-store',
       },
     });
@@ -446,7 +446,7 @@ export async function POST(request: Request) {
       .first<Row>();
     if (!member)
       return json(
-        { error: 'No registered Nexavoris member has that email address' },
+        { error: 'No registered Yudaro member has that email address' },
         404,
       );
     target = String(member.user_id);

@@ -1,0 +1,20 @@
+{
+  "remaining": 141,
+  "baseline": 175,
+  "newFileRuleCombinations": [],
+  "counts": {
+    "next(no-html-link-for-pages)": 67,
+    "jsx-a11y(prefer-tag-over-role)": 11,
+    "react(react-compiler)": 12,
+    "typescript(no-explicit-any)": 14,
+    "jsx-a11y(anchor-has-content)": 1,
+    "jsx-a11y(label-has-associated-control)": 1,
+    "jsx-a11y(no-static-element-interactions)": 2,
+    "jsx-a11y(click-events-have-key-events)": 1,
+    "jsx-a11y(no-noninteractive-element-interactions)": 1,
+    "jsx-a11y(control-has-associated-label)": 7,
+    "eslint(no-unused-vars)": 2,
+    "typescript(no-base-to-string)": 18,
+    "typescript(restrict-template-expressions)": 4
+  }
+}

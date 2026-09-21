@@ -1,0 +1,380 @@
+[
+  {
+    "width": 375,
+    "route": "/",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 375,
+    "route": "/ai-solutions",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 375,
+    "route": "/erp-solutions",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 375,
+    "route": "/industries",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 375,
+    "route": "/industries/restaurants",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 375,
+    "route": "/assessment",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 375,
+    "route": "/pricing",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 375,
+    "route": "/contact",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 375,
+    "route": "/login",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 430,
+    "route": "/",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 430,
+    "route": "/ai-solutions",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 430,
+    "route": "/erp-solutions",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 430,
+    "route": "/industries",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 430,
+    "route": "/industries/restaurants",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 430,
+    "route": "/assessment",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 430,
+    "route": "/pricing",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 430,
+    "route": "/contact",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 430,
+    "route": "/login",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 768,
+    "route": "/",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 768,
+    "route": "/ai-solutions",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 768,
+    "route": "/erp-solutions",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 768,
+    "route": "/industries",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 768,
+    "route": "/industries/restaurants",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 768,
+    "route": "/assessment",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 768,
+    "route": "/pricing",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 768,
+    "route": "/contact",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 768,
+    "route": "/login",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1024,
+    "route": "/",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1024,
+    "route": "/ai-solutions",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1024,
+    "route": "/erp-solutions",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1024,
+    "route": "/industries",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1024,
+    "route": "/industries/restaurants",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1024,
+    "route": "/assessment",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1024,
+    "route": "/pricing",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1024,
+    "route": "/contact",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1024,
+    "route": "/login",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1440,
+    "route": "/",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1440,
+    "route": "/ai-solutions",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1440,
+    "route": "/erp-solutions",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1440,
+    "route": "/industries",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1440,
+    "route": "/industries/restaurants",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1440,
+    "route": "/assessment",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1440,
+    "route": "/pricing",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1440,
+    "route": "/contact",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1440,
+    "route": "/login",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1920,
+    "route": "/",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1920,
+    "route": "/ai-solutions",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1920,
+    "route": "/erp-solutions",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1920,
+    "route": "/industries",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1920,
+    "route": "/industries/restaurants",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1920,
+    "route": "/assessment",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1920,
+    "route": "/pricing",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1920,
+    "route": "/contact",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  },
+  {
+    "width": 1920,
+    "route": "/login",
+    "overflow": false,
+    "broken": [],
+    "old": false
+  }
+]

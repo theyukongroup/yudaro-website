@@ -45,18 +45,21 @@ const groups = [
       ['Business Automation', '/resources/business-automation'],
       ['Industry Resources', '/resources/industries/wholesale-distribution'],
       ['Case Studies', '/case-studies'],
-      ['How Nexavoris Works', '/how-nexavoris-works'],
+      ['How Yudaro Works', '/how-yudaro-works'],
     ],
   },
 ] as const;
 
 export function MobileNavigation({ signedIn, accountHref }: Props) {
   const [open, setOpen] = useState(false);
+  const dialog = useRef<HTMLDialogElement>(null);
   const closeButton = useRef<HTMLButtonElement>(null);
   const menuButton = useRef<HTMLButtonElement>(null);
   useEffect(() => {
     if (!open) return;
     const previous = document.body.style.overflow;
+    const trigger = menuButton.current;
+    dialog.current?.showModal();
     document.body.style.overflow = 'hidden';
     closeButton.current?.focus();
     const escape = (event: KeyboardEvent) => {
@@ -66,7 +69,7 @@ export function MobileNavigation({ signedIn, accountHref }: Props) {
     return () => {
       document.body.style.overflow = previous;
       document.removeEventListener('keydown', escape);
-      menuButton.current?.focus();
+      trigger?.focus();
     };
   }, [open]);
   return (
@@ -83,12 +86,7 @@ export function MobileNavigation({ signedIn, accountHref }: Props) {
         <Menu aria-hidden="true" />
       </button>
       {open && (
-        <div
-          className="mobile-menu-backdrop"
-          onMouseDown={(event) => {
-            if (event.target === event.currentTarget) setOpen(false);
-          }}
-        >
+        <dialog ref={dialog} className="mobile-menu-backdrop" aria-label="Website navigation" onCancel={() => setOpen(false)}>
           <aside
             id="mobile-navigation"
             className="mobile-menu-drawer"
@@ -98,11 +96,11 @@ export function MobileNavigation({ signedIn, accountHref }: Props) {
               <a
                 href="/"
                 onClick={() => setOpen(false)}
-                aria-label="Nexavoris home"
+                aria-label="Yudaro home"
               >
                 <Image
-                  src="/nexavoris-logo.png"
-                  alt="Nexavoris AI & ERP Systems"
+                  src="/yudaro-logo.png"
+                  alt="Yudaro AI & ERP Systems"
                   width={190}
                   height={95}
                 />
@@ -118,9 +116,6 @@ export function MobileNavigation({ signedIn, accountHref }: Props) {
             </div>
             <nav
               aria-label="Complete website navigation"
-              onClick={(event) => {
-                if ((event.target as HTMLElement).closest('a')) setOpen(false);
-              }}
             >
               <a href="/">Home</a>
               {groups.map((group) => (
@@ -131,7 +126,7 @@ export function MobileNavigation({ signedIn, accountHref }: Props) {
                   </summary>
                   <div>
                     {group.links.map(([label, href]) => (
-                      <a key={href} href={href}>
+                      <a key={href} href={href} onClick={() => setOpen(false)}>
                         {label}
                       </a>
                     ))}
@@ -143,7 +138,7 @@ export function MobileNavigation({ signedIn, accountHref }: Props) {
               <a href="/contact">Contact</a>
             </nav>
             <section className="mobile-member-promo">
-              <span>FREE NEXAVORIS BUSINESS TOOLS</span>
+              <span>FREE YUDARO BUSINESS TOOLS</span>
               <h2>
                 See how ready your business is for AI + ERP and receive your
                 personalized recommendations.
@@ -179,7 +174,7 @@ export function MobileNavigation({ signedIn, accountHref }: Props) {
               <LanguageSelector />
             </section>
           </aside>
-        </div>
+        </dialog>
       )}
     </>
   );

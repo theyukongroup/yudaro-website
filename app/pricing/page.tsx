@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { ArrowRight, BrainCircuit, Boxes, Check, LifeBuoy } from 'lucide-react';
 import { pageMetadata } from '@/lib/seo';
 
-export const metadata: Metadata = pageMetadata('Pricing', 'Planning-level pricing for private enterprise AI, ERP implementation, and ongoing Nexavoris support.', '/pricing');
+export const metadata: Metadata = pageMetadata('Pricing', 'Planning-level pricing for private enterprise AI, ERP implementation, and ongoing Yudaro support.', '/pricing');
 
 const aiPlans = [
   { name:'AI Foundation', price:'$7,500', note:'starting investment', fit:'For small teams centralizing company knowledge', features:['Private knowledge assistant','Up to 2,500 source documents','SOP and policy search','Core user permissions','Administrator training','60-day launch support'] },

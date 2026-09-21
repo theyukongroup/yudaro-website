@@ -118,7 +118,7 @@ function translateTree(
 function selectedLocale(): Locale {
   const fromUrl = new URLSearchParams(window.location.search).get('lang');
   if (isLocale(fromUrl)) return fromUrl;
-  const stored = window.localStorage.getItem('nexavoris-language');
+  const stored = window.localStorage.getItem('yudaro-language');
   return isLocale(stored) ? stored : 'en';
 }
 export function LanguageRuntime() {
@@ -151,7 +151,7 @@ export function LanguageSelector() {
   useEffect(() => setLocale(selectedLocale()), []);
   const changeLanguage = (next: Locale) => {
     setLocale(next);
-    window.localStorage.setItem('nexavoris-language', next);
+    window.localStorage.setItem('yudaro-language', next);
     const url = new URL(window.location.href);
     if (next === 'en') url.searchParams.delete('lang');
     else url.searchParams.set('lang', next);
