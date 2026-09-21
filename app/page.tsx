@@ -1,49 +1,508 @@
-import { ArrowRight, Database, Sparkles, Workflow, Users, BrainCircuit, Boxes, Search, ChartNoAxesCombined, FileText, GraduationCap, MonitorSmartphone, Wrench, Factory, Store, HardHat, Truck, Check, UtensilsCrossed } from 'lucide-react';
+import Link from 'next/link';
+import {
+  ArrowRight,
+  Sparkles,
+  Users,
+  Search,
+  ChartNoAxesCombined,
+  FileText,
+  GraduationCap,
+  MonitorSmartphone,
+  Wrench,
+  Factory,
+  Store,
+  HardHat,
+  Truck,
+  Check,
+  UtensilsCrossed,
+} from 'lucide-react';
 import Image from 'next/image';
+import {
+  HeroSignal,
+  Ecosystem,
+  AIConsole,
+  ERPModules,
+  WorkflowDemo,
+  FlowLine,
+  KineticWords,
+} from '@/components/yudaro-visuals';
+import { MagneticLink } from '@/components/motion-system';
 import type { Metadata } from 'next';
 import { pageMetadata } from '@/lib/seo';
-export const metadata: Metadata = pageMetadata('Yudaro | Private AI, ERP & Business Automation', 'Yudaro AI & ERP Systems connects Private AI, Odoo ERP, AI + ERP integration, and business automation for growing operational companies.', '');
-const layers=[{label:'Employees',icon:Users},{label:'Private AI',icon:BrainCircuit},{label:'ERP',icon:Boxes},{label:'Company Data',icon:Database},{label:'Automated Processes',icon:Workflow}];
-const problems=['Hours lost searching for information','Critical procedures live with experienced employees','Data scattered across spreadsheets and software','No easy access to real-time management insight','Administrative work consumes skilled labor','Business systems do not communicate'];
-const problemImages=[
-  {src:'/opportunity/information-search.webp',alt:'Magnifying glass among rows of business files'},
-  {src:'/opportunity/knowledge-transfer.webp',alt:'Experienced hands passing a process binder and precision tool'},
-  {src:'/opportunity/scattered-data.webp',alt:'Disconnected reports, data cards, and display panels'},
-  {src:'/opportunity/management-insight.webp',alt:'Management dashboard partially obscured behind shutters'},
-  {src:'/opportunity/administrative-work.webp',alt:'Skilled work tools surrounded by administrative paperwork'},
-  {src:'/opportunity/disconnected-systems.webp',alt:'Two business machines with incompatible connectors'},
+export const metadata: Metadata = pageMetadata(
+  'Yudaro | Private AI, ERP & Business Automation',
+  'Yudaro AI & ERP Systems connects Private AI, Odoo ERP, AI + ERP integration, and business automation for growing operational companies.',
+  '',
+);
+const problems = [
+  'Hours lost searching for information',
+  'Critical procedures live with experienced employees',
+  'Data scattered across spreadsheets and software',
+  'No easy access to real-time management insight',
+  'Administrative work consumes skilled labor',
+  'Business systems do not communicate',
 ];
-const modules=['Sales','CRM','Purchasing','Inventory','Accounting integration','Field service','Project management','Employee management','Website','Memberships & subscriptions','Business reporting'];
-const moduleImages=[
-  {src:'/erp-modules/sales.webp',alt:'Handshake and product samples representing sales'},
-  {src:'/erp-modules/crm.webp',alt:'Connected customer profiles representing CRM'},
-  {src:'/erp-modules/purchasing.webp',alt:'Procurement desk with supplier folders and approval stamp'},
-  {src:'/erp-modules/inventory.webp',alt:'Organized warehouse shelves and inventory scanner'},
-  {src:'/erp-modules/accounting-integration.webp',alt:'Balanced ledgers representing accounting integration'},
-  {src:'/erp-modules/field-service.webp',alt:'Field technician using a tablet beside service equipment'},
-  {src:'/erp-modules/project-management.webp',alt:'Project timeline with plans and material samples'},
-  {src:'/erp-modules/employee-management.webp',alt:'Organized employee profiles and reporting structure'},
-  {src:'/erp-modules/website.webp',alt:'Responsive ecommerce website on desktop and mobile'},
-  {src:'/erp-modules/memberships-subscriptions.webp',alt:'Recurring membership cards and delivery boxes'},
-  {src:'/erp-modules/business-reporting.webp',alt:'Business charts and reports under review'},
+const problemImages = [
+  {
+    src: '/opportunity/information-search.webp',
+    alt: 'Magnifying glass among rows of business files',
+  },
+  {
+    src: '/opportunity/knowledge-transfer.webp',
+    alt: 'Experienced hands passing a process binder and precision tool',
+  },
+  {
+    src: '/opportunity/scattered-data.webp',
+    alt: 'Disconnected reports, data cards, and display panels',
+  },
+  {
+    src: '/opportunity/management-insight.webp',
+    alt: 'Management dashboard partially obscured behind shutters',
+  },
+  {
+    src: '/opportunity/administrative-work.webp',
+    alt: 'Skilled work tools surrounded by administrative paperwork',
+  },
+  {
+    src: '/opportunity/disconnected-systems.webp',
+    alt: 'Two business machines with incompatible connectors',
+  },
 ];
-const queries=["Show me last month's sales by salesperson.","Which customers haven't ordered in 60 days?","Create a quotation for this customer.","Which inventory items are running low?","Summarize today's outstanding deliveries.","Generate a purchasing recommendation."];
-const automations=['Automatic quotations','Customer follow-up','Purchase order generation','Inventory alerts','Management reports','Recurring billing','Workflow approvals','Document processing'];
-const industries=[['Wholesale & Distribution',Truck,'/industries'],['HVAC & Field Service',Wrench,'/industries'],['Construction',HardHat,'/industries'],['Retail',Store,'/industries'],['Manufacturing',Factory,'/industries'],['Professional Services',Users,'/industries'],['Restaurants',UtensilsCrossed,'/industries/restaurants']] as const;
-const process=['Discovery','Business Process Analysis','System Design','Implementation','Data Migration','Employee Training','AI Integration','Ongoing Support'];
-export default function Home(){return <main>
-  <section className="hero section-shell"><div className="hero-grid"/><div className="hero-copy"><div className="eyebrow"><Sparkles size={14}/> AI + ERP, engineered around your business</div><h1>AI That Understands<br/>Your Business.<br/><span>ERP That Runs It.</span></h1><p>Yudaro AI &amp; ERP Systems combines Private AI, Odoo ERP, AI ERP integration, and business automation to help growing companies connect knowledge with daily operations.</p><div className="actions"><a className="button primary" href="/assessment">Get My Free AI + ERP Assessment <ArrowRight size={17}/></a><a className="button secondary" href="/ai-erp">Explore AI ERP</a></div><div className="trust-row"><span>PRIVATE BY DESIGN</span><span>BUSINESS-FIRST</span><span>BUILT FOR OPERATIONS</span></div></div>
-  <div className="system-map"><div className="map-label">YOUR INTEGRATED OPERATING SYSTEM</div>{layers.map(({label,icon:Icon},i)=><div className="map-row" key={label} style={{animationDelay:`${i*120}ms`}}><div className="map-icon"><Icon size={18}/></div><span>{label}</span>{i<4&&<div className="map-flow"><i/></div>}</div>)}<div className="map-status"><i/> Systems connected · Knowledge active</div></div></section>
-  <section className="section-shell intro" id="solutions"><div><span className="section-index">01 / THE OPPORTUNITY</span><h2>Turn operational complexity into a competitive advantage.</h2></div><p>Disconnected systems create friction. Yudaro connects the knowledge your team relies on with the systems that move your business forward.</p></section>
-  <section className="section-shell problem-grid">{problems.map((x,i)=><article key={x}><div className="problem-visual"><Image src={problemImages[i].src} alt={problemImages[i].alt} width={900} height={900} sizes="(max-width: 640px) 100vw, (max-width: 1000px) 50vw, 33vw"/></div><div className="problem-copy"><b>{String(i+1).padStart(2,'0')}</b><p>{x}</p></div></article>)}</section>
-  <section className="member-promo section-shell"><div><span className="section-index">FREE BUSINESS ASSESSMENT</span><h2>How ready is your business for AI + ERP?</h2><p>Take the free Yudaro Business Technology Assessment to see where AI, ERP, workflow automation, and better data could make the biggest difference.</p><a className="button primary" href="/assessment">Get My Free Score <ArrowRight size={17}/></a><small>Free • About 5 minutes • No credit card required</small></div><div className="member-promo-scores" aria-label="Example readiness scores"><span>AI Readiness<b>62/100</b></span><span>ERP Readiness<b>74/100</b></span><span>Automation Potential<b>81/100</b></span><span>Data Readiness<b>67/100</b></span></div></section>
-  <section className="band section-shell split"><div><span className="section-index">02 / PRIVATE ENTERPRISE AI</span><h2>Make your company knowledge accessible, secure, and useful.</h2><p>Build a private AI system around your internal documents, SOPs, product information, and business expertise. Deploy on dedicated customer hardware or controlled infrastructure based on your requirements.</p><a className="text-link" href="/ai-solutions">Explore AI solutions <ArrowRight size={16}/></a></div><div className="capability-list">{[[Search,'SOP & knowledge search'],[GraduationCap,'Employee training'],[ChartNoAxesCombined,'Management assistance'],[FileText,'Document analysis']].map(([I,t])=><div key={String(t)}>{typeof I!=='string'&&<I size={19}/>}<span>{String(t)}</span><Check size={15}/></div>)}</div></section>
-  <section className="section-shell erp-section"><div className="section-head"><span className="section-index">03 / ERP SYSTEMS</span><h2>A connected platform for every part of your operation.</h2><p>We consult, implement, and customize modern ERP systems—including Odoo—without forcing your business into a one-size-fits-all model.</p></div><div className="module-cloud">{modules.map((m,i)=><article key={m}><div><Image src={moduleImages[i].src} alt={moduleImages[i].alt} width={760} height={760} sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw"/></div><span>{m}</span></article>)}</div></section>
-  <section className="integration" id="ai-erp"><div className="section-shell"><div className="section-head centered"><span className="section-index">04 / THE YUDARO DIFFERENCE</span><h2>AI is more powerful when it can act on your business.</h2><p>Connect natural-language intelligence to real operational data across CRM, sales, inventory, purchasing, accounting, and operations.</p></div><div className="architecture"><div>EMPLOYEE</div><ArrowRight/><div className="active">AI ASSISTANT</div><ArrowRight/><div>ERP CORE</div><ArrowRight/><div className="nodes"><span>CRM</span><span>SALES</span><span>INVENTORY</span><span>OPERATIONS</span></div></div><div className="query-grid">{queries.map(q=><div key={q}><Sparkles size={14}/><span>“{q}”</span></div>)}</div><div className="center-action"><a className="button primary" href="/ai-erp">See AI + ERP in action <ArrowRight size={17}/></a></div></div></section>
-  <section className="section-shell automation"><div className="section-head"><span className="section-index">05 / BUSINESS AUTOMATION</span><h2>Remove the repetitive work between systems.</h2></div><div>{automations.map(a=><span key={a}><Check size={14}/>{a}</span>)}</div></section>
-  <section className="band section-shell split website-band"><div><span className="section-index">06 / WEBSITE DESIGN</span><h2>A polished digital presence, connected to your business.</h2><p>Strategy, design, development, ecommerce, and integrations in one practical engagement—with clear packages starting at $2,500.</p><a className="text-link" href="/website-design">Explore website design & pricing <ArrowRight size={16}/></a></div><div className="website-preview"><MonitorSmartphone size={42}/><strong>Designed to earn trust.</strong><span>Built to convert. Ready to grow.</span></div></section>
-  <section className="section-shell industries"><div className="section-head"><span className="section-index">07 / INDUSTRIES</span><h2>Built for companies where operations matter.</h2></div><div className="industry-grid">{industries.map(([name,I,href])=><a href={href} key={String(name)}><I size={23}/><span>{String(name)}</span><ArrowRight size={16}/></a>)}</div></section>
-  <section className="process" id="process"><div className="section-shell"><div className="section-head"><span className="section-index">08 / IMPLEMENTATION</span><h2>A disciplined path from complexity to clarity.</h2></div><div className="process-track">{process.map((p,i)=><div key={p}><b>{String(i+1).padStart(2,'0')}</b><span>{p}</span></div>)}</div></div></section>
-  <section className="section-shell why"><div><span className="section-index">09 / WHY YUDARO</span><h2>Technology designed around business outcomes.</h2></div><div>{['Business-first approach','Private enterprise AI','Integrated AI + ERP architecture','Long-term implementation support'].map((x,i)=><article key={x}><b>0{i+1}</b><h3>{x}</h3></article>)}</div></section>
-  <section className="cta"><div className="section-shell"><span className="section-index">START THE CONVERSATION</span><h2>Your business already has the data.<br/>Yudaro helps you put it to work.</h2><a className="button primary" href="/contact">Schedule a Consultation <ArrowRight size={17}/></a></div></section>
- </main>}
+const modules = [
+  'Sales',
+  'CRM',
+  'Purchasing',
+  'Inventory',
+  'Accounting integration',
+  'Field service',
+  'Project management',
+  'Employee management',
+  'Website',
+  'Memberships & subscriptions',
+  'Business reporting',
+];
+const moduleImages = [
+  {
+    src: '/erp-modules/sales.webp',
+    alt: 'Handshake and product samples representing sales',
+  },
+  {
+    src: '/erp-modules/crm.webp',
+    alt: 'Connected customer profiles representing CRM',
+  },
+  {
+    src: '/erp-modules/purchasing.webp',
+    alt: 'Procurement desk with supplier folders and approval stamp',
+  },
+  {
+    src: '/erp-modules/inventory.webp',
+    alt: 'Organized warehouse shelves and inventory scanner',
+  },
+  {
+    src: '/erp-modules/accounting-integration.webp',
+    alt: 'Balanced ledgers representing accounting integration',
+  },
+  {
+    src: '/erp-modules/field-service.webp',
+    alt: 'Field technician using a tablet beside service equipment',
+  },
+  {
+    src: '/erp-modules/project-management.webp',
+    alt: 'Project timeline with plans and material samples',
+  },
+  {
+    src: '/erp-modules/employee-management.webp',
+    alt: 'Organized employee profiles and reporting structure',
+  },
+  {
+    src: '/erp-modules/website.webp',
+    alt: 'Responsive ecommerce website on desktop and mobile',
+  },
+  {
+    src: '/erp-modules/memberships-subscriptions.webp',
+    alt: 'Recurring membership cards and delivery boxes',
+  },
+  {
+    src: '/erp-modules/business-reporting.webp',
+    alt: 'Business charts and reports under review',
+  },
+];
+const queries = [
+  "Show me last month's sales by salesperson.",
+  "Which customers haven't ordered in 60 days?",
+  'Create a quotation for this customer.',
+  'Which inventory items are running low?',
+  "Summarize today's outstanding deliveries.",
+  'Generate a purchasing recommendation.',
+];
+const automations = [
+  'Automatic quotations',
+  'Customer follow-up',
+  'Purchase order generation',
+  'Inventory alerts',
+  'Management reports',
+  'Recurring billing',
+  'Workflow approvals',
+  'Document processing',
+];
+const industries = [
+  ['Wholesale & Distribution', Truck, '/industries'],
+  ['HVAC & Field Service', Wrench, '/industries'],
+  ['Construction', HardHat, '/industries'],
+  ['Retail', Store, '/industries'],
+  ['Manufacturing', Factory, '/industries'],
+  ['Professional Services', Users, '/industries'],
+  ['Restaurants', UtensilsCrossed, '/industries/restaurants'],
+] as const;
+const process = [
+  'Discovery',
+  'Business Process Analysis',
+  'System Design',
+  'Implementation',
+  'Data Migration',
+  'Employee Training',
+  'AI Integration',
+  'Ongoing Support',
+];
+export default function Home() {
+  return (
+    <main className="momentum-home">
+      <section className="hero section-shell">
+        <div className="hero-grid" />
+        <div className="hero-copy">
+          <div className="eyebrow">
+            <Sparkles size={14} /> AI + ERP, engineered around your business
+          </div>
+          <h1>
+            AI + ERP.
+            <br />
+            Built around
+            <br />
+            <span>your business.</span>
+          </h1>
+          <p>
+            Yudaro AI &amp; ERP Systems combines Private AI, Odoo ERP, AI ERP
+            integration, and business automation to help growing companies
+            connect knowledge with daily operations.
+          </p>
+          <div className="actions">
+            <MagneticLink href="/assessment">
+              Take the Free Assessment <ArrowRight size={17} />
+            </MagneticLink>
+            <Link className="button secondary" href="/ai-erp">
+              Explore AI ERP
+            </Link>
+          </div>
+          <div className="trust-row">
+            <span>PRIVATE BY DESIGN</span>
+            <span>BUSINESS-FIRST</span>
+            <span>BUILT FOR OPERATIONS</span>
+          </div>
+        </div>
+        <HeroSignal />
+      </section>
+      <section className="section-shell intro" id="solutions">
+        <div>
+          <span className="section-index">01 / THE OPPORTUNITY</span>
+          <h2>
+            Disconnected systems.
+            <br />
+            Disconnected decisions.
+          </h2>
+        </div>
+        <p>
+          Disconnected systems create friction. Yudaro connects the knowledge
+          your team relies on with the systems that move your business forward.
+        </p>
+      </section>
+      <section
+        className="section-shell problem-grid"
+        aria-label="Common operational challenges"
+      >
+        {problems.map((x, i) => (
+          <article key={x}>
+            <div className="problem-visual">
+              <Image
+                src={problemImages[i].src}
+                alt={problemImages[i].alt}
+                width={900}
+                height={900}
+                sizes="(max-width: 640px) 100vw, (max-width: 1000px) 50vw, 33vw"
+              />
+            </div>
+            <div className="problem-copy">
+              <b>{String(i + 1).padStart(2, '0')}</b>
+              <p>{x}</p>
+            </div>
+          </article>
+        ))}
+      </section>
+      <section className="ecosystem-section section-shell">
+        <div className="section-head centered">
+          <span className="section-index">
+            ONE BUSINESS. ONE CONNECTED ECOSYSTEM.
+          </span>
+          <h2>
+            Great things happen
+            <br />
+            when everything connects.
+          </h2>
+          <p>Your people, knowledge, and operations. Connected by Yudaro.</p>
+        </div>
+        <Ecosystem />
+      </section>
+
+      <section className="band section-shell split">
+        <div>
+          <span className="section-index">02 / PRIVATE ENTERPRISE AI</span>
+          <h2>
+            Your company has the knowledge.
+            <br />
+            Now make it usable.
+          </h2>
+          <p>
+            Build a private AI system around your internal documents, SOPs,
+            product information, and business expertise. Deploy on dedicated
+            customer hardware or controlled infrastructure based on your
+            requirements.
+          </p>
+          <Link className="text-link" href="/ai-solutions">
+            Explore AI solutions <ArrowRight size={16} />
+          </Link>
+        </div>
+        <div className="private-ai-visual">
+          <AIConsole />
+          <div className="capability-list">
+            {[
+              [Search, 'SOP & knowledge search'],
+              [GraduationCap, 'Employee training'],
+              [ChartNoAxesCombined, 'Management assistance'],
+              [FileText, 'Document analysis'],
+            ].map(([I, t]) => (
+              <div key={String(t)}>
+                {typeof I !== 'string' && <I size={19} />}
+                <span>{String(t)}</span>
+                <Check size={15} />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section className="section-shell erp-section">
+        <div className="section-head">
+          <span className="section-index">03 / ERP SYSTEMS</span>
+          <h2>A connected platform for every part of your operation.</h2>
+          <p>
+            We consult, implement, and customize modern ERP systems—including
+            Odoo—without forcing your business into a one-size-fits-all model.
+          </p>
+        </div>
+        <ERPModules />
+        <div className="module-cloud">
+          {modules.map((m, i) => (
+            <article key={m}>
+              <div>
+                <Image
+                  src={moduleImages[i].src}
+                  alt={moduleImages[i].alt}
+                  width={760}
+                  height={760}
+                  sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw"
+                />
+              </div>
+              <span>{m}</span>
+            </article>
+          ))}
+        </div>
+      </section>
+      <section className="integration" id="ai-erp">
+        <div className="section-shell">
+          <div className="section-head centered">
+            <span className="section-index">04 / THE YUDARO DIFFERENCE</span>
+            <h2>
+              ERP connects the data.
+              <br />
+              AI connects the dots.
+            </h2>
+            <p>
+              Connect natural-language intelligence to real operational data
+              across CRM, sales, inventory, purchasing, accounting, and
+              operations.
+            </p>
+          </div>
+          <WorkflowDemo />
+          <div className="query-grid">
+            {queries.map((q) => (
+              <div key={q}>
+                <Sparkles size={14} />
+                <span>“{q}”</span>
+              </div>
+            ))}
+          </div>
+          <div className="center-action">
+            <Link className="button primary" href="/ai-erp">
+              See AI + ERP in action <ArrowRight size={17} />
+            </Link>
+          </div>
+        </div>
+      </section>
+      <section className="section-shell automation">
+        <FlowLine />
+        <div className="section-head">
+          <span className="section-index">05 / BUSINESS AUTOMATION</span>
+          <h2>
+            Less repetition.
+            <br />
+            More room to <KineticWords />
+          </h2>
+          <p>
+            Remove the repetitive work between systems so your team can focus on
+            what comes next.
+          </p>
+        </div>
+        <div>
+          {automations.map((a) => (
+            <span key={a}>
+              <Check size={14} />
+              {a}
+            </span>
+          ))}
+        </div>
+      </section>
+      <section className="band section-shell split website-band">
+        <div>
+          <span className="section-index">06 / WEBSITE DESIGN</span>
+          <h2>A polished digital presence, connected to your business.</h2>
+          <p>
+            Strategy, design, development, ecommerce, and integrations in one
+            practical engagement—with clear packages starting at $2,500.
+          </p>
+          <Link className="text-link" href="/website-design">
+            Explore website design & pricing <ArrowRight size={16} />
+          </Link>
+        </div>
+        <div className="website-preview">
+          <MonitorSmartphone size={42} />
+          <strong>Designed to earn trust.</strong>
+          <span>Built to convert. Ready to grow.</span>
+        </div>
+      </section>
+      <section className="section-shell industries">
+        <div className="section-head">
+          <span className="section-index">07 / INDUSTRIES</span>
+          <h2>Built for companies where operations matter.</h2>
+        </div>
+        <div className="industry-grid">
+          {industries.map(([name, I, href]) => (
+            <Link href={href} key={String(name)}>
+              <div className="home-industry-image">
+                <Image
+                  src={
+                    name === 'Restaurants'
+                      ? '/restaurants/chinese-buffet.png'
+                      : `/industries/${({ 'Wholesale & Distribution': 'wholesale-distribution', 'HVAC & Field Service': 'hvac-field-service', Construction: 'construction', Retail: 'retail', Manufacturing: 'manufacturing', 'Professional Services': 'service-companies' } as Record<string, string>)[name]}.webp`
+                  }
+                  alt={`${name} operations`}
+                  width={640}
+                  height={440}
+                  sizes="(max-width:640px) 90vw, (max-width:1000px) 45vw, 30vw"
+                />
+              </div>
+              <I size={23} />
+              <span>{String(name)}</span>
+              <ArrowRight size={16} />
+            </Link>
+          ))}
+        </div>
+      </section>
+      <section className="process" id="process">
+        <div className="section-shell">
+          <div className="section-head">
+            <span className="section-index">08 / IMPLEMENTATION</span>
+            <h2>A disciplined path from complexity to clarity.</h2>
+          </div>
+          <div className="process-track">
+            {process.map((p, i) => (
+              <div key={p}>
+                <b>{String(i + 1).padStart(2, '0')}</b>
+                <span>{p}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section className="section-shell why">
+        <div>
+          <span className="section-index">09 / WHY YUDARO</span>
+          <h2>Technology designed around business outcomes.</h2>
+        </div>
+        <div>
+          {[
+            'Business-first approach',
+            'Private enterprise AI',
+            'Integrated AI + ERP architecture',
+            'Long-term implementation support',
+          ].map((x, i) => (
+            <article key={x}>
+              <b>0{i + 1}</b>
+              <h3>{x}</h3>
+            </article>
+          ))}
+        </div>
+      </section>
+      <section className="member-promo section-shell">
+        <div>
+          <span className="section-index">FREE BUSINESS ASSESSMENT</span>
+          <h2>How ready is your business for AI + ERP?</h2>
+          <p>
+            Take the free Yudaro Business Technology Assessment to see where AI,
+            ERP, workflow automation, and better data could make the biggest
+            difference.
+          </p>
+          <Link className="button primary" href="/assessment">
+            Get My Free Score <ArrowRight size={17} />
+          </Link>
+          <small>Free • About 5 minutes • No credit card required</small>
+        </div>
+        <div>
+          <span className="demo-label">ILLUSTRATIVE READINESS SCORES</span>
+          <div
+            className="member-promo-scores"
+            aria-label="Example readiness scores"
+          >
+            <span>
+              AI Readiness<b>62/100</b>
+            </span>
+            <span>
+              ERP Readiness<b>74/100</b>
+            </span>
+            <span>
+              Automation Potential<b>81/100</b>
+            </span>
+            <span>
+              Data Readiness<b>67/100</b>
+            </span>
+          </div>
+        </div>
+      </section>
+      <section className="cta" data-flow>
+        <FlowLine />
+        <div className="section-shell">
+          <span className="section-index">START THE CONVERSATION</span>
+          <h2>
+            Ready to build
+            <br />a smarter operation?
+          </h2>
+          <div className="actions">
+            <MagneticLink href="/assessment">
+              Take the Assessment <ArrowRight size={17} />
+            </MagneticLink>
+            <Link className="button secondary" href="/contact">
+              Book a Consultation
+            </Link>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}

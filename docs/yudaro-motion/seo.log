@@ -1,0 +1,6 @@
+
+> yudaro-website@0.1.0 audit:seo
+> node scripts/seo-regression.mjs http://127.0.0.1:3191
+
+SEO regression audit: 1004/1004 checks passed against http://127.0.0.1:3191
+PASS: canonical, hreflang, sitemap, robots, private isolation, and mobile-navigation source checks passed.

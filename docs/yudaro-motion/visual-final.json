@@ -1,0 +1,194 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "route": "/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1,
+      "canonical": "https://www.yudaro.com",
+      "overflowElements": [
+        "",
+        ""
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/ai-solutions",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1,
+      "canonical": "https://www.yudaro.com/ai-solutions",
+      "overflowElements": []
+    },
+    {
+      "width": 1440,
+      "route": "/erp-solutions",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1,
+      "canonical": "https://www.yudaro.com/erp-solutions",
+      "overflowElements": []
+    },
+    {
+      "width": 1440,
+      "route": "/ai-erp",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1,
+      "canonical": "https://www.yudaro.com/ai-erp",
+      "overflowElements": []
+    },
+    {
+      "width": 1440,
+      "route": "/industries",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1,
+      "canonical": "https://www.yudaro.com/industries",
+      "overflowElements": []
+    },
+    {
+      "width": 1440,
+      "route": "/industries/restaurants",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1,
+      "canonical": "https://www.yudaro.com/industries/restaurants",
+      "overflowElements": []
+    },
+    {
+      "width": 1440,
+      "route": "/assessment",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1,
+      "canonical": "https://www.yudaro.com/assessment",
+      "overflowElements": []
+    },
+    {
+      "width": 1440,
+      "route": "/about",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1,
+      "canonical": "https://www.yudaro.com/about",
+      "overflowElements": []
+    },
+    {
+      "width": 1440,
+      "route": "/contact",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1,
+      "canonical": "https://www.yudaro.com/contact",
+      "overflowElements": []
+    },
+    {
+      "width": 375,
+      "route": "/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1,
+      "canonical": "https://www.yudaro.com",
+      "overflowElements": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "width": 375,
+      "route": "/ai-solutions",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1,
+      "canonical": "https://www.yudaro.com/ai-solutions",
+      "overflowElements": []
+    },
+    {
+      "width": 375,
+      "route": "/erp-solutions",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1,
+      "canonical": "https://www.yudaro.com/erp-solutions",
+      "overflowElements": []
+    },
+    {
+      "width": 375,
+      "route": "/ai-erp",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1,
+      "canonical": "https://www.yudaro.com/ai-erp",
+      "overflowElements": []
+    },
+    {
+      "width": 375,
+      "route": "/industries",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1,
+      "canonical": "https://www.yudaro.com/industries",
+      "overflowElements": []
+    },
+    {
+      "width": 375,
+      "route": "/industries/restaurants",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1,
+      "canonical": "https://www.yudaro.com/industries/restaurants",
+      "overflowElements": []
+    },
+    {
+      "width": 375,
+      "route": "/assessment",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1,
+      "canonical": "https://www.yudaro.com/assessment",
+      "overflowElements": []
+    },
+    {
+      "width": 375,
+      "route": "/about",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1,
+      "canonical": "https://www.yudaro.com/about",
+      "overflowElements": []
+    },
+    {
+      "width": 375,
+      "route": "/contact",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1,
+      "canonical": "https://www.yudaro.com/contact",
+      "overflowElements": []
+    }
+  ],
+  "errors": []
+}

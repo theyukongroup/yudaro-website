@@ -1,6 +1,7 @@
+import Link from 'next/link';
 import type { Metadata } from 'next';
 import { headers } from 'next/headers';
-import { Manrope, Newsreader, Geist_Mono } from 'next/font/google';
+import { Manrope, Geist_Mono } from 'next/font/google';
 import Image from 'next/image';
 import { ArrowUpRight, Mail, MapPin, Phone } from 'lucide-react';
 import {
@@ -24,9 +25,12 @@ import './member.css';
 import './restaurants.css';
 import './fixes.css';
 import './yudaro.css';
+import './momentum.css';
+import { MotionSystem } from '@/components/motion-system';
+import { DesktopNavigation } from '@/components/desktop-navigation';
+import { FlowLine } from '@/components/yudaro-visuals';
 
 const sans = Manrope({ variable: '--font-sans', subsets: ['latin'] });
-const display = Newsreader({ variable: '--font-display', subsets: ['latin'] });
 const mono = Geist_Mono({ variable: '--font-mono', subsets: ['latin'] });
 export const metadata: Metadata = {
   title: {
@@ -49,10 +53,7 @@ export const metadata: Metadata = {
   },
   category: 'business technology services',
   icons: {
-    icon: [
-      { url: '/yudaro-mark.png', type: 'image/png' },
-
-    ],
+    icon: [{ url: '/yudaro-mark.png', type: 'image/png' }],
     apple: '/yudaro-mark.png',
   },
   openGraph: {
@@ -79,18 +80,6 @@ export const metadata: Metadata = {
     images: ['/yudaro-social.png'],
   },
 };
-const nav = [
-  ['AI Solutions', '/ai-solutions'],
-  ['ERP Solutions', '/erp-solutions'],
-  ['Website Design', '/website-design'],
-  ['AI + ERP', '/ai-erp'],
-  ['Equipment', '/equipment'],
-  ['Industries', '/industries'],
-  ['Resources', '/resources'],
-  ['Pricing', '/pricing'],
-  ['About', '/about'],
-];
-
 export default async function RootLayout({
   children,
 }: {
@@ -103,98 +92,105 @@ export default async function RootLayout({
   const member = await getChatGPTUser();
   return (
     <html lang={documentLanguage} suppressHydrationWarning>
-      <body className={`${sans.variable} ${display.variable} ${mono.variable}`}>
-        <a className="skip-link" href="#main-content">
+      <body className={`${sans.variable} ${mono.variable} momentum-site`}>
+        <Link className="skip-link" href="#main-content">
           Skip to main content
-        </a>
-        <LanguageRuntime />
-        <header className="site-header">
-          <a className="brand logo-brand" href="/" aria-label="Yudaro home">
-            <Image
-              src="/yudaro-logo.png"
-              alt="Yudaro AI & ERP Systems"
-              width={210}
-              height={105}
-              priority
-            />
-          </a>
-          <nav className="desktop-navigation" aria-label="Primary navigation">
-            {nav.map(([label, href]) => label === 'Industries' ? (
-              <div className="nav-dropdown" key={label}>
-                <a href={href} aria-haspopup="true">{label}</a>
-                <div className="nav-dropdown-menu">
-                  <a href="/industries">All Industries</a>
-                  <a href="/resources/industries/wholesale-distribution">Wholesale &amp; Distribution</a>
-                  <a href="/resources/industries/hvac-field-service">HVAC &amp; Field Service</a>
-                  <a href="/resources/industries/construction">Construction</a>
-                  <a href="/resources/industries/retail">Retail</a>
-                  <a href="/resources/industries/manufacturing">Manufacturing</a>
-                  <a href="/resources/industries/professional-services">Professional Services</a>
-                  <a href="/industries/restaurants">Restaurant</a>
-                </div>
-              </div>
-            ) : <a key={label} href={href}>{label}</a>)}
-          </nav>
-          <LanguageSelector />
-          <a
-            className="member-header-link"
-            href={member ? '/account' : chatGPTSignInPath('/account')}
-            target={member ? undefined : '_top'}
-          >
-            {member ? 'My Account' : 'Sign In'}
-          </a>
-          <a className="nav-cta desktop-assessment" href="/assessment">
-            Free AI + ERP Assessment <ArrowUpRight size={16} />
-          </a>
-          <MobileNavigation
-            signedIn={Boolean(member)}
-            accountHref={chatGPTSignInPath('/account')}
-          />
-        </header>
-        <div id="main-content">{children}</div>
-        <footer className="site-footer">
-          <div className="footer-company">
-            <a
-              className="logo-brand footer-logo"
+        </Link>
+        <MotionSystem>
+          <LanguageRuntime />
+          <header className="site-header">
+            <Link
+              className="brand logo-brand"
               href="/"
               aria-label="Yudaro home"
             >
               <Image
                 src="/yudaro-logo.png"
                 alt="Yudaro AI & ERP Systems"
-                width={205}
-                height={103}
+                width={210}
+                height={105}
+                priority
               />
-            </a>
-            <p>AI that understands your business. ERP that runs it.</p>
-          </div>
-          <address className="footer-contact">
-            <a href="/free-account">Free Business Account</a>
-            <a href="/how-yudaro-works">How Yudaro Works</a>
-            <a href="/case-studies">Case Studies</a>
-            <a href="/trust">Trust &amp; Data Practices</a>
-            <span>
-              <MapPin size={16} />
-              <span>
-                13366 Murphy Road
-                <br />
-                Stafford, TX 77477
+            </Link>
+            <DesktopNavigation />
+            <LanguageSelector />
+            <Link
+              className="member-header-link"
+              href={member ? '/account' : chatGPTSignInPath('/account')}
+              target={member ? undefined : '_top'}
+            >
+              {member ? 'My Account' : 'Sign In'}
+            </Link>
+            <Link className="nav-cta desktop-assessment" href="/assessment">
+              Free Assessment <ArrowUpRight size={16} />
+            </Link>
+            <MobileNavigation
+              signedIn={Boolean(member)}
+              accountHref={chatGPTSignInPath('/account')}
+            />
+          </header>
+          <div id="main-content">{children}</div>
+          <footer className="site-footer">
+            <div className="footer-statement">
+              <FlowLine />
+              <span className="section-index">
+                THE NEXT CHAPTER OF YOUR BUSINESS
               </span>
+              <h2>
+                Your business already has the data.
+                <br />
+                Let’s turn it into intelligence.
+              </h2>
+              <Link className="text-link" href="/contact">
+                Start the conversation <ArrowUpRight size={20} />
+              </Link>
+            </div>
+            <div className="footer-company">
+              <Link
+                className="logo-brand footer-logo"
+                href="/"
+                aria-label="Yudaro home"
+              >
+                <Image
+                  src="/yudaro-logo.png"
+                  alt="Yudaro AI & ERP Systems"
+                  width={205}
+                  height={103}
+                />
+              </Link>
+              <p>AI that understands your business. ERP that runs it.</p>
+            </div>
+            <address className="footer-contact">
+              <Link href="/free-account">Free Business Account</Link>
+              <Link href="/how-yudaro-works">How Yudaro Works</Link>
+              <Link href="/case-studies">Case Studies</Link>
+              <Link href="/trust">Trust &amp; Data Practices</Link>
+              <span>
+                <MapPin size={16} />
+                <span>
+                  13366 Murphy Road
+                  <br />
+                  Stafford, TX 77477
+                </span>
+              </span>
+              <Link href="tel:+12812588000">
+                <Phone size={16} />
+                281-258-8000
+              </Link>
+              <Link href="mailto:info@nexavoris.ai">
+                <Mail size={16} />
+                Contact our team
+              </Link>
+            </address>
+            <span className="footer-copyright">
+              © 2026 Yudaro. All rights reserved.
+              {' · '}
+              <Link href="/privacy">Privacy</Link>
+              {' · '}
+              <Link href="/terms">Terms</Link>
             </span>
-            <a href="tel:+12812588000">
-              <Phone size={16} />
-              281-258-8000
-            </a>
-            <a href="mailto:info@nexavoris.ai">
-              <Mail size={16} />
-              Contact our team
-            </a>
-          </address>
-          <span className="footer-copyright">
-            © 2026 Yudaro. All rights reserved.
-            {' · '}<a href="/privacy">Privacy</a>{' · '}<a href="/terms">Terms</a>
-          </span>
-        </footer>
+          </footer>
+        </MotionSystem>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

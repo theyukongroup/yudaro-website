@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "Desktop mega menu and Escape",
+    "Menu closes when keyboard focus leaves",
+    "Ecosystem selection",
+    "Private AI query example",
+    "ERP module selector",
+    "Workflow stages",
+    "Global pause disables continuous motion",
+    "Offscreen network animation pauses",
+    "Mobile menu opens and closes",
+    "All 16 assessment questions reach results",
+    "Contact form preserves required-field validation",
+    "Industry dialog traps focus and closes with Escape",
+    "Reduced motion remains readable and interactive",
+    "Server-rendered content remains crawlable without JavaScript"
+  ]
+}
