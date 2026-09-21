@@ -2,7 +2,21 @@
 
 Private AI, ERP, Odoo implementation and business automation.
 
-This existing repository was reconciled with the Damian Vercel-compatible reference and rebranded for https://www.yudaro.com. It now runs standard Next.js with the reference's Supabase authentication/Postgres adapters.
+This existing repository was reconciled with the Damian Vercel-compatible reference and rebranded for https://yudaro.com. It now runs standard Next.js with the reference's Supabase authentication/Postgres adapters.
+
+**The apex is canonical.** `https://yudaro.com` serves; `www.yudaro.com`,
+`yudaro.ai` and `www.yudaro.ai` each redirect to it in one hop, keeping path and
+query. `NEXT_PUBLIC_SITE_URL` decides every canonical tag, sitemap entry and
+share-preview address, and is read at build time — changing it needs a redeploy.
+
+**Three files are Vercel-only shims. Never copy them over from an older
+reference.** `app/chatgpt-auth.ts` (the original trusts `oai-authenticated-user-*`
+request headers, which any client can send once off OpenAI Sites — copying it
+back is an authentication bypass), `lib/member-db.ts` (a D1-shaped adapter over
+Postgres: one connection per instance and one statement at a time, because
+concurrent queries pipelined down a single connection stall on Supabase's
+transaction pooler) and `lib/admin-auth.ts` (reads before writing; an
+unconditional same-row upsert on the read path wedged the admin area).
 
 ```powershell
 npm ci
@@ -22,7 +36,7 @@ See `YUDARO-RECONCILIATION.json` for selected reference changes and preserved ne
 ## Local files and GitHub sync
 
 The working folder is `C:\Users\l.leung\Documents\yudaro-website`.
-The private repository is https://github.com/theyukongroup/yudaro-website, on branch `main`.
+The repository is https://github.com/theyukongroup/yudaro-website, on branch `main`. It is **public** — do not commit anything here that should not be, and keep every credential in Vercel and Supabase rather than in the tree.
 
 Save website edits in this folder. A Codex background task checks every five minutes and runs `npm run sync:github` to commit and push saved changes. The computer and Codex must be running, with GitHub access available. You can also run that command manually for an immediate sync.
 
