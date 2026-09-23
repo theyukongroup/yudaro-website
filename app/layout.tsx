@@ -213,6 +213,7 @@ export default async function RootLayout({
                   '@id': `${SITE_URL}/#organization`,
                   name: 'Yudaro AI & ERP Systems',
                   alternateName: 'Yudaro',
+                  sameAs: ['https://www.linkedin.com/company/yudaro/'],
                   url: SITE_URL,
                   logo: `${SITE_URL}/yudaro-logo.png`,
                   image: `${SITE_URL}/yudaro-social.png`,
