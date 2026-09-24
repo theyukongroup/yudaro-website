@@ -99,7 +99,7 @@ export function MobileNavigation({ signedIn, accountHref }: Props) {
                 aria-label="Yudaro home"
               >
                 <Image
-                  src="/yudaro-logo.png"
+                  src="/yudaro-logo-2026.png"
                   alt="Yudaro AI & ERP Systems"
                   width={190}
                   height={95}

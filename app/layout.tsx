@@ -106,7 +106,7 @@ export default async function RootLayout({
               aria-label="Yudaro home"
             >
               <Image
-                src="/yudaro-logo.png"
+                src="/yudaro-logo-2026.png"
                 alt="Yudaro AI & ERP Systems"
                 width={210}
                 height={105}
@@ -163,7 +163,7 @@ export default async function RootLayout({
                 aria-label="Yudaro home"
               >
                 <Image
-                  src="/yudaro-logo.png"
+                  src="/yudaro-logo-2026.png"
                   alt="Yudaro AI & ERP Systems"
                   width={205}
                   height={103}
@@ -215,7 +215,7 @@ export default async function RootLayout({
                   alternateName: 'Yudaro',
                   sameAs: ['https://www.linkedin.com/company/yudaro/'],
                   url: SITE_URL,
-                  logo: `${SITE_URL}/yudaro-logo.png`,
+                  logo: `${SITE_URL}/yudaro-logo-2026.png`,
                   image: `${SITE_URL}/yudaro-social.png`,
                   telephone: '+1-281-258-8000',
                   address: {

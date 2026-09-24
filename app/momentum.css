@@ -2666,3 +2666,24 @@ dialog.story-modal-backdrop .story-modal {
   margin: auto;
 }
 
+
+/* Fit the complete wordmark inside its container at every breakpoint. */
+.site-header > .logo-brand,
+.site-footer .logo-brand {
+  overflow: visible;
+}
+.site-header > .logo-brand img,
+.site-footer .logo-brand img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+  margin: 0;
+}
+.mobile-menu-head img {
+  width: 190px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
