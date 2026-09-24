@@ -1,18 +1,151 @@
-import { SolutionPage } from '@/components/solution-page'; import { ScreenshotGallery } from '@/components/screenshot-gallery'; import { pageMetadata } from '@/lib/seo';
-export const metadata=pageMetadata('Private Enterprise AI Solutions','Secure company knowledge AI, SOP search, document intelligence, and AI automation.','/ai-solutions');
-const items=[
-  {title:'Private AI Server',body:'A controlled AI environment designed around your security, performance, and governance requirements.',image:{src:'/ai-solutions/private-ai-server.webp',alt:'Private server secured inside a locked cabinet'}},
-  {title:'Company Knowledge AI',body:'Turn internal documents, product information, policies, and expertise into a reliable knowledge layer.',image:{src:'/ai-solutions/company-knowledge-ai.webp',alt:'Organized company files and product knowledge connected to a central index'}},
-  {title:'SOP Search',body:'Let employees ask precise operational questions and receive answers grounded in approved procedures.',image:{src:'/ai-solutions/sop-search.webp',alt:'Magnifying glass focused on an approved procedure binder'}},
-  {title:'Employee Training AI',body:'Give new and experienced employees on-demand guidance based on company-specific knowledge.',image:{src:'/ai-solutions/employee-training-ai.webp',alt:'Employee using guided training materials on a tablet'}},
-  {title:'Management AI Assistant',body:'Summarize information, investigate trends, and support faster, better-informed decisions.',image:{src:'/ai-solutions/management-ai-assistant.webp',alt:'Executive decision dashboard and management briefing materials'}},
-  {title:'Document Intelligence',body:'Extract, compare, classify, and summarize information from business documents at scale.',image:{src:'/ai-solutions/document-intelligence.webp',alt:'Documents being sorted into classified information groups'}},
-  {title:'AI Business Automation',body:'Connect intelligence to workflows so routine requests can trigger controlled, auditable actions.',image:{src:'/ai-solutions/ai-business-automation.webp',alt:'Connected workflow stations processing a business request'}},
+import Link from 'next/link';
+import { ContentSections } from '@/components/search-content';
+import { contentByPath } from '@/lib/search-content';
+import { PageSchema, Breadcrumbs } from '@/components/structured-data';
+const detail = contentByPath.get('/ai-solutions')!;
+import { SolutionPage } from '@/components/solution-page';
+import { ScreenshotGallery } from '@/components/screenshot-gallery';
+import { pageMetadata } from '@/lib/seo';
+export const metadata = pageMetadata(
+  detail.title,
+  detail.description,
+  detail.path,
+);
+const items = [
+  {
+    title: 'Private AI Server',
+    body: 'A controlled AI environment designed around your security, performance, and governance requirements.',
+    image: {
+      src: '/ai-solutions/private-ai-server.webp',
+      alt: 'Private server secured inside a locked cabinet',
+    },
+  },
+  {
+    title: 'Company Knowledge AI',
+    body: 'Turn internal documents, product information, policies, and expertise into a reliable knowledge layer.',
+    image: {
+      src: '/ai-solutions/company-knowledge-ai.webp',
+      alt: 'Organized company files and product knowledge connected to a central index',
+    },
+  },
+  {
+    title: 'SOP Search',
+    body: 'Let employees ask precise operational questions and receive answers grounded in approved procedures.',
+    image: {
+      src: '/ai-solutions/sop-search.webp',
+      alt: 'Magnifying glass focused on an approved procedure binder',
+    },
+  },
+  {
+    title: 'Employee Training AI',
+    body: 'Give new and experienced employees on-demand guidance based on company-specific knowledge.',
+    image: {
+      src: '/ai-solutions/employee-training-ai.webp',
+      alt: 'Employee using guided training materials on a tablet',
+    },
+  },
+  {
+    title: 'Management AI Assistant',
+    body: 'Summarize information, investigate trends, and support faster, better-informed decisions.',
+    image: {
+      src: '/ai-solutions/management-ai-assistant.webp',
+      alt: 'Executive decision dashboard and management briefing materials',
+    },
+  },
+  {
+    title: 'Document Intelligence',
+    body: 'Extract, compare, classify, and summarize information from business documents at scale.',
+    image: {
+      src: '/ai-solutions/document-intelligence.webp',
+      alt: 'Documents being sorted into classified information groups',
+    },
+  },
+  {
+    title: 'AI Business Automation',
+    body: 'Connect intelligence to workflows so routine requests can trigger controlled, auditable actions.',
+    image: {
+      src: '/ai-solutions/ai-business-automation.webp',
+      alt: 'Connected workflow stations processing a business request',
+    },
+  },
 ];
 const screenshots = [
-  { src: '/showcase/open-webui/chat-light.png', width: 931, height: 379, alt: 'Open WebUI conversational workspace in light appearance', title: 'Private AI workspace', description: 'A clear, familiar workspace for approved AI models and company knowledge.' },
-  { src: '/showcase/open-webui/knowledge-light.png', width: 1035, height: 250, alt: 'Open WebUI company knowledge collections in light appearance', title: 'Company knowledge', description: 'Organize product information, policies and procedures into controlled knowledge collections.' },
-  { src: '/showcase/open-webui/documents-light.png', width: 1035, height: 270, alt: 'Open WebUI document library and collection access controls in light appearance', title: 'Controlled document library', description: 'Manage the source documents and access permissions behind your company knowledge.' },
-  { src: '/showcase/open-webui/assistants-light.png', width: 1026, height: 233, alt: 'Open WebUI library of specialized business assistants in light appearance', title: 'Purpose-built assistants', description: 'Give each role access to the business assistants and knowledge it needs.' },
+  {
+    src: '/showcase/open-webui/chat-light.png',
+    width: 931,
+    height: 379,
+    alt: 'Open WebUI conversational workspace in light appearance',
+    title: 'Private AI workspace',
+    description:
+      'A clear, familiar workspace for approved AI models and company knowledge.',
+  },
+  {
+    src: '/showcase/open-webui/knowledge-light.png',
+    width: 1035,
+    height: 250,
+    alt: 'Open WebUI company knowledge collections in light appearance',
+    title: 'Company knowledge',
+    description:
+      'Organize product information, policies and procedures into controlled knowledge collections.',
+  },
+  {
+    src: '/showcase/open-webui/documents-light.png',
+    width: 1035,
+    height: 270,
+    alt: 'Open WebUI document library and collection access controls in light appearance',
+    title: 'Controlled document library',
+    description:
+      'Manage the source documents and access permissions behind your company knowledge.',
+  },
+  {
+    src: '/showcase/open-webui/assistants-light.png',
+    width: 1026,
+    height: 233,
+    alt: 'Open WebUI library of specialized business assistants in light appearance',
+    title: 'Purpose-built assistants',
+    description:
+      'Give each role access to the business assistants and knowledge it needs.',
+  },
 ];
-export default function Page(){return <><SolutionPage eyebrow="PRIVATE ENTERPRISE AI" title="AI that knows your company—not the entire internet." intro="Yudaro creates private enterprise AI systems grounded in your documents, SOPs, products, and operating knowledge. Deployments may run on dedicated customer hardware or controlled infrastructure depending on your requirements." items={items}/><ScreenshotGallery eyebrow="OPEN WEBUI SHOWCASE" title="A practical interface for private enterprise AI." intro="We configure Open WebUI around your models, knowledge, permissions, and operating requirements—giving employees a familiar workspace without sacrificing control." screenshots={screenshots}/><div className="section-shell center-action"><a className="text-link" href="/resources/private-ai">Read the practical guide to private AI</a></div></>}
+export default function Page() {
+  return (
+    <>
+      <Breadcrumbs
+        items={[
+          { href: '/', label: 'Home' },
+          { href: '/solutions', label: 'Solutions' },
+          { href: detail.path, label: detail.title },
+        ]}
+      />
+      <PageSchema
+        path={detail.path}
+        title={detail.title}
+        description={detail.description}
+        service
+      />
+      <SolutionPage
+        eyebrow="PRIVATE ENTERPRISE AI"
+        title={detail.title}
+        intro="Yudaro creates private enterprise AI systems grounded in your documents, SOPs, products, and operating knowledge. Deployments may run on dedicated customer hardware or controlled infrastructure depending on your requirements."
+        items={items}
+      >
+        <ContentSections entry={detail} />
+      </SolutionPage>
+      <ScreenshotGallery
+        eyebrow="OPEN WEBUI SHOWCASE"
+        title="A practical interface for private enterprise AI."
+        intro="We configure Open WebUI around your models, knowledge, permissions, and operating requirements—giving employees a familiar workspace without sacrificing control."
+        screenshots={screenshots}
+      />
+      <div className="section-shell center-action">
+        <Link
+          prefetch={false}
+          className="text-link"
+          href="/resources/private-ai"
+        >
+          Read the practical guide to private AI
+        </Link>
+      </div>
+    </>
+  );
+}

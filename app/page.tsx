@@ -30,8 +30,8 @@ import { MagneticLink } from '@/components/motion-system';
 import type { Metadata } from 'next';
 import { pageMetadata } from '@/lib/seo';
 export const metadata: Metadata = pageMetadata(
-  'Yudaro | Private AI, ERP & Business Automation',
-  'Yudaro AI & ERP Systems connects Private AI, Odoo ERP, AI + ERP integration, and business automation for growing operational companies.',
+  'AI + ERP Systems | Private AI & Odoo ERP',
+  'Yudaro implements private AI, Odoo ERP and business automation for Houston-area and US businesses. Connect company knowledge with daily operations.',
   '',
 );
 const problems = [
@@ -174,7 +174,7 @@ export default function Home() {
             <Sparkles size={14} /> AI + ERP, engineered around your business
           </div>
           <h1>
-            AI + ERP.
+            AI + ERP systems.
             <br />
             Built around
             <br />
@@ -502,6 +502,20 @@ export default function Home() {
             </Link>
           </div>
         </div>
+      </section>
+      <section className="section-shell search-local">
+        <span className="section-index">
+          HOUSTON AREA / TEXAS / UNITED STATES
+        </span>
+        <h2>Based in Stafford. Built around your operation.</h2>
+        <p>
+          Yudaro serves Houston, Stafford, Sugar Land, Missouri City and Katy,
+          with projects across Texas and the United States. Discuss your
+          systems, locations and implementation priorities with our team.
+        </p>
+        <Link className="text-link" href="/locations/houston">
+          Explore Houston-area AI and ERP consulting
+        </Link>
       </section>
     </main>
   );

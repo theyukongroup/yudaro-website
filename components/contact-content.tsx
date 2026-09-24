@@ -1,4 +1,5 @@
 'use client';
+import { trackSearchEvent } from '@/lib/search-analytics';
 
 // Local divergence: the origin's app/contact/page.tsx takes a `messages` prop so the
 // localized-content route can re-render it. Next.js 16 requires a route page's props
@@ -51,8 +52,8 @@ export default function ContactContent({
         <span className="section-index">REQUEST RECEIVED</span>
         <h1>Thank you. Let’s talk about your operation.</h1>
         <p>
-          Your consultation request has been recorded. A Yudaro specialist
-          will follow up to discuss your goals and next steps.
+          Your consultation request has been recorded. A Yudaro specialist will
+          follow up to discuss your goals and next steps.
         </p>
       </section>
     </main>
@@ -86,8 +87,10 @@ export default function ContactContent({
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify(body),
             });
-            if (response.ok) setSent(true);
-            else
+            if (response.ok) {
+              setSent(true);
+              trackSearchEvent('contact_form_submitted');
+            } else
               setError(
                 'We could not record your request. Please review the form and try again.',
               );

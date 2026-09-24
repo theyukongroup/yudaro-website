@@ -1,6 +1,6 @@
 'use client';
 import { Globe2 } from 'lucide-react';
-import { useEffect, useState } from 'react';
+import { useEffect, useSyncExternalStore } from 'react';
 import {
   isLocale,
   languageTags,
@@ -10,7 +10,6 @@ import {
   translate,
   type Locale,
 } from '@/lib/i18n';
-import { SITE_URL } from '@/lib/seo';
 const textSources = new WeakMap<Text, string>();
 const attributeSources = new WeakMap<Element, Map<string, string>>();
 const translatedAttributes = ['alt', 'aria-label', 'placeholder', 'title'];
@@ -88,38 +87,12 @@ function translateTree(
     sources.set('content', source);
     meta.content = translate(messages, source);
   }
-  let canonical = document.querySelector<HTMLLinkElement>(
-    'link[rel="canonical"]',
-  );
-  if (!canonical) {
-    canonical = document.createElement('link');
-    canonical.rel = 'canonical';
-    document.head.appendChild(canonical);
-  }
-  const canonicalUrl = new URL(window.location.pathname, SITE_URL);
-  if (locale === 'en') canonicalUrl.searchParams.delete('lang');
-  else canonicalUrl.searchParams.set('lang', locale);
-  canonical.href = canonicalUrl.toString();
-  document
-    .querySelectorAll('link[rel="alternate"][hreflang]')
-    .forEach((link) => link.remove());
-  for (const code of [...locales, 'x-default'] as const) {
-    const alternate = document.createElement('link');
-    alternate.rel = 'alternate';
-    alternate.hreflang =
-      code === 'x-default' ? 'x-default' : languageTags[code];
-    const url = new URL(window.location.pathname, SITE_URL);
-    if (code !== 'en' && code !== 'x-default')
-      url.searchParams.set('lang', code);
-    alternate.href = url.toString();
-    document.head.appendChild(alternate);
-  }
+  // Canonical, robots and language alternatives are owned by server metadata.
 }
 function selectedLocale(): Locale {
   const fromUrl = new URLSearchParams(window.location.search).get('lang');
   if (isLocale(fromUrl)) return fromUrl;
-  const stored = window.localStorage.getItem('yudaro-language');
-  return isLocale(stored) ? stored : 'en';
+  return 'en';
 }
 export function LanguageRuntime() {
   useEffect(() => {
@@ -140,17 +113,23 @@ export function LanguageRuntime() {
   }, []);
   return null;
 }
+function subscribeLanguage(callback: () => void) {
+  window.addEventListener('popstate', callback);
+  return () => window.removeEventListener('popstate', callback);
+}
 export function LanguageSelector() {
-  const [locale, setLocale] = useState<Locale>('en');
+  const locale = useSyncExternalStore(
+    subscribeLanguage,
+    selectedLocale,
+    () => 'en' as Locale,
+  );
   const selectorLabels: Record<Locale, string> = {
     en: 'Select display language',
     'zh-cn': '选择显示语言',
     'zh-tw': '選擇顯示語言',
     es: 'Seleccionar idioma de visualización',
   };
-  useEffect(() => setLocale(selectedLocale()), []);
   const changeLanguage = (next: Locale) => {
-    setLocale(next);
     window.localStorage.setItem('yudaro-language', next);
     const url = new URL(window.location.href);
     if (next === 'en') url.searchParams.delete('lang');

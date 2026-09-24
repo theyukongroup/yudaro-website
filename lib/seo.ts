@@ -1,11 +1,10 @@
 import type { Metadata } from 'next';
+import { searchContent } from './search-content';
 
 // The apex serves; www redirects to it (see next.config.ts). This decides every
 // canonical tag, sitemap entry and share-preview address, and it is read at
 // build time -- changing NEXT_PUBLIC_SITE_URL needs a redeploy to take effect.
-export const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL || 'https://yudaro.com'
-).replace(/\/+$/, '');
+export const SITE_URL = 'https://yudaro.com';
 
 export const marketingRoutes = [
   '',
@@ -40,15 +39,28 @@ export const resourceRoutes = [
 ] as const;
 
 export const authorityRoutes = [
-  '/case-studies', '/how-yudaro-works',
-  '/methodology/ai-erp-readiness', '/methodology/roi-calculator',
-  '/trust', '/privacy', '/terms', '/industries/restaurants',
+  '/case-studies',
+  '/how-yudaro-works',
+  '/methodology/ai-erp-readiness',
+  '/methodology/roi-calculator',
+  '/trust',
+  '/privacy',
+  '/terms',
+  '/industries/restaurants',
 ] as const;
 
 export const publicRoutes = [...marketingRoutes, ...resourceRoutes] as const;
-export const indexableRoutes = [...publicRoutes, ...authorityRoutes] as const;
+export const indexableRoutes = [
+  ...publicRoutes,
+  ...authorityRoutes,
+  ...searchContent.map((entry) => entry.path),
+].filter((path, index, all) => all.indexOf(path) === index);
 
-export function authorityMetadata(title: string, description: string, path: string): Metadata {
+export function authorityMetadata(
+  title: string,
+  description: string,
+  path: string,
+): Metadata {
   const metadata = pageMetadata(title, description, path);
   metadata.alternates = { canonical: `${SITE_URL}${path}` };
   return metadata;
@@ -75,7 +87,7 @@ export function pageMetadata(
   return {
     title: title.startsWith('Yudaro |') ? { absolute: title } : title,
     description,
-    alternates: { canonical, languages: localizedUrls(path) },
+    alternates: { canonical },
     openGraph: {
       title: fullTitle,
       description,
@@ -83,7 +95,6 @@ export function pageMetadata(
       siteName: 'Yudaro',
       type: 'website',
       locale: 'en_US',
-      alternateLocale: ['zh_CN', 'zh_TW', 'es'],
       images: [
         {
           url: `${SITE_URL}/yudaro-social.png`,
@@ -110,23 +121,31 @@ export function localizedPageMetadata(
 ): Metadata {
   const metadata = pageMetadata(title, description, path);
   const urls = localizedUrls(path);
-  const canonical = locale === 'zh-cn'
-    ? urls['zh-CN']
-    : locale === 'zh-tw'
-      ? urls['zh-TW']
-      : locale === 'es'
-        ? urls.es
-        : urls['en-US'];
-  metadata.alternates = { canonical, languages: urls };
+  const canonical =
+    locale === 'zh-cn'
+      ? urls['zh-CN']
+      : locale === 'zh-tw'
+        ? urls['zh-TW']
+        : locale === 'es'
+          ? urls.es
+          : urls['en-US'];
+  metadata.alternates = { canonical };
+  if (locale !== 'en')
+    metadata.robots = {
+      index: false,
+      follow: true,
+      googleBot: { index: false, follow: true },
+    };
   if (metadata.openGraph) {
     metadata.openGraph.url = canonical;
-    metadata.openGraph.locale = locale === 'zh-cn'
-      ? 'zh_CN'
-      : locale === 'zh-tw'
-        ? 'zh_TW'
-        : locale === 'es'
-          ? 'es_ES'
-          : 'en_US';
+    metadata.openGraph.locale =
+      locale === 'zh-cn'
+        ? 'zh_CN'
+        : locale === 'zh-tw'
+          ? 'zh_TW'
+          : locale === 'es'
+            ? 'es_ES'
+            : 'en_US';
   }
   return metadata;
 }

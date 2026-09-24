@@ -1,4 +1,5 @@
 'use client';
+import { trackSearchEvent } from '@/lib/search-analytics';
 import { useEffect, useMemo, useState } from 'react';
 import Image from 'next/image';
 import { StepTransition } from './motion-system';
@@ -93,6 +94,7 @@ const questionTranslations: Record<Locale, string[]> = {
   ],
 };
 const emit = (event: string, context: Record<string, string | number> = {}) => {
+  trackSearchEvent(event);
   void fetch('/api/events', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },

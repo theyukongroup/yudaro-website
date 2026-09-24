@@ -13,7 +13,7 @@ const groups = [
       ['Private AI', '/ai-solutions'],
       ['Odoo ERP', '/erp-solutions'],
       ['AI + ERP Integration', '/ai-erp'],
-      ['Business Automation', '/resources/business-automation'],
+      ['Business Automation', '/solutions/business-automation'],
       ['Website Design', '/website-design'],
       ['Equipment', '/equipment'],
     ],
@@ -22,15 +22,12 @@ const groups = [
     label: 'Industries',
     links: [
       ['All Industries', '/industries'],
-      [
-        'Wholesale Distribution',
-        '/resources/industries/wholesale-distribution',
-      ],
-      ['HVAC & Field Service', '/resources/industries/hvac-field-service'],
-      ['Construction', '/resources/industries/construction'],
-      ['Retail', '/resources/industries/retail'],
-      ['Manufacturing', '/resources/industries/manufacturing'],
-      ['Professional Services', '/resources/industries/professional-services'],
+      ['Wholesale Distribution', '/industries/distribution'],
+      ['HVAC & Field Service', '/industries/hvac-field-service'],
+      ['Construction', '/industries/construction'],
+      ['Retail', '/industries/retail'],
+      ['Manufacturing', '/industries/manufacturing'],
+      ['Professional Services', '/industries/professional-services'],
       ['Restaurant', '/industries/restaurants'],
     ],
   },
@@ -42,8 +39,8 @@ const groups = [
       ['Odoo ERP', '/resources/odoo-erp'],
       ['AI + ERP', '/resources/ai-erp'],
       ['Comparisons', '/resources/comparisons'],
-      ['Business Automation', '/resources/business-automation'],
-      ['Industry Resources', '/resources/industries/wholesale-distribution'],
+      ['Business Automation', '/solutions/business-automation'],
+      ['Industry Resources', '/industries/distribution'],
       ['Case Studies', '/case-studies'],
       ['How Yudaro Works', '/how-yudaro-works'],
     ],
@@ -86,7 +83,12 @@ export function MobileNavigation({ signedIn, accountHref }: Props) {
         <Menu aria-hidden="true" />
       </button>
       {open && (
-        <dialog ref={dialog} className="mobile-menu-backdrop" aria-label="Website navigation" onCancel={() => setOpen(false)}>
+        <dialog
+          ref={dialog}
+          className="mobile-menu-backdrop"
+          aria-label="Website navigation"
+          onCancel={() => setOpen(false)}
+        >
           <aside
             id="mobile-navigation"
             className="mobile-menu-drawer"
@@ -114,9 +116,7 @@ export function MobileNavigation({ signedIn, accountHref }: Props) {
                 <X aria-hidden="true" />
               </button>
             </div>
-            <nav
-              aria-label="Complete website navigation"
-            >
+            <nav aria-label="Complete website navigation">
               <a href="/">Home</a>
               {groups.map((group) => (
                 <details key={group.label}>

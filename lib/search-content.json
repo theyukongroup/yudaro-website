@@ -1,0 +1,1637 @@
+[
+  {
+    "path": "/ai-solutions",
+    "title": "Private AI for Business: Implementation & Knowledge Search",
+    "description": "Private AI implementation for company documents, SOPs and training. Plan permissions, deployment and costs with Yudaro in Houston and across Texas.",
+    "intro": "Give employees a practical way to find approved company information while keeping deployment, access and review decisions under your control.",
+    "eyebrow": "BUILT AROUND YOUR OPERATION",
+    "kind": "Service",
+    "sections": [
+      {
+        "title": "What is private AI for a business?",
+        "body": "Private AI is an AI system deployed with controls over its models, data sources, users and infrastructure. It can retrieve approved company documents and help employees interpret them. A private deployment may run on customer hardware or controlled hosted infrastructure; the actual data flow, model provider, retention settings and access controls determine its privacy properties."
+      },
+      {
+        "title": "Which problems should the first project solve?",
+        "body": "Start where employees repeatedly search for the same approved information. A distributor may need product specifications; a service business may need equipment procedures; a restaurant may need station training. Choose a small, maintained document collection before introducing live ERP access.",
+        "items": [
+          "SOP retrieval: show the source procedure, revision and permitted next steps.",
+          "Product support: compare documented specifications and flag missing information.",
+          "Training: answer role-specific questions using approved onboarding material.",
+          "Management: summarize permitted reports with their date, filters and source totals."
+        ]
+      },
+      {
+        "title": "How does Yudaro implement a knowledge assistant?",
+        "body": "Discovery establishes the users, information owners and questions worth answering. We map permissions, clean source documents, choose infrastructure and configure retrieval. A pilot uses a business-owned evaluation set: common questions, outdated documents, conflicting answers and requests a user must not be allowed to see. Release follows documented acceptance and employee training.",
+        "items": [
+          "Define source ownership and update responsibilities.",
+          "Test answers against original documents, including unsupported questions.",
+          "Enforce permissions at retrieval, not only at the user interface.",
+          "Agree monitoring, backup, recovery and change-management ownership."
+        ]
+      },
+      {
+        "title": "Local hardware or controlled hosting?",
+        "body": "Compare the full operating model, not only where a model runs. Local hardware requires maintenance and recovery planning. Hosted infrastructure requires review of providers and outbound data paths.",
+        "table": {
+          "headers": [
+            "Decision",
+            "Customer hardware",
+            "Controlled hosting"
+          ],
+          "rows": [
+            [
+              "Operations",
+              "Agreed team maintains equipment",
+              "Hosting responsibilities must be contracted"
+            ],
+            [
+              "Capacity",
+              "Size for model, context and concurrent users",
+              "Verify capacity and consumption costs"
+            ],
+            [
+              "Data flow",
+              "Review OCR, embeddings and telemetry too",
+              "Review tenancy, retention and external services"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "What affects price, timing and success?",
+        "body": "Published AI Foundation starts at $7,500; AI Growth has a typical starting point of $15,000; AI Enterprise is scoped from $30,000. These are planning estimates. Source cleanup, document volume, permissions, hardware and integrations affect cost. A focused pilot can be planned in weeks; complex deployments require a phased schedule after discovery. Measure source accuracy, retrieval success, permission-test results, adoption and handling time."
+      },
+      {
+        "title": "What should your team prepare?",
+        "body": "Bring representative documents, owners, access groups, unanswered questions and authoritative systems. Explain which information must never leave the environment. If the problem is simply disorganized files, a better document library or search system may be the right first step."
+      }
+    ],
+    "faqs": [
+      [
+        "Does private AI eliminate hallucinations?",
+        "No. Retrieval can improve grounding, but answers still need source references, evaluation and an appropriate refusal when evidence is missing."
+      ],
+      [
+        "Does company knowledge require model training?",
+        "Not necessarily. Retrieval-augmented generation searches approved material at question time. Fine-tuning changes model behavior and is a separate decision."
+      ],
+      [
+        "Can it work with Odoo?",
+        "Yes, through a scoped integration with verified interfaces, permissions and approval for sensitive actions. A document assistant does not automatically have live ERP access."
+      ]
+    ],
+    "related": [
+      {
+        "href": "/solutions/ai-knowledge-base",
+        "label": "Plan document and SOP search"
+      },
+      {
+        "href": "/ai-erp",
+        "label": "AI + ERP integration"
+      },
+      {
+        "href": "/resources/private-ai-security",
+        "label": "Permission checklist"
+      },
+      {
+        "href": "/pricing",
+        "label": "Compare planning-level prices"
+      },
+      {
+        "href": "/contact",
+        "label": "Discuss your requirements"
+      }
+    ],
+    "dateModified": "2026-09-24"
+  },
+  {
+    "path": "/erp-solutions",
+    "title": "Odoo ERP Implementation & Consulting",
+    "description": "Connect sales, inventory, purchasing and operations with Yudaro Odoo consulting, migration, training and support in Houston, Texas and the US.",
+    "intro": "Make orders, stock, purchasing and financial handoffs work from a consistent operational record.",
+    "eyebrow": "BUILT AROUND YOUR OPERATION",
+    "kind": "Service",
+    "sections": [
+      {
+        "title": "What does an Odoo implementation include?",
+        "body": "Odoo implementation turns business processes into configured modules, master data, user roles, integrations and tested workflows. Installing software is only one step. Yudaro scopes consulting, configuration, migration, training and launch support around the operation, including accounting, ecommerce, POS and existing specialist systems."
+      },
+      {
+        "title": "Who benefits from a connected ERP?",
+        "body": "Growing operators often need ERP when separate spreadsheets and applications no longer agree on products, orders, inventory or commitments. Distribution, manufacturing, retail, restaurants, construction and field service have different requirements. If a single accounting tool already meets the need, a full ERP rollout may add unnecessary work.",
+        "table": {
+          "headers": [
+            "Business question",
+            "ERP foundation",
+            "Acceptance example"
+          ],
+          "rows": [
+            [
+              "What can we promise a customer?",
+              "Products, pricing, sales and stock",
+              "A tested order uses the correct price and quantity"
+            ],
+            [
+              "What should we purchase?",
+              "Suppliers, lead times and replenishment",
+              "A buyer reviews demand and approves a purchase"
+            ],
+            [
+              "What was delivered and billed?",
+              "Fulfillment and accounting",
+              "An order reconciles through delivery and invoice"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "What does implementation look like?",
+        "body": "Map current work with the people who perform it. Fit standard modules to requirements before proposing customization. Migrate a representative sample, then run end-to-end user acceptance testing. Controlled cutover includes opening balances, stock reconciliation, role training, fallback decisions and a named support owner.",
+        "items": [
+          "Discovery and process mapping with success measures.",
+          "Configuration, integration design and data ownership.",
+          "Trial migration, reconciliation and exception tests.",
+          "Role-based training, cutover review and support."
+        ]
+      },
+      {
+        "title": "How much does implementation cost?",
+        "body": "Published Yudaro planning levels are ERP Core from $5,000, ERP Operations from $11,250 and ERP Enterprise from $21,250. The final proposal reflects users, entities, migration, workflows and integrations. Software subscriptions, dedicated hardware and third-party services are separate when needed. Odoo license pricing is distinct from Yudaro implementation services."
+      },
+      {
+        "title": "Timing, preparation and ongoing support",
+        "body": "A focused rollout may take weeks; multi-company, manufacturing or substantial migration can take months. Discovery produces a plan tied to acceptance gates. Bring sample product, customer and supplier records, transaction volumes, reports and approval rules. Name owners who can make process decisions. Test upgrades against critical workflows and track stock accuracy, cycle time, reconciliation differences and adoption."
+      }
+    ],
+    "faqs": [
+      [
+        "Is Yudaro Odoo or an official Odoo partner?",
+        "Yudaro is an independent implementation and consulting business. This website does not claim verified official Odoo partner status."
+      ],
+      [
+        "Can we keep our accounting or POS system?",
+        "Potentially. Verify interfaces, data ownership, synchronization rules and reconciliation. Compare integration with replacement."
+      ],
+      [
+        "Community or Enterprise?",
+        "Choose based on required modules, hosting, support, integrations and maintenance responsibility. Validate the current edition and plan against a fit-gap list."
+      ]
+    ],
+    "related": [
+      {
+        "href": "/solutions/odoo-migration",
+        "label": "Plan data migration"
+      },
+      {
+        "href": "/solutions/odoo-integration",
+        "label": "Connect existing systems"
+      },
+      {
+        "href": "/solutions/odoo-customization",
+        "label": "Evaluate customization"
+      },
+      {
+        "href": "/resources/odoo-implementation-planning",
+        "label": "Cost and timeline guide"
+      },
+      {
+        "href": "/pricing",
+        "label": "Compare planning-level prices"
+      },
+      {
+        "href": "/contact",
+        "label": "Discuss your requirements"
+      }
+    ],
+    "dateModified": "2026-09-24",
+    "sources": [
+      {
+        "href": "https://www.odoo.com/documentation/19.0/",
+        "label": "Odoo 19 documentation: verify your installed edition and version"
+      }
+    ]
+  },
+  {
+    "path": "/solutions/business-automation",
+    "title": "Business Process Automation",
+    "description": "Design measurable workflow automation across orders, purchasing, documents and reporting with Yudaro. Start with clear rules, ownership and controls.",
+    "intro": "Remove repetitive handoffs between systems while keeping exceptions and approvals visible.",
+    "eyebrow": "BUILT AROUND YOUR OPERATION",
+    "kind": "Service",
+    "sections": [
+      {
+        "title": "What is business process automation?",
+        "body": "Business process automation moves a defined task from trigger to outcome using agreed rules, records and responsibilities. AI can interpret documents or draft summaries, but exact calculations and transaction rules usually belong in deterministic software. A good project reduces repeated handling without hiding exceptions or weakening approval controls."
+      },
+      {
+        "title": "Choose a workflow with a beginning and end",
+        "body": "Useful starting points include accepted-order handoffs, low-stock alerts, recurring report preparation and document routing. Document required fields, decision rules, destination system and the responsible person. Count task frequency and handling time before estimating value.",
+        "table": {
+          "headers": [
+            "Workflow",
+            "Automation prepares",
+            "Human control"
+          ],
+          "rows": [
+            [
+              "Purchasing",
+              "Reorder suggestion from demand and lead times",
+              "Buyer approves commitments"
+            ],
+            [
+              "Customer follow-up",
+              "Reminder and draft using permitted records",
+              "Staff authorize sending"
+            ],
+            [
+              "Document intake",
+              "Classification and extracted fields",
+              "Review uncertain values"
+            ],
+            [
+              "Reporting",
+              "Scheduled extraction and checked totals",
+              "Manager interprets exceptions"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "How Yudaro designs and launches automation",
+        "body": "We map the manual process, identify the source of truth and configure the smallest useful workflow. Include duplicate detection, retry behavior and a visible exception queue. A pilot runs against representative records; staff compare results with the original process before broader use.",
+        "items": [
+          "Scope one measurable outcome and a process owner.",
+          "Test missing data, duplicates, downtime and permission failures.",
+          "Define pause, rollback and escalation procedures.",
+          "Train staff to handle exceptions and maintain rules."
+        ]
+      },
+      {
+        "title": "Cost, timing and operating fit",
+        "body": "There is no universal automation price. Scope depends on the systems, interfaces, data quality, decisions and monitoring. A bounded workflow can be a pilot; cross-department orchestration needs staged acceptance. Existing ERP rules may solve a problem more economically than AI. Compare maintenance effort as well as the build."
+      },
+      {
+        "title": "Prepare for discovery and measure the result",
+        "body": "Bring an example transaction, current steps, exception cases and system constraints. Success can be measured through elapsed time, exception volume, duplicate entries and rework. Estimate savings only after establishing process volumes and the baseline. Sensitive writes require explicit approval rules and a tested recovery path."
+      }
+    ],
+    "faqs": [
+      [
+        "Should every automation use AI?",
+        "No. Use ordinary rules for exact decisions and AI where interpretation adds value and the result can be verified."
+      ],
+      [
+        "What happens during system downtime?",
+        "Preserve work, avoid duplicates and expose retries or an exception queue. Recovery behavior must be tested for the actual integration."
+      ]
+    ],
+    "related": [
+      {
+        "href": "/erp-solutions",
+        "label": "Odoo ERP implementation"
+      },
+      {
+        "href": "/ai-erp",
+        "label": "AI + ERP integration"
+      },
+      {
+        "href": "/resources/business-automation",
+        "label": "Choose automation candidates"
+      },
+      {
+        "href": "/locations/houston",
+        "label": "Houston-area consulting"
+      },
+      {
+        "href": "/contact",
+        "label": "Discuss your requirements"
+      }
+    ],
+    "dateModified": "2026-09-24",
+    "image": "/ai-erp/cross-department-automation.webp"
+  },
+  {
+    "path": "/solutions/odoo-migration",
+    "title": "Odoo Data Migration & Cutover Planning",
+    "description": "Plan Odoo migration with source mapping, trial imports, reconciliation, user acceptance and controlled cutover.",
+    "intro": "Move usable business records into Odoo with clear ownership and evidence that the result reconciles.",
+    "eyebrow": "BUILT AROUND YOUR OPERATION",
+    "kind": "Service",
+    "sections": [
+      {
+        "title": "What is Odoo data migration?",
+        "body": "Odoo migration moves agreed master data, opening balances and operational records into a target environment. It can also involve changing Odoo versions or hosting. Mapping, cleanup, trial imports and reconciliation establish whether the business can operate correctly; copying a spreadsheet alone does not."
+      },
+      {
+        "title": "Decide what moves and what remains an archive",
+        "body": "Begin with day-one workflows. Customers, suppliers, products, units, prices, stock and open orders may be essential. History has different business and retention requirements. Confirm access to old records with accounting and business owners rather than importing everything by default.",
+        "table": {
+          "headers": [
+            "Data",
+            "Check",
+            "Owner"
+          ],
+          "rows": [
+            [
+              "Products",
+              "Identifiers, units and categories",
+              "Product lead"
+            ],
+            [
+              "Stock",
+              "Quantities, locations and valuation",
+              "Inventory and finance"
+            ],
+            [
+              "Open transactions",
+              "Balances, status and relationships",
+              "Sales, purchasing and finance"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Rehearse before production cutover",
+        "body": "Inventory files and integrations, agree mappings, clean duplicates and load a sample. Expand after users validate records and exceptions. Rehearse a full migration with counts and reconciliations. Freeze or reconcile changes during cutover; preserve source backups and define a rollback decision point."
+      },
+      {
+        "title": "What affects effort and acceptance?",
+        "body": "Source quality, historical depth, attachments, custom fields, multi-company rules and upgrade compatibility drive effort. Integrations may require their own migration. The scope should include a mapping workbook, owners, tests and a cutover plan. Business owners must verify order-to-cash and purchase-to-receipt examples, with finance reviewing balances and inventory valuation."
+      },
+      {
+        "title": "Prepare before requesting a proposal",
+        "body": "Bring source system versions, export examples, approximate record counts and historical-access needs. Identify the team available for cleanup and acceptance. Keep import logs and assign owners to unresolved exceptions. A project date should follow dependency review, not be inferred solely from the number of records."
+      }
+    ],
+    "faqs": [
+      [
+        "Can we migrate spreadsheets?",
+        "Yes, subject to source quality and target mappings. Review a sample to establish cleanup effort before a quote."
+      ],
+      [
+        "Should all history move?",
+        "Not necessarily. Agree which records are operationally required and how older records remain accessible under retention requirements."
+      ]
+    ],
+    "related": [
+      {
+        "href": "/erp-solutions",
+        "label": "Odoo ERP implementation"
+      },
+      {
+        "href": "/resources/odoo-implementation-planning",
+        "label": "Cost and dependency planning"
+      },
+      {
+        "href": "/solutions/odoo-integration",
+        "label": "Review integrations"
+      },
+      {
+        "href": "/contact",
+        "label": "Discuss your requirements"
+      }
+    ],
+    "dateModified": "2026-09-24",
+    "sources": [
+      {
+        "href": "https://www.odoo.com/documentation/19.0/",
+        "label": "Odoo 19 documentation: verify your installed edition and version"
+      }
+    ]
+  },
+  {
+    "path": "/solutions/odoo-integration",
+    "title": "Odoo Integration & AI Connections",
+    "description": "Connect Odoo with commerce, accounting, POS and private AI using scoped interfaces, permissions, reconciliation and monitored workflows.",
+    "intro": "Connect systems without losing track of authoritative records or approved changes.",
+    "eyebrow": "BUILT AROUND YOUR OPERATION",
+    "kind": "Service",
+    "sections": [
+      {
+        "title": "What does an Odoo integration do?",
+        "body": "An integration exchanges agreed records or actions between Odoo and another system. Examples include accepted orders, availability, payments, supplier documents and approved AI queries. Useful integration defines ownership, mappings, timing and recovery as carefully as the interface."
+      },
+      {
+        "title": "Choose the data contract before the connector",
+        "body": "Define the source of truth, stable identifier, required fields, update direction and conflict rule for each record. Avoid uncontrolled two-way synchronization. Repeated events must not create duplicate orders or payments. A reconciliation report should reveal omissions and mismatches.",
+        "table": {
+          "headers": [
+            "Connection",
+            "Design question",
+            "Control"
+          ],
+          "rows": [
+            [
+              "Ecommerce",
+              "Who owns products, prices and availability?",
+              "Identifiers, tax/shipping maps and reconciliation"
+            ],
+            [
+              "Accounting",
+              "Who owns invoices and payments?",
+              "Finance-reviewed mappings and totals"
+            ],
+            [
+              "Private AI",
+              "What can this user access or change?",
+              "Scoped tools and approval gates"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Verify interfaces, versions and plans",
+        "body": "Check version, hosting, edition and subscription before promising a connector. Odoo 19 documents a JSON-2 external interface and states that external API access on Odoo pricing plans requires the Custom plan. Available models and methods depend on the database. Existing integrations require review against their own version and contract."
+      },
+      {
+        "title": "From read-only pilot to production",
+        "body": "Test authentication, expired credentials, missing records, duplicates, partial failures and downtime using non-production data. Log outcomes without unnecessary sensitive payloads. For AI, return source records and deterministic totals; retain authorized review for payments, stock changes and commitments."
+      },
+      {
+        "title": "Scope and maintain the connection",
+        "body": "Provide versions, documentation, permitted test access, volumes and a data owner. Budget for mapping, recovery, monitoring and vendor changes. Measure success, latency, reconciliation differences and exception resolution. The maintenance plan should specify who responds when a connector fails and how replay avoids duplicates."
+      }
+    ],
+    "faqs": [
+      [
+        "Can AI create quotations?",
+        "A scoped tool can prepare a draft from permitted customer, product and pricing records. Staff approve exceptions and release."
+      ],
+      [
+        "Are delivery-platform connectors included?",
+        "No universal connector is assumed. Verify provider API access, commercial terms, workflows and reconciliation before including them."
+      ]
+    ],
+    "related": [
+      {
+        "href": "/ai-erp",
+        "label": "AI + ERP integration"
+      },
+      {
+        "href": "/erp-solutions",
+        "label": "Odoo ERP implementation"
+      },
+      {
+        "href": "/solutions/odoo-customization",
+        "label": "Configuration and extensions"
+      },
+      {
+        "href": "/contact",
+        "label": "Discuss your requirements"
+      }
+    ],
+    "dateModified": "2026-09-24",
+    "sources": [
+      {
+        "href": "https://www.odoo.com/documentation/19.0/developer/reference/external_api.html",
+        "label": "Odoo 19 external API documentation"
+      }
+    ]
+  },
+  {
+    "path": "/solutions/odoo-customization",
+    "title": "Odoo Customization & Workflow Design",
+    "description": "Evaluate Odoo configuration, extensions and custom modules with fit-gap analysis, testing and upgrade planning.",
+    "intro": "Build the capabilities your operation needs while keeping upgrades, permissions and support understandable.",
+    "eyebrow": "BUILT AROUND YOUR OPERATION",
+    "kind": "Service",
+    "sections": [
+      {
+        "title": "When is customization justified?",
+        "body": "Customize when a documented requirement cannot be met adequately through standard modules, configuration or an accepted process change. A form, approval rule, report or module should justify its maintenance, upgrade and training cost as well as the initial feature."
+      },
+      {
+        "title": "Standard first, custom when needed",
+        "body": "Separate operational constraints from habits inherited from an old system. Demonstrate the standard workflow with real examples before commissioning a module.",
+        "table": {
+          "headers": [
+            "Approach",
+            "Use when",
+            "Tradeoff"
+          ],
+          "rows": [
+            [
+              "Configuration",
+              "Existing capabilities satisfy the workflow",
+              "May require process changes"
+            ],
+            [
+              "Supported extension",
+              "A bounded gap fits platform tools",
+              "Plan and upgrade compatibility matter"
+            ],
+            [
+              "Custom module",
+              "Critical requirements need code",
+              "Requires tests, ownership and upgrade budget"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Define acceptance before development",
+        "body": "Write examples for normal work, exceptions and unauthorized actions. Agree roles, validation, reporting and integrations. Develop separately from production and have business owners verify realistic transactions. Include source ownership, documentation and recovery in the handoff."
+      },
+      {
+        "title": "Protect future upgrades",
+        "body": "Maintain a register of custom behavior and dependencies. Check future updates against critical workflows, reports and permissions. Avoid hard-coded credentials and unmanaged production changes. Define who diagnoses issues and how fixes are tested."
+      },
+      {
+        "title": "What affects delivery and cost?",
+        "body": "Scope grows with modules, rules, external systems and migration. Bring the gap, current workaround, user counts and transaction volumes. Measure reduced re-entry, fewer exceptions or clearer approvals against a baseline. Existing modules require a source, license, dependency and test review before support can be agreed."
+      }
+    ],
+    "faqs": [
+      [
+        "Can configuration avoid code?",
+        "Often. Demonstrating representative transactions establishes whether configuration is sufficient."
+      ],
+      [
+        "Can you support existing custom modules?",
+        "First review their source, licensing, dependencies, documentation and tests. Establish suitability and upgrade effort before commitment."
+      ]
+    ],
+    "related": [
+      {
+        "href": "/erp-solutions",
+        "label": "Odoo ERP implementation"
+      },
+      {
+        "href": "/solutions/odoo-integration",
+        "label": "Integration design"
+      },
+      {
+        "href": "/solutions/odoo-migration",
+        "label": "Migration planning"
+      },
+      {
+        "href": "/contact",
+        "label": "Discuss your requirements"
+      }
+    ],
+    "dateModified": "2026-09-24",
+    "sources": [
+      {
+        "href": "https://www.odoo.com/documentation/19.0/",
+        "label": "Odoo 19 documentation: verify your installed edition and version"
+      }
+    ]
+  },
+  {
+    "path": "/solutions/ai-knowledge-base",
+    "title": "AI Knowledge Base & Company Document Search",
+    "description": "Make SOPs, products and internal documents searchable with a permission-aware private AI knowledge base designed by Yudaro.",
+    "intro": "Turn maintained company documents into source-linked answers for authorized employees.",
+    "eyebrow": "BUILT AROUND YOUR OPERATION",
+    "kind": "Service",
+    "sections": [
+      {
+        "title": "What is an AI knowledge base?",
+        "body": "An AI knowledge base combines an approved document collection, retrieval and an assistant that explains relevant evidence. It helps locate SOPs, compare product guidance and understand training. It does not make every document current or correct; source ownership, revisions, access rules and citations remain essential."
+      },
+      {
+        "title": "How does search become an answer?",
+        "body": "A retrieval pipeline prepares documents, indexes searchable passages, limits retrieval to the user’s scope and supplies evidence to the model. Answers should identify sources and say when support is missing. Extraction quality, structure and evaluation matter more than simply uploading many files.",
+        "items": [
+          "Validate the source file and owner.",
+          "Preserve titles, revisions and permission labels.",
+          "Retrieve only authorized evidence.",
+          "Escalate unsupported or conflicting instructions."
+        ]
+      },
+      {
+        "title": "Different questions require different sources",
+        "body": "An SOP assistant needs controlled procedures. Product answers need approved specifications. Onboarding needs role-specific training. Live stock and prices should come from permitted operational queries, not old PDFs.",
+        "table": {
+          "headers": [
+            "Question",
+            "Source",
+            "Review"
+          ],
+          "rows": [
+            [
+              "How do I receive damaged stock?",
+              "Current receiving SOP",
+              "Follow escalation rules"
+            ],
+            [
+              "Which product meets a specification?",
+              "Approved technical documents",
+              "Verify requirements and terms"
+            ],
+            [
+              "How much stock is available?",
+              "Current ERP query",
+              "Confirm location and reservations"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Pilot with deliberate failure cases",
+        "body": "Choose a small collection with a reliable owner. Test ambiguous terminology, outdated revisions and requests for restricted material. Measure supported answers, correct citations, refusal behavior and task completion. Expand only after access controls and source updates work."
+      },
+      {
+        "title": "Prepare files, budget and operations",
+        "body": "Bring representative PDFs, spreadsheets and documents, access groups, revision conventions and employee questions. Scanned documents may require extraction cleanup. Planning uses published AI packages; final scope depends on sources, users, infrastructure and integration. Agree how replaced documents leave the index and how administrator access and backups are managed."
+      }
+    ],
+    "faqs": [
+      [
+        "Is RAG model training?",
+        "No. RAG retrieves material during a request. Fine-tuning changes model behavior and does not replace a governed source library."
+      ],
+      [
+        "Can it answer without evidence?",
+        "Require an unsupported-answer path and escalation for important instructions. Evaluate the behavior instead of assuming it."
+      ]
+    ],
+    "related": [
+      {
+        "href": "/ai-solutions",
+        "label": "Private AI implementation"
+      },
+      {
+        "href": "/resources/private-ai-security",
+        "label": "Permission and data-flow checklist"
+      },
+      {
+        "href": "/ai-erp",
+        "label": "AI + ERP integration"
+      },
+      {
+        "href": "/contact",
+        "label": "Discuss your requirements"
+      }
+    ],
+    "dateModified": "2026-09-24",
+    "image": "/ai-solutions/sop-search.webp"
+  },
+  {
+    "path": "/locations/houston",
+    "title": "AI & Odoo ERP Consulting in Houston",
+    "description": "Yudaro in Stafford serves Houston-area businesses with private AI, Odoo ERP and automation. Discuss systems and implementation priorities.",
+    "intro": "Based at 13366 Murphy Road in Stafford, Yudaro helps Houston-area businesses connect company knowledge, ERP records and everyday operations.",
+    "eyebrow": "BUILT AROUND YOUR OPERATION",
+    "kind": "Service",
+    "sections": [
+      {
+        "title": "A local starting point for connected operations",
+        "body": "Yudaro AI & ERP Systems serves the Houston metropolitan area, including Stafford, Sugar Land, Missouri City and Katy, with services also available across Texas and the United States. Discuss your team’s location, onsite requirements and remote collaboration needs when arranging discovery. Onsite availability is agreed for each engagement."
+      },
+      {
+        "title": "Which Houston-area operations do we support?",
+        "body": "Distribution and importing businesses need consistent product, supplier and inventory records. Construction and field-service teams need job context and office-to-site handoffs. Restaurants and retailers connect sales with purchasing; manufacturers connect materials with production. These are service-fit examples, not claims about named local clients.",
+        "table": {
+          "headers": [
+            "Operation",
+            "First discussion",
+            "Bring to discovery"
+          ],
+          "rows": [
+            [
+              "Distribution / importing",
+              "Order promises and replenishment",
+              "Products, warehouse structure, purchase order"
+            ],
+            [
+              "Construction / field service",
+              "Job costs, parts and approvals",
+              "Work order and billing handoff"
+            ],
+            [
+              "Restaurant / retail",
+              "POS and back-office visibility",
+              "Service model and closing report"
+            ],
+            [
+              "Manufacturing",
+              "Materials and work instructions",
+              "BOM example and quality workflow"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Private AI, ERP or automation: where should you start?",
+        "body": "If orders and stock conflict, begin with an ERP fit-gap review. If reliable records exist but employees cannot find procedures, a private knowledge pilot may be more useful. If an agreed task is repeatedly re-entered, begin with automation. Assess the options together without treating every project as full replacement."
+      },
+      {
+        "title": "What happens in the first consultation?",
+        "body": "Explain the process causing rework, current tools and decisions you want to improve. Identify process and data owners. Discovery establishes fit and next steps; travel, timing, security responsibilities and support belong in an agreed proposal. Do not send passwords or sensitive customer exports through the public form."
+      },
+      {
+        "title": "Contact Yudaro in Stafford",
+        "body": "Address: 13366 Murphy Road, Stafford, TX 77477. Phone: 281-258-8000. Email: info@yudaro.com. Contact the team before visiting; no published opening hours or walk-in availability are implied."
+      },
+      {
+        "title": "Plan around the working day",
+        "body": "Bring locations, departments, users and schedules that affect cutover. Warehouse shifts, lunch service or field dispatch should shape testing and training. Define acceptance through stock reconciliation, a completed service-to-invoice flow or source-linked SOP retrieval. Price depends on the work rather than the city name."
+      }
+    ],
+    "faqs": [
+      [
+        "Do you serve businesses outside Houston?",
+        "Yes. Yudaro’s stated market includes Texas and the US. Discuss remote and onsite requirements as part of scope."
+      ],
+      [
+        "Can we begin with a small project?",
+        "Yes. A focused discovery, knowledge pilot or bounded workflow can establish fit before a larger rollout. Agree scope and acceptance first."
+      ]
+    ],
+    "related": [
+      {
+        "href": "/erp-solutions",
+        "label": "Odoo ERP implementation"
+      },
+      {
+        "href": "/ai-solutions",
+        "label": "Private AI implementation"
+      },
+      {
+        "href": "/solutions/business-automation",
+        "label": "Business workflow automation"
+      },
+      {
+        "href": "/industries",
+        "label": "Industry workflows"
+      },
+      {
+        "href": "/pricing",
+        "label": "Compare planning-level prices"
+      },
+      {
+        "href": "/contact",
+        "label": "Discuss your requirements"
+      }
+    ],
+    "dateModified": "2026-09-24",
+    "image": "/about/business-before-software.webp"
+  },
+  {
+    "path": "/industries/distribution",
+    "title": "Odoo ERP & Private AI for Distribution",
+    "description": "Connect inventory, purchasing and fulfillment with Yudaro ERP, private AI and automation for distribution businesses.",
+    "intro": "Build a connected operating record for inventory, purchasing and fulfillment, with company knowledge available at the point of work.",
+    "eyebrow": "BUILT AROUND YOUR OPERATION",
+    "kind": "Service",
+    "sections": [
+      {
+        "title": "Start with the operating problem",
+        "body": "Product, unit-of-measure and customer-pricing discrepancies can turn an accepted order into a delivery problem. Receiving, reservations, transfers and supplier lead times must agree with the promise made by sales."
+      },
+      {
+        "title": "Connect the workflows that matter",
+        "body": "These are illustrative implementation paths. Modules, interfaces and controls are scoped to your operation, not assumed to be included in every installation.",
+        "items": [
+          "Quotation -> order -> reservation -> picking -> delivery -> invoice",
+          "Reorder rules -> purchasing review -> supplier order -> receipt -> replenishment"
+        ]
+      },
+      {
+        "title": "What the ERP foundation needs",
+        "body": "Map current systems and decide where authoritative records live. Evaluate Odoo alongside existing accounting, commerce, scheduling or specialist tools. Confirm versions, interfaces and reconciliation requirements before choosing replacement or integration.",
+        "items": [
+          "Multi-warehouse stock, locations and transfers",
+          "Customer pricing, units, supplier references and returns",
+          "Partial deliveries and approved substitutions"
+        ]
+      },
+      {
+        "title": "Where private AI and automation can help",
+        "body": "A buyer reviews low-stock items. ERP provides stock, reservations and demand; AI explains unusual demand from permitted records. The buyer approves supplier commitments."
+      },
+      {
+        "title": "How Yudaro scopes implementation",
+        "body": "Start with a representative transaction and its business owners. Review data, handoffs, permissions and exceptions; configure an end-to-end pilot; reconcile outputs; then train users and agree support. Preserve useful specialist tools when integration is a better fit. Migration and custom work require acceptance criteria."
+      },
+      {
+        "title": "Measure results and prepare for discovery",
+        "body": "Agree a baseline for inventory accuracy, order cycle time, fill rate and return reconciliation. Bring sample records, reports, systems and versions, locations, roles and documented exceptions. Use masked examples initially. Price and schedule depend on scope, data quality, integrations and rollout constraints; no industry-wide outcome or fixed timeline is promised."
+      }
+    ],
+    "faqs": [
+      [
+        "Is this a standard distribution package?",
+        "No. These are relevant workflows. Discovery determines modules, configuration, integrations, data work and training."
+      ],
+      [
+        "Can we add AI later?",
+        "Yes. Reliable records and permissions are the foundation. Begin with read-only source-linked assistance before governed draft actions."
+      ]
+    ],
+    "related": [
+      {
+        "href": "/erp-solutions",
+        "label": "Odoo ERP implementation"
+      },
+      {
+        "href": "/ai-solutions",
+        "label": "Private AI implementation"
+      },
+      {
+        "href": "/solutions/business-automation",
+        "label": "Business workflow automation"
+      },
+      {
+        "href": "/resources/industries/wholesale-distribution",
+        "label": "Practical distribution guide"
+      },
+      {
+        "href": "/pricing",
+        "label": "Compare planning-level prices"
+      },
+      {
+        "href": "/contact",
+        "label": "Discuss your requirements"
+      }
+    ],
+    "dateModified": "2026-09-24",
+    "image": "/industries/wholesale-distribution.webp"
+  },
+  {
+    "path": "/industries/manufacturing",
+    "title": "Odoo ERP & Private AI for Manufacturing",
+    "description": "Connect materials, production and work instructions with Yudaro ERP, private AI and automation for manufacturing businesses.",
+    "intro": "Build a connected operating record for materials, production and work instructions, with company knowledge available at the point of work.",
+    "eyebrow": "BUILT AROUND YOUR OPERATION",
+    "kind": "Service",
+    "sections": [
+      {
+        "title": "Start with the operating problem",
+        "body": "Plans become unreliable when bills of materials, revisions, available components and shop-floor progress disagree. Start with how your team records real work, including scrap and quality holds."
+      },
+      {
+        "title": "Connect the workflows that matter",
+        "body": "These are illustrative implementation paths. Modules, interfaces and controls are scoped to your operation, not assumed to be included in every installation.",
+        "items": [
+          "Demand -> materials -> purchasing -> receipt -> production -> quality -> finished goods",
+          "Work order -> approved instruction -> material recording -> completion review"
+        ]
+      },
+      {
+        "title": "What the ERP foundation needs",
+        "body": "Map current systems and decide where authoritative records live. Evaluate Odoo alongside existing accounting, commerce, scheduling or specialist tools. Confirm versions, interfaces and reconciliation requirements before choosing replacement or integration.",
+        "items": [
+          "BOM and routing ownership and controlled revisions",
+          "Shortages, subcontract work and exceptions",
+          "Quality holds, scrap and traceability"
+        ]
+      },
+      {
+        "title": "Where private AI and automation can help",
+        "body": "An operator asks which setup instruction applies to a work order. AI retrieves the permitted revision and flags conflicts. Supervisors retain production-release and quality decisions."
+      },
+      {
+        "title": "How Yudaro scopes implementation",
+        "body": "Start with a representative transaction and its business owners. Review data, handoffs, permissions and exceptions; configure an end-to-end pilot; reconcile outputs; then train users and agree support. Preserve useful specialist tools when integration is a better fit. Migration and custom work require acceptance criteria."
+      },
+      {
+        "title": "Measure results and prepare for discovery",
+        "body": "Agree a baseline for material availability, work-order accuracy, scrap visibility and quality holds. Bring sample records, reports, systems and versions, locations, roles and documented exceptions. Use masked examples initially. Price and schedule depend on scope, data quality, integrations and rollout constraints; no industry-wide outcome or fixed timeline is promised."
+      }
+    ],
+    "faqs": [
+      [
+        "Is this a standard manufacturing package?",
+        "No. These are relevant workflows. Discovery determines modules, configuration, integrations, data work and training."
+      ],
+      [
+        "Can we add AI later?",
+        "Yes. Reliable records and permissions are the foundation. Begin with read-only source-linked assistance before governed draft actions."
+      ]
+    ],
+    "related": [
+      {
+        "href": "/erp-solutions",
+        "label": "Odoo ERP implementation"
+      },
+      {
+        "href": "/ai-solutions",
+        "label": "Private AI implementation"
+      },
+      {
+        "href": "/solutions/business-automation",
+        "label": "Business workflow automation"
+      },
+      {
+        "href": "/resources/industries/manufacturing",
+        "label": "Practical manufacturing guide"
+      },
+      {
+        "href": "/pricing",
+        "label": "Compare planning-level prices"
+      },
+      {
+        "href": "/contact",
+        "label": "Discuss your requirements"
+      }
+    ],
+    "dateModified": "2026-09-24",
+    "image": "/industries/manufacturing.webp"
+  },
+  {
+    "path": "/industries/retail",
+    "title": "Odoo ERP & Private AI for Retail",
+    "description": "Connect POS, stock and customer records with Yudaro ERP, private AI and automation for retail businesses.",
+    "intro": "Build a connected operating record for POS, stock and customer records, with company knowledge available at the point of work.",
+    "eyebrow": "BUILT AROUND YOUR OPERATION",
+    "kind": "Service",
+    "sections": [
+      {
+        "title": "Start with the operating problem",
+        "body": "Stores and ecommerce can disagree on availability, prices and returns when each channel maintains separate product lists. Connect transactions, stock movements and financial records across locations."
+      },
+      {
+        "title": "Connect the workflows that matter",
+        "body": "These are illustrative implementation paths. Modules, interfaces and controls are scoped to your operation, not assumed to be included in every installation.",
+        "items": [
+          "Product -> POS or online order -> availability -> fulfillment -> payment -> return",
+          "Store demand -> transfer or purchase -> receiving -> availability"
+        ]
+      },
+      {
+        "title": "What the ERP foundation needs",
+        "body": "Map current systems and decide where authoritative records live. Evaluate Odoo alongside existing accounting, commerce, scheduling or specialist tools. Confirm versions, interfaces and reconciliation requirements before choosing replacement or integration.",
+        "items": [
+          "Shared products, prices and location-level stock",
+          "Cross-channel returns and discount approvals",
+          "Ecommerce, payment providers and store closing"
+        ]
+      },
+      {
+        "title": "Where private AI and automation can help",
+        "body": "A customer returns an online order in a store. Staff find the approved policy and transaction; ERP records the authorized return. AI locates guidance without waiving policy."
+      },
+      {
+        "title": "How Yudaro scopes implementation",
+        "body": "Start with a representative transaction and its business owners. Review data, handoffs, permissions and exceptions; configure an end-to-end pilot; reconcile outputs; then train users and agree support. Preserve useful specialist tools when integration is a better fit. Migration and custom work require acceptance criteria."
+      },
+      {
+        "title": "Measure results and prepare for discovery",
+        "body": "Agree a baseline for stock differences, transfer lead time, returns and closing effort. Bring sample records, reports, systems and versions, locations, roles and documented exceptions. Use masked examples initially. Price and schedule depend on scope, data quality, integrations and rollout constraints; no industry-wide outcome or fixed timeline is promised."
+      }
+    ],
+    "faqs": [
+      [
+        "Is this a standard retail package?",
+        "No. These are relevant workflows. Discovery determines modules, configuration, integrations, data work and training."
+      ],
+      [
+        "Can we add AI later?",
+        "Yes. Reliable records and permissions are the foundation. Begin with read-only source-linked assistance before governed draft actions."
+      ]
+    ],
+    "related": [
+      {
+        "href": "/erp-solutions",
+        "label": "Odoo ERP implementation"
+      },
+      {
+        "href": "/ai-solutions",
+        "label": "Private AI implementation"
+      },
+      {
+        "href": "/solutions/business-automation",
+        "label": "Business workflow automation"
+      },
+      {
+        "href": "/resources/industries/retail",
+        "label": "Practical retail guide"
+      },
+      {
+        "href": "/pricing",
+        "label": "Compare planning-level prices"
+      },
+      {
+        "href": "/contact",
+        "label": "Discuss your requirements"
+      }
+    ],
+    "dateModified": "2026-09-24",
+    "image": "/industries/retail.webp"
+  },
+  {
+    "path": "/industries/construction",
+    "title": "Odoo ERP & Private AI for Construction",
+    "description": "Connect project costs, purchasing and billing with Yudaro ERP, private AI and automation for construction businesses.",
+    "intro": "Build a connected operating record for project costs, purchasing and billing, with company knowledge available at the point of work.",
+    "eyebrow": "BUILT AROUND YOUR OPERATION",
+    "kind": "Service",
+    "sections": [
+      {
+        "title": "Start with the operating problem",
+        "body": "Project teams need one record of commitments, approved changes, labor and progress. Separate estimating, procurement and billing files can hide costs or leave completed work unbilled."
+      },
+      {
+        "title": "Connect the workflows that matter",
+        "body": "These are illustrative implementation paths. Modules, interfaces and controls are scoped to your operation, not assumed to be included in every installation.",
+        "items": [
+          "Lead -> estimate -> contract -> project -> commitments -> progress -> invoice",
+          "Site change -> supporting documents -> approval -> budget and billing"
+        ]
+      },
+      {
+        "title": "What the ERP foundation needs",
+        "body": "Map current systems and decide where authoritative records live. Evaluate Odoo alongside existing accounting, commerce, scheduling or specialist tools. Confirm versions, interfaces and reconciliation requirements before choosing replacement or integration.",
+        "items": [
+          "Cost codes and purchasing commitments",
+          "Timesheets, subcontract records and milestones",
+          "Controlled drawings, submittals and change logs"
+        ]
+      },
+      {
+        "title": "Where private AI and automation can help",
+        "body": "A manager asks which approved submittal supports a substitution. AI finds permitted documents and prepares a checklist. Authorized professionals retain contract, design and safety decisions."
+      },
+      {
+        "title": "How Yudaro scopes implementation",
+        "body": "Start with a representative transaction and its business owners. Review data, handoffs, permissions and exceptions; configure an end-to-end pilot; reconcile outputs; then train users and agree support. Preserve useful specialist tools when integration is a better fit. Migration and custom work require acceptance criteria."
+      },
+      {
+        "title": "Measure results and prepare for discovery",
+        "body": "Agree a baseline for unbilled approved work, committed cost, change visibility and reporting delay. Bring sample records, reports, systems and versions, locations, roles and documented exceptions. Use masked examples initially. Price and schedule depend on scope, data quality, integrations and rollout constraints; no industry-wide outcome or fixed timeline is promised."
+      }
+    ],
+    "faqs": [
+      [
+        "Is this a standard construction package?",
+        "No. These are relevant workflows. Discovery determines modules, configuration, integrations, data work and training."
+      ],
+      [
+        "Can we add AI later?",
+        "Yes. Reliable records and permissions are the foundation. Begin with read-only source-linked assistance before governed draft actions."
+      ]
+    ],
+    "related": [
+      {
+        "href": "/erp-solutions",
+        "label": "Odoo ERP implementation"
+      },
+      {
+        "href": "/ai-solutions",
+        "label": "Private AI implementation"
+      },
+      {
+        "href": "/solutions/business-automation",
+        "label": "Business workflow automation"
+      },
+      {
+        "href": "/resources/industries/construction",
+        "label": "Practical construction guide"
+      },
+      {
+        "href": "/pricing",
+        "label": "Compare planning-level prices"
+      },
+      {
+        "href": "/contact",
+        "label": "Discuss your requirements"
+      }
+    ],
+    "dateModified": "2026-09-24",
+    "image": "/industries/construction.webp"
+  },
+  {
+    "path": "/industries/hvac-field-service",
+    "title": "Odoo ERP & Private AI for HVAC & Field Service",
+    "description": "Connect dispatch, parts and service history with Yudaro ERP, private AI and automation for hvac & field service businesses.",
+    "intro": "Build a connected operating record for dispatch, parts and service history, with company knowledge available at the point of work.",
+    "eyebrow": "BUILT AROUND YOUR OPERATION",
+    "kind": "Service",
+    "sections": [
+      {
+        "title": "Start with the operating problem",
+        "body": "Dispatchers, technicians and office staff need the same view of equipment, visits and required parts. Missing context or incomplete records can delay invoicing and create repeat trips."
+      },
+      {
+        "title": "Connect the workflows that matter",
+        "body": "These are illustrative implementation paths. Modules, interfaces and controls are scoped to your operation, not assumed to be included in every installation.",
+        "items": [
+          "Request -> dispatch -> visit -> parts and time -> review -> invoice",
+          "Maintenance plan -> scheduled work -> service history -> follow-up"
+        ]
+      },
+      {
+        "title": "What the ERP foundation needs",
+        "body": "Map current systems and decide where authoritative records live. Evaluate Odoo alongside existing accounting, commerce, scheduling or specialist tools. Confirm versions, interfaces and reconciliation requirements before choosing replacement or integration.",
+        "items": [
+          "Equipment records and recurring maintenance",
+          "Scheduling, mobile access and parts reservations",
+          "Warranty evidence, procedures and billing"
+        ]
+      },
+      {
+        "title": "Where private AI and automation can help",
+        "body": "A technician retrieves service history and approved equipment instructions before a visit. ERP supplies the work order. AI summarizes records while qualified personnel retain diagnostic and safety judgment."
+      },
+      {
+        "title": "How Yudaro scopes implementation",
+        "body": "Start with a representative transaction and its business owners. Review data, handoffs, permissions and exceptions; configure an end-to-end pilot; reconcile outputs; then train users and agree support. Preserve useful specialist tools when integration is a better fit. Migration and custom work require acceptance criteria."
+      },
+      {
+        "title": "Measure results and prepare for discovery",
+        "body": "Agree a baseline for completion time, parts availability, documentation and service-to-invoice delay. Bring sample records, reports, systems and versions, locations, roles and documented exceptions. Use masked examples initially. Price and schedule depend on scope, data quality, integrations and rollout constraints; no industry-wide outcome or fixed timeline is promised."
+      }
+    ],
+    "faqs": [
+      [
+        "Is this a standard hvac & field service package?",
+        "No. These are relevant workflows. Discovery determines modules, configuration, integrations, data work and training."
+      ],
+      [
+        "Can we add AI later?",
+        "Yes. Reliable records and permissions are the foundation. Begin with read-only source-linked assistance before governed draft actions."
+      ]
+    ],
+    "related": [
+      {
+        "href": "/erp-solutions",
+        "label": "Odoo ERP implementation"
+      },
+      {
+        "href": "/ai-solutions",
+        "label": "Private AI implementation"
+      },
+      {
+        "href": "/solutions/business-automation",
+        "label": "Business workflow automation"
+      },
+      {
+        "href": "/resources/industries/hvac-field-service",
+        "label": "Practical hvac & field service guide"
+      },
+      {
+        "href": "/pricing",
+        "label": "Compare planning-level prices"
+      },
+      {
+        "href": "/contact",
+        "label": "Discuss your requirements"
+      }
+    ],
+    "dateModified": "2026-09-24",
+    "image": "/industries/hvac-field-service.webp"
+  },
+  {
+    "path": "/industries/professional-services",
+    "title": "Odoo ERP & Private AI for Professional Services",
+    "description": "Connect projects, time and client delivery with Yudaro ERP, private AI and automation for professional services businesses.",
+    "intro": "Build a connected operating record for projects, time and client delivery, with company knowledge available at the point of work.",
+    "eyebrow": "BUILT AROUND YOUR OPERATION",
+    "kind": "Service",
+    "sections": [
+      {
+        "title": "Start with the operating problem",
+        "body": "Scope, staffing, work records and billing should describe the same engagement. Re-entry between CRM, projects and invoicing makes handoffs harder to audit and weakens capacity visibility."
+      },
+      {
+        "title": "Connect the workflows that matter",
+        "body": "These are illustrative implementation paths. Modules, interfaces and controls are scoped to your operation, not assumed to be included in every installation.",
+        "items": [
+          "Opportunity -> proposal -> agreement -> project -> time -> review -> invoice",
+          "Meeting notes -> reviewed actions -> delivery checklist -> client handoff"
+        ]
+      },
+      {
+        "title": "What the ERP foundation needs",
+        "body": "Map current systems and decide where authoritative records live. Evaluate Odoo alongside existing accounting, commerce, scheduling or specialist tools. Confirm versions, interfaces and reconciliation requirements before choosing replacement or integration.",
+        "items": [
+          "Scope templates and client access boundaries",
+          "Time, expenses, recurring billing and approvals",
+          "Capacity, changes and management reports"
+        ]
+      },
+      {
+        "title": "Where private AI and automation can help",
+        "body": "A new manager asks what is approved and which decisions remain open. AI summarizes permitted scope and meeting records with citations. The manager verifies the handoff before contacting the client."
+      },
+      {
+        "title": "How Yudaro scopes implementation",
+        "body": "Start with a representative transaction and its business owners. Review data, handoffs, permissions and exceptions; configure an end-to-end pilot; reconcile outputs; then train users and agree support. Preserve useful specialist tools when integration is a better fit. Migration and custom work require acceptance criteria."
+      },
+      {
+        "title": "Measure results and prepare for discovery",
+        "body": "Agree a baseline for unbilled time, scope exceptions, delivery timeliness and billing rework. Bring sample records, reports, systems and versions, locations, roles and documented exceptions. Use masked examples initially. Price and schedule depend on scope, data quality, integrations and rollout constraints; no industry-wide outcome or fixed timeline is promised."
+      }
+    ],
+    "faqs": [
+      [
+        "Is this a standard professional services package?",
+        "No. These are relevant workflows. Discovery determines modules, configuration, integrations, data work and training."
+      ],
+      [
+        "Can we add AI later?",
+        "Yes. Reliable records and permissions are the foundation. Begin with read-only source-linked assistance before governed draft actions."
+      ]
+    ],
+    "related": [
+      {
+        "href": "/erp-solutions",
+        "label": "Odoo ERP implementation"
+      },
+      {
+        "href": "/ai-solutions",
+        "label": "Private AI implementation"
+      },
+      {
+        "href": "/solutions/business-automation",
+        "label": "Business workflow automation"
+      },
+      {
+        "href": "/resources/industries/professional-services",
+        "label": "Practical professional services guide"
+      },
+      {
+        "href": "/pricing",
+        "label": "Compare planning-level prices"
+      },
+      {
+        "href": "/contact",
+        "label": "Discuss your requirements"
+      }
+    ],
+    "dateModified": "2026-09-24",
+    "image": "/industries/service-companies.webp"
+  },
+  {
+    "path": "/resources/odoo-implementation-planning",
+    "title": "Odoo Implementation Cost, Timeline & Readiness",
+    "description": "Separate software, implementation, migration and support costs. Use a scope checklist and acceptance gates to plan an Odoo rollout.",
+    "intro": "A useful Odoo budget includes process changes, data work, integrations, training, software and ongoing ownership.",
+    "eyebrow": "PRACTICAL GUIDES",
+    "kind": "Article",
+    "sections": [
+      {
+        "title": "Separate the budget into decisions",
+        "body": "Yudaro publishes starting points of $5,000 for ERP Core, $11,250 for ERP Operations and $21,250 for ERP Enterprise. These are planning figures, not all-in totals. Licenses, hardware, cloud, third-party subscriptions, travel and extensive data remediation are separate when required.",
+        "table": {
+          "headers": [
+            "Budget",
+            "Establish",
+            "Scope grows with"
+          ],
+          "rows": [
+            [
+              "Software / hosting",
+              "Edition, plan, users and environments",
+              "Apps, API access and entities"
+            ],
+            [
+              "Implementation",
+              "Configuration and training",
+              "Approvals, departments and reports"
+            ],
+            [
+              "Migration",
+              "Sources, history and reconciliation",
+              "Duplicates, attachments and mappings"
+            ],
+            [
+              "Support",
+              "Responsibilities and capacity",
+              "Integrations and upgrades"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "A timeline is an acceptance plan",
+        "body": "A focused rollout may fit into weeks; multi-company or substantial manufacturing and migration can take months. These are planning possibilities, not promises. Establish gates for process design, trial migration, acceptance and cutover. User availability and cleanup can determine the schedule as much as development."
+      },
+      {
+        "title": "Compare proposals using the same example",
+        "body": "Ask each provider how one real order or work order moves through its proposed system. Include a return, missing item and approval exception. Compare deliverables, migration, integration, training, ownership and support. A low installation price may leave significant business work unpriced."
+      },
+      {
+        "title": "Prepare for discovery",
+        "body": "Bring a system list, sample data, transactions and reports managers actually use. Name process owners and identify training and cutover windows. Agree secure transfer for any sensitive data.",
+        "items": [
+          "Separate must-have outcomes from preferences.",
+          "Name financial and safety approvals retained by your team.",
+          "Record cycle time, reconciliation differences and rework.",
+          "Identify who approves process changes and acceptance."
+        ]
+      },
+      {
+        "title": "Control scope after launch",
+        "body": "Keep a prioritized improvement list. Review exceptions and adoption rather than treating every request as a launch blocker. Changes to modules or connectors need regression tests against critical transactions. Revisit the budget when adding entities, locations or major workflows."
+      }
+    ],
+    "faqs": [
+      [
+        "Does implementation include licenses?",
+        "The published pricing separates software and other required infrastructure or third-party costs from scoped implementation. Confirm every inclusion in your proposal."
+      ],
+      [
+        "Can user count determine the launch date?",
+        "No. Data quality, decisions, integrations and acceptance effort also matter."
+      ]
+    ],
+    "related": [
+      {
+        "href": "/erp-solutions",
+        "label": "Odoo ERP implementation"
+      },
+      {
+        "href": "/solutions/odoo-migration",
+        "label": "Migration planning"
+      },
+      {
+        "href": "/pricing",
+        "label": "Compare planning-level prices"
+      },
+      {
+        "href": "/contact",
+        "label": "Discuss your requirements"
+      }
+    ],
+    "dateModified": "2026-09-24",
+    "datePublished": "2026-09-24",
+    "sources": [
+      {
+        "href": "https://www.odoo.com/documentation/19.0/",
+        "label": "Odoo 19 documentation: verify your installed edition and version"
+      },
+      {
+        "href": "https://yudaro.com/pricing",
+        "label": "Yudaro planning prices"
+      }
+    ]
+  },
+  {
+    "path": "/resources/private-ai-security",
+    "title": "Private AI Permissions & Deployment Checklist",
+    "description": "Review document permissions, data flows, evaluation, backups and approvals before deploying a private AI assistant.",
+    "intro": "Private deployment is an architecture choice, not proof of security. Review every data path and test the actual permission boundaries.",
+    "eyebrow": "PRACTICAL GUIDES",
+    "kind": "Article",
+    "sections": [
+      {
+        "title": "Map every data flow",
+        "body": "Inventory ingestion, OCR, embeddings, inference, logs, backups, telemetry and integrations. A local chat model can still depend on external services elsewhere. Record what leaves the environment, why, who processes it and retention. Review the implemented system rather than a product label."
+      },
+      {
+        "title": "Enforce permissions before retrieval",
+        "body": "Users must not retrieve restricted information simply because it shares an index. Map source permissions to retrieval rules and test role changes and removals. Citations must not expose restricted titles, snippets or paths. ERP tools need a separate authorization boundary.",
+        "table": {
+          "headers": [
+            "Test",
+            "Expected behavior",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "Restricted document request",
+              "No restricted passages or identifying citations",
+              "Role-based retrieval test"
+            ],
+            [
+              "Replaced document",
+              "Old material follows removal rules",
+              "Revision and index check"
+            ],
+            [
+              "Prompt asks to ignore rules",
+              "Permissions remain enforced",
+              "Adversarial test and logs"
+            ],
+            [
+              "Sensitive ERP action",
+              "Approval precedes execution",
+              "Approval and execution record"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Evaluate answers and failure behavior",
+        "body": "Use employee questions and deliberately ambiguous, unsupported or conflicting examples. Check source fidelity, citations, refusal and revision awareness. Fluency is not evidence of accuracy. Operational, financial and safety decisions need appropriate review."
+      },
+      {
+        "title": "Assign ongoing responsibilities",
+        "body": "Specify who updates models, manages identities, reviews logs, tests recovery and handles incidents. Data export, ownership and vendor responsibilities belong in deployment scope. Document administrative access and recovery rather than assuming that private implies secure."
+      },
+      {
+        "title": "Start with a bounded pilot",
+        "body": "A small collection with owners is easier to evaluate than the entire company drive. Begin read-only and route feedback to document owners. Add sources and actions after evaluation and permission tests remain satisfactory. This is general implementation guidance, not a security certification or assessment of your environment."
+      }
+    ],
+    "faqs": [
+      [
+        "Does RAG prevent all incorrect answers?",
+        "No. It can improve grounding but still requires evaluation, uncertainty and review."
+      ],
+      [
+        "Should AI follow instructions in retrieved documents?",
+        "Retrieved content is evidence, not authorization. Software controls must prevent document text from expanding permissions or bypassing approvals."
+      ]
+    ],
+    "related": [
+      {
+        "href": "/ai-solutions",
+        "label": "Private AI implementation"
+      },
+      {
+        "href": "/solutions/ai-knowledge-base",
+        "label": "Governed knowledge search"
+      },
+      {
+        "href": "/trust",
+        "label": "Trust and data practices"
+      },
+      {
+        "href": "/contact",
+        "label": "Discuss your requirements"
+      }
+    ],
+    "dateModified": "2026-09-24",
+    "datePublished": "2026-09-24"
+  },
+  {
+    "path": "/resources/faqs",
+    "title": "Private AI, Odoo & Automation Questions",
+    "description": "Practical answers about private AI, Odoo implementation, AI ERP integration, pricing and readiness.",
+    "intro": "Choose a starting point with these questions, then explore a focused implementation guide.",
+    "eyebrow": "PRACTICAL GUIDES",
+    "kind": "Article",
+    "sections": [
+      {
+        "title": "Which system should we improve first?",
+        "body": "Start with the constraint. If records disagree, improve ERP and data foundations. If staff cannot find approved procedures, assess document governance and search. If a clear task is repeatedly re-entered, consider automation. Discovery should separate these needs rather than prescribe one platform for every business."
+      },
+      {
+        "title": "What is an AI ERP system?",
+        "body": "AI ERP combines operational records with governed retrieval, explanation or draft actions. ERP remains authoritative for transactions and calculations. Expose permitted records, preserve references and retain approval for significant changes."
+      },
+      {
+        "title": "Can a business run AI locally?",
+        "body": "Yes, with suitable hardware, models and supporting software. Workload, concurrent users, context and retrieval affect sizing. Local inference is only one part of privacy: document processing, embeddings, backups and connections also need review. Benchmark representative questions rather than relying on a generic hardware promise."
+      },
+      {
+        "title": "What should a proposal explain?",
+        "body": "Define outcomes, deliverables, exclusions, users, systems, migration, security responsibilities, acceptance, training and support. Clarify licenses and infrastructure separately. Name dependencies and approval gates in the timeline, and make cost assumptions visible."
+      }
+    ],
+    "faqs": [
+      [
+        "Can Odoo support restaurant POS?",
+        "Odoo can be configured for restaurant workflows. Yudaro’s demonstration shows seating, orders, payments and back-office records; scope depends on modules and configuration."
+      ],
+      [
+        "Can Odoo integrate with ecommerce?",
+        "Yes, where suitable interfaces exist. Define product, price, stock and order ownership and verify provider access and reconciliation."
+      ],
+      [
+        "How much does private AI cost?",
+        "Yudaro AI Foundation starts at $7,500. Final scope depends on documents, users, permissions, infrastructure and integration. Review current pricing."
+      ],
+      [
+        "Do company documents require model training?",
+        "Many projects use retrieval. Choose based on whether the problem is finding current facts, changing behavior or connecting live data."
+      ],
+      [
+        "Is ERP accounting software?",
+        "ERP can coordinate sales, stock, purchasing, service or production as well as financial handoffs. Accounting integration requires its own design and approval."
+      ],
+      [
+        "What is needed before AI + ERP?",
+        "Reliable records, agreed metrics, bounded access and tested connectors. Begin read-only before evaluating draft actions."
+      ]
+    ],
+    "related": [
+      {
+        "href": "/ai-solutions",
+        "label": "Private AI implementation"
+      },
+      {
+        "href": "/erp-solutions",
+        "label": "Odoo ERP implementation"
+      },
+      {
+        "href": "/ai-erp",
+        "label": "AI + ERP integration"
+      },
+      {
+        "href": "/solutions/business-automation",
+        "label": "Business workflow automation"
+      },
+      {
+        "href": "/resources/odoo-implementation-planning",
+        "label": "Cost and timing"
+      },
+      {
+        "href": "/contact",
+        "label": "Discuss your requirements"
+      }
+    ],
+    "dateModified": "2026-09-24",
+    "datePublished": "2026-09-24"
+  },
+  {
+    "path": "/solutions",
+    "title": "Private AI, ERP & Automation Solutions",
+    "description": "Choose the right starting point for private AI, Odoo ERP, document search, integration and automation with Yudaro.",
+    "intro": "Choose a solution around the work your team needs to do better.",
+    "eyebrow": "BUILT AROUND YOUR OPERATION",
+    "kind": "CollectionPage",
+    "sections": [
+      {
+        "title": "Find the missing foundation",
+        "body": "Private AI helps people find and interpret knowledge. ERP connects records and transactions. Automation moves defined work. AI + ERP combines permitted data with explanations and reviewed actions; it should not replace operating controls.",
+        "table": {
+          "headers": [
+            "Constraint",
+            "Start with",
+            "Review first"
+          ],
+          "rows": [
+            [
+              "Scattered procedures",
+              "Private AI / knowledge base",
+              "Sources and permissions"
+            ],
+            [
+              "Conflicting stock and orders",
+              "ERP implementation",
+              "Master data and transactions"
+            ],
+            [
+              "Repeated handoffs",
+              "Business automation",
+              "Rules, exceptions and baseline"
+            ],
+            [
+              "Data is hard to interpret",
+              "AI + ERP",
+              "Metrics and approved reports"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Design for the operating lifecycle",
+        "body": "An engagement covers discovery, process decisions, design, migration, tests, training and support. Keep existing systems where they work well. Configuration should precede unnecessary custom code. Integrations need monitoring and an owner."
+      },
+      {
+        "title": "Start small enough to measure",
+        "body": "Choose one workflow, name an owner and define success. A pilot establishes data quality, adoption and fit before expansion. Published prices help plan the conversation; an agreed proposal defines deliverables and responsibilities."
+      }
+    ],
+    "faqs": [
+      [
+        "Do we need AI and ERP together?",
+        "No. Your data, processes and goals determine the starting point. One focused improvement may come before an integrated deployment."
+      ]
+    ],
+    "related": [
+      {
+        "href": "/ai-solutions",
+        "label": "Private AI implementation"
+      },
+      {
+        "href": "/erp-solutions",
+        "label": "Odoo ERP implementation"
+      },
+      {
+        "href": "/ai-erp",
+        "label": "AI + ERP integration"
+      },
+      {
+        "href": "/solutions/business-automation",
+        "label": "Business workflow automation"
+      },
+      {
+        "href": "/solutions/ai-knowledge-base",
+        "label": "Knowledge base and document search"
+      },
+      {
+        "href": "/solutions/odoo-migration",
+        "label": "Data migration"
+      },
+      {
+        "href": "/solutions/odoo-integration",
+        "label": "System integration"
+      },
+      {
+        "href": "/solutions/odoo-customization",
+        "label": "Customization"
+      },
+      {
+        "href": "/website-design",
+        "label": "Website design"
+      },
+      {
+        "href": "/locations/houston",
+        "label": "Houston-area services"
+      },
+      {
+        "href": "/contact",
+        "label": "Discuss your requirements"
+      }
+    ],
+    "dateModified": "2026-09-24"
+  }
+]

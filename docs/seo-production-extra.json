@@ -1,0 +1,21 @@
+[
+  {
+    "url": "http://yudaro.com/solutions/odoo-migration",
+    "status": 308,
+    "location": "https://yudaro.com/solutions/odoo-migration"
+  },
+  {
+    "url": "https://www.yudaro.com/solutions/odoo-migration",
+    "status": 308,
+    "location": "https://yudaro.com/solutions/odoo-migration"
+  },
+  {
+    "url": "https://yudaro.ai/solutions/odoo-migration",
+    "error": "fetch failed"
+  },
+  {
+    "url": "https://yudaro.com/catalog/yudaro-catalog-2026-46-pages-september.pdf",
+    "status": 200,
+    "pages": 46
+  }
+]

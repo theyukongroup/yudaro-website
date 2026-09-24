@@ -1,0 +1,334 @@
+[
+  {
+    "path": "/",
+    "mode": "mobile",
+    "scores": {
+      "performance": 80,
+      "accessibility": 100,
+      "seo": 100
+    },
+    "lcp": 5259.1146,
+    "cls": 0.0003441846039254676,
+    "tbt": 22,
+    "issues": [
+      "unused-css-rules",
+      "unused-javascript",
+      "bf-cache",
+      "image-delivery-insight",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "path": "/ai-solutions",
+    "mode": "mobile",
+    "scores": {
+      "performance": 92,
+      "accessibility": 100,
+      "seo": 100
+    },
+    "lcp": 3248.2091,
+    "cls": 0.00001265970838596786,
+    "tbt": 15,
+    "issues": [
+      "unused-css-rules",
+      "unused-javascript",
+      "bf-cache",
+      "image-delivery-insight",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "path": "/erp-solutions",
+    "mode": "mobile",
+    "scores": {
+      "performance": 92,
+      "accessibility": 100,
+      "seo": 100
+    },
+    "lcp": 3323.8737499999997,
+    "cls": 0.004505678121430914,
+    "tbt": 9,
+    "issues": [
+      "unused-css-rules",
+      "unused-javascript",
+      "bf-cache",
+      "image-delivery-insight",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "path": "/ai-erp",
+    "mode": "mobile",
+    "scores": {
+      "performance": 93,
+      "accessibility": 100,
+      "seo": 100
+    },
+    "lcp": 3087.06405,
+    "cls": 0.01197828930762835,
+    "tbt": 11,
+    "issues": [
+      "unused-css-rules",
+      "unused-javascript",
+      "bf-cache",
+      "forced-reflow-insight",
+      "image-delivery-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "path": "/solutions/business-automation",
+    "mode": "mobile",
+    "scores": {
+      "performance": 91,
+      "accessibility": 100,
+      "seo": 100
+    },
+    "lcp": 3383.7018,
+    "cls": 0.0001168455809295585,
+    "tbt": 11,
+    "issues": [
+      "unused-css-rules",
+      "unused-javascript",
+      "bf-cache",
+      "image-delivery-insight",
+      "lcp-discovery-insight",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "path": "/industries/distribution",
+    "mode": "mobile",
+    "scores": {
+      "performance": 92,
+      "accessibility": 100,
+      "seo": 100
+    },
+    "lcp": 3234.3384499999993,
+    "cls": 0.0001479321359755087,
+    "tbt": 10.5,
+    "issues": [
+      "unused-css-rules",
+      "unused-javascript",
+      "bf-cache",
+      "image-delivery-insight",
+      "lcp-discovery-insight",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "path": "/locations/houston",
+    "mode": "mobile",
+    "scores": {
+      "performance": 92,
+      "accessibility": 100,
+      "seo": 100
+    },
+    "lcp": 3308.4462499999995,
+    "cls": 0,
+    "tbt": 10.5,
+    "issues": [
+      "unused-css-rules",
+      "unused-javascript",
+      "bf-cache",
+      "image-delivery-insight",
+      "lcp-discovery-insight",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "path": "/contact",
+    "mode": "mobile",
+    "scores": {
+      "performance": 94,
+      "accessibility": 100,
+      "seo": 100
+    },
+    "lcp": 3081.6932000000006,
+    "cls": 0,
+    "tbt": 10.5,
+    "issues": [
+      "unused-css-rules",
+      "unused-javascript",
+      "bf-cache",
+      "image-delivery-insight",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "path": "/",
+    "mode": "desktop",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "seo": 100
+    },
+    "lcp": 989.7970000000001,
+    "cls": 0.0001608344184027778,
+    "tbt": 0,
+    "issues": [
+      "unused-css-rules",
+      "unused-javascript",
+      "bf-cache",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "path": "/ai-solutions",
+    "mode": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "seo": 100
+    },
+    "lcp": 690.3416000000001,
+    "cls": 0.008671327517160174,
+    "tbt": 0,
+    "issues": [
+      "unused-css-rules",
+      "unused-javascript",
+      "bf-cache",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "path": "/erp-solutions",
+    "mode": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "seo": 100
+    },
+    "lcp": 634.6858500000001,
+    "cls": 0.0004587842399691358,
+    "tbt": 0,
+    "issues": [
+      "unused-css-rules",
+      "unused-javascript",
+      "bf-cache",
+      "forced-reflow-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "path": "/ai-erp",
+    "mode": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "seo": 100
+    },
+    "lcp": 692.4110999999998,
+    "cls": 0.007269453737863298,
+    "tbt": 0,
+    "issues": [
+      "unused-css-rules",
+      "unused-javascript",
+      "bf-cache",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "path": "/solutions/business-automation",
+    "mode": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "seo": 100
+    },
+    "lcp": 708.4093000000001,
+    "cls": 0.0002979137195644719,
+    "tbt": 0,
+    "issues": [
+      "unused-css-rules",
+      "unused-javascript",
+      "bf-cache",
+      "image-delivery-insight",
+      "lcp-discovery-insight",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "path": "/industries/distribution",
+    "mode": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "seo": 100
+    },
+    "lcp": 651.9584500000001,
+    "cls": 0.0003056756499699931,
+    "tbt": 0,
+    "issues": [
+      "unused-css-rules",
+      "unused-javascript",
+      "bf-cache",
+      "forced-reflow-insight",
+      "lcp-discovery-insight",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "path": "/locations/houston",
+    "mode": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "seo": 100
+    },
+    "lcp": 666.8379,
+    "cls": 0.0002612701876500343,
+    "tbt": 0,
+    "issues": [
+      "unused-javascript",
+      "bf-cache",
+      "lcp-discovery-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "path": "/contact",
+    "mode": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "seo": 100
+    },
+    "lcp": 634.5717999999999,
+    "cls": 0.0001636503745498971,
+    "tbt": 0,
+    "issues": [
+      "unused-css-rules",
+      "unused-javascript",
+      "bf-cache",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  }
+]

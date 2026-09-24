@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Mobile navigation opens",
+    "pass": true
+  },
+  {
+    "name": "Mobile navigation Escape closes",
+    "pass": true
+  },
+  {
+    "name": "Assessment starts",
+    "pass": true
+  },
+  {
+    "name": "Contact success UI (mocked, no message sent)",
+    "pass": true
+  },
+  {
+    "name": "No optional GA requests without configuration/consent",
+    "pass": true
+  },
+  {
+    "name": "Anonymous protection /api/admin",
+    "status": 403,
+    "pass": true
+  },
+  {
+    "name": "Anonymous protection /api/admin/seo-geo",
+    "status": 403,
+    "pass": true
+  }
+]

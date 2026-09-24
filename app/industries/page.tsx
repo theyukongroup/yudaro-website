@@ -1,55 +1,73 @@
-import type { Metadata } from 'next';
 import Link from 'next/link';
-import { ArrowUpRight } from 'lucide-react';
-import { IndustryStories, type IndustryStory } from '@/components/industry-stories';
+import Image from 'next/image';
+import { searchContent } from '@/lib/search-content';
 import { pageMetadata } from '@/lib/seo';
-
-export const metadata: Metadata = pageMetadata('Industries', 'See how Yudaro combines AI, ERP, and workflow automation for restaurants, distribution, field service, construction, retail, manufacturing, and service companies.', '/industries');
-
-const stories: IndustryStory[] = [
-  { industry: 'Wholesale & Distribution', industrySubtitle: 'Inventory, purchasing, fulfillment, and margin control', image: { src: '/industries/wholesale-distribution.webp', alt: 'Warehouse manager coordinating inventory and fulfillment' }, storytellerRole: 'Warehouse Manager', companyType: 'Regional Wholesale Distributor', shortQuote: 'We stopped chasing three versions of inventory and gave the warehouse and sales team one reliable answer.', fullStory: [
-    'Before Yudaro, our sales team quoted from one spreadsheet while purchasing and the warehouse worked from two others. A stock question could turn into three phone calls, and the answer still depended on who had updated their file last. Returns and damaged shipments were even harder because the process lived mostly in people’s heads.',
-    'Now orders, inventory, purchasing, and fulfillment move through one ERP workflow. The private AI assistant helps the team find receiving procedures, customer-specific terms, and return instructions without interrupting a supervisor. Sales can see what is available, purchasing sees what is coming, and the warehouse has a clear queue for the day. We still make the decisions, but the system gives everyone the same current information. That has made handoffs calmer and helped us spot replenishment issues before they become customer problems.'
-  ], solutionsUsed: ['Odoo ERP', 'Inventory & Purchasing', 'Private AI Knowledge', 'Workflow Automation'], cta: '/contact?service=wholesale-distribution' },
-  { industry: 'HVAC & Field Service', industrySubtitle: 'Dispatch, equipment history, parts, and service follow-up', image: { src: '/industries/hvac-field-service.webp', alt: 'HVAC field technician servicing commercial equipment' }, storytellerRole: 'Service Manager', companyType: 'Regional HVAC Contractor', shortQuote: 'Technicians arrive with the service history and next steps instead of calling the office for every answer.', fullStory: [
-    'Our technicians were good at the work, but too much of their day was spent calling the office. Equipment history was in one system, membership details were somewhere else, and the right troubleshooting notes might be in a binder or with a senior technician. Dispatch could assign the job, but it could not give the field team the full picture.',
-    'Yudaro connected CRM, scheduling, work orders, equipment records, parts, and invoicing in Odoo. We also built a private AI assistant around our service manuals and internal procedures. A technician can review the customer history and find the approved process from the job site, while dispatch sees progress without another call. Newer technicians get useful guidance without pretending the AI replaces experience. The biggest change is flow: fewer interruptions, cleaner handoffs, and a service record that is ready when the customer calls again.'
-  ], solutionsUsed: ['Field Service ERP', 'CRM & Memberships', 'Private AI Assistant', 'Mobile Workflows'], cta: '/contact?service=hvac-field-service' },
-  { industry: 'Construction', industrySubtitle: 'Projects, purchasing, documents, and job-cost visibility', image: { src: '/industries/construction.webp', alt: 'Construction superintendent reviewing work at an active project' }, storytellerRole: 'Project Manager', companyType: 'Commercial General Contractor', shortQuote: 'The current change order, commitment, and field document are finally visible without digging through email chains.', fullStory: [
-    'On a busy project, the information was never truly missing—it was just hard to find. Change orders sat in email, commitments lived in accounting, field documents were in shared folders, and job-cost reports arrived after the conversation had already moved on. I spent too much time assembling a picture of the project before I could manage it.',
-    'We worked with Yudaro to connect project tracking, purchasing, document control, and cost visibility in one operating workflow. The AI layer searches our approved project documents and procedures, so the team can locate the right information without relying on a folder expert. It does not approve a change or make a field decision; it gets the supporting facts in front of the responsible person faster. Meetings now start from a current view of commitments, open issues, and project activity. We have fewer surprises and much less hunting through disconnected systems.'
-  ], solutionsUsed: ['Project ERP', 'Purchasing', 'AI Document Search', 'Management Dashboards'], cta: '/contact?service=construction' },
-  { industry: 'Retail', industrySubtitle: 'Products, customers, purchasing, and multi-location stock', image: { src: '/industries/retail.webp', alt: 'Retail manager coordinating merchandise and inventory' }, storytellerRole: 'Owner', companyType: 'Multi-location Specialty Retailer', shortQuote: 'We can see what each store has, what needs reordering, and which customers need a thoughtful follow-up.', fullStory: [
-    'As we added locations, the little workarounds multiplied. Point of sale did one job, inventory counts lived in spreadsheets, and customer lists were split between tools. A return at one store could be invisible to another. Ordering depended on someone noticing a shelf or remembering what sold well last season.',
-    'Yudaro brought point of sale, inventory, purchasing, e-commerce, and customer records into a connected Odoo environment. Store teams now share a reliable product and stock view, and managers can see transfers and replenishment needs before placing an order. We also use automation for practical customer follow-up, without turning every interaction into generic marketing. The system gives us consistency across locations while leaving room for staff to use their judgment. I spend less time reconciling reports and more time understanding what customers are actually asking for.'
-  ], solutionsUsed: ['Point of Sale', 'Multi-location Inventory', 'Purchasing', 'CRM Automation'], cta: '/contact?service=retail' },
-  { industry: 'Manufacturing', industrySubtitle: 'Materials, planning, production, and quality procedures', image: { src: '/industries/manufacturing.webp', alt: 'Production manager monitoring a modern manufacturing line' }, storytellerRole: 'Production Manager', companyType: 'Component Manufacturer', shortQuote: 'The floor works from the right revision, and shortages show up early enough for us to respond.', fullStory: [
-    'We had capable people and solid processes, but the information around production was fragile. Schedules changed on whiteboards, material shortages appeared late, and a revised work instruction did not always reach every station. Training someone new meant pairing them with the one person who knew where everything was kept.',
-    'With Yudaro, manufacturing orders, bills of materials, inventory, purchasing, and quality steps share one ERP foundation. The private AI knowledge system is grounded in our approved work instructions and quality documents, making the current procedure easier to find without opening access to the public internet. Supervisors retain control over revisions and exceptions. The floor now has a clearer production sequence, purchasing can see material pressure sooner, and operators spend less time searching for guidance. It is not flashy; it is simply a more dependable way to keep the plan, materials, and instructions aligned.'
-  ], solutionsUsed: ['Manufacturing ERP', 'Materials Planning', 'Quality Workflows', 'Private AI Knowledge'], cta: '/contact?service=manufacturing' },
-  { industry: 'Service Companies', industrySubtitle: 'Leads, projects, resources, time, and recurring billing', image: { src: '/industries/service-companies.webp', alt: 'Professional services team coordinating client work' }, storytellerRole: 'Operations Director', companyType: 'Professional Services Firm', shortQuote: 'A signed engagement now becomes scheduled work, tracked time, and accurate billing without repeated data entry.', fullStory: [
-    'Our client experience looked polished from the outside, but behind it the team was copying information between sales, project, time-tracking, and billing tools. Project status depended on a weekly meeting, and recurring work was easy to schedule but harder to verify. When a new employee joined, finding the right template or delivery standard took longer than it should.',
-    'Yudaro connected CRM, projects, resource planning, timesheets, and billing so an accepted engagement can move into delivery without being rebuilt. Automations handle routine handoffs and reminders, while a private AI assistant helps staff find approved templates and internal knowledge. We can see project health and unbilled work during the week, not after month-end. The team still owns every client decision and communication; the technology removes the repetition around it. Onboarding is easier, billing is clearer, and operations no longer has to be the human bridge between every system.'
-  ], solutionsUsed: ['CRM', 'Project & Resource Planning', 'Timesheets & Billing', 'Private AI Knowledge'], cta: '/contact?service=service-company' },
-  { industry: 'Restaurants', industrySubtitle: 'Food cost, inventory, purchasing, labor, waste, and management visibility', image: { src: '/restaurants/chinese-buffet.png', alt: 'Chinese buffet manager reviewing replenishment with a chef' }, storytellerRole: 'Restaurant Owner', companyType: 'Multi-location Restaurant Operator', shortQuote: 'We can see where food cost, waste, labor, and purchasing are affecting margin before the month is over.', fullStory: [
-    'Restaurant operations produce useful information across the POS, delivery platforms, purchasing, inventory counts, schedules, recipes, and accounting. When those records stay disconnected, owners often discover margin problems only after financial statements arrive.',
-    'A connected management layer can organize vendor prices, ingredient usage, recipe or buffet production controls, labor information, and daily operating results without pretending that a general ERP replaces the specialized restaurant POS.',
-    'Private AI can then help authorized managers and employees find approved recipes, SOPs, food-safety procedures, training guidance, and operational answers while the restaurant retains control of its information.'
-  ], solutionsUsed: ['Restaurant Assessment', 'Food Cost and Purchasing', 'Odoo Management Layer', 'Private Restaurant AI'], cta: '/contact?service=restaurants' }
-];
-
-export default function IndustriesPage() { return <main className="industries-page">
-  <section className="industries-hero section-shell"><span className="eyebrow">INDUSTRIES / REPRESENTATIVE SCENARIOS</span><h1>How Yudaro Works in Your Industry</h1><p>Every business operates differently. These representative scenarios illustrate how AI, ERP, and workflow automation may support common industry operations. They are not presented as verified customer case studies.</p></section>
-  <IndustryStories stories={stories}/>
-  <section className="section-shell authority-body">
-    <section><span>01</span><div><h2>AI ERP for wholesale distribution</h2><p>Connect sales, customer pricing, inventory, purchasing, warehouse execution, returns, profitability, and management reporting around one operating record. Private AI can help permitted employees search approved SOPs and explain current ERP information without replacing buyer, pricing, or financial approval.</p><p><Link href="/resources/industries/wholesale-distribution">Read the wholesale distribution guide</Link>{' · '}<Link href="/ai-erp">Explore AI ERP integration</Link></p></div></section>
-    <section><span>02</span><div><h2>AI ERP for HVAC and field service</h2><p>Bring CRM, dispatch, work orders, equipment history, technicians, estimates, parts, maintenance memberships, invoicing, and service procedures into a connected workflow. AI can prepare context and retrieve guidance while dispatchers, technicians, and managers retain responsibility for operational and safety decisions.</p><p><Link href="/resources/industries/hvac-field-service">Read the HVAC and field service guide</Link>{' · '}<Link href="/erp-solutions">Review Odoo ERP services</Link></p></div></section>
-    <section><span>03</span><div><h2>AI ERP for construction</h2><p>Connect project planning, estimates, purchasing, commitments, document control, job costs, change orders, and field activity around a shared operating record. Private AI can help authorized teams locate approved project documents and procedures while project leaders retain control of commercial and field decisions.</p><p><Link href="/erp-solutions">Review Odoo ERP services</Link>{' · '}<Link href="/contact?service=construction">Discuss construction workflows</Link></p></div></section>
-    <section><span>04</span><div><h2>AI ERP for retail</h2><p>Unify products, point of sale, customer records, purchasing, e-commerce, returns, and multi-location inventory. Connected reporting gives managers a clearer view of stock and replenishment, while practical automation supports consistent customer follow-up without replacing employee judgment.</p><p><Link href="/ai-erp">Explore AI ERP integration</Link>{' · '}<Link href="/contact?service=retail">Discuss retail operations</Link></p></div></section>
-    <section><span>05</span><div><h2>AI ERP for manufacturing</h2><p>Coordinate bills of materials, production planning, inventory, purchasing, quality procedures, and work instructions in one operational foundation. Private AI can make approved knowledge easier to retrieve while supervisors remain responsible for revisions, exceptions, safety, and production decisions.</p><p><Link href="/erp-solutions">Review manufacturing ERP capabilities</Link>{' · '}<Link href="/ai-solutions">Explore Private AI</Link></p></div></section>
-    <section><span>06</span><div><h2>AI ERP for professional services</h2><p>Move leads and accepted engagements into projects, resource planning, timesheets, recurring work, and billing without repeated data entry. Private AI can help employees retrieve approved templates and delivery knowledge while client communication and professional decisions remain with the team.</p><p><Link href="/ai-erp">Explore connected operations</Link>{' · '}<Link href="/contact?service=service-company">Discuss service workflows</Link></p></div></section>
-    <section><span>07</span><div><h2>AI ERP for restaurants</h2><p>Bring food cost, vendor pricing, purchasing, inventory, labor, waste, recipes, and management reporting into a more visible operating model. Yudaro complements specialized restaurant systems with a connected management layer and private access to approved recipes, training, and operating procedures.</p><p><Link href="/industries/restaurants">Explore the restaurant solution</Link>{' · '}<Link href="/assessment">Start the free assessment</Link></p></div></section>
-  </section>
-  <section className="member-promo section-shell"><div><span className="section-index">FREE INDUSTRY ASSESSMENT</span><h2>How ready is your operation for AI + ERP?</h2><p>Identify practical opportunities across reporting, employee knowledge, customer workflows, purchasing, inventory, and automation.</p></div><Link className="button primary" href="/assessment">Analyze My Operation <ArrowUpRight size={16}/></Link></section>
-  <section className="section-shell industries-cta"><div><span className="section-index">YOUR OPERATION</span><h2>Your workflow will be different. That is where the conversation starts.</h2></div><Link className="button primary" href="/contact?service=industry-workflow">Talk to Yudaro <ArrowUpRight size={16}/></Link></section>
-</main>; }
+export const metadata = pageMetadata(
+  'Industry ERP, Private AI & Automation',
+  'Explore connected workflows for distribution, manufacturing, retail, restaurants, construction, field service and professional services.',
+  '/industries',
+);
+export default function Page() {
+  return (
+    <main>
+      <section className="inner-hero section-shell">
+        <span className="section-index">INDUSTRIES</span>
+        <h1>Connected systems for the way your industry works.</h1>
+        <p>
+          Start with the operating problem, then connect records, knowledge and
+          workflows. These examples describe implementation possibilities, not
+          customer testimonials or measured client results.
+        </p>
+      </section>
+      <section className="section-shell detail-grid">
+        {searchContent
+          .filter((e) => e.path.startsWith('/industries/'))
+          .map((e) => (
+            <article className="detail-card-image" key={e.path}>
+              <div className="detail-visual">
+                <Image
+                  src={e.image!}
+                  alt=""
+                  width={760}
+                  height={760}
+                  sizes="(max-width:640px) 100vw, (max-width:900px) 50vw, 33vw"
+                />
+              </div>
+              <div className="detail-copy">
+                <h2>{e.title}</h2>
+                <p>{e.intro}</p>
+                <Link prefetch={false} className="text-link" href={e.path}>
+                  Explore the workflow
+                </Link>
+              </div>
+            </article>
+          ))}
+        <article className="detail-card-image">
+          <div className="detail-visual">
+            <Image
+              src="/restaurants/management-ai.webp"
+              alt=""
+              width={760}
+              height={760}
+              sizes="(max-width:640px) 100vw, 33vw"
+            />
+          </div>
+          <div className="detail-copy">
+            <h2>Restaurant POS, ERP &amp; Private AI</h2>
+            <p>
+              Connect service, payments, stock, purchasing and management review
+              for made-to-order and buffet operations.
+            </p>
+            <Link
+              prefetch={false}
+              className="text-link"
+              href="/industries/restaurants"
+            >
+              Explore restaurant workflows
+            </Link>
+          </div>
+        </article>
+      </section>
+    </main>
+  );
+}

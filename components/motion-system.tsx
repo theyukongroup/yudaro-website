@@ -8,6 +8,7 @@ import {
   useEffect,
   useRef,
   useState,
+  useSyncExternalStore,
   type ReactNode,
 } from 'react';
 import { usePathname } from 'next/navigation';
@@ -16,9 +17,22 @@ const PausedContext = createContext(false);
 const features = () =>
   import('./motion-features').then((module) => module.default);
 
+const subscribeMotion = (callback: () => void) => {
+  const query = window.matchMedia('(prefers-reduced-motion: reduce)');
+  query.addEventListener('change', callback);
+  return () => query.removeEventListener('change', callback);
+};
+const motionSnapshot = () =>
+  window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const serverMotionSnapshot = () => false;
+
 export function MotionSystem({ children }: { children: ReactNode }) {
   const pathname = usePathname();
-  const reduced = useReducedMotion();
+  const reduced = useSyncExternalStore(
+    subscribeMotion,
+    motionSnapshot,
+    serverMotionSnapshot,
+  );
   const [paused, setPaused] = useState(false);
   useEffect(() => {
     document.documentElement.dataset.motion = paused || reduced ? 'off' : 'on';
@@ -72,8 +86,8 @@ export function MotionSystem({ children }: { children: ReactNode }) {
               reduced
                 ? 'Reduced motion enabled by your device'
                 : paused
-                  ? 'Resume animations'
-                  : 'Pause animations'
+                  ? 'Resume motion'
+                  : 'Pause motion'
             }
           >
             {paused || reduced ? <Play size={14} /> : <Pause size={14} />}
@@ -161,4 +175,3 @@ export function MagneticLink({
     </a>
   );
 }
-

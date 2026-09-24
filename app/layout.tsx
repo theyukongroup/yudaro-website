@@ -27,6 +27,8 @@ import './restaurants.css';
 import './fixes.css';
 import './yudaro.css';
 import './momentum.css';
+import './search-content.css';
+import { SearchAnalytics } from '@/components/search-analytics';
 import { MotionSystem } from '@/components/motion-system';
 import { DesktopNavigation } from '@/components/desktop-navigation';
 import { FlowLine } from '@/components/yudaro-visuals';
@@ -51,6 +53,12 @@ export const metadata: Metadata = {
       'max-snippet': -1,
       'max-video-preview': -1,
     },
+  },
+  verification: {
+    google: process.env.GOOGLE_SITE_VERIFICATION || undefined,
+    other: process.env.BING_SITE_VERIFICATION
+      ? { 'msvalidate.01': process.env.BING_SITE_VERIFICATION }
+      : {},
   },
   category: 'business technology services',
   icons: {
@@ -99,6 +107,7 @@ export default async function RootLayout({
         </Link>
         <MotionSystem>
           <LanguageRuntime />
+          <SearchAnalytics />
           <header className="site-header">
             <Link
               className="brand logo-brand"
@@ -110,6 +119,7 @@ export default async function RootLayout({
                 alt="Yudaro AI & ERP Systems"
                 width={210}
                 height={105}
+                fetchPriority="high"
                 priority
               />
             </Link>
@@ -193,6 +203,27 @@ export default async function RootLayout({
                 Contact our team
               </Link>
             </address>
+            <nav
+              className="footer-search-links"
+              aria-label="Services and company information"
+            >
+              {[
+                ['/ai-solutions', 'Private AI'],
+                ['/erp-solutions', 'Odoo ERP'],
+                ['/ai-erp', 'AI + ERP'],
+                ['/solutions/business-automation', 'Automation'],
+                ['/solutions', 'All solutions'],
+                ['/industries', 'Industries'],
+                ['/resources', 'Resources'],
+                ['/locations/houston', 'Houston-area services'],
+                ['/about', 'About'],
+                ['/contact', 'Contact'],
+              ].map(([href, label]) => (
+                <Link key={href} href={href}>
+                  {label}
+                </Link>
+              ))}
+            </nav>
             <span className="footer-copyright">
               © 2026 Yudaro. All rights reserved.
               {' · '}
@@ -213,7 +244,9 @@ export default async function RootLayout({
                   '@id': `${SITE_URL}/#organization`,
                   name: 'Yudaro AI & ERP Systems',
                   alternateName: 'Yudaro',
-                  sameAs: ['https://www.linkedin.com/company/yudaro/'],
+                  description:
+                    'Private AI, Odoo ERP implementation and business automation for Houston-area, Texas and US businesses.',
+                  email: 'info@yudaro.com',
                   url: SITE_URL,
                   logo: `${SITE_URL}/yudaro-logo-2026.png`,
                   image: `${SITE_URL}/yudaro-social.png`,
@@ -226,7 +259,12 @@ export default async function RootLayout({
                     postalCode: '77477',
                     addressCountry: 'US',
                   },
-                  areaServed: { '@type': 'Country', name: 'United States' },
+                  areaServed: [
+                    { '@type': 'City', name: 'Houston' },
+                    { '@type': 'City', name: 'Stafford' },
+                    { '@type': 'State', name: 'Texas' },
+                    { '@type': 'Country', name: 'United States' },
+                  ],
                   knowsAbout: [
                     'Private enterprise AI',
                     'ERP consulting and implementation',

@@ -1,19 +1,16 @@
 import { NextResponse, type NextRequest } from 'next/server';
 import { isLocale } from '@/lib/i18n';
-import { authorityRoutes, localizedUrls, publicRoutes } from '@/lib/seo';
+import { authorityRoutes, publicRoutes } from '@/lib/seo';
 import { refreshSupabaseSession } from '@/lib/supabase/proxy';
 
 const publicPaths = new Set<string>(publicRoutes.map((route) => route || '/'));
 const authorityPaths = new Set<string>(authorityRoutes);
 
-function withLanguageHeaders(response: NextResponse, path: string, locale = 'en-US') {
-  const urls = localizedUrls(path === '/' ? '' : path);
-  response.headers.set(
-    'Link',
-    Object.entries(urls)
-      .map(([language, href]) => `<${href}>; rel="alternate"; hreflang="${language}"`)
-      .join(', '),
-  );
+function withLanguageHeaders(
+  response: NextResponse,
+  path: string,
+  locale = 'en-US',
+) {
   response.headers.set('Content-Language', locale);
   return response;
 }
@@ -37,7 +34,11 @@ function localeProxy(request: NextRequest) {
     );
   }
 
-  if (request.nextUrl.pathname.startsWith('/resources') || request.nextUrl.pathname === '/free-account' || request.nextUrl.pathname === '/assessment') {
+  if (
+    request.nextUrl.pathname.startsWith('/resources') ||
+    request.nextUrl.pathname === '/free-account' ||
+    request.nextUrl.pathname === '/assessment'
+  ) {
     requestHeaders.set('x-yudaro-locale', locale);
     return withLanguageHeaders(
       NextResponse.next({ request: { headers: requestHeaders } }),
@@ -97,7 +98,16 @@ export async function proxy(request: NextRequest) {
   )
     return new NextResponse(null, { status: 403 });
   const applySession = await refreshSupabaseSession(request);
-  return applySession(localeProxy(request));
+  if (request.nextUrl.pathname.startsWith('/localized-content/'))
+    return new NextResponse('Not found', {
+      status: 404,
+      headers: { 'X-Robots-Tag': 'noindex' },
+    });
+  const response = applySession(localeProxy(request));
+  const language = request.nextUrl.searchParams.get('lang');
+  if (language && language !== 'en')
+    response.headers.set('X-Robots-Tag', 'noindex, follow');
+  return response;
 }
 // ---------------------------------------------------------------------------
 

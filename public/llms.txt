@@ -1,19 +1,32 @@
-# Yudaro
+# Yudaro AI & ERP Systems
 
-> Yudaro provides private enterprise AI systems, ERP consulting and implementation (including Odoo), intelligent business automation, and website design for operational businesses — wholesale & distribution, HVAC & field service, construction, retail, manufacturing, and professional services.
+Private AI, Odoo ERP implementation, AI + ERP integration and workflow automation. Based in Stafford, serving the Houston area, Texas and the United States.
 
-Yudaro combines private AI grounded in a company's own documents, SOPs, and operating knowledge with ERP systems that run day-to-day operations, so employees can ask natural-language questions and trigger real actions against live business data.
+Contact: 13366 Murphy Road, Stafford, TX 77477; +1-281-258-8000; info@yudaro.com.
 
-## Pages
+## Services and guides
+- [Private AI for Business: Implementation & Knowledge Search](https://yudaro.com/ai-solutions): Private AI implementation for company documents, SOPs and training. Plan permissions, deployment and costs with Yudaro in Houston and across Texas.
+- [Odoo ERP Implementation & Consulting](https://yudaro.com/erp-solutions): Connect sales, inventory, purchasing and operations with Yudaro Odoo consulting, migration, training and support in Houston, Texas and the US.
+- [Business Process Automation](https://yudaro.com/solutions/business-automation): Design measurable workflow automation across orders, purchasing, documents and reporting with Yudaro. Start with clear rules, ownership and controls.
+- [Odoo Data Migration & Cutover Planning](https://yudaro.com/solutions/odoo-migration): Plan Odoo migration with source mapping, trial imports, reconciliation, user acceptance and controlled cutover.
+- [Odoo Integration & AI Connections](https://yudaro.com/solutions/odoo-integration): Connect Odoo with commerce, accounting, POS and private AI using scoped interfaces, permissions, reconciliation and monitored workflows.
+- [Odoo Customization & Workflow Design](https://yudaro.com/solutions/odoo-customization): Evaluate Odoo configuration, extensions and custom modules with fit-gap analysis, testing and upgrade planning.
+- [AI Knowledge Base & Company Document Search](https://yudaro.com/solutions/ai-knowledge-base): Make SOPs, products and internal documents searchable with a permission-aware private AI knowledge base designed by Yudaro.
+- [AI & Odoo ERP Consulting in Houston](https://yudaro.com/locations/houston): Yudaro in Stafford serves Houston-area businesses with private AI, Odoo ERP and automation. Discuss systems and implementation priorities.
+- [Odoo ERP & Private AI for Distribution](https://yudaro.com/industries/distribution): Connect inventory, purchasing and fulfillment with Yudaro ERP, private AI and automation for distribution businesses.
+- [Odoo ERP & Private AI for Manufacturing](https://yudaro.com/industries/manufacturing): Connect materials, production and work instructions with Yudaro ERP, private AI and automation for manufacturing businesses.
+- [Odoo ERP & Private AI for Retail](https://yudaro.com/industries/retail): Connect POS, stock and customer records with Yudaro ERP, private AI and automation for retail businesses.
+- [Odoo ERP & Private AI for Construction](https://yudaro.com/industries/construction): Connect project costs, purchasing and billing with Yudaro ERP, private AI and automation for construction businesses.
+- [Odoo ERP & Private AI for HVAC & Field Service](https://yudaro.com/industries/hvac-field-service): Connect dispatch, parts and service history with Yudaro ERP, private AI and automation for hvac & field service businesses.
+- [Odoo ERP & Private AI for Professional Services](https://yudaro.com/industries/professional-services): Connect projects, time and client delivery with Yudaro ERP, private AI and automation for professional services businesses.
+- [Odoo Implementation Cost, Timeline & Readiness](https://yudaro.com/resources/odoo-implementation-planning): Separate software, implementation, migration and support costs. Use a scope checklist and acceptance gates to plan an Odoo rollout.
+- [Private AI Permissions & Deployment Checklist](https://yudaro.com/resources/private-ai-security): Review document permissions, data flows, evaluation, backups and approvals before deploying a private AI assistant.
+- [Private AI, Odoo & Automation Questions](https://yudaro.com/resources/faqs): Practical answers about private AI, Odoo implementation, AI ERP integration, pricing and readiness.
+- [Private AI, ERP & Automation Solutions](https://yudaro.com/solutions): Choose the right starting point for private AI, Odoo ERP, document search, integration and automation with Yudaro.
 
-- [AI Solutions](https://yudaro.com/ai-solutions): Private AI servers, company knowledge AI, SOP search, employee training AI, document intelligence, and AI business automation.
-- [ERP Solutions](https://yudaro.com/erp-solutions): ERP consulting, Odoo implementation, CRM & sales, purchasing & inventory, accounting integration, field service, custom modules, data migration, and support.
-- [Website Design](https://yudaro.com/website-design): Website strategy, design, development, ecommerce, and integrations, with project packages starting at $2,500.
-- [AI + ERP](https://yudaro.com/ai-erp): How natural-language AI connects to live ERP data across CRM, sales, inventory, purchasing, and operations.
-- [Equipment](https://yudaro.com/equipment): Recommended on-premise server hardware for private AI and Odoo ERP deployments, with sizing guidance.
-- [Industries](https://yudaro.com/industries): Wholesale & distribution, HVAC & field service, construction, retail, manufacturing, and professional services.
-- [Pricing](https://yudaro.com/pricing): Planning-level packages for AI implementation ($7,500+), ERP implementation ($5,000+), and monthly care plans ($300+/month).
-- [About](https://yudaro.com/about): Who Yudaro is and how we work.
-- [Contact](https://yudaro.com/contact): Schedule a consultation. Phone 281-258-8000, 13366 Murphy Road, Stafford, TX 77477.
+## Business information
+- [Pricing](https://yudaro.com/pricing): planning estimates; final scope is quoted.
+- [Trust](https://yudaro.com/trust): deployment, permissions and limitations.
+- [Contact](https://yudaro.com/contact): request a consultation.
 
-The site is available in English, Simplified Chinese, Traditional Chinese, and Spanish (append ?lang=zh-cn, ?lang=zh-tw, or ?lang=es to any page URL).
+Examples are illustrative unless explicitly verified. No official Odoo partner status, customer outcomes or certifications are asserted. This directory supplements public HTML and the sitemap; it does not guarantee inclusion in search or AI answers.

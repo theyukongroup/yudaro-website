@@ -40,7 +40,7 @@ const groups = [
       [
         'Automation',
         'Less repetitive work.',
-        '/resources/business-automation',
+        '/solutions/business-automation',
         Workflow,
       ],
     ],
@@ -52,37 +52,32 @@ const groups = [
       [
         'Distribution',
         'Inventory to fulfillment.',
-        '/resources/industries/wholesale-distribution',
+        '/industries/distribution',
         Truck,
       ],
       [
         'HVAC & Field Service',
         'Dispatch to service.',
-        '/resources/industries/hvac-field-service',
+        '/industries/hvac-field-service',
         Wrench,
       ],
       [
         'Construction',
         'Projects to cost visibility.',
-        '/resources/industries/construction',
+        '/industries/construction',
         HardHat,
       ],
-      [
-        'Retail',
-        'Customers to replenishment.',
-        '/resources/industries/retail',
-        Store,
-      ],
+      ['Retail', 'Customers to replenishment.', '/industries/retail', Store],
       [
         'Manufacturing',
         'Materials to production.',
-        '/resources/industries/manufacturing',
+        '/industries/manufacturing',
         Factory,
       ],
       [
         'Professional Services',
         'People to projects.',
-        '/resources/industries/professional-services',
+        '/industries/professional-services',
         Users,
       ],
       [

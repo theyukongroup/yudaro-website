@@ -428,17 +428,19 @@ export function WorkflowDemo() {
 
 export function KineticWords() {
   return (
-    <span
-      className="kinetic-words"
-      aria-label="Connect. Understand. Automate. Grow."
-    >
-      <span aria-hidden="true">
-        {['Connect.', 'Understand.', 'Automate.', 'Grow.'].map((word, i) => (
-          <b key={word} style={{ animationDelay: `${i * 3}s` }}>
-            {word}
-          </b>
-        ))}
+    <>
+      <span className="search-sr-only">
+        Connect. Understand. Automate. Grow.
       </span>
-    </span>
+      <span className="kinetic-words" aria-hidden="true">
+        <span>
+          {['Connect.', 'Understand.', 'Automate.', 'Grow.'].map((word, i) => (
+            <b key={word} style={{ animationDelay: `${i * 3}s` }}>
+              {word}
+            </b>
+          ))}
+        </span>
+      </span>
+    </>
   );
 }

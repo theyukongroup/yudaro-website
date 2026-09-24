@@ -15,7 +15,8 @@
     "format": "oxfmt",
     "typecheck": "tsc --noEmit",
     "test:sql": "node --experimental-strip-types scripts/sql-dialect-selftest.mjs",
-    "sync:github": "node scripts/sync-github.mjs"
+    "sync:github": "node scripts/sync-github.mjs",
+    "seo:audit": "node scripts/seo-audit.mjs"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",
