@@ -16,7 +16,11 @@
     "typecheck": "tsc --noEmit",
     "test:sql": "node --experimental-strip-types scripts/sql-dialect-selftest.mjs",
     "sync:github": "node scripts/sync-github.mjs",
-    "seo:audit": "node scripts/seo-audit.mjs"
+    "seo:audit": "node scripts/seo-audit.mjs",
+    "test:indexnow": "node --test scripts/indexnow.test.mjs",
+    "indexnow": "node scripts/indexnow.mjs",
+    "seo:crawl": "node scripts/crawl-diagnostic.mjs",
+    "seo:notify": "npm run seo:audit -- https://yudaro.com && npm run indexnow -- --submit"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",

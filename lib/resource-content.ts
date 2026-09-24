@@ -11,6 +11,8 @@ export type ResourceCopy = {
 };
 
 export type ResourceEntry = {
+  authorId?: string;
+  reviewerId?: string;
   datePublished?: string;
   dateModified?: string;
   slug: string;

@@ -3,6 +3,7 @@ export type ContentSection = {
   title: string;
   body: string;
   items?: string[];
+  diagram?: 'read' | 'write';
   table?: { headers: string[]; rows: string[][] };
 };
 export type SearchContent = {
@@ -15,6 +16,8 @@ export type SearchContent = {
   sections: ContentSection[];
   faqs: [string, string][];
   related: { href: string; label: string }[];
+  authorId?: string;
+  reviewerId?: string;
   datePublished?: string;
   dateModified: string;
   sources?: { href: string; label: string }[];

@@ -1,0 +1,2267 @@
+[
+  {
+    "from": "/",
+    "to": "/assessment",
+    "anchor": "Take the Free Assessment"
+  },
+  {
+    "from": "/",
+    "to": "/ai-erp",
+    "anchor": "Explore AI ERP"
+  },
+  {
+    "from": "/",
+    "to": "/ai-solutions",
+    "anchor": "Explore AI solutions"
+  },
+  {
+    "from": "/",
+    "to": "/ai-erp",
+    "anchor": "See AI + ERP in action"
+  },
+  {
+    "from": "/",
+    "to": "/website-design",
+    "anchor": "Explore website design & pricing"
+  },
+  {
+    "from": "/",
+    "to": "/industries",
+    "anchor": "Wholesale & Distribution"
+  },
+  {
+    "from": "/",
+    "to": "/industries",
+    "anchor": "HVAC & Field Service"
+  },
+  {
+    "from": "/",
+    "to": "/industries",
+    "anchor": "Construction"
+  },
+  {
+    "from": "/",
+    "to": "/industries",
+    "anchor": "Retail"
+  },
+  {
+    "from": "/",
+    "to": "/industries",
+    "anchor": "Manufacturing"
+  },
+  {
+    "from": "/",
+    "to": "/industries",
+    "anchor": "Professional Services"
+  },
+  {
+    "from": "/",
+    "to": "/industries/restaurants",
+    "anchor": "Restaurants"
+  },
+  {
+    "from": "/",
+    "to": "/assessment",
+    "anchor": "Get My Free Score"
+  },
+  {
+    "from": "/",
+    "to": "/assessment",
+    "anchor": "Take the Assessment"
+  },
+  {
+    "from": "/",
+    "to": "/contact",
+    "anchor": "Book a Consultation"
+  },
+  {
+    "from": "/",
+    "to": "/locations/houston",
+    "anchor": "Explore Houston-area AI and ERP consulting"
+  },
+  {
+    "from": "/about",
+    "to": "/locations/houston",
+    "anchor": "Houston-area services"
+  },
+  {
+    "from": "/about",
+    "to": "/how-yudaro-works",
+    "anchor": "Read the implementation process"
+  },
+  {
+    "from": "/about",
+    "to": "/trust",
+    "anchor": "Review trust and data practices"
+  },
+  {
+    "from": "/about",
+    "to": "/case-studies",
+    "anchor": "Understand our evidence standard"
+  },
+  {
+    "from": "/about",
+    "to": "/contact",
+    "anchor": "Schedule a Consultation"
+  },
+  {
+    "from": "/ai-erp",
+    "to": "/contact",
+    "anchor": "Discuss your requirements"
+  },
+  {
+    "from": "/ai-erp",
+    "to": "/contact",
+    "anchor": "Discuss your highest-value workflow"
+  },
+  {
+    "from": "/ai-erp",
+    "to": "/resources/ai-erp",
+    "anchor": "Read the practical AI + ERP guide"
+  },
+  {
+    "from": "/ai-erp",
+    "to": "/resources/ai-erp",
+    "anchor": "Read the AI ERP implementation guide"
+  },
+  {
+    "from": "/ai-erp",
+    "to": "/resources/architecture/private-ai-odoo",
+    "anchor": "Review the reference architecture and failure tests"
+  },
+  {
+    "from": "/ai-erp",
+    "to": "/case-studies",
+    "anchor": "Understand our evidence standards"
+  },
+  {
+    "from": "/ai-erp",
+    "to": "/resources/private-ai",
+    "anchor": "Private AI for business"
+  },
+  {
+    "from": "/ai-erp",
+    "to": "/resources/odoo-erp",
+    "anchor": "Odoo ERP implementation"
+  },
+  {
+    "from": "/ai-erp",
+    "to": "/resources/comparisons",
+    "anchor": "Private AI, ChatGPT, and ERP comparisons"
+  },
+  {
+    "from": "/ai-erp",
+    "to": "/resources/guides",
+    "anchor": "AI ERP cost and planning"
+  },
+  {
+    "from": "/ai-erp",
+    "to": "/industries",
+    "anchor": "AI ERP by industry"
+  },
+  {
+    "from": "/ai-erp",
+    "to": "/assessment",
+    "anchor": "Get My Free AI + ERP Assessment"
+  },
+  {
+    "from": "/ai-erp",
+    "to": "/contact",
+    "anchor": "Schedule a Consultation"
+  },
+  {
+    "from": "/ai-solutions",
+    "to": "/contact",
+    "anchor": "Discuss your requirements"
+  },
+  {
+    "from": "/ai-solutions",
+    "to": "/solutions/ai-knowledge-base",
+    "anchor": "Plan document and SOP search \u2192"
+  },
+  {
+    "from": "/ai-solutions",
+    "to": "/ai-erp",
+    "anchor": "AI + ERP integration \u2192"
+  },
+  {
+    "from": "/ai-solutions",
+    "to": "/resources/private-ai-security",
+    "anchor": "Permission checklist \u2192"
+  },
+  {
+    "from": "/ai-solutions",
+    "to": "/pricing",
+    "anchor": "Compare planning-level prices \u2192"
+  },
+  {
+    "from": "/ai-solutions",
+    "to": "/contact",
+    "anchor": "Discuss your requirements \u2192"
+  },
+  {
+    "from": "/ai-solutions",
+    "to": "/resources/ai-erp",
+    "anchor": "AI ERP architecture and implementation guide \u2192"
+  },
+  {
+    "from": "/ai-solutions",
+    "to": "/contact",
+    "anchor": "Schedule a Consultation"
+  },
+  {
+    "from": "/assessment",
+    "to": "/methodology/ai-erp-readiness",
+    "anchor": "Read the scoring methodology"
+  },
+  {
+    "from": "/assessment",
+    "to": "/methodology/roi-calculator",
+    "anchor": "Understand ROI assumptions"
+  },
+  {
+    "from": "/assessment",
+    "to": "/privacy",
+    "anchor": "Review data practices"
+  },
+  {
+    "from": "/assessment",
+    "to": "/contact",
+    "anchor": "Discuss the results with Yudaro"
+  },
+  {
+    "from": "/case-studies",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/case-studies",
+    "to": "/resources/architecture/private-ai-odoo",
+    "anchor": "Private AI + Odoo reference architecture and failure tests"
+  },
+  {
+    "from": "/case-studies",
+    "to": "/resources/ai-erp",
+    "anchor": "AI ERP guide and pilot evaluation"
+  },
+  {
+    "from": "/case-studies",
+    "to": "/industries/restaurants",
+    "anchor": "Restaurant POS and ERP workflow"
+  },
+  {
+    "from": "/case-studies",
+    "to": "/industries/distribution",
+    "anchor": "Distribution workflow and implementation scope"
+  },
+  {
+    "from": "/case-studies",
+    "to": "/contact",
+    "anchor": "Discuss your requirements and evidence needs"
+  },
+  {
+    "from": "/equipment",
+    "to": "/contact",
+    "anchor": "Discuss your requirements"
+  },
+  {
+    "from": "/erp-solutions",
+    "to": "/contact",
+    "anchor": "Discuss your requirements"
+  },
+  {
+    "from": "/erp-solutions",
+    "to": "/solutions/odoo-migration",
+    "anchor": "Plan data migration \u2192"
+  },
+  {
+    "from": "/erp-solutions",
+    "to": "/solutions/odoo-integration",
+    "anchor": "Connect existing systems \u2192"
+  },
+  {
+    "from": "/erp-solutions",
+    "to": "/solutions/odoo-customization",
+    "anchor": "Evaluate customization \u2192"
+  },
+  {
+    "from": "/erp-solutions",
+    "to": "/resources/odoo-implementation-planning",
+    "anchor": "Cost and timeline guide \u2192"
+  },
+  {
+    "from": "/erp-solutions",
+    "to": "/pricing",
+    "anchor": "Compare planning-level prices \u2192"
+  },
+  {
+    "from": "/erp-solutions",
+    "to": "/contact",
+    "anchor": "Discuss your requirements \u2192"
+  },
+  {
+    "from": "/erp-solutions",
+    "to": "/resources/ai-erp",
+    "anchor": "AI ERP architecture and implementation guide \u2192"
+  },
+  {
+    "from": "/erp-solutions",
+    "to": "/contact",
+    "anchor": "Schedule a Consultation"
+  },
+  {
+    "from": "/free-account",
+    "to": "/assessment",
+    "anchor": "Start Assessment"
+  },
+  {
+    "from": "/how-yudaro-works",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/industries",
+    "to": "/industries/distribution",
+    "anchor": "Explore the workflow"
+  },
+  {
+    "from": "/industries",
+    "to": "/industries/manufacturing",
+    "anchor": "Explore the workflow"
+  },
+  {
+    "from": "/industries",
+    "to": "/industries/retail",
+    "anchor": "Explore the workflow"
+  },
+  {
+    "from": "/industries",
+    "to": "/industries/construction",
+    "anchor": "Explore the workflow"
+  },
+  {
+    "from": "/industries",
+    "to": "/industries/hvac-field-service",
+    "anchor": "Explore the workflow"
+  },
+  {
+    "from": "/industries",
+    "to": "/industries/professional-services",
+    "anchor": "Explore the workflow"
+  },
+  {
+    "from": "/industries",
+    "to": "/industries/restaurants",
+    "anchor": "Explore restaurant workflows"
+  },
+  {
+    "from": "/industries/construction",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/industries/construction",
+    "to": "/industries",
+    "anchor": "Industries"
+  },
+  {
+    "from": "/industries/construction",
+    "to": "/contact",
+    "anchor": "Discuss your project"
+  },
+  {
+    "from": "/industries/construction",
+    "to": "/assessment",
+    "anchor": "Take the free assessment"
+  },
+  {
+    "from": "/industries/construction",
+    "to": "/erp-solutions",
+    "anchor": "Odoo ERP implementation \u2192"
+  },
+  {
+    "from": "/industries/construction",
+    "to": "/ai-solutions",
+    "anchor": "Private AI implementation \u2192"
+  },
+  {
+    "from": "/industries/construction",
+    "to": "/solutions/business-automation",
+    "anchor": "Business workflow automation \u2192"
+  },
+  {
+    "from": "/industries/construction",
+    "to": "/resources/industries/construction",
+    "anchor": "Practical construction guide \u2192"
+  },
+  {
+    "from": "/industries/construction",
+    "to": "/pricing",
+    "anchor": "Compare planning-level prices \u2192"
+  },
+  {
+    "from": "/industries/construction",
+    "to": "/contact",
+    "anchor": "Discuss your requirements \u2192"
+  },
+  {
+    "from": "/industries/construction",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/industries/distribution",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/industries/distribution",
+    "to": "/industries",
+    "anchor": "Industries"
+  },
+  {
+    "from": "/industries/distribution",
+    "to": "/contact",
+    "anchor": "Discuss your project"
+  },
+  {
+    "from": "/industries/distribution",
+    "to": "/assessment",
+    "anchor": "Take the free assessment"
+  },
+  {
+    "from": "/industries/distribution",
+    "to": "/erp-solutions",
+    "anchor": "Odoo ERP implementation \u2192"
+  },
+  {
+    "from": "/industries/distribution",
+    "to": "/ai-solutions",
+    "anchor": "Private AI implementation \u2192"
+  },
+  {
+    "from": "/industries/distribution",
+    "to": "/solutions/business-automation",
+    "anchor": "Business workflow automation \u2192"
+  },
+  {
+    "from": "/industries/distribution",
+    "to": "/resources/industries/wholesale-distribution",
+    "anchor": "Practical distribution guide \u2192"
+  },
+  {
+    "from": "/industries/distribution",
+    "to": "/pricing",
+    "anchor": "Compare planning-level prices \u2192"
+  },
+  {
+    "from": "/industries/distribution",
+    "to": "/contact",
+    "anchor": "Discuss your requirements \u2192"
+  },
+  {
+    "from": "/industries/distribution",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/industries/hvac-field-service",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/industries/hvac-field-service",
+    "to": "/industries",
+    "anchor": "Industries"
+  },
+  {
+    "from": "/industries/hvac-field-service",
+    "to": "/contact",
+    "anchor": "Discuss your project"
+  },
+  {
+    "from": "/industries/hvac-field-service",
+    "to": "/assessment",
+    "anchor": "Take the free assessment"
+  },
+  {
+    "from": "/industries/hvac-field-service",
+    "to": "/erp-solutions",
+    "anchor": "Odoo ERP implementation \u2192"
+  },
+  {
+    "from": "/industries/hvac-field-service",
+    "to": "/ai-solutions",
+    "anchor": "Private AI implementation \u2192"
+  },
+  {
+    "from": "/industries/hvac-field-service",
+    "to": "/solutions/business-automation",
+    "anchor": "Business workflow automation \u2192"
+  },
+  {
+    "from": "/industries/hvac-field-service",
+    "to": "/resources/industries/hvac-field-service",
+    "anchor": "Practical hvac & field service guide \u2192"
+  },
+  {
+    "from": "/industries/hvac-field-service",
+    "to": "/pricing",
+    "anchor": "Compare planning-level prices \u2192"
+  },
+  {
+    "from": "/industries/hvac-field-service",
+    "to": "/contact",
+    "anchor": "Discuss your requirements \u2192"
+  },
+  {
+    "from": "/industries/hvac-field-service",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/industries/manufacturing",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/industries/manufacturing",
+    "to": "/industries",
+    "anchor": "Industries"
+  },
+  {
+    "from": "/industries/manufacturing",
+    "to": "/contact",
+    "anchor": "Discuss your project"
+  },
+  {
+    "from": "/industries/manufacturing",
+    "to": "/assessment",
+    "anchor": "Take the free assessment"
+  },
+  {
+    "from": "/industries/manufacturing",
+    "to": "/erp-solutions",
+    "anchor": "Odoo ERP implementation \u2192"
+  },
+  {
+    "from": "/industries/manufacturing",
+    "to": "/ai-solutions",
+    "anchor": "Private AI implementation \u2192"
+  },
+  {
+    "from": "/industries/manufacturing",
+    "to": "/solutions/business-automation",
+    "anchor": "Business workflow automation \u2192"
+  },
+  {
+    "from": "/industries/manufacturing",
+    "to": "/resources/industries/manufacturing",
+    "anchor": "Practical manufacturing guide \u2192"
+  },
+  {
+    "from": "/industries/manufacturing",
+    "to": "/pricing",
+    "anchor": "Compare planning-level prices \u2192"
+  },
+  {
+    "from": "/industries/manufacturing",
+    "to": "/contact",
+    "anchor": "Discuss your requirements \u2192"
+  },
+  {
+    "from": "/industries/manufacturing",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/industries/professional-services",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/industries/professional-services",
+    "to": "/industries",
+    "anchor": "Industries"
+  },
+  {
+    "from": "/industries/professional-services",
+    "to": "/contact",
+    "anchor": "Discuss your project"
+  },
+  {
+    "from": "/industries/professional-services",
+    "to": "/assessment",
+    "anchor": "Take the free assessment"
+  },
+  {
+    "from": "/industries/professional-services",
+    "to": "/erp-solutions",
+    "anchor": "Odoo ERP implementation \u2192"
+  },
+  {
+    "from": "/industries/professional-services",
+    "to": "/ai-solutions",
+    "anchor": "Private AI implementation \u2192"
+  },
+  {
+    "from": "/industries/professional-services",
+    "to": "/solutions/business-automation",
+    "anchor": "Business workflow automation \u2192"
+  },
+  {
+    "from": "/industries/professional-services",
+    "to": "/resources/industries/professional-services",
+    "anchor": "Practical professional services guide \u2192"
+  },
+  {
+    "from": "/industries/professional-services",
+    "to": "/pricing",
+    "anchor": "Compare planning-level prices \u2192"
+  },
+  {
+    "from": "/industries/professional-services",
+    "to": "/contact",
+    "anchor": "Discuss your requirements \u2192"
+  },
+  {
+    "from": "/industries/professional-services",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/industries/restaurants",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/industries/restaurants",
+    "to": "/industries",
+    "anchor": "Industries"
+  },
+  {
+    "from": "/industries/restaurants",
+    "to": "/assessment",
+    "anchor": "Take the Free Restaurant Assessment"
+  },
+  {
+    "from": "/industries/restaurants",
+    "to": "/contact",
+    "anchor": "Talk with Yudaro"
+  },
+  {
+    "from": "/industries/restaurants",
+    "to": "/pricing",
+    "anchor": "See the $899 + tax promotion"
+  },
+  {
+    "from": "/industries/restaurants",
+    "to": "/assessment",
+    "anchor": "Start Restaurant AI & ERP Assessment"
+  },
+  {
+    "from": "/industries/retail",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/industries/retail",
+    "to": "/industries",
+    "anchor": "Industries"
+  },
+  {
+    "from": "/industries/retail",
+    "to": "/contact",
+    "anchor": "Discuss your project"
+  },
+  {
+    "from": "/industries/retail",
+    "to": "/assessment",
+    "anchor": "Take the free assessment"
+  },
+  {
+    "from": "/industries/retail",
+    "to": "/erp-solutions",
+    "anchor": "Odoo ERP implementation \u2192"
+  },
+  {
+    "from": "/industries/retail",
+    "to": "/ai-solutions",
+    "anchor": "Private AI implementation \u2192"
+  },
+  {
+    "from": "/industries/retail",
+    "to": "/solutions/business-automation",
+    "anchor": "Business workflow automation \u2192"
+  },
+  {
+    "from": "/industries/retail",
+    "to": "/resources/industries/retail",
+    "anchor": "Practical retail guide \u2192"
+  },
+  {
+    "from": "/industries/retail",
+    "to": "/pricing",
+    "anchor": "Compare planning-level prices \u2192"
+  },
+  {
+    "from": "/industries/retail",
+    "to": "/contact",
+    "anchor": "Discuss your requirements \u2192"
+  },
+  {
+    "from": "/industries/retail",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/locations/houston",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/locations/houston",
+    "to": "/contact",
+    "anchor": "Discuss your project"
+  },
+  {
+    "from": "/locations/houston",
+    "to": "/assessment",
+    "anchor": "Take the free assessment"
+  },
+  {
+    "from": "/locations/houston",
+    "to": "/erp-solutions",
+    "anchor": "Odoo ERP implementation \u2192"
+  },
+  {
+    "from": "/locations/houston",
+    "to": "/ai-solutions",
+    "anchor": "Private AI implementation \u2192"
+  },
+  {
+    "from": "/locations/houston",
+    "to": "/solutions/business-automation",
+    "anchor": "Business workflow automation \u2192"
+  },
+  {
+    "from": "/locations/houston",
+    "to": "/industries",
+    "anchor": "Industry workflows \u2192"
+  },
+  {
+    "from": "/locations/houston",
+    "to": "/pricing",
+    "anchor": "Compare planning-level prices \u2192"
+  },
+  {
+    "from": "/locations/houston",
+    "to": "/contact",
+    "anchor": "Discuss your requirements \u2192"
+  },
+  {
+    "from": "/locations/houston",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/methodology/ai-erp-readiness",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/methodology/roi-calculator",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/pricing",
+    "to": "/contact",
+    "anchor": "Request a scoped estimate"
+  },
+  {
+    "from": "/pricing",
+    "to": "/contact",
+    "anchor": "Ask about this package"
+  },
+  {
+    "from": "/pricing",
+    "to": "/industries/restaurants",
+    "anchor": "Explore Odoo for restaurants \u2192"
+  },
+  {
+    "from": "/pricing",
+    "to": "/contact",
+    "anchor": "Discuss this package"
+  },
+  {
+    "from": "/pricing",
+    "to": "/contact",
+    "anchor": "Discuss this package"
+  },
+  {
+    "from": "/pricing",
+    "to": "/contact",
+    "anchor": "Discuss this package"
+  },
+  {
+    "from": "/pricing",
+    "to": "/contact",
+    "anchor": "Discuss this package"
+  },
+  {
+    "from": "/pricing",
+    "to": "/contact",
+    "anchor": "Discuss this package"
+  },
+  {
+    "from": "/pricing",
+    "to": "/contact",
+    "anchor": "Discuss this package"
+  },
+  {
+    "from": "/pricing",
+    "to": "/contact",
+    "anchor": "Discuss this package"
+  },
+  {
+    "from": "/pricing",
+    "to": "/contact",
+    "anchor": "Discuss this package"
+  },
+  {
+    "from": "/pricing",
+    "to": "/contact",
+    "anchor": "Discuss this package"
+  },
+  {
+    "from": "/pricing",
+    "to": "/resources/guides",
+    "anchor": "Read the cost and implementation planning guide"
+  },
+  {
+    "from": "/pricing",
+    "to": "/contact",
+    "anchor": "Schedule a Consultation"
+  },
+  {
+    "from": "/privacy",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/resources",
+    "to": "/resources/architecture",
+    "anchor": "Explore the architecture library and implementation evidence standards"
+  },
+  {
+    "from": "/resources",
+    "to": "/resources/odoo-implementation-planning",
+    "anchor": "Odoo Implementation Cost, Timeline & Readiness Separate software, implementation, migration and support costs. Use a scope checklist and acceptance gates to plan an Odoo rollout."
+  },
+  {
+    "from": "/resources",
+    "to": "/resources/private-ai-security",
+    "anchor": "Private AI Permissions & Deployment Checklist Review document permissions, data flows, evaluation, backups and approvals before deploying a private AI assistant."
+  },
+  {
+    "from": "/resources",
+    "to": "/resources/faqs",
+    "anchor": "Private AI, Odoo & Automation Questions Practical answers about private AI, Odoo implementation, AI ERP integration, pricing and readiness."
+  },
+  {
+    "from": "/resources",
+    "to": "/resources/ai-erp",
+    "anchor": "AI ERP Systems: A Practical Architecture and Implementation Guide Understand AI ERP architecture, read-only queries, RAG, approval-controlled actions and implementation evaluation with practical examples and source references."
+  },
+  {
+    "from": "/resources",
+    "to": "/resources/architecture/private-ai-odoo",
+    "anchor": "Private AI + Odoo: A Controlled Reference Architecture Trace identity, document retrieval, read-only Odoo tools and approval-controlled writes through a private AI reference architecture with failure tests."
+  },
+  {
+    "from": "/resources",
+    "to": "/resources/private-ai",
+    "anchor": "What is private AI for a business? A practical guide to private AI, company knowledge search, permissions, local hardware, cost drivers, and implementation readiness."
+  },
+  {
+    "from": "/resources",
+    "to": "/resources/odoo-erp",
+    "anchor": "What is Odoo ERP, and when does it fit? A business guide to Odoo modules, Community versus Enterprise, implementation, migration, cost, and operating fit."
+  },
+  {
+    "from": "/resources",
+    "to": "/resources/ai-erp",
+    "anchor": "What does AI + ERP integration actually mean? How governed AI can retrieve ERP data, combine it with company knowledge, prepare actions, and preserve human approval."
+  },
+  {
+    "from": "/resources",
+    "to": "/resources/business-automation",
+    "anchor": "Which business workflows should be automated? A practical framework for choosing automation candidates, defining controls, and avoiding automation of broken processes."
+  },
+  {
+    "from": "/resources",
+    "to": "/resources/comparisons",
+    "anchor": "Private AI, public AI, and ERP choices compared Fair comparisons for Private AI versus ChatGPT, local versus cloud AI, Odoo editions, and Odoo versus QuickBooks."
+  },
+  {
+    "from": "/resources",
+    "to": "/resources/guides",
+    "anchor": "Planning cost, timing, and scope for AI and ERP A buyer guide to Private AI cost, Odoo implementation cost, AI + ERP timing, discovery inputs, and ongoing support."
+  },
+  {
+    "from": "/resources",
+    "to": "/resources/industries/wholesale-distribution",
+    "anchor": "AI, ERP, and automation for Wholesale & Distribution A practical guide to inventory accuracy, customer-specific pricing, purchasing, replenishment, fulfillment, returns, and warehouse procedures for wholesale & distribution businesses."
+  },
+  {
+    "from": "/resources",
+    "to": "/resources/industries/hvac-field-service",
+    "anchor": "AI, ERP, and automation for HVAC & Field Service A practical guide to dispatch, equipment history, maintenance plans, parts, warranties, field procedures, and invoicing for hvac & field service businesses."
+  },
+  {
+    "from": "/resources",
+    "to": "/resources/industries/construction",
+    "anchor": "AI, ERP, and automation for Construction A practical guide to job cost, change orders, purchasing commitments, field documents, schedule, and approvals for construction businesses."
+  },
+  {
+    "from": "/resources",
+    "to": "/resources/industries/manufacturing",
+    "anchor": "AI, ERP, and automation for Manufacturing A practical guide to material requirements, production planning, work orders, quality procedures, revision control, and production exceptions for manufacturing businesses."
+  },
+  {
+    "from": "/resources",
+    "to": "/resources/industries/retail",
+    "anchor": "AI, ERP, and automation for Retail A practical guide to multi-location inventory, products, purchasing, returns, customer records, and replenishment for retail businesses."
+  },
+  {
+    "from": "/resources",
+    "to": "/resources/industries/professional-services",
+    "anchor": "AI, ERP, and automation for Professional Services A practical guide to opportunities, scope, resources, time, delivery standards, recurring work, and billing for professional services businesses."
+  },
+  {
+    "from": "/resources",
+    "to": "/resources/industries/restaurants",
+    "anchor": "AI, ERP, and automation for Restaurant A practical guide to food cost, vendor pricing, purchasing, inventory, labor, waste, recipes, training, and management reporting for restaurant businesses."
+  },
+  {
+    "from": "/resources/ai-erp",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/resources/ai-erp",
+    "to": "/resources",
+    "anchor": "Resources"
+  },
+  {
+    "from": "/resources/ai-erp",
+    "to": "/contact",
+    "anchor": "Discuss your project"
+  },
+  {
+    "from": "/resources/ai-erp",
+    "to": "/assessment",
+    "anchor": "Take the free assessment"
+  },
+  {
+    "from": "/resources/ai-erp",
+    "to": "/about",
+    "anchor": "Yudaro AI & ERP Systems"
+  },
+  {
+    "from": "/resources/ai-erp",
+    "to": "/ai-erp",
+    "anchor": "Discuss an AI + ERP implementation \u2192"
+  },
+  {
+    "from": "/resources/ai-erp",
+    "to": "/resources/architecture/private-ai-odoo",
+    "anchor": "Inspect the private AI and Odoo reference architecture \u2192"
+  },
+  {
+    "from": "/resources/ai-erp",
+    "to": "/ai-solutions",
+    "anchor": "Private AI services \u2192"
+  },
+  {
+    "from": "/resources/ai-erp",
+    "to": "/erp-solutions",
+    "anchor": "Odoo ERP implementation \u2192"
+  },
+  {
+    "from": "/resources/ai-erp",
+    "to": "/solutions/business-automation",
+    "anchor": "Business automation \u2192"
+  },
+  {
+    "from": "/resources/ai-erp",
+    "to": "/case-studies",
+    "anchor": "Evidence and case-study standards \u2192"
+  },
+  {
+    "from": "/resources/ai-erp",
+    "to": "/resources/architecture",
+    "anchor": "Browse the architecture library \u2192"
+  },
+  {
+    "from": "/resources/ai-erp",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/resources/architecture",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/resources/architecture",
+    "to": "/resources",
+    "anchor": "Resources"
+  },
+  {
+    "from": "/resources/architecture",
+    "to": "/contact",
+    "anchor": "Discuss your project"
+  },
+  {
+    "from": "/resources/architecture",
+    "to": "/assessment",
+    "anchor": "Take the free assessment"
+  },
+  {
+    "from": "/resources/architecture",
+    "to": "/resources/architecture/private-ai-odoo",
+    "anchor": "Read the private AI + Odoo architecture \u2192"
+  },
+  {
+    "from": "/resources/architecture",
+    "to": "/resources/ai-erp",
+    "anchor": "AI ERP systems guide \u2192"
+  },
+  {
+    "from": "/resources/architecture",
+    "to": "/case-studies",
+    "anchor": "Evidence standards and case studies \u2192"
+  },
+  {
+    "from": "/resources/architecture",
+    "to": "/solutions/odoo-integration",
+    "anchor": "Plan an Odoo integration \u2192"
+  },
+  {
+    "from": "/resources/architecture",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/resources/architecture/private-ai-odoo",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/resources/architecture/private-ai-odoo",
+    "to": "/resources",
+    "anchor": "Resources"
+  },
+  {
+    "from": "/resources/architecture/private-ai-odoo",
+    "to": "/contact",
+    "anchor": "Discuss your project"
+  },
+  {
+    "from": "/resources/architecture/private-ai-odoo",
+    "to": "/assessment",
+    "anchor": "Take the free assessment"
+  },
+  {
+    "from": "/resources/architecture/private-ai-odoo",
+    "to": "/about",
+    "anchor": "Yudaro AI & ERP Systems"
+  },
+  {
+    "from": "/resources/architecture/private-ai-odoo",
+    "to": "/resources/ai-erp",
+    "anchor": "AI ERP systems guide \u2192"
+  },
+  {
+    "from": "/resources/architecture/private-ai-odoo",
+    "to": "/resources/architecture",
+    "anchor": "Architecture library \u2192"
+  },
+  {
+    "from": "/resources/architecture/private-ai-odoo",
+    "to": "/solutions/odoo-integration",
+    "anchor": "Odoo integration services \u2192"
+  },
+  {
+    "from": "/resources/architecture/private-ai-odoo",
+    "to": "/resources/private-ai-security",
+    "anchor": "Private AI security planning \u2192"
+  },
+  {
+    "from": "/resources/architecture/private-ai-odoo",
+    "to": "/ai-erp",
+    "anchor": "AI + ERP implementation \u2192"
+  },
+  {
+    "from": "/resources/architecture/private-ai-odoo",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/resources/business-automation",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/resources/business-automation",
+    "to": "/resources",
+    "anchor": "Resources"
+  },
+  {
+    "from": "/resources/business-automation",
+    "to": "/about",
+    "anchor": "Yudaro AI & ERP Systems"
+  },
+  {
+    "from": "/resources/business-automation",
+    "to": "/resources/odoo-implementation-planning",
+    "anchor": "Plan an ERP rollout"
+  },
+  {
+    "from": "/resources/business-automation",
+    "to": "/resources/private-ai-security",
+    "anchor": "Review private AI controls"
+  },
+  {
+    "from": "/resources/business-automation",
+    "to": "/resources/faqs",
+    "anchor": "Read common questions"
+  },
+  {
+    "from": "/resources/business-automation",
+    "to": "/resources/ai-erp",
+    "anchor": "AI + ERP guide"
+  },
+  {
+    "from": "/resources/business-automation",
+    "to": "/erp-solutions",
+    "anchor": "ERP solutions"
+  },
+  {
+    "from": "/resources/business-automation",
+    "to": "/contact",
+    "anchor": "Discuss a workflow"
+  },
+  {
+    "from": "/resources/business-automation",
+    "to": "/assessment",
+    "anchor": "Talk to Yudaro about your workflow"
+  },
+  {
+    "from": "/resources/comparisons",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/resources/comparisons",
+    "to": "/resources",
+    "anchor": "Resources"
+  },
+  {
+    "from": "/resources/comparisons",
+    "to": "/about",
+    "anchor": "Yudaro AI & ERP Systems"
+  },
+  {
+    "from": "/resources/comparisons",
+    "to": "/resources/odoo-implementation-planning",
+    "anchor": "Plan an ERP rollout"
+  },
+  {
+    "from": "/resources/comparisons",
+    "to": "/resources/private-ai-security",
+    "anchor": "Review private AI controls"
+  },
+  {
+    "from": "/resources/comparisons",
+    "to": "/resources/faqs",
+    "anchor": "Read common questions"
+  },
+  {
+    "from": "/resources/comparisons",
+    "to": "/resources/private-ai",
+    "anchor": "Private AI guide"
+  },
+  {
+    "from": "/resources/comparisons",
+    "to": "/resources/odoo-erp",
+    "anchor": "Odoo ERP guide"
+  },
+  {
+    "from": "/resources/comparisons",
+    "to": "/pricing",
+    "anchor": "Pricing"
+  },
+  {
+    "from": "/resources/comparisons",
+    "to": "/assessment",
+    "anchor": "Talk to Yudaro about your workflow"
+  },
+  {
+    "from": "/resources/faqs",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/resources/faqs",
+    "to": "/resources",
+    "anchor": "Resources"
+  },
+  {
+    "from": "/resources/faqs",
+    "to": "/contact",
+    "anchor": "Discuss your project"
+  },
+  {
+    "from": "/resources/faqs",
+    "to": "/assessment",
+    "anchor": "Take the free assessment"
+  },
+  {
+    "from": "/resources/faqs",
+    "to": "/about",
+    "anchor": "Yudaro AI & ERP Systems"
+  },
+  {
+    "from": "/resources/faqs",
+    "to": "/ai-solutions",
+    "anchor": "Private AI implementation \u2192"
+  },
+  {
+    "from": "/resources/faqs",
+    "to": "/erp-solutions",
+    "anchor": "Odoo ERP implementation \u2192"
+  },
+  {
+    "from": "/resources/faqs",
+    "to": "/ai-erp",
+    "anchor": "AI + ERP integration \u2192"
+  },
+  {
+    "from": "/resources/faqs",
+    "to": "/solutions/business-automation",
+    "anchor": "Business workflow automation \u2192"
+  },
+  {
+    "from": "/resources/faqs",
+    "to": "/resources/odoo-implementation-planning",
+    "anchor": "Cost and timing \u2192"
+  },
+  {
+    "from": "/resources/faqs",
+    "to": "/contact",
+    "anchor": "Discuss your requirements \u2192"
+  },
+  {
+    "from": "/resources/faqs",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/resources/guides",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/resources/guides",
+    "to": "/resources",
+    "anchor": "Resources"
+  },
+  {
+    "from": "/resources/guides",
+    "to": "/about",
+    "anchor": "Yudaro AI & ERP Systems"
+  },
+  {
+    "from": "/resources/guides",
+    "to": "/resources/odoo-implementation-planning",
+    "anchor": "Plan an ERP rollout"
+  },
+  {
+    "from": "/resources/guides",
+    "to": "/resources/private-ai-security",
+    "anchor": "Review private AI controls"
+  },
+  {
+    "from": "/resources/guides",
+    "to": "/resources/faqs",
+    "anchor": "Read common questions"
+  },
+  {
+    "from": "/resources/guides",
+    "to": "/pricing",
+    "anchor": "Current planning prices"
+  },
+  {
+    "from": "/resources/guides",
+    "to": "/equipment",
+    "anchor": "Equipment guidance"
+  },
+  {
+    "from": "/resources/guides",
+    "to": "/contact",
+    "anchor": "Book discovery"
+  },
+  {
+    "from": "/resources/guides",
+    "to": "/assessment",
+    "anchor": "Talk to Yudaro about your workflow"
+  },
+  {
+    "from": "/resources/industries/construction",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/resources/industries/construction",
+    "to": "/resources",
+    "anchor": "Resources"
+  },
+  {
+    "from": "/resources/industries/construction",
+    "to": "/about",
+    "anchor": "Yudaro AI & ERP Systems"
+  },
+  {
+    "from": "/resources/industries/construction",
+    "to": "/resources/odoo-implementation-planning",
+    "anchor": "Plan an ERP rollout"
+  },
+  {
+    "from": "/resources/industries/construction",
+    "to": "/resources/private-ai-security",
+    "anchor": "Review private AI controls"
+  },
+  {
+    "from": "/resources/industries/construction",
+    "to": "/resources/faqs",
+    "anchor": "Read common questions"
+  },
+  {
+    "from": "/resources/industries/construction",
+    "to": "/ai-solutions",
+    "anchor": "Private AI solutions"
+  },
+  {
+    "from": "/resources/industries/construction",
+    "to": "/erp-solutions",
+    "anchor": "Odoo ERP solutions"
+  },
+  {
+    "from": "/resources/industries/construction",
+    "to": "/ai-erp",
+    "anchor": "AI + ERP integration"
+  },
+  {
+    "from": "/resources/industries/construction",
+    "to": "/industries",
+    "anchor": "All industries"
+  },
+  {
+    "from": "/resources/industries/construction",
+    "to": "/assessment",
+    "anchor": "Talk to Yudaro about your workflow"
+  },
+  {
+    "from": "/resources/industries/hvac-field-service",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/resources/industries/hvac-field-service",
+    "to": "/resources",
+    "anchor": "Resources"
+  },
+  {
+    "from": "/resources/industries/hvac-field-service",
+    "to": "/about",
+    "anchor": "Yudaro AI & ERP Systems"
+  },
+  {
+    "from": "/resources/industries/hvac-field-service",
+    "to": "/resources/odoo-implementation-planning",
+    "anchor": "Plan an ERP rollout"
+  },
+  {
+    "from": "/resources/industries/hvac-field-service",
+    "to": "/resources/private-ai-security",
+    "anchor": "Review private AI controls"
+  },
+  {
+    "from": "/resources/industries/hvac-field-service",
+    "to": "/resources/faqs",
+    "anchor": "Read common questions"
+  },
+  {
+    "from": "/resources/industries/hvac-field-service",
+    "to": "/ai-solutions",
+    "anchor": "Private AI solutions"
+  },
+  {
+    "from": "/resources/industries/hvac-field-service",
+    "to": "/erp-solutions",
+    "anchor": "Odoo ERP solutions"
+  },
+  {
+    "from": "/resources/industries/hvac-field-service",
+    "to": "/ai-erp",
+    "anchor": "AI + ERP integration"
+  },
+  {
+    "from": "/resources/industries/hvac-field-service",
+    "to": "/industries",
+    "anchor": "All industries"
+  },
+  {
+    "from": "/resources/industries/hvac-field-service",
+    "to": "/assessment",
+    "anchor": "Talk to Yudaro about your workflow"
+  },
+  {
+    "from": "/resources/industries/manufacturing",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/resources/industries/manufacturing",
+    "to": "/resources",
+    "anchor": "Resources"
+  },
+  {
+    "from": "/resources/industries/manufacturing",
+    "to": "/about",
+    "anchor": "Yudaro AI & ERP Systems"
+  },
+  {
+    "from": "/resources/industries/manufacturing",
+    "to": "/resources/odoo-implementation-planning",
+    "anchor": "Plan an ERP rollout"
+  },
+  {
+    "from": "/resources/industries/manufacturing",
+    "to": "/resources/private-ai-security",
+    "anchor": "Review private AI controls"
+  },
+  {
+    "from": "/resources/industries/manufacturing",
+    "to": "/resources/faqs",
+    "anchor": "Read common questions"
+  },
+  {
+    "from": "/resources/industries/manufacturing",
+    "to": "/ai-solutions",
+    "anchor": "Private AI solutions"
+  },
+  {
+    "from": "/resources/industries/manufacturing",
+    "to": "/erp-solutions",
+    "anchor": "Odoo ERP solutions"
+  },
+  {
+    "from": "/resources/industries/manufacturing",
+    "to": "/ai-erp",
+    "anchor": "AI + ERP integration"
+  },
+  {
+    "from": "/resources/industries/manufacturing",
+    "to": "/industries",
+    "anchor": "All industries"
+  },
+  {
+    "from": "/resources/industries/manufacturing",
+    "to": "/assessment",
+    "anchor": "Talk to Yudaro about your workflow"
+  },
+  {
+    "from": "/resources/industries/professional-services",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/resources/industries/professional-services",
+    "to": "/resources",
+    "anchor": "Resources"
+  },
+  {
+    "from": "/resources/industries/professional-services",
+    "to": "/about",
+    "anchor": "Yudaro AI & ERP Systems"
+  },
+  {
+    "from": "/resources/industries/professional-services",
+    "to": "/resources/odoo-implementation-planning",
+    "anchor": "Plan an ERP rollout"
+  },
+  {
+    "from": "/resources/industries/professional-services",
+    "to": "/resources/private-ai-security",
+    "anchor": "Review private AI controls"
+  },
+  {
+    "from": "/resources/industries/professional-services",
+    "to": "/resources/faqs",
+    "anchor": "Read common questions"
+  },
+  {
+    "from": "/resources/industries/professional-services",
+    "to": "/ai-solutions",
+    "anchor": "Private AI solutions"
+  },
+  {
+    "from": "/resources/industries/professional-services",
+    "to": "/erp-solutions",
+    "anchor": "Odoo ERP solutions"
+  },
+  {
+    "from": "/resources/industries/professional-services",
+    "to": "/ai-erp",
+    "anchor": "AI + ERP integration"
+  },
+  {
+    "from": "/resources/industries/professional-services",
+    "to": "/industries",
+    "anchor": "All industries"
+  },
+  {
+    "from": "/resources/industries/professional-services",
+    "to": "/assessment",
+    "anchor": "Talk to Yudaro about your workflow"
+  },
+  {
+    "from": "/resources/industries/restaurants",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/resources/industries/restaurants",
+    "to": "/resources",
+    "anchor": "Resources"
+  },
+  {
+    "from": "/resources/industries/restaurants",
+    "to": "/about",
+    "anchor": "Yudaro AI & ERP Systems"
+  },
+  {
+    "from": "/resources/industries/restaurants",
+    "to": "/resources/odoo-implementation-planning",
+    "anchor": "Plan an ERP rollout"
+  },
+  {
+    "from": "/resources/industries/restaurants",
+    "to": "/resources/private-ai-security",
+    "anchor": "Review private AI controls"
+  },
+  {
+    "from": "/resources/industries/restaurants",
+    "to": "/resources/faqs",
+    "anchor": "Read common questions"
+  },
+  {
+    "from": "/resources/industries/restaurants",
+    "to": "/ai-solutions",
+    "anchor": "Private AI solutions"
+  },
+  {
+    "from": "/resources/industries/restaurants",
+    "to": "/erp-solutions",
+    "anchor": "Odoo ERP solutions"
+  },
+  {
+    "from": "/resources/industries/restaurants",
+    "to": "/ai-erp",
+    "anchor": "AI + ERP integration"
+  },
+  {
+    "from": "/resources/industries/restaurants",
+    "to": "/industries",
+    "anchor": "All industries"
+  },
+  {
+    "from": "/resources/industries/restaurants",
+    "to": "/assessment",
+    "anchor": "Talk to Yudaro about your workflow"
+  },
+  {
+    "from": "/resources/industries/retail",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/resources/industries/retail",
+    "to": "/resources",
+    "anchor": "Resources"
+  },
+  {
+    "from": "/resources/industries/retail",
+    "to": "/about",
+    "anchor": "Yudaro AI & ERP Systems"
+  },
+  {
+    "from": "/resources/industries/retail",
+    "to": "/resources/odoo-implementation-planning",
+    "anchor": "Plan an ERP rollout"
+  },
+  {
+    "from": "/resources/industries/retail",
+    "to": "/resources/private-ai-security",
+    "anchor": "Review private AI controls"
+  },
+  {
+    "from": "/resources/industries/retail",
+    "to": "/resources/faqs",
+    "anchor": "Read common questions"
+  },
+  {
+    "from": "/resources/industries/retail",
+    "to": "/ai-solutions",
+    "anchor": "Private AI solutions"
+  },
+  {
+    "from": "/resources/industries/retail",
+    "to": "/erp-solutions",
+    "anchor": "Odoo ERP solutions"
+  },
+  {
+    "from": "/resources/industries/retail",
+    "to": "/ai-erp",
+    "anchor": "AI + ERP integration"
+  },
+  {
+    "from": "/resources/industries/retail",
+    "to": "/industries",
+    "anchor": "All industries"
+  },
+  {
+    "from": "/resources/industries/retail",
+    "to": "/assessment",
+    "anchor": "Talk to Yudaro about your workflow"
+  },
+  {
+    "from": "/resources/industries/wholesale-distribution",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/resources/industries/wholesale-distribution",
+    "to": "/resources",
+    "anchor": "Resources"
+  },
+  {
+    "from": "/resources/industries/wholesale-distribution",
+    "to": "/about",
+    "anchor": "Yudaro AI & ERP Systems"
+  },
+  {
+    "from": "/resources/industries/wholesale-distribution",
+    "to": "/resources/odoo-implementation-planning",
+    "anchor": "Plan an ERP rollout"
+  },
+  {
+    "from": "/resources/industries/wholesale-distribution",
+    "to": "/resources/private-ai-security",
+    "anchor": "Review private AI controls"
+  },
+  {
+    "from": "/resources/industries/wholesale-distribution",
+    "to": "/resources/faqs",
+    "anchor": "Read common questions"
+  },
+  {
+    "from": "/resources/industries/wholesale-distribution",
+    "to": "/ai-solutions",
+    "anchor": "Private AI solutions"
+  },
+  {
+    "from": "/resources/industries/wholesale-distribution",
+    "to": "/erp-solutions",
+    "anchor": "Odoo ERP solutions"
+  },
+  {
+    "from": "/resources/industries/wholesale-distribution",
+    "to": "/ai-erp",
+    "anchor": "AI + ERP integration"
+  },
+  {
+    "from": "/resources/industries/wholesale-distribution",
+    "to": "/industries",
+    "anchor": "All industries"
+  },
+  {
+    "from": "/resources/industries/wholesale-distribution",
+    "to": "/assessment",
+    "anchor": "Talk to Yudaro about your workflow"
+  },
+  {
+    "from": "/resources/odoo-erp",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/resources/odoo-erp",
+    "to": "/resources",
+    "anchor": "Resources"
+  },
+  {
+    "from": "/resources/odoo-erp",
+    "to": "/about",
+    "anchor": "Yudaro AI & ERP Systems"
+  },
+  {
+    "from": "/resources/odoo-erp",
+    "to": "/resources/odoo-implementation-planning",
+    "anchor": "Plan an ERP rollout"
+  },
+  {
+    "from": "/resources/odoo-erp",
+    "to": "/resources/private-ai-security",
+    "anchor": "Review private AI controls"
+  },
+  {
+    "from": "/resources/odoo-erp",
+    "to": "/resources/faqs",
+    "anchor": "Read common questions"
+  },
+  {
+    "from": "/resources/odoo-erp",
+    "to": "/erp-solutions",
+    "anchor": "ERP solutions"
+  },
+  {
+    "from": "/resources/odoo-erp",
+    "to": "/pricing",
+    "anchor": "ERP pricing"
+  },
+  {
+    "from": "/resources/odoo-erp",
+    "to": "/erp-solutions",
+    "anchor": "Odoo screenshots"
+  },
+  {
+    "from": "/resources/odoo-erp",
+    "to": "/assessment",
+    "anchor": "Talk to Yudaro about your workflow"
+  },
+  {
+    "from": "/resources/odoo-implementation-planning",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/resources/odoo-implementation-planning",
+    "to": "/resources",
+    "anchor": "Resources"
+  },
+  {
+    "from": "/resources/odoo-implementation-planning",
+    "to": "/contact",
+    "anchor": "Discuss your project"
+  },
+  {
+    "from": "/resources/odoo-implementation-planning",
+    "to": "/assessment",
+    "anchor": "Take the free assessment"
+  },
+  {
+    "from": "/resources/odoo-implementation-planning",
+    "to": "/about",
+    "anchor": "Yudaro AI & ERP Systems"
+  },
+  {
+    "from": "/resources/odoo-implementation-planning",
+    "to": "/pricing",
+    "anchor": "Yudaro planning prices"
+  },
+  {
+    "from": "/resources/odoo-implementation-planning",
+    "to": "/erp-solutions",
+    "anchor": "Odoo ERP implementation \u2192"
+  },
+  {
+    "from": "/resources/odoo-implementation-planning",
+    "to": "/solutions/odoo-migration",
+    "anchor": "Migration planning \u2192"
+  },
+  {
+    "from": "/resources/odoo-implementation-planning",
+    "to": "/pricing",
+    "anchor": "Compare planning-level prices \u2192"
+  },
+  {
+    "from": "/resources/odoo-implementation-planning",
+    "to": "/contact",
+    "anchor": "Discuss your requirements \u2192"
+  },
+  {
+    "from": "/resources/odoo-implementation-planning",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/resources/private-ai",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/resources/private-ai",
+    "to": "/resources",
+    "anchor": "Resources"
+  },
+  {
+    "from": "/resources/private-ai",
+    "to": "/about",
+    "anchor": "Yudaro AI & ERP Systems"
+  },
+  {
+    "from": "/resources/private-ai",
+    "to": "/resources/odoo-implementation-planning",
+    "anchor": "Plan an ERP rollout"
+  },
+  {
+    "from": "/resources/private-ai",
+    "to": "/resources/private-ai-security",
+    "anchor": "Review private AI controls"
+  },
+  {
+    "from": "/resources/private-ai",
+    "to": "/resources/faqs",
+    "anchor": "Read common questions"
+  },
+  {
+    "from": "/resources/private-ai",
+    "to": "/ai-solutions",
+    "anchor": "Private AI solutions"
+  },
+  {
+    "from": "/resources/private-ai",
+    "to": "/equipment",
+    "anchor": "Private AI equipment"
+  },
+  {
+    "from": "/resources/private-ai",
+    "to": "/pricing",
+    "anchor": "Private AI pricing"
+  },
+  {
+    "from": "/resources/private-ai",
+    "to": "/assessment",
+    "anchor": "Talk to Yudaro about your workflow"
+  },
+  {
+    "from": "/resources/private-ai-security",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/resources/private-ai-security",
+    "to": "/resources",
+    "anchor": "Resources"
+  },
+  {
+    "from": "/resources/private-ai-security",
+    "to": "/contact",
+    "anchor": "Discuss your project"
+  },
+  {
+    "from": "/resources/private-ai-security",
+    "to": "/assessment",
+    "anchor": "Take the free assessment"
+  },
+  {
+    "from": "/resources/private-ai-security",
+    "to": "/about",
+    "anchor": "Yudaro AI & ERP Systems"
+  },
+  {
+    "from": "/resources/private-ai-security",
+    "to": "/ai-solutions",
+    "anchor": "Private AI implementation \u2192"
+  },
+  {
+    "from": "/resources/private-ai-security",
+    "to": "/solutions/ai-knowledge-base",
+    "anchor": "Governed knowledge search \u2192"
+  },
+  {
+    "from": "/resources/private-ai-security",
+    "to": "/trust",
+    "anchor": "Trust and data practices \u2192"
+  },
+  {
+    "from": "/resources/private-ai-security",
+    "to": "/contact",
+    "anchor": "Discuss your requirements \u2192"
+  },
+  {
+    "from": "/resources/private-ai-security",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/solutions",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/solutions",
+    "to": "/contact",
+    "anchor": "Discuss your project"
+  },
+  {
+    "from": "/solutions",
+    "to": "/assessment",
+    "anchor": "Take the free assessment"
+  },
+  {
+    "from": "/solutions",
+    "to": "/ai-solutions",
+    "anchor": "Private AI implementation \u2192"
+  },
+  {
+    "from": "/solutions",
+    "to": "/erp-solutions",
+    "anchor": "Odoo ERP implementation \u2192"
+  },
+  {
+    "from": "/solutions",
+    "to": "/ai-erp",
+    "anchor": "AI + ERP integration \u2192"
+  },
+  {
+    "from": "/solutions",
+    "to": "/solutions/business-automation",
+    "anchor": "Business workflow automation \u2192"
+  },
+  {
+    "from": "/solutions",
+    "to": "/solutions/ai-knowledge-base",
+    "anchor": "Knowledge base and document search \u2192"
+  },
+  {
+    "from": "/solutions",
+    "to": "/solutions/odoo-migration",
+    "anchor": "Data migration \u2192"
+  },
+  {
+    "from": "/solutions",
+    "to": "/solutions/odoo-integration",
+    "anchor": "System integration \u2192"
+  },
+  {
+    "from": "/solutions",
+    "to": "/solutions/odoo-customization",
+    "anchor": "Customization \u2192"
+  },
+  {
+    "from": "/solutions",
+    "to": "/website-design",
+    "anchor": "Website design \u2192"
+  },
+  {
+    "from": "/solutions",
+    "to": "/locations/houston",
+    "anchor": "Houston-area services \u2192"
+  },
+  {
+    "from": "/solutions",
+    "to": "/contact",
+    "anchor": "Discuss your requirements \u2192"
+  },
+  {
+    "from": "/solutions",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/solutions/ai-knowledge-base",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/solutions/ai-knowledge-base",
+    "to": "/solutions",
+    "anchor": "Solutions"
+  },
+  {
+    "from": "/solutions/ai-knowledge-base",
+    "to": "/contact",
+    "anchor": "Discuss your project"
+  },
+  {
+    "from": "/solutions/ai-knowledge-base",
+    "to": "/assessment",
+    "anchor": "Take the free assessment"
+  },
+  {
+    "from": "/solutions/ai-knowledge-base",
+    "to": "/ai-solutions",
+    "anchor": "Private AI implementation \u2192"
+  },
+  {
+    "from": "/solutions/ai-knowledge-base",
+    "to": "/resources/private-ai-security",
+    "anchor": "Permission and data-flow checklist \u2192"
+  },
+  {
+    "from": "/solutions/ai-knowledge-base",
+    "to": "/ai-erp",
+    "anchor": "AI + ERP integration \u2192"
+  },
+  {
+    "from": "/solutions/ai-knowledge-base",
+    "to": "/contact",
+    "anchor": "Discuss your requirements \u2192"
+  },
+  {
+    "from": "/solutions/ai-knowledge-base",
+    "to": "/resources/ai-erp",
+    "anchor": "AI ERP architecture and implementation guide \u2192"
+  },
+  {
+    "from": "/solutions/ai-knowledge-base",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/solutions/business-automation",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/solutions/business-automation",
+    "to": "/solutions",
+    "anchor": "Solutions"
+  },
+  {
+    "from": "/solutions/business-automation",
+    "to": "/contact",
+    "anchor": "Discuss your project"
+  },
+  {
+    "from": "/solutions/business-automation",
+    "to": "/assessment",
+    "anchor": "Take the free assessment"
+  },
+  {
+    "from": "/solutions/business-automation",
+    "to": "/erp-solutions",
+    "anchor": "Odoo ERP implementation \u2192"
+  },
+  {
+    "from": "/solutions/business-automation",
+    "to": "/ai-erp",
+    "anchor": "AI + ERP integration \u2192"
+  },
+  {
+    "from": "/solutions/business-automation",
+    "to": "/resources/business-automation",
+    "anchor": "Choose automation candidates \u2192"
+  },
+  {
+    "from": "/solutions/business-automation",
+    "to": "/locations/houston",
+    "anchor": "Houston-area consulting \u2192"
+  },
+  {
+    "from": "/solutions/business-automation",
+    "to": "/contact",
+    "anchor": "Discuss your requirements \u2192"
+  },
+  {
+    "from": "/solutions/business-automation",
+    "to": "/resources/ai-erp",
+    "anchor": "AI ERP architecture and implementation guide \u2192"
+  },
+  {
+    "from": "/solutions/business-automation",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/solutions/odoo-customization",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/solutions/odoo-customization",
+    "to": "/solutions",
+    "anchor": "Solutions"
+  },
+  {
+    "from": "/solutions/odoo-customization",
+    "to": "/contact",
+    "anchor": "Discuss your project"
+  },
+  {
+    "from": "/solutions/odoo-customization",
+    "to": "/assessment",
+    "anchor": "Take the free assessment"
+  },
+  {
+    "from": "/solutions/odoo-customization",
+    "to": "/erp-solutions",
+    "anchor": "Odoo ERP implementation \u2192"
+  },
+  {
+    "from": "/solutions/odoo-customization",
+    "to": "/solutions/odoo-integration",
+    "anchor": "Integration design \u2192"
+  },
+  {
+    "from": "/solutions/odoo-customization",
+    "to": "/solutions/odoo-migration",
+    "anchor": "Migration planning \u2192"
+  },
+  {
+    "from": "/solutions/odoo-customization",
+    "to": "/contact",
+    "anchor": "Discuss your requirements \u2192"
+  },
+  {
+    "from": "/solutions/odoo-customization",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/solutions/odoo-integration",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/solutions/odoo-integration",
+    "to": "/solutions",
+    "anchor": "Solutions"
+  },
+  {
+    "from": "/solutions/odoo-integration",
+    "to": "/contact",
+    "anchor": "Discuss your project"
+  },
+  {
+    "from": "/solutions/odoo-integration",
+    "to": "/assessment",
+    "anchor": "Take the free assessment"
+  },
+  {
+    "from": "/solutions/odoo-integration",
+    "to": "/ai-erp",
+    "anchor": "AI + ERP integration \u2192"
+  },
+  {
+    "from": "/solutions/odoo-integration",
+    "to": "/erp-solutions",
+    "anchor": "Odoo ERP implementation \u2192"
+  },
+  {
+    "from": "/solutions/odoo-integration",
+    "to": "/solutions/odoo-customization",
+    "anchor": "Configuration and extensions \u2192"
+  },
+  {
+    "from": "/solutions/odoo-integration",
+    "to": "/contact",
+    "anchor": "Discuss your requirements \u2192"
+  },
+  {
+    "from": "/solutions/odoo-integration",
+    "to": "/resources/ai-erp",
+    "anchor": "AI ERP architecture and implementation guide \u2192"
+  },
+  {
+    "from": "/solutions/odoo-integration",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/solutions/odoo-migration",
+    "to": "/",
+    "anchor": "Home"
+  },
+  {
+    "from": "/solutions/odoo-migration",
+    "to": "/solutions",
+    "anchor": "Solutions"
+  },
+  {
+    "from": "/solutions/odoo-migration",
+    "to": "/contact",
+    "anchor": "Discuss your project"
+  },
+  {
+    "from": "/solutions/odoo-migration",
+    "to": "/assessment",
+    "anchor": "Take the free assessment"
+  },
+  {
+    "from": "/solutions/odoo-migration",
+    "to": "/erp-solutions",
+    "anchor": "Odoo ERP implementation \u2192"
+  },
+  {
+    "from": "/solutions/odoo-migration",
+    "to": "/resources/odoo-implementation-planning",
+    "anchor": "Cost and dependency planning \u2192"
+  },
+  {
+    "from": "/solutions/odoo-migration",
+    "to": "/solutions/odoo-integration",
+    "anchor": "Review integrations \u2192"
+  },
+  {
+    "from": "/solutions/odoo-migration",
+    "to": "/contact",
+    "anchor": "Discuss your requirements \u2192"
+  },
+  {
+    "from": "/solutions/odoo-migration",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/terms",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/trust",
+    "to": "/contact",
+    "anchor": "Request a consultation"
+  },
+  {
+    "from": "/website-design",
+    "to": "/contact",
+    "anchor": "Discuss your website"
+  },
+  {
+    "from": "/website-design",
+    "to": "/contact",
+    "anchor": "Request a proposal"
+  },
+  {
+    "from": "/website-design",
+    "to": "/contact",
+    "anchor": "Request a proposal"
+  },
+  {
+    "from": "/website-design",
+    "to": "/contact",
+    "anchor": "Request a proposal"
+  },
+  {
+    "from": "/website-design",
+    "to": "/contact",
+    "anchor": "Start a website project"
+  }
+]

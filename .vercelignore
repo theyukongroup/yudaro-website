@@ -19,3 +19,5 @@ scripts/__pycache__
 scripts/build_company_catalog.py
 scripts/build_company_catalog_portrait.py
 scripts/build_nexavoris_summary_brochure.py
+
+.indexnow

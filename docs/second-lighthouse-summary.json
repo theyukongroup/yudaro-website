@@ -1,0 +1,163 @@
+[
+  {
+    "path": "/",
+    "mode": "mobile",
+    "scores": {
+      "performance": 81,
+      "accessibility": 100,
+      "seo": 100
+    },
+    "lcp": 5105.680099999999,
+    "cls": 0,
+    "tbt": 12.5,
+    "issues": [
+      "unused-css-rules",
+      "unused-javascript",
+      "bf-cache",
+      "image-delivery-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "path": "/ai-erp",
+    "mode": "mobile",
+    "scores": {
+      "performance": 92,
+      "accessibility": 100,
+      "seo": 100
+    },
+    "lcp": 3309.7800000000007,
+    "cls": 0.01197828930762835,
+    "tbt": 11,
+    "issues": [
+      "unused-css-rules",
+      "unused-javascript",
+      "bf-cache",
+      "image-delivery-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "path": "/resources/ai-erp",
+    "mode": "mobile",
+    "scores": {
+      "performance": 92,
+      "accessibility": 100,
+      "seo": 100
+    },
+    "lcp": 3229.8123,
+    "cls": 0.02620211636693399,
+    "tbt": 9.5,
+    "issues": [
+      "unused-css-rules",
+      "unused-javascript",
+      "bf-cache",
+      "image-delivery-insight",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "path": "/resources/architecture/private-ai-odoo",
+    "mode": "mobile",
+    "scores": {
+      "performance": 92,
+      "accessibility": 100,
+      "seo": 100
+    },
+    "lcp": 3231.9531,
+    "cls": 0.001031946414533718,
+    "tbt": 11,
+    "issues": [
+      "unused-css-rules",
+      "unused-javascript",
+      "bf-cache",
+      "image-delivery-insight",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "path": "/",
+    "mode": "desktop",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "seo": 100
+    },
+    "lcp": 989.4180000000002,
+    "cls": 0.0001608344184027778,
+    "tbt": 0,
+    "issues": [
+      "unused-css-rules",
+      "unused-javascript",
+      "bf-cache",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "path": "/ai-erp",
+    "mode": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "seo": 100
+    },
+    "lcp": 694.6080000000002,
+    "cls": 0.007269453737863298,
+    "tbt": 0,
+    "issues": [
+      "unused-css-rules",
+      "unused-javascript",
+      "bf-cache",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "path": "/resources/ai-erp",
+    "mode": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "seo": 100
+    },
+    "lcp": 672.6768999999999,
+    "cls": 0.009309760953173225,
+    "tbt": 0,
+    "issues": [
+      "unused-css-rules",
+      "unused-javascript",
+      "bf-cache",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "path": "/resources/architecture/private-ai-odoo",
+    "mode": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "seo": 100
+    },
+    "lcp": 673.02145,
+    "cls": 0.00518319723079561,
+    "tbt": 0,
+    "issues": [
+      "unused-css-rules",
+      "unused-javascript",
+      "bf-cache",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  }
+]

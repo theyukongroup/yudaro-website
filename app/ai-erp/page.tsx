@@ -1,4 +1,6 @@
-import { Breadcrumbs } from '@/components/structured-data';
+import Link from 'next/link';
+import { ArchitectureDiagram } from '@/components/architecture-diagram';
+import { Breadcrumbs, PageSchema } from '@/components/structured-data';
 import Image from 'next/image';
 import { SolutionPage } from '@/components/solution-page';
 import {
@@ -354,6 +356,61 @@ export default function Page() {
             ))}
           </ul>
         </section>
+        <section className="search-sections section-shell">
+          <h2>How do read-only tools differ from write-enabled agents?</h2>
+          <p>
+            A read-only integration retrieves permitted records and explains
+            them. A write-enabled agent also proposes a change, but execution
+            needs a separate approval and validation path. Yudaro scopes those
+            paths independently so a useful query demonstration is not mistaken
+            for permission to change prices, confirm orders or post
+            transactions.
+          </p>
+          <ArchitectureDiagram variant="write" />
+          <h2>What should an implementation proposal specify?</h2>
+          <p>
+            A proposal should name the business workflow, allowed ERP
+            operations, data sources, responsible users and acceptance tests. It
+            should separate document retrieval from live transactional queries,
+            and define what happens when the ERP is unavailable, evidence is
+            incomplete or a request crosses company boundaries. Approval, audit
+            logging and recovery responsibilities belong in the scope.
+          </p>
+          <ul>
+            <li>
+              Inventory: distinguish physical stock, reservations and expected
+              receipts.
+            </li>
+            <li>
+              Sales and CRM: preserve customer access, price terms and account
+              ownership.
+            </li>
+            <li>
+              Purchasing: validate quantities, units and suppliers before buyer
+              approval.
+            </li>
+            <li>
+              Management: use consistent reporting periods and explain data
+              freshness.
+            </li>
+          </ul>
+          <p>
+            <Link prefetch={false} href="/resources/ai-erp">
+              Read the AI ERP implementation guide
+            </Link>
+            {' · '}
+            <Link
+              prefetch={false}
+              href="/resources/architecture/private-ai-odoo"
+            >
+              Review the reference architecture and failure tests
+            </Link>
+            {' · '}
+            <Link prefetch={false} href="/case-studies">
+              Understand our evidence standards
+            </Link>
+          </p>
+        </section>
         <section className="ai-erp-faq">
           <div className="section-shell">
             <div className="section-head">
@@ -411,6 +468,11 @@ export default function Page() {
           </div>
         </section>
       </SolutionPage>
+      <PageSchema
+        path="/ai-erp"
+        title="AI ERP Systems & Integration for Business"
+        description="Private AI and Odoo ERP integration with scoped tools and human-approved workflows."
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

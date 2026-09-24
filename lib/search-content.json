@@ -102,6 +102,10 @@
       {
         "href": "/contact",
         "label": "Discuss your requirements"
+      },
+      {
+        "href": "/resources/ai-erp",
+        "label": "AI ERP architecture and implementation guide"
       }
     ],
     "dateModified": "2026-09-24"
@@ -203,6 +207,10 @@
       {
         "href": "/contact",
         "label": "Discuss your requirements"
+      },
+      {
+        "href": "/resources/ai-erp",
+        "label": "AI ERP architecture and implementation guide"
       }
     ],
     "dateModified": "2026-09-24",
@@ -307,6 +315,10 @@
       {
         "href": "/contact",
         "label": "Discuss your requirements"
+      },
+      {
+        "href": "/resources/ai-erp",
+        "label": "AI ERP architecture and implementation guide"
       }
     ],
     "dateModified": "2026-09-24",
@@ -480,6 +492,10 @@
       {
         "href": "/contact",
         "label": "Discuss your requirements"
+      },
+      {
+        "href": "/resources/ai-erp",
+        "label": "AI ERP architecture and implementation guide"
       }
     ],
     "dateModified": "2026-09-24",
@@ -664,6 +680,10 @@
       {
         "href": "/contact",
         "label": "Discuss your requirements"
+      },
+      {
+        "href": "/resources/ai-erp",
+        "label": "AI ERP architecture and implementation guide"
       }
     ],
     "dateModified": "2026-09-24",
@@ -729,6 +749,10 @@
       {
         "title": "Plan around the working day",
         "body": "Bring locations, departments, users and schedules that affect cutover. Warehouse shifts, lunch service or field dispatch should shape testing and training. Define acceptance through stock reconciliation, a completed service-to-invoice flow or source-linked SOP retrieval. Price depends on the work rather than the city name."
+      },
+      {
+        "title": "What should a Houston-area discovery meeting cover?",
+        "body": "Bring the systems your Stafford, Houston, Sugar Land, Missouri City or Katy team uses today, a sample workflow and the person accountable for it. Discuss whether work will be remote or on site, who can approve data access and how multiple locations share records. Confirm meeting arrangements before visiting the Stafford address; no walk-in hours are asserted."
       }
     ],
     "faqs": [
@@ -1633,5 +1657,428 @@
       }
     ],
     "dateModified": "2026-09-24"
+  },
+  {
+    "path": "/resources/ai-erp",
+    "title": "AI ERP Systems: A Practical Architecture and Implementation Guide",
+    "description": "Understand AI ERP architecture, read-only queries, RAG, approval-controlled actions and implementation evaluation with practical examples and source references.",
+    "eyebrow": "AI + ERP / REFERENCE GUIDE",
+    "kind": "Article",
+    "intro": "How to connect language-based assistance to business records without losing ownership, permissions or control. Start with a useful question, then design the evidence and approval path.",
+    "datePublished": "2026-09-05",
+    "dateModified": "2026-09-24",
+    "sections": [
+      {
+        "title": "What is an AI ERP system?",
+        "body": "An AI ERP system connects an AI interface to enterprise resource planning data and workflows. The ERP remains responsible for business records and transaction rules. AI can interpret a request, retrieve permitted information and draft a response or proposed action. Its usefulness depends on current data, explicit permissions, evidence and an accountable person reviewing consequential changes."
+      },
+      {
+        "title": "How is AI ERP different from traditional ERP?",
+        "body": "Traditional ERP already automates structured rules. Adding a language model is useful when an employee needs to interpret an ambiguous question or combine information from several approved sources. It does not remove the need for forms, reports or deterministic validation. A conventional report is often the best answer to a repeated, precisely defined question.",
+        "table": {
+          "headers": [
+            "Task",
+            "Established ERP approach",
+            "AI-assisted extension",
+            "Control to retain"
+          ],
+          "rows": [
+            [
+              "Inventory availability",
+              "Stock report with location filters",
+              "Explain shortages in ordinary language",
+              "Warehouse, unit and timestamp"
+            ],
+            [
+              "Sales quotation",
+              "Price list and order form",
+              "Draft a quote from a customer request",
+              "Customer terms and authorized price"
+            ],
+            [
+              "Purchasing",
+              "Reorder rules and vendor records",
+              "Summarize exceptions for a buyer",
+              "Buyer approval and supplier validation"
+            ],
+            [
+              "Management reporting",
+              "Reconciled dashboards",
+              "Explain changes with supporting records",
+              "Metric definitions and source period"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "How does an LLM interact with Odoo?",
+        "body": "The language model proposes a structured tool request to an integration service. The service validates the request, checks the user and company scope, then calls an allowed ERP operation. It returns limited records with source references. The model writes an explanation from those results. The browser and model never need an unrestricted database credential.",
+        "diagram": "read"
+      },
+      {
+        "title": "What should a natural-language query return?",
+        "body": "A useful response gives the answer, the records or report that support it, and the filters used. It should identify unresolved ambiguity rather than silently choose a warehouse, currency or reporting period. For example, “Which products may run short next week?” requires agreed definitions of available stock, expected demand, incoming deliveries and the time window.",
+        "items": [
+          "Ask the user to resolve missing company, location or date scope.",
+          "Run a bounded tool operation with validated arguments and pagination.",
+          "Return stable record references and a retrieval timestamp.",
+          "Separate observed records from suggested next steps; say when data is unavailable."
+        ]
+      },
+      {
+        "title": "When should AI be read-only, and when may it write?",
+        "body": "Read-only assistance retrieves and explains records without changing them. Write-enabled assistance needs a separate execution path: a validated proposal, an authorized approval and a checked ERP operation. Start with read-only tasks when testing identity boundaries and answer quality. A successful demonstration of retrieval does not establish that automated transactions are safe.",
+        "table": {
+          "headers": [
+            "Capability",
+            "Example",
+            "Required gate"
+          ],
+          "rows": [
+            [
+              "Read",
+              "List overdue orders",
+              "ERP permissions and scoped fields"
+            ],
+            [
+              "Draft",
+              "Prepare a purchase proposal",
+              "Validate units, supplier and quantities"
+            ],
+            [
+              "Approve",
+              "Buyer reviews exact proposed changes",
+              "Authenticated approver, expiry and version"
+            ],
+            [
+              "Execute",
+              "Create approved draft purchase order",
+              "Recheck rights and record state; deduplicate retries"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "What is RAG, and how does it relate to live ERP data?",
+        "body": "Retrieval-augmented generation (RAG) provides relevant source material to a model when it answers. It suits approved documents such as policies, product instructions and SOPs. Live transactional questions should query current ERP records through controlled tools. A document index is not automatically current stock, and a retrieved policy is not authorization to execute a transaction.",
+        "items": [
+          "Retain document identity, revision, owner and access labels during indexing.",
+          "Filter retrieval by the requesting user’s permitted sources.",
+          "Remove or re-index revoked and superseded documents.",
+          "Use source citations for policies and record references for live transactions."
+        ]
+      },
+      {
+        "title": "How are permissions, approvals and audit trails enforced?",
+        "body": "Identity and authorization belong in the application and ERP, not in a prompt. Apply least privilege to each operation, keep company boundaries explicit and recheck authorization at execution. Treat retrieved text as untrusted input: a document that says “ignore approvals” cannot grant a tool permission. Record who requested, approved and executed an action, with protected logs and retention limits.",
+        "diagram": "write"
+      },
+      {
+        "title": "What does this look like across business functions?",
+        "body": "Use each function’s own acceptance criteria. A fluent answer is not sufficient: a buyer needs traceable quantities, a salesperson needs valid terms, and a manager needs consistent definitions. The following are design examples, not Yudaro customer results.",
+        "table": {
+          "headers": [
+            "Function",
+            "Question or draft",
+            "Acceptance evidence"
+          ],
+          "rows": [
+            [
+              "Inventory / distribution",
+              "Explain shortage by warehouse",
+              "Stock sources, reservations and receipt dates"
+            ],
+            [
+              "Sales",
+              "Draft a quotation",
+              "Current price list, tax context and review"
+            ],
+            [
+              "Purchasing",
+              "Suggest replenishment",
+              "Demand assumptions, lead time and buyer approval"
+            ],
+            [
+              "CRM",
+              "Summarize an account",
+              "Accessible opportunities and dated activities"
+            ],
+            [
+              "Management",
+              "Explain weekly order backlog",
+              "Consistent period and excluded statuses"
+            ],
+            [
+              "Restaurant",
+              "Summarize a daily close exception",
+              "POS session, payment totals and reconciliation owner"
+            ],
+            [
+              "Manufacturing",
+              "Explain component availability",
+              "BOM revision, units and planned demand"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "How should an AI ERP pilot be evaluated?",
+        "body": "Choose a task with a named owner and inspectable answers. Build an evaluation set before launching, including denied access, stale records and ambiguous requests. Compare answers to the source system and assess whether staff can verify them. Success criteria should be agreed with the business rather than invented from generic claims of time savings.",
+        "items": [
+          "Correctness: compare results with an approved report using identical filters.",
+          "Access: verify another company’s or role’s records cannot appear.",
+          "Grounding: check that references support each important statement.",
+          "Resilience: test API timeouts, partial results and repeated submissions.",
+          "Human factors: measure review effort and errors before expanding scope."
+        ]
+      },
+      {
+        "title": "What determines implementation cost and readiness?",
+        "body": "Scope depends on data quality, deployment constraints, integration surfaces, permissions, acceptance tests and support responsibilities. Software subscriptions and infrastructure can be separate from implementation. First document one workflow, its source records, its exceptions and its owner. Use a scoped proposal instead of treating a calculator estimate as a fixed project price."
+      },
+      {
+        "title": "What are the limits of this guide?",
+        "body": "This is an implementation reference, not evidence of a particular customer deployment. The model, hosting, ERP edition and configuration all affect the result. Odoo 19 introduces JSON-2; current Odoo documentation limits external API access to the Custom plan. Verify your actual version, hosting terms and enabled modules before choosing an integration interface."
+      }
+    ],
+    "faqs": [],
+    "related": [
+      {
+        "href": "/ai-erp",
+        "label": "Discuss an AI + ERP implementation"
+      },
+      {
+        "href": "/resources/architecture/private-ai-odoo",
+        "label": "Inspect the private AI and Odoo reference architecture"
+      },
+      {
+        "href": "/ai-solutions",
+        "label": "Private AI services"
+      },
+      {
+        "href": "/erp-solutions",
+        "label": "Odoo ERP implementation"
+      },
+      {
+        "href": "/solutions/business-automation",
+        "label": "Business automation"
+      },
+      {
+        "href": "/case-studies",
+        "label": "Evidence and case-study standards"
+      },
+      {
+        "href": "/resources/architecture",
+        "label": "Browse the architecture library"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Odoo 19 JSON-2 API: version and access requirements",
+        "href": "https://www.odoo.com/documentation/19.0/developer/reference/external_api.html"
+      },
+      {
+        "label": "Odoo 19 security: access rights and record rules",
+        "href": "https://www.odoo.com/documentation/19.0/developer/reference/backend/security.html"
+      }
+    ]
+  },
+  {
+    "path": "/resources/architecture/private-ai-odoo",
+    "title": "Private AI + Odoo: A Controlled Reference Architecture",
+    "description": "Trace identity, document retrieval, read-only Odoo tools and approval-controlled writes through a private AI reference architecture with failure tests.",
+    "eyebrow": "ARCHITECTURE / REFERENCE DESIGN",
+    "kind": "Article",
+    "intro": "An original reference design for separating conversation, evidence retrieval and ERP execution. It is a design pattern to evaluate against your environment, not a claim of a completed client installation.",
+    "datePublished": "2026-09-24",
+    "dateModified": "2026-09-24",
+    "sections": [
+      {
+        "title": "What are the trust boundaries in a private AI and Odoo integration?",
+        "body": "The chat interface, model runtime, retrieval service and ERP have different responsibilities. Authenticate the employee before retrieving data. Put a policy-checking gateway between model requests and business operations. Keep ERP credentials on the server. A model can propose an action, but only trusted application logic can authorize and execute it.",
+        "diagram": "read"
+      },
+      {
+        "title": "Which component owns each decision?",
+        "body": "Deployment can place components on customer hardware or controlled hosting. “Local” is not a substitute for explicit network paths and access rules: remote model calls, external embeddings, logs and backups may still move data. Map every processor and storage location before approving a topology.",
+        "table": {
+          "headers": [
+            "Component",
+            "Responsibility",
+            "Must not do"
+          ],
+          "rows": [
+            [
+              "Identity/session",
+              "Establish user and allowed company context",
+              "Trust a user ID supplied by the model"
+            ],
+            [
+              "Tool gateway",
+              "Allowlisted operations and argument validation",
+              "Expose arbitrary SQL or unrestricted methods"
+            ],
+            [
+              "Document retrieval",
+              "Access-filtered evidence and revision references",
+              "Return another role’s confidential documents"
+            ],
+            [
+              "Model runtime",
+              "Interpret request and explain returned evidence",
+              "Decide whether it has permission"
+            ],
+            [
+              "ERP adapter",
+              "Use version-appropriate API and service identity",
+              "Leak API keys to browser or model"
+            ],
+            [
+              "Approval/execution",
+              "Validate exact change and record result",
+              "Treat conversational assent as sufficient authority"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "How does a read-only request travel through the system?",
+        "body": "An authenticated employee asks for an order exception report. The gateway resolves company and date scope, then queries only approved fields. It returns the report time and accessible record IDs with the result. The response distinguishes source data from interpretation. An unavailable ERP produces a clear failure or explicitly dated cached answer, not invented live data.",
+        "items": [
+          "Tool contract example: list_order_exceptions(company, date_from, date_to, limit).",
+          "Reject unknown fields, overly large limits and unauthorized company scope.",
+          "Use deterministic filters; avoid executing model-generated database code.",
+          "Keep sensitive payloads out of ordinary application logs."
+        ]
+      },
+      {
+        "title": "How is a proposed write made reviewable?",
+        "body": "Store the exact target, proposed field changes and source record version as a pending proposal. The authorized person reviews that proposal in a trusted interface. On execution, recheck identity, permissions and current state; reject expired or changed proposals. Use idempotency so a retry cannot create a duplicate business record.",
+        "diagram": "write"
+      },
+      {
+        "title": "What tests belong in acceptance?",
+        "body": "Test control failures as carefully as useful answers. A working demonstration with an administrator account proves little about normal staff access. Use representative roles, restricted company contexts and known reference records. This checklist describes required evaluation evidence; it is not a claim that an integration has passed these tests.",
+        "table": {
+          "headers": [
+            "Test",
+            "Expected behavior"
+          ],
+          "rows": [
+            [
+              "User requests another company’s records",
+              "Access denied; no evidence leaks"
+            ],
+            [
+              "Retrieved document contains tool instructions",
+              "Treated as content; permissions unchanged"
+            ],
+            [
+              "ERP times out",
+              "Clear failure with no fabricated current answer"
+            ],
+            [
+              "Approval expires or record changes",
+              "Execution rejected; fresh review required"
+            ],
+            [
+              "Same approved request retried",
+              "One operation; existing receipt returned"
+            ],
+            [
+              "User loses access after proposal",
+              "Permission recheck prevents execution"
+            ],
+            [
+              "Document permission revoked",
+              "Subsequent retrieval excludes it"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "What must be decided before deployment?",
+        "body": "Identify the identity provider, API availability, model runtime, document owner, logging destination, backup and recovery process, and incident owner. Record allowed operations in a versioned contract. Odoo access rights and record rules need explicit testing; record rules are not a blanket deny-by-default policy. Review both application restrictions and ERP configuration."
+      },
+      {
+        "title": "Where do Open WebUI and other chat interfaces fit?",
+        "body": "A chat interface is replaceable in this design. If evaluating Open WebUI, assess its supported authentication, tool configuration, data retention and version against current official documentation. This repository does not contain a verified Open WebUI-to-Odoo deployment, so this page does not present interface-specific setup commands or customer outcomes."
+      }
+    ],
+    "faqs": [],
+    "related": [
+      {
+        "href": "/resources/ai-erp",
+        "label": "AI ERP systems guide"
+      },
+      {
+        "href": "/resources/architecture",
+        "label": "Architecture library"
+      },
+      {
+        "href": "/solutions/odoo-integration",
+        "label": "Odoo integration services"
+      },
+      {
+        "href": "/resources/private-ai-security",
+        "label": "Private AI security planning"
+      },
+      {
+        "href": "/ai-erp",
+        "label": "AI + ERP implementation"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Odoo 19 JSON-2 API: version and access requirements",
+        "href": "https://www.odoo.com/documentation/19.0/developer/reference/external_api.html"
+      },
+      {
+        "label": "Odoo 19 security: access rights and record rules",
+        "href": "https://www.odoo.com/documentation/19.0/developer/reference/backend/security.html"
+      }
+    ]
+  },
+  {
+    "path": "/resources/architecture",
+    "title": "AI + ERP Architecture Library",
+    "description": "Explore Yudaro’s private AI and Odoo reference design, system boundaries, approval workflows and criteria for technical implementation evidence.",
+    "eyebrow": "TECHNICAL REFERENCE",
+    "kind": "CollectionPage",
+    "intro": "Start with a documented reference design. Each article distinguishes source-backed platform behavior, proposed architecture and verified implementation evidence.",
+    "dateModified": "2026-09-24",
+    "sections": [
+      {
+        "title": "Start with identity, evidence and execution",
+        "body": "The private AI and Odoo reference architecture traces a request from authenticated user to approved evidence, then separates draft proposals from transaction execution. Use its component table and failure tests to assess a design before choosing a chat interface or model."
+      },
+      {
+        "title": "What qualifies an implementation article for this library?",
+        "body": "A reproducible implementation needs an actual environment, version inventory, sanitized configuration, test records, observed failures and an accountable reviewer. Screenshots should show the relevant setting without exposing customer data or credentials. Vendor documentation is a source; it is not proof of a Yudaro customer result."
+      },
+      {
+        "title": "How should teams use a reference design?",
+        "body": "Mark each component as existing, proposed or out of scope. Assign a technical owner to identity, retrieval, integration, approvals and recovery. Validate assumptions in a test environment and retain the evidence. A useful review ends with unresolved decisions and acceptance criteria, rather than a diagram that implies everything is already implemented."
+      }
+    ],
+    "faqs": [],
+    "related": [
+      {
+        "href": "/resources/architecture/private-ai-odoo",
+        "label": "Read the private AI + Odoo architecture"
+      },
+      {
+        "href": "/resources/ai-erp",
+        "label": "AI ERP systems guide"
+      },
+      {
+        "href": "/case-studies",
+        "label": "Evidence standards and case studies"
+      },
+      {
+        "href": "/solutions/odoo-integration",
+        "label": "Plan an Odoo integration"
+      }
+    ]
   }
 ]

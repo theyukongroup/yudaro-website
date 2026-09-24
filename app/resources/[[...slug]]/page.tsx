@@ -1,9 +1,15 @@
 import Link from 'next/link';
+import {
+  ArticleCredits,
+  articleCreditSchema,
+} from '@/components/article-credits';
+import { verifiedPeople } from '@/lib/editorial-people';
+import { PageSchema } from '@/components/structured-data';
 import { contentByPath, searchContent } from '@/lib/search-content';
 import { SearchPage } from '@/components/search-content';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { ArrowRight, BookOpen, CalendarDays } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { isLocale, type Locale } from '@/lib/i18n';
 import { resourceBySlug, resourceEntries } from '@/lib/resource-content';
 import { localizedUrls, pageMetadata, SITE_URL } from '@/lib/seo';
@@ -177,6 +183,12 @@ export default async function ResourcePage({
         </section>
         <section className="resource-library section-shell">
           <h2>{l.browse}</h2>
+          <p>
+            <Link prefetch={false} href="/resources/architecture">
+              Explore the architecture library and implementation evidence
+              standards
+            </Link>
+          </p>
           <div className="resource-group">
             <h3>Implementation and readiness</h3>
             <div>
@@ -246,9 +258,10 @@ export default async function ResourcePage({
               : locale === 'zh-tw'
                 ? 'zh-TW'
                 : 'es',
-        author: { '@id': `${SITE_URL}/#organization` },
+        ...articleCreditSchema(entry),
         publisher: { '@id': `${SITE_URL}/#organization` },
-        mainEntityOfPage: canonical,
+        mainEntityOfPage: { '@id': `${canonical}#webpage` },
+        isPartOf: { '@id': `${SITE_URL}/#website` },
       },
       {
         '@type': 'BreadcrumbList',
@@ -281,16 +294,13 @@ export default async function ResourcePage({
           <span className="section-index">{entry.pillar}</span>
           <h1>{c.title}</h1>
           <p className="resource-deck">{c.description}</p>
-          <div className="resource-byline">
-            <BookOpen size={16} />
-            {l.author}
-            <CalendarDays size={16} />
-            <span>
-              {entry.dateModified
-                ? `Updated ${entry.dateModified}`
-                : l.published}
-            </span>
-          </div>
+          <ArticleCredits
+            entry={{
+              ...entry,
+              datePublished: entry.datePublished ?? '2026-09-05',
+              dateModified: entry.dateModified ?? '2026-09-05',
+            }}
+          />
         </header>
         <section className="answer-block section-shell">
           <span>{l.answer}</span>
@@ -422,6 +432,15 @@ export default async function ResourcePage({
           </a>
         </footer>
       </article>
+      <PageSchema
+        path={canonical.replace(SITE_URL, '')}
+        title={c.title}
+        description={c.description}
+        article
+        reviewer={
+          entry.reviewerId ? verifiedPeople[entry.reviewerId] : undefined
+        }
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

@@ -52,11 +52,15 @@ export function PageSchema({
   title,
   description,
   service = false,
+  reviewer,
+  article = false,
 }: {
   path: string;
   title: string;
   description: string;
   service?: boolean;
+  reviewer?: { name: string; profileUrl: string; role: string };
+  article?: boolean;
 }) {
   const url = new URL(path, SITE_URL).href;
   return (
@@ -72,6 +76,22 @@ export function PageSchema({
             description,
             isPartOf: { '@id': `${SITE_URL}/#website` },
             about: { '@id': `${SITE_URL}/#organization` },
+            ...(article
+              ? { mainEntity: { '@id': `${url}#article` } }
+              : service
+                ? { mainEntity: { '@id': `${url}#service` } }
+                : {}),
+            ...(reviewer
+              ? {
+                  reviewedBy: {
+                    '@type': 'Person',
+                    '@id': reviewer.profileUrl + '#person',
+                    name: reviewer.name,
+                    url: reviewer.profileUrl,
+                    jobTitle: reviewer.role,
+                  },
+                }
+              : {}),
           },
           ...(service
             ? [

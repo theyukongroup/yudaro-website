@@ -1,0 +1,96 @@
+[
+  {
+    "origin": "https://yudaro.com",
+    "path": "/ai-erp",
+    "width": 390,
+    "status": 200,
+    "h1": 1,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "origin": "https://yudaro.com",
+    "path": "/resources/ai-erp",
+    "width": 390,
+    "status": 200,
+    "h1": 1,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "origin": "https://yudaro.com",
+    "path": "/resources/architecture",
+    "width": 390,
+    "status": 200,
+    "h1": 1,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "origin": "https://yudaro.com",
+    "path": "/resources/architecture/private-ai-odoo",
+    "width": 390,
+    "status": 200,
+    "h1": 1,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "origin": "https://yudaro.com",
+    "path": "/case-studies",
+    "width": 390,
+    "status": 200,
+    "h1": 1,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "origin": "https://yudaro.com",
+    "path": "/ai-erp",
+    "width": 1440,
+    "status": 200,
+    "h1": 1,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "origin": "https://yudaro.com",
+    "path": "/resources/ai-erp",
+    "width": 1440,
+    "status": 200,
+    "h1": 1,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "origin": "https://yudaro.com",
+    "path": "/resources/architecture",
+    "width": 1440,
+    "status": 200,
+    "h1": 1,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "origin": "https://yudaro.com",
+    "path": "/resources/architecture/private-ai-odoo",
+    "width": 1440,
+    "status": 200,
+    "h1": 1,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "origin": "https://yudaro.com",
+    "path": "/case-studies",
+    "width": 1440,
+    "status": 200,
+    "h1": 1,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "test": "Guide and diagrams without JavaScript",
+    "pass": true
+  }
+]

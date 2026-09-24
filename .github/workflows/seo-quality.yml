@@ -1,0 +1,39 @@
+name: SEO quality gate
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  production-render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run test:indexnow && npm run test:restaurant && npm run test:sql
+      - run: npm run build
+      - run: npm run typecheck
+      - name: Verify rendered SEO
+        shell: bash
+        run: |
+          npm run start -- --port 3197 > /tmp/yudaro-server.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill "$SERVER_PID"' EXIT
+          for attempt in {1..30}; do
+            if curl -fsS http://localhost:3197/robots.txt >/dev/null; then break; fi
+            sleep 1
+          done
+          npm run seo:audit -- http://localhost:3197
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: seo-quality-results
+          path: docs/seo-qa-results.json
+# No credentials or IndexNow submission on pull requests. Notifications run only
+# after a successful production deployment against the persistent checkpoint.

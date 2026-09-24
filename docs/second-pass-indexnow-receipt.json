@@ -1,0 +1,150 @@
+{
+  "at": "2026-09-24T19:33:25.642Z",
+  "status": 202,
+  "notified": [
+    "https://yudaro.com/resources/architecture/private-ai-odoo",
+    "https://yudaro.com/resources/architecture",
+    "https://yudaro.com/ai-erp",
+    "https://yudaro.com/resources",
+    "https://yudaro.com/resources/ai-erp",
+    "https://yudaro.com/case-studies",
+    "https://yudaro.com/locations/houston"
+  ],
+  "reviewed": [
+    {
+      "url": "https://yudaro.com/resources/architecture/private-ai-odoo",
+      "action": "notify",
+      "reason": "New substantive architecture reference or library page."
+    },
+    {
+      "url": "https://yudaro.com/resources/architecture",
+      "action": "notify",
+      "reason": "New substantive architecture reference or library page."
+    },
+    {
+      "url": "https://yudaro.com/ai-solutions",
+      "action": "cosmetic",
+      "reason": "Only editorial credit display or a related-guide link changed; core body retained."
+    },
+    {
+      "url": "https://yudaro.com/erp-solutions",
+      "action": "cosmetic",
+      "reason": "Only editorial credit display or a related-guide link changed; core body retained."
+    },
+    {
+      "url": "https://yudaro.com/ai-erp",
+      "action": "notify",
+      "reason": "Expanded implementation controls, write-path diagram and acceptance scope."
+    },
+    {
+      "url": "https://yudaro.com/resources",
+      "action": "notify",
+      "reason": "Added the architecture collection and substantially expanded flagship guide."
+    },
+    {
+      "url": "https://yudaro.com/resources/private-ai",
+      "action": "cosmetic",
+      "reason": "Only editorial credit display or a related-guide link changed; core body retained."
+    },
+    {
+      "url": "https://yudaro.com/resources/odoo-erp",
+      "action": "cosmetic",
+      "reason": "Only editorial credit display or a related-guide link changed; core body retained."
+    },
+    {
+      "url": "https://yudaro.com/resources/ai-erp",
+      "action": "notify",
+      "reason": "Replaced short resource with comprehensive AI ERP reference guide."
+    },
+    {
+      "url": "https://yudaro.com/resources/business-automation",
+      "action": "cosmetic",
+      "reason": "Only editorial credit display or a related-guide link changed; core body retained."
+    },
+    {
+      "url": "https://yudaro.com/resources/comparisons",
+      "action": "cosmetic",
+      "reason": "Only editorial credit display or a related-guide link changed; core body retained."
+    },
+    {
+      "url": "https://yudaro.com/resources/guides",
+      "action": "cosmetic",
+      "reason": "Only editorial credit display or a related-guide link changed; core body retained."
+    },
+    {
+      "url": "https://yudaro.com/resources/industries/wholesale-distribution",
+      "action": "cosmetic",
+      "reason": "Only editorial credit display or a related-guide link changed; core body retained."
+    },
+    {
+      "url": "https://yudaro.com/resources/industries/hvac-field-service",
+      "action": "cosmetic",
+      "reason": "Only editorial credit display or a related-guide link changed; core body retained."
+    },
+    {
+      "url": "https://yudaro.com/resources/industries/construction",
+      "action": "cosmetic",
+      "reason": "Only editorial credit display or a related-guide link changed; core body retained."
+    },
+    {
+      "url": "https://yudaro.com/resources/industries/manufacturing",
+      "action": "cosmetic",
+      "reason": "Only editorial credit display or a related-guide link changed; core body retained."
+    },
+    {
+      "url": "https://yudaro.com/resources/industries/retail",
+      "action": "cosmetic",
+      "reason": "Only editorial credit display or a related-guide link changed; core body retained."
+    },
+    {
+      "url": "https://yudaro.com/resources/industries/professional-services",
+      "action": "cosmetic",
+      "reason": "Only editorial credit display or a related-guide link changed; core body retained."
+    },
+    {
+      "url": "https://yudaro.com/resources/industries/restaurants",
+      "action": "cosmetic",
+      "reason": "Only editorial credit display or a related-guide link changed; core body retained."
+    },
+    {
+      "url": "https://yudaro.com/case-studies",
+      "action": "notify",
+      "reason": "Added concrete evidence evaluation framework and inspection paths."
+    },
+    {
+      "url": "https://yudaro.com/solutions/business-automation",
+      "action": "cosmetic",
+      "reason": "Only editorial credit display or a related-guide link changed; core body retained."
+    },
+    {
+      "url": "https://yudaro.com/solutions/odoo-integration",
+      "action": "cosmetic",
+      "reason": "Only editorial credit display or a related-guide link changed; core body retained."
+    },
+    {
+      "url": "https://yudaro.com/solutions/ai-knowledge-base",
+      "action": "cosmetic",
+      "reason": "Only editorial credit display or a related-guide link changed; core body retained."
+    },
+    {
+      "url": "https://yudaro.com/locations/houston",
+      "action": "notify",
+      "reason": "Added local discovery requirements and appointment preparation guidance."
+    },
+    {
+      "url": "https://yudaro.com/resources/odoo-implementation-planning",
+      "action": "cosmetic",
+      "reason": "Only editorial credit display or a related-guide link changed; core body retained."
+    },
+    {
+      "url": "https://yudaro.com/resources/private-ai-security",
+      "action": "cosmetic",
+      "reason": "Only editorial credit display or a related-guide link changed; core body retained."
+    },
+    {
+      "url": "https://yudaro.com/resources/faqs",
+      "action": "cosmetic",
+      "reason": "Only editorial credit display or a related-guide link changed; core body retained."
+    }
+  ]
+}

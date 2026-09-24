@@ -48,3 +48,6 @@ next-env.d.ts
 
 # Safe documented placeholders for optional SEO integration
 !.env.seo.example
+
+# Local IndexNow ownership material and persistent notification checkpoint
+.indexnow/

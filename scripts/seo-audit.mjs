@@ -148,6 +148,25 @@ await pool(urls, async (url) => {
   );
   const ids = schemas.map((s) => s['@id']).filter(Boolean);
   check(ids.length === new Set(ids).size, `${path}: no duplicate schema IDs`);
+  const entity = schemas.find((s) => s['@id'] === canonical + '/#organization');
+  check(
+    entity?.name === 'Yudaro AI & ERP Systems' &&
+      entity?.address?.addressLocality === 'Stafford',
+    `${path}: consistent business identity`,
+  );
+  for (const node of schemas) {
+    if (node['@type'] === 'WebPage')
+      check(
+        node.isPartOf?.['@id'] === canonical + '/#website',
+        `${path}: webpage belongs to website`,
+      );
+    if (node['@type'] === 'Article')
+      check(
+        node.publisher?.['@id'] === canonical + '/#organization',
+        `${path}: article publisher identity`,
+      );
+  }
+
   for (const s of schemas) {
     if (s['@type'] === 'BreadcrumbList')
       check(
@@ -209,6 +228,17 @@ await pool(urls, async (url) => {
     words: text(
       (html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/i) || [])[1] || '',
     ).split(/\s+/).length,
+    metaRobots: meta
+      .filter((m) => ['robots', 'googlebot'].includes(m.name))
+      .map((m) => m.content),
+    xRobotsTag: r.headers['x-robots-tag'] || '',
+    mainLinks: [
+      ...(
+        (html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/i) || [])[1] || ''
+      ).matchAll(/<a\b([^>]*)>([\s\S]*?)<\/a>/gi),
+    ]
+      .map((m) => ({ href: attrs('<a ' + m[1] + '>').href, label: text(m[2]) }))
+      .filter((a) => a.href),
     schemas: schemas.map((s) => s['@type']),
     links: anchors,
     bytes: r.html.length,

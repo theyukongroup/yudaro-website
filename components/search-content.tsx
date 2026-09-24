@@ -1,7 +1,10 @@
 import Link from 'next/link';
+import { ArchitectureDiagram } from './architecture-diagram';
+import { ArticleCredits, articleCreditSchema } from './article-credits';
 import Image from 'next/image';
 import { Breadcrumbs, PageSchema, StructuredData } from './structured-data';
 import { SITE_URL } from '@/lib/seo';
+import { verifiedPeople } from '@/lib/editorial-people';
 import type { SearchContent } from '@/lib/search-content';
 export function ContentSections({ entry }: { entry: SearchContent }) {
   return (
@@ -10,6 +13,7 @@ export function ContentSections({ entry }: { entry: SearchContent }) {
         <section id={`section-${i + 1}`} key={s.title}>
           <h2>{s.title}</h2>
           <p>{s.body}</p>
+          {s.diagram && <ArchitectureDiagram variant={s.diagram} />}
           {s.items && (
             <ul>
               {s.items.map((item) => (
@@ -127,18 +131,7 @@ export function SearchPage({ entry }: { entry: SearchContent }) {
               Take the free assessment
             </Link>
           </div>
-          {entry.kind === 'Article' && (
-            <p className="search-byline">
-              By{' '}
-              <Link prefetch={false} href="/about">
-                Yudaro AI &amp; ERP Systems
-              </Link>{' '}
-              · Published{' '}
-              <time dateTime={entry.datePublished}>{entry.datePublished}</time>{' '}
-              · Updated{' '}
-              <time dateTime={entry.dateModified}>{entry.dateModified}</time>
-            </p>
-          )}
+          {entry.kind === 'Article' && <ArticleCredits entry={entry} />}
         </div>
         {entry.image && (
           <Image
@@ -170,6 +163,10 @@ export function SearchPage({ entry }: { entry: SearchContent }) {
         title={entry.title}
         description={entry.description}
         service={entry.kind === 'Service'}
+        article={entry.kind === 'Article'}
+        reviewer={
+          entry.reviewerId ? verifiedPeople[entry.reviewerId] : undefined
+        }
       />
       {entry.kind === 'Article' && (
         <StructuredData
@@ -181,10 +178,12 @@ export function SearchPage({ entry }: { entry: SearchContent }) {
             description: entry.description,
             datePublished: entry.datePublished,
             dateModified: entry.dateModified,
-            author: { '@id': `${SITE_URL}/#organization` },
+            ...articleCreditSchema(entry),
             publisher: { '@id': `${SITE_URL}/#organization` },
             image: `${SITE_URL}/yudaro-social.png`,
-            mainEntityOfPage: `${SITE_URL}${entry.path}`,
+            mainEntityOfPage: { '@id': `${SITE_URL}${entry.path}#webpage` },
+            isPartOf: { '@id': `${SITE_URL}/#website` },
+            url: `${SITE_URL}${entry.path}`,
           }}
         />
       )}

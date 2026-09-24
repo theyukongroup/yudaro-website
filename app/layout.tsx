@@ -219,7 +219,7 @@ export default async function RootLayout({
                 ['/about', 'About'],
                 ['/contact', 'Contact'],
               ].map(([href, label]) => (
-                <Link key={href} href={href}>
+                <Link prefetch={false} key={href} href={href}>
                   {label}
                 </Link>
               ))}
@@ -262,6 +262,9 @@ export default async function RootLayout({
                   areaServed: [
                     { '@type': 'City', name: 'Houston' },
                     { '@type': 'City', name: 'Stafford' },
+                    { '@type': 'City', name: 'Sugar Land' },
+                    { '@type': 'City', name: 'Missouri City' },
+                    { '@type': 'City', name: 'Katy' },
                     { '@type': 'State', name: 'Texas' },
                     { '@type': 'Country', name: 'United States' },
                   ],
@@ -277,14 +280,26 @@ export default async function RootLayout({
                     '@type': 'OfferCatalog',
                     name: 'Yudaro business technology services',
                     itemListElement: [
-                      'Private enterprise AI solutions',
-                      'ERP consulting and Odoo implementation',
-                      'AI and ERP integration',
-                      'Business workflow automation',
-                      'Website design and development',
-                    ].map((name) => ({
+                      ['/ai-solutions', 'Private enterprise AI solutions'],
+                      [
+                        '/erp-solutions',
+                        'ERP consulting and Odoo implementation',
+                      ],
+                      ['/ai-erp', 'AI and ERP integration'],
+                      [
+                        '/solutions/business-automation',
+                        'Business workflow automation',
+                      ],
+                      ['/website-design', 'Website design and development'],
+                    ].map(([path, name]) => ({
                       '@type': 'Offer',
-                      itemOffered: { '@type': 'Service', name },
+                      itemOffered: {
+                        '@type': 'Service',
+                        '@id': `${SITE_URL}${path}#service`,
+                        name,
+                        url: `${SITE_URL}${path}`,
+                        provider: { '@id': `${SITE_URL}/#organization` },
+                      },
                     })),
                   },
                 },
