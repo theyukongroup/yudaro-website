@@ -87,6 +87,21 @@ function fromAnotherSite(request: NextRequest) {
 }
 
 export async function proxy(request: NextRequest) {
+  // Retired domains must redirect before authentication or locale rewrites.
+  const hostname = request.headers.get('host')?.split(':')[0].toLowerCase();
+  if (
+    hostname === 'nexavoris.ai' ||
+    hostname === 'www.nexavoris.ai' ||
+    hostname === 'yuhoo.ai' ||
+    hostname === 'www.yuhoo.ai'
+  ) {
+    const destination = new URL(request.url);
+    destination.protocol = 'https:';
+    destination.hostname = 'yudaro.com';
+    destination.port = '';
+    return NextResponse.redirect(destination, 301);
+  }
+
   if (sitesIdentityHeaders.some((header) => request.headers.has(header)))
     return new NextResponse(null, { status: 400 });
   // The member and admin APIs parse JSON bodies whatever the Content-Type, so
@@ -112,5 +127,11 @@ export async function proxy(request: NextRequest) {
 // ---------------------------------------------------------------------------
 
 export const config = {
-  matcher: ['/((?!_next/|favicon.svg|robots.txt|sitemap.xml|.*\\..*).*)'],
+  matcher: [
+    '/((?!_next/|favicon.svg|robots.txt|sitemap.xml|.*\\..*).*)',
+    {
+      source: '/:path*',
+      has: [{ type: 'host', value: '(www\\.)?(nexavoris|yuhoo)\\.ai' }],
+    },
+  ],
 };
