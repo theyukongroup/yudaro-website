@@ -28,6 +28,12 @@ const groups = [
         '/ai-solutions',
         BrainCircuit,
       ],
+      [
+        'Corporate Culture Intelligence',
+        'Your company’s best thinking.',
+        '/corporate-culture-intelligence',
+        Users,
+      ],
       ['ERP / Odoo', 'Connect your daily operation.', '/erp-solutions', Boxes],
       ['AI + ERP', 'Turn business data into action.', '/ai-erp', Workflow],
       [

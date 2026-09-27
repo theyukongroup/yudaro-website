@@ -66,6 +66,10 @@
       {
         "title": "What should your team prepare?",
         "body": "Bring representative documents, owners, access groups, unanswered questions and authoritative systems. Explain which information must never leave the environment. If the problem is simply disorganized files, a better document library or search system may be the right first step."
+      },
+      {
+        "title": "Corporate Culture Intelligence",
+        "body": "Turn approved company experience, values and operating practices into guidance your team can use. Yudaro’s Corporate Culture Intelligence methodology uses governed feedback, role-based access and leadership review to support consistent decisions as your business grows."
       }
     ],
     "faqs": [
@@ -83,6 +87,10 @@
       ]
     ],
     "related": [
+      {
+        "href": "/corporate-culture-intelligence",
+        "label": "Explore Corporate Culture Intelligence"
+      },
       {
         "href": "/solutions/ai-knowledge-base",
         "label": "Plan document and SOP search"
@@ -108,7 +116,7 @@
         "label": "AI ERP architecture and implementation guide"
       }
     ],
-    "dateModified": "2026-09-24"
+    "dateModified": "2026-09-26"
   },
   {
     "path": "/erp-solutions",
@@ -167,6 +175,10 @@
       {
         "title": "Timing, preparation and ongoing support",
         "body": "A focused rollout may take weeks; multi-company, manufacturing or substantial migration can take months. Discovery produces a plan tied to acceptance gates. Bring sample product, customer and supplier records, transaction volumes, reports and approval rules. Name owners who can make process decisions. Test upgrades against critical workflows and track stock accuracy, cycle time, reconciliation differences and adoption."
+      },
+      {
+        "title": "Corporate Culture Intelligence",
+        "body": "Connect operational records with approved decision principles: a stock exception or margin question can draw on current ERP context and company policy. Yudaro scopes role permissions, reviewed feedback and human approval within Private AI + ERP transformation."
       }
     ],
     "faqs": [
@@ -184,6 +196,10 @@
       ]
     ],
     "related": [
+      {
+        "href": "/corporate-culture-intelligence",
+        "label": "Explore Corporate Culture Intelligence"
+      },
       {
         "href": "/solutions/odoo-migration",
         "label": "Plan data migration"
@@ -213,7 +229,7 @@
         "label": "AI ERP architecture and implementation guide"
       }
     ],
-    "dateModified": "2026-09-24",
+    "dateModified": "2026-09-26",
     "sources": [
       {
         "href": "https://www.odoo.com/documentation/19.0/",
@@ -652,6 +668,10 @@
       {
         "title": "Prepare files, budget and operations",
         "body": "Bring representative PDFs, spreadsheets and documents, access groups, revision conventions and employee questions. Scanned documents may require extraction cleanup. Planning uses published AI packages; final scope depends on sources, users, infrastructure and integration. Agree how replaced documents leave the index and how administrator access and backups are managed."
+      },
+      {
+        "title": "Corporate Culture Intelligence",
+        "body": "Extend SOP search and employee training with approved examples of how your company solves problems. Questions and corrections can inform a reviewed knowledge backlog; only authorized updates become shared guidance."
       }
     ],
     "faqs": [
@@ -665,6 +685,10 @@
       ]
     ],
     "related": [
+      {
+        "href": "/corporate-culture-intelligence",
+        "label": "Explore Corporate Culture Intelligence"
+      },
       {
         "href": "/ai-solutions",
         "label": "Private AI implementation"
@@ -686,7 +710,7 @@
         "label": "AI ERP architecture and implementation guide"
       }
     ],
-    "dateModified": "2026-09-24",
+    "dateModified": "2026-09-26",
     "image": "/ai-solutions/sop-search.webp"
   },
   {
@@ -834,6 +858,10 @@
       {
         "title": "Measure results and prepare for discovery",
         "body": "Agree a baseline for inventory accuracy, order cycle time, fill rate and return reconciliation. Bring sample records, reports, systems and versions, locations, roles and documented exceptions. Use masked examples initially. Price and schedule depend on scope, data quality, integrations and rollout constraints; no industry-wide outcome or fixed timeline is promised."
+      },
+      {
+        "title": "Corporate Culture Intelligence",
+        "body": "A long-term customer asks for pricing below the approved margin. Combine authorized ERP context with margin policy, relationship principles and reviewed examples; a manager retains exception authority. Yudaro scopes this governed Corporate Culture Intelligence approach within Private AI + ERP transformation."
       }
     ],
     "faqs": [
@@ -847,6 +875,10 @@
       ]
     ],
     "related": [
+      {
+        "href": "/corporate-culture-intelligence",
+        "label": "Explore Corporate Culture Intelligence"
+      },
       {
         "href": "/erp-solutions",
         "label": "Odoo ERP implementation"
@@ -872,7 +904,7 @@
         "label": "Discuss your requirements"
       }
     ],
-    "dateModified": "2026-09-24",
+    "dateModified": "2026-09-26",
     "image": "/industries/wholesale-distribution.webp"
   },
   {
@@ -915,6 +947,10 @@
       {
         "title": "Measure results and prepare for discovery",
         "body": "Agree a baseline for material availability, work-order accuracy, scrap visibility and quality holds. Bring sample records, reports, systems and versions, locations, roles and documented exceptions. Use masked examples initially. Price and schedule depend on scope, data quality, integrations and rollout constraints; no industry-wide outcome or fixed timeline is promised."
+      },
+      {
+        "title": "Corporate Culture Intelligence",
+        "body": "A production exception puts delivery timing at risk. Make current work instructions, escalation rules and reviewed lessons available to the right role while quality and production approvals remain with responsible staff. Yudaro scopes this governed Corporate Culture Intelligence approach within Private AI + ERP transformation."
       }
     ],
     "faqs": [
@@ -928,6 +964,10 @@
       ]
     ],
     "related": [
+      {
+        "href": "/corporate-culture-intelligence",
+        "label": "Explore Corporate Culture Intelligence"
+      },
       {
         "href": "/erp-solutions",
         "label": "Odoo ERP implementation"
@@ -953,7 +993,7 @@
         "label": "Discuss your requirements"
       }
     ],
-    "dateModified": "2026-09-24",
+    "dateModified": "2026-09-26",
     "image": "/industries/manufacturing.webp"
   },
   {
@@ -996,6 +1036,10 @@
       {
         "title": "Measure results and prepare for discovery",
         "body": "Agree a baseline for stock differences, transfer lead time, returns and closing effort. Bring sample records, reports, systems and versions, locations, roles and documented exceptions. Use masked examples initially. Price and schedule depend on scope, data quality, integrations and rollout constraints; no industry-wide outcome or fixed timeline is promised."
+      },
+      {
+        "title": "Corporate Culture Intelligence",
+        "body": "A return falls outside the usual window. Help staff find current return policy and approved service examples, with escalation to the responsible manager for exceptions. Yudaro scopes this governed Corporate Culture Intelligence approach within Private AI + ERP transformation."
       }
     ],
     "faqs": [
@@ -1009,6 +1053,10 @@
       ]
     ],
     "related": [
+      {
+        "href": "/corporate-culture-intelligence",
+        "label": "Explore Corporate Culture Intelligence"
+      },
       {
         "href": "/erp-solutions",
         "label": "Odoo ERP implementation"
@@ -1034,7 +1082,7 @@
         "label": "Discuss your requirements"
       }
     ],
-    "dateModified": "2026-09-24",
+    "dateModified": "2026-09-26",
     "image": "/industries/retail.webp"
   },
   {
@@ -1077,6 +1125,10 @@
       {
         "title": "Measure results and prepare for discovery",
         "body": "Agree a baseline for unbilled approved work, committed cost, change visibility and reporting delay. Bring sample records, reports, systems and versions, locations, roles and documented exceptions. Use masked examples initially. Price and schedule depend on scope, data quality, integrations and rollout constraints; no industry-wide outcome or fixed timeline is promised."
+      },
+      {
+        "title": "Corporate Culture Intelligence",
+        "body": "A requested change affects cost and schedule. Connect approved change procedures and prior project lessons with permissioned records; authorized project leaders approve commitments. Yudaro scopes this governed Corporate Culture Intelligence approach within Private AI + ERP transformation."
       }
     ],
     "faqs": [
@@ -1090,6 +1142,10 @@
       ]
     ],
     "related": [
+      {
+        "href": "/corporate-culture-intelligence",
+        "label": "Explore Corporate Culture Intelligence"
+      },
       {
         "href": "/erp-solutions",
         "label": "Odoo ERP implementation"
@@ -1115,7 +1171,7 @@
         "label": "Discuss your requirements"
       }
     ],
-    "dateModified": "2026-09-24",
+    "dateModified": "2026-09-26",
     "image": "/industries/construction.webp"
   },
   {
@@ -1158,6 +1214,10 @@
       {
         "title": "Measure results and prepare for discovery",
         "body": "Agree a baseline for completion time, parts availability, documentation and service-to-invoice delay. Bring sample records, reports, systems and versions, locations, roles and documented exceptions. Use masked examples initially. Price and schedule depend on scope, data quality, integrations and rollout constraints; no industry-wide outcome or fixed timeline is promised."
+      },
+      {
+        "title": "Corporate Culture Intelligence",
+        "body": "An urgent call conflicts with the service schedule. Give dispatchers approved prioritization and customer-care guidance alongside authorized service history; supervisors decide exceptions. Yudaro scopes this governed Corporate Culture Intelligence approach within Private AI + ERP transformation."
       }
     ],
     "faqs": [
@@ -1171,6 +1231,10 @@
       ]
     ],
     "related": [
+      {
+        "href": "/corporate-culture-intelligence",
+        "label": "Explore Corporate Culture Intelligence"
+      },
       {
         "href": "/erp-solutions",
         "label": "Odoo ERP implementation"
@@ -1196,7 +1260,7 @@
         "label": "Discuss your requirements"
       }
     ],
-    "dateModified": "2026-09-24",
+    "dateModified": "2026-09-26",
     "image": "/industries/hvac-field-service.webp"
   },
   {
@@ -1239,6 +1303,10 @@
       {
         "title": "Measure results and prepare for discovery",
         "body": "Agree a baseline for unbilled time, scope exceptions, delivery timeliness and billing rework. Bring sample records, reports, systems and versions, locations, roles and documented exceptions. Use masked examples initially. Price and schedule depend on scope, data quality, integrations and rollout constraints; no industry-wide outcome or fixed timeline is promised."
+      },
+      {
+        "title": "Corporate Culture Intelligence",
+        "body": "A client request exceeds the engagement scope. Make approved scope, communication principles and reviewed past decisions available without exposing other clients’ restricted records. Yudaro scopes this governed Corporate Culture Intelligence approach within Private AI + ERP transformation."
       }
     ],
     "faqs": [
@@ -1252,6 +1320,10 @@
       ]
     ],
     "related": [
+      {
+        "href": "/corporate-culture-intelligence",
+        "label": "Explore Corporate Culture Intelligence"
+      },
       {
         "href": "/erp-solutions",
         "label": "Odoo ERP implementation"
@@ -1277,7 +1349,7 @@
         "label": "Discuss your requirements"
       }
     ],
-    "dateModified": "2026-09-24",
+    "dateModified": "2026-09-26",
     "image": "/industries/service-companies.webp"
   },
   {
@@ -1602,6 +1674,34 @@
       {
         "title": "Start small enough to measure",
         "body": "Choose one workflow, name an owner and define success. A pilot establishes data quality, adoption and fit before expansion. Published prices help plan the conversation; an agreed proposal defines deliverables and responsibilities."
+      },
+      {
+        "title": "Corporate Culture Intelligence",
+        "body": "Turn approved company experience, values and operating practices into guidance your team can use. Yudaro’s Corporate Culture Intelligence methodology uses governed feedback, role-based access and leadership review to support consistent decisions as your business grows.",
+        "table": {
+          "headers": [
+            "Capability",
+            "Purpose",
+            "Human checkpoint"
+          ],
+          "rows": [
+            [
+              "Private AI",
+              "Find approved internal knowledge",
+              "Source ownership and permission checks"
+            ],
+            [
+              "Corporate Culture Intelligence",
+              "Apply company values and experience to recurring situations",
+              "Leaders approve, correct or retire shared guidance"
+            ],
+            [
+              "ERP integration",
+              "Connect guidance with operational records",
+              "Authorized staff approve business actions"
+            ]
+          ]
+        }
       }
     ],
     "faqs": [
@@ -1611,6 +1711,10 @@
       ]
     ],
     "related": [
+      {
+        "href": "/corporate-culture-intelligence",
+        "label": "Explore Corporate Culture Intelligence"
+      },
       {
         "href": "/ai-solutions",
         "label": "Private AI implementation"
@@ -1656,7 +1760,7 @@
         "label": "Discuss your requirements"
       }
     ],
-    "dateModified": "2026-09-24"
+    "dateModified": "2026-09-26"
   },
   {
     "path": "/resources/ai-erp",
@@ -1666,7 +1770,7 @@
     "kind": "Article",
     "intro": "How to connect language-based assistance to business records without losing ownership, permissions or control. Start with a useful question, then design the evidence and approval path.",
     "datePublished": "2026-09-05",
-    "dateModified": "2026-09-24",
+    "dateModified": "2026-09-26",
     "sections": [
       {
         "title": "What is an AI ERP system?",
@@ -1839,10 +1943,18 @@
       {
         "title": "What are the limits of this guide?",
         "body": "This is an implementation reference, not evidence of a particular customer deployment. The model, hosting, ERP edition and configuration all affect the result. Odoo 19 introduces JSON-2; current Odoo documentation limits external API access to the Custom plan. Verify your actual version, hosting terms and enabled modules before choosing an integration interface."
+      },
+      {
+        "title": "Corporate Culture Intelligence",
+        "body": "Turn approved company experience, values and operating practices into guidance your team can use. Yudaro’s Corporate Culture Intelligence methodology uses governed feedback, role-based access and leadership review to support consistent decisions as your business grows."
       }
     ],
     "faqs": [],
     "related": [
+      {
+        "href": "/corporate-culture-intelligence",
+        "label": "Explore Corporate Culture Intelligence"
+      },
       {
         "href": "/ai-erp",
         "label": "Discuss an AI + ERP implementation"
@@ -2078,6 +2190,122 @@
       {
         "href": "/solutions/odoo-integration",
         "label": "Plan an Odoo integration"
+      }
+    ]
+  },
+  {
+    "path": "/corporate-culture-intelligence",
+    "title": "Corporate Culture Intelligence | Private Corporate AI",
+    "description": "Turn approved knowledge, leadership principles and governed feedback into Corporate AI guidance aligned with your company’s culture and way of working.",
+    "eyebrow": "PRIVATE AI + ERP / CORPORATE CULTURE INTELLIGENCE",
+    "intro": "Turn your company’s experience, values, and way of solving problems into intelligence every employee can use.",
+    "kind": "Service",
+    "dateModified": "2026-09-26",
+    "sections": [
+      {
+        "title": "Your best thinking should not depend on who is in the room",
+        "body": "Company culture often lives in an owner’s experience, managers’ judgment, informal conversations, scattered documents and long-term employees’ memories. New employees may receive different answers from different departments. When experienced people leave, their practical knowledge can leave with them."
+      },
+      {
+        "title": "A company-aligned knowledge layer",
+        "body": "Yudaro’s Corporate Culture Intelligence methodology connects approved company knowledge, operating procedures, leadership guidance, structured employee feedback and permissioned ERP information within Private AI and ERP Business Transformation. Your company already has a culture. Yudaro helps capture it, strengthen it, and make it available at the moment every employee needs guidance.",
+        "items": [
+          "Capture approved decisions, service standards, training materials and departmental terminology.",
+          "Keep knowledge owners accountable for review, correction and retirement.",
+          "Provide role-appropriate guidance grounded in approved sources; cite those sources when available.",
+          "Treat ERP transactions separately: guidance does not itself authorize a change to business records."
+        ]
+      },
+      {
+        "title": "The same values. Guidance for each role.",
+        "body": "Illustrative questions combine approved policy, past experience, role permissions and leadership principles. Answers depend on the sources and controls implemented for your organization.",
+        "table": {
+          "headers": [
+            "Department",
+            "A practical question"
+          ],
+          "rows": [
+            [
+              "Sales",
+              "How should we respond when a long-term customer requests a price below our approved margin?"
+            ],
+            [
+              "Operations",
+              "What should we do when an urgent order conflicts with the normal delivery schedule?"
+            ],
+            [
+              "Customer Service",
+              "How does our company prefer complaints to be acknowledged and escalated?"
+            ],
+            [
+              "Human Resources",
+              "How should a new employee handle a situation that conflicts with company values?"
+            ],
+            [
+              "Purchasing",
+              "When should we prioritize supplier reliability over the lowest price?"
+            ],
+            [
+              "Management",
+              "What approach has our company used successfully in similar situations?"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Built on trust and human oversight",
+        "body": "We scope these controls as part of the implementation, then configure and test them before launch. This is a service methodology, not a claim that every deployment already includes every capability.",
+        "items": [
+          "Private deployment options: assess local or controlled infrastructure, data flows and sensitive-data protection.",
+          "Role-based access: test document, department and ERP permissions for each role.",
+          "Administrative approval: administrators choose what may become organizational knowledge; sensitive conversations can be excluded.",
+          "Source attribution: link important guidance to approved internal sources when available and escalate unsupported answers.",
+          "Knowledge lifecycle: assign owners, version changes, set review or expiration dates, and support correction or retirement.",
+          "Feedback review and audit history: record authorized approvals and changes according to the agreed retention policy.",
+          "Human oversight: AI supports management judgment. Leadership can update policies, values and preferred practices as a healthy culture evolves."
+        ]
+      },
+      {
+        "title": "Preserve experience. Make daily work more consistent.",
+        "body": "The intended outcomes are practical: faster onboarding, fewer repeated questions to managers, more consistent service and better coordination across departments. Establish a baseline and evaluate the pilot before expanding.",
+        "items": [
+          "Preserve institutional knowledge and reduce reliance on individual memory.",
+          "Give teams faster access to approved procedures and training guidance.",
+          "Align everyday decisions with current company values and operating priorities.",
+          "Scale access to leadership knowledge through reviewed feedback and approved updates."
+        ]
+      }
+    ],
+    "faqs": [
+      [
+        "Does Corporate AI automatically learn from every conversation?",
+        "No. Yudaro’s approach learns from governed feedback and approved organizational knowledge. Administrators control eligible information, sensitive conversations can be excluded, and authorized people approve changes before they become shared guidance."
+      ],
+      [
+        "Does this require retraining a model?",
+        "Not necessarily. Approved source updates, retrieval configuration and reviewed guidance can improve answers without training on employee conversations. The appropriate approach is agreed during implementation."
+      ],
+      [
+        "Can different departments see different information?",
+        "Yes, role-appropriate access is an implementation requirement. Source permissions and ERP access must be configured and tested; leadership principles can be shared without exposing restricted records."
+      ]
+    ],
+    "related": [
+      {
+        "href": "/ai-solutions",
+        "label": "Private AI solutions"
+      },
+      {
+        "href": "/solutions/ai-knowledge-base",
+        "label": "Knowledge management and training"
+      },
+      {
+        "href": "/ai-erp",
+        "label": "AI + ERP integration"
+      },
+      {
+        "href": "/contact",
+        "label": "Schedule a Corporate AI Assessment"
       }
     ]
   }

@@ -1,3 +1,4 @@
+import { CultureContext } from '@/components/corporate-culture';
 import Link from 'next/link';
 import {
   ArticleCredits,
@@ -348,6 +349,11 @@ export default async function ResourcePage({
                         'Provider terms, retention, permissions and actual deployment',
                       ],
                       [
+                        'Document search vs Corporate Culture Intelligence',
+                        'Retrieve policies versus apply approved experience and leadership principles',
+                        'Knowledge owners, permissions, reviewed feedback and authorized updates',
+                      ],
+                      [
                         'Odoo Community vs Enterprise',
                         'Required modules, hosting, support and maintenance',
                         'Current edition coverage, licensing and integration access',
@@ -421,6 +427,9 @@ export default async function ResourcePage({
             </div>
           </aside>
         </div>
+        {['private-ai', 'ai-erp', 'comparisons'].includes(entry.slug) && (
+          <CultureContext />
+        )}
         <footer className="resource-cta section-shell">
           <div>
             <span className="section-index">FREE YUDARO TOOL</span>

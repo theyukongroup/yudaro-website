@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { CorporateCultureFeature } from '@/components/corporate-culture';
 import {
   ArrowRight,
   Sparkles,
@@ -31,7 +32,7 @@ import type { Metadata } from 'next';
 import { pageMetadata } from '@/lib/seo';
 export const metadata: Metadata = pageMetadata(
   'AI + ERP Systems | Private AI & Odoo ERP',
-  'Yudaro implements private AI, Odoo ERP and business automation for Houston-area and US businesses. Connect company knowledge with daily operations.',
+  'Yudaro connects Private AI, Corporate Culture Intelligence and Odoo ERP. Turn approved company knowledge into guidance and connected operations.',
   '',
 );
 const problems = [
@@ -288,6 +289,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <CorporateCultureFeature />
       <section className="section-shell erp-section">
         <div className="section-head">
           <span className="section-index">03 / ERP SYSTEMS</span>

@@ -1,3 +1,4 @@
+import { CultureContext } from '@/components/corporate-culture';
 import { Breadcrumbs } from '@/components/structured-data';
 import { OdooRestaurantShowcase } from '@/components/restaurant-offer';
 import type { Metadata } from 'next';
@@ -255,6 +256,7 @@ export default function RestaurantIndustryPage() {
           }),
         }}
       />
+      <CultureContext />
     </main>
   );
 }

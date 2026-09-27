@@ -11,6 +11,7 @@ const groups = [
     label: 'Services',
     links: [
       ['Private AI', '/ai-solutions'],
+      ['Corporate Culture Intelligence', '/corporate-culture-intelligence'],
       ['Odoo ERP', '/erp-solutions'],
       ['AI + ERP Integration', '/ai-erp'],
       ['Business Automation', '/solutions/business-automation'],

@@ -1,21 +1,22 @@
 {
-  "target": "http://localhost:3197",
-  "checkedAt": "2026-09-24T18:59:17.561Z",
-  "checkCount": 987,
-  "passed": 987,
+  "target": "https://yudaro.com",
+  "checkedAt": "2026-09-27T03:17:50.503Z",
+  "checkCount": 1167,
+  "passed": 1167,
   "failures": [],
   "pages": [
     {
       "path": "/",
       "status": 200,
       "title": "AI + ERP Systems | Private AI & Odoo ERP",
-      "description": "Yudaro implements private AI, Odoo ERP and business automation for Houston-area and US businesses. Connect company knowledge with daily operations.",
+      "description": "Yudaro connects Private AI, Corporate Culture Intelligence and Odoo ERP. Turn approved company knowledge into guidance and connected operations.",
       "canonical": "https://yudaro.com",
       "h1": "AI + ERP systems. Built around your business.",
       "h2": [
         "Disconnected systems. Disconnected decisions.",
         "Great things happen when everything connects.",
         "Your company has the knowledge. Now make it usable.",
+        "Corporate Culture Intelligence",
         "A connected platform for every part of your operation.",
         "ERP connects the data. AI connects the dots.",
         "Less repetition. More room to Connect. Understand. Automate. Grow. Connect. Understand. Automate. Grow.",
@@ -28,7 +29,82 @@
         "Based in Stafford. Built around your operation.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 841,
+      "words": 940,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/assessment",
+          "label": "Take the Free Assessment"
+        },
+        {
+          "href": "/ai-erp",
+          "label": "Explore AI ERP"
+        },
+        {
+          "href": "/ai-solutions",
+          "label": "Explore AI solutions"
+        },
+        {
+          "href": "/corporate-culture-intelligence",
+          "label": "Explore Corporate Culture Intelligence →"
+        },
+        {
+          "href": "/ai-erp",
+          "label": "See AI + ERP in action"
+        },
+        {
+          "href": "/website-design",
+          "label": "Explore website design & pricing"
+        },
+        {
+          "href": "/industries",
+          "label": "Wholesale & Distribution"
+        },
+        {
+          "href": "/industries",
+          "label": "HVAC & Field Service"
+        },
+        {
+          "href": "/industries",
+          "label": "Construction"
+        },
+        {
+          "href": "/industries",
+          "label": "Retail"
+        },
+        {
+          "href": "/industries",
+          "label": "Manufacturing"
+        },
+        {
+          "href": "/industries",
+          "label": "Professional Services"
+        },
+        {
+          "href": "/industries/restaurants",
+          "label": "Restaurants"
+        },
+        {
+          "href": "/assessment",
+          "label": "Get My Free Score"
+        },
+        {
+          "href": "/assessment",
+          "label": "Take the Assessment"
+        },
+        {
+          "href": "/contact",
+          "label": "Book a Consultation"
+        },
+        {
+          "href": "/locations/houston",
+          "label": "Explore Houston-area AI and ERP consulting"
+        }
+      ],
       "schemas": [
         [
           "Organization",
@@ -41,6 +117,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -62,6 +139,7 @@
         "/assessment",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/ai-erp",
         "/website-design",
         "/industries",
@@ -96,7 +174,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 170410
+      "bytes": 177319
     },
     {
       "path": "/about",
@@ -118,6 +196,37 @@
         "Your business already has the data. Let’s turn it into intelligence."
       ],
       "words": 482,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "#our-approach",
+          "label": "See how we work"
+        },
+        {
+          "href": "/locations/houston",
+          "label": "Houston-area services"
+        },
+        {
+          "href": "/how-yudaro-works",
+          "label": "Read the implementation process"
+        },
+        {
+          "href": "/trust",
+          "label": "Review trust and data practices"
+        },
+        {
+          "href": "/case-studies",
+          "label": "Understand our evidence standard"
+        },
+        {
+          "href": "/contact",
+          "label": "Schedule a Consultation"
+        }
+      ],
       "schemas": [
         [
           "Organization",
@@ -130,6 +239,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -175,7 +285,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 70348
+      "bytes": 73526
     },
     {
       "path": "/ai-erp",
@@ -196,13 +306,80 @@
         "Useful automation still keeps people accountable.",
         "One connected assistant across the operation.",
         "Automation should be powerful, observable, and reversible.",
+        "How do read-only tools differ from write-enabled agents?",
+        "What should an implementation proposal specify?",
         "Direct answers for business decision-makers.",
+        "Bring your company’s way of working into everyday guidance.",
         "Bring your systems, people, and knowledge together.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 1166,
+      "words": 1459,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/contact",
+          "label": "Discuss your requirements"
+        },
+        {
+          "href": "/contact?service=ai-erp",
+          "label": "Discuss your highest-value workflow"
+        },
+        {
+          "href": "/resources/ai-erp",
+          "label": "Read the practical AI + ERP guide"
+        },
+        {
+          "href": "/resources/ai-erp",
+          "label": "Read the AI ERP implementation guide"
+        },
+        {
+          "href": "/resources/architecture/private-ai-odoo",
+          "label": "Review the reference architecture and failure tests"
+        },
+        {
+          "href": "/case-studies",
+          "label": "Understand our evidence standards"
+        },
+        {
+          "href": "/resources/private-ai",
+          "label": "Private AI for business"
+        },
+        {
+          "href": "/resources/odoo-erp",
+          "label": "Odoo ERP implementation"
+        },
+        {
+          "href": "/resources/comparisons",
+          "label": "Private AI, ChatGPT, and ERP comparisons"
+        },
+        {
+          "href": "/resources/guides",
+          "label": "AI ERP cost and planning"
+        },
+        {
+          "href": "/industries",
+          "label": "AI ERP by industry"
+        },
+        {
+          "href": "/assessment",
+          "label": "Get My Free AI + ERP Assessment"
+        },
+        {
+          "href": "/corporate-culture-intelligence",
+          "label": "Explore Corporate Culture Intelligence →"
+        },
+        {
+          "href": "/contact",
+          "label": "Schedule a Consultation"
+        }
+      ],
       "schemas": [
         "BreadcrumbList",
+        "WebPage",
         "Service",
         "FAQPage",
         [
@@ -216,6 +393,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -239,12 +417,16 @@
         "/contact",
         "/contact?service=ai-erp",
         "/resources/ai-erp",
+        "/resources/ai-erp",
+        "/resources/architecture/private-ai-odoo",
+        "/case-studies",
         "/resources/private-ai",
         "/resources/odoo-erp",
         "/resources/comparisons",
         "/resources/guides",
         "/industries",
         "/assessment",
+        "/corporate-culture-intelligence",
         "/contact",
         "/contact",
         "/",
@@ -267,7 +449,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 122595
+      "bytes": 134516
     },
     {
       "path": "/ai-solutions",
@@ -290,13 +472,57 @@
         "Local hardware or controlled hosting?",
         "What affects price, timing and success?",
         "What should your team prepare?",
+        "Corporate Culture Intelligence",
         "Questions before you start",
         "Plan your next step",
         "Bring your systems, people, and knowledge together.",
         "A practical interface for private enterprise AI.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 747,
+      "words": 797,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/contact",
+          "label": "Discuss your requirements"
+        },
+        {
+          "href": "/corporate-culture-intelligence",
+          "label": "Explore Corporate Culture Intelligence →"
+        },
+        {
+          "href": "/solutions/ai-knowledge-base",
+          "label": "Plan document and SOP search →"
+        },
+        {
+          "href": "/ai-erp",
+          "label": "AI + ERP integration →"
+        },
+        {
+          "href": "/resources/private-ai-security",
+          "label": "Permission checklist →"
+        },
+        {
+          "href": "/pricing",
+          "label": "Compare planning-level prices →"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your requirements →"
+        },
+        {
+          "href": "/resources/ai-erp",
+          "label": "AI ERP architecture and implementation guide →"
+        },
+        {
+          "href": "/contact",
+          "label": "Schedule a Consultation"
+        }
+      ],
       "schemas": [
         "BreadcrumbList",
         "WebPage",
@@ -312,6 +538,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -333,11 +560,13 @@
         "/",
         "/solutions",
         "/contact",
+        "/corporate-culture-intelligence",
         "/solutions/ai-knowledge-base",
         "/ai-erp",
         "/resources/private-ai-security",
         "/pricing",
         "/contact",
+        "/resources/ai-erp",
         "/contact",
         "/showcase/open-webui/chat-light.png",
         "/showcase/open-webui/knowledge-light.png",
@@ -365,7 +594,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 101849
+      "bytes": 106898
     },
     {
       "path": "/assessment",
@@ -381,6 +610,29 @@
         "Your business already has the data. Let’s turn it into intelligence."
       ],
       "words": 196,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/methodology/ai-erp-readiness",
+          "label": "Read the scoring methodology"
+        },
+        {
+          "href": "/methodology/roi-calculator",
+          "label": "Understand ROI assumptions"
+        },
+        {
+          "href": "/privacy",
+          "label": "Review data practices"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss the results with Yudaro"
+        }
+      ],
       "schemas": [
         [
           "Organization",
@@ -393,6 +645,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -436,24 +689,56 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 48878
+      "bytes": 52069
     },
     {
       "path": "/case-studies",
       "status": 200,
-      "title": "Case Studies | Yudaro",
-      "description": "Yudaro case-study standards and representative operational scenarios for AI, ERP, and automation.",
+      "title": "AI & ERP Case Studies: Evidence and Evaluation | Yudaro",
+      "description": "How Yudaro evaluates AI and ERP implementations: scope, architecture, test evidence, measured outcomes and publication standards.",
       "canonical": "https://yudaro.com/case-studies",
-      "h1": "Operational evidence, labeled honestly.",
+      "h1": "AI & ERP implementation evidence.",
       "h2": [
-        "Representative industry scenarios",
-        "Verified case-study standard",
-        "Reusable evidence record",
-        "Start with the operation you have today.",
+        "What should a useful case study prove?",
+        "How will Yudaro present implementation evidence?",
+        "What can you review now?",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 188,
+      "words": 209,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/resources/architecture/private-ai-odoo",
+          "label": "Private AI + Odoo reference architecture and failure tests"
+        },
+        {
+          "href": "/resources/ai-erp",
+          "label": "AI ERP guide and pilot evaluation"
+        },
+        {
+          "href": "/industries/restaurants",
+          "label": "Restaurant POS and ERP workflow"
+        },
+        {
+          "href": "/industries/distribution",
+          "label": "Distribution workflow and implementation scope"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your requirements and evidence needs"
+        }
+      ],
       "schemas": [
+        "BreadcrumbList",
+        "WebPage",
         [
           "Organization",
           "ProfessionalService"
@@ -465,6 +750,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -483,6 +769,11 @@
         "/about",
         "/login?next=%2Faccount",
         "/assessment",
+        "/",
+        "/resources/architecture/private-ai-odoo",
+        "/resources/ai-erp",
+        "/industries/restaurants",
+        "/industries/distribution",
         "/contact",
         "/contact",
         "/",
@@ -505,7 +796,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 54994
+      "bytes": 55696
     },
     {
       "path": "/contact",
@@ -519,6 +810,12 @@
         "Your business already has the data. Let’s turn it into intelligence."
       ],
       "words": 138,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [],
       "schemas": [
         [
           "Organization",
@@ -531,6 +828,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -573,7 +871,136 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 47478
+      "bytes": 50669
+    },
+    {
+      "path": "/corporate-culture-intelligence",
+      "status": 200,
+      "title": "Corporate Culture Intelligence | Private Corporate AI | Yudaro",
+      "description": "Turn approved knowledge, leadership principles and governed feedback into Corporate AI guidance aligned with your company’s culture and way of working.",
+      "canonical": "https://yudaro.com/corporate-culture-intelligence",
+      "h1": "Make Your Company’s Best Thinking Available to Everyone",
+      "h2": [
+        "Good questions become better shared guidance.",
+        "Your best thinking should not depend on who is in the room",
+        "A company-aligned knowledge layer",
+        "The same values. Guidance for each role.",
+        "Built on trust and human oversight",
+        "Preserve experience. Make daily work more consistent.",
+        "Questions before you start",
+        "Plan your next step",
+        "Your Company’s Knowledge Should Grow With Your Business",
+        "Your business already has the data. Let’s turn it into intelligence."
+      ],
+      "words": 841,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/solutions",
+          "label": "Solutions"
+        },
+        {
+          "href": "/contact",
+          "label": "Build Your Corporate Intelligence"
+        },
+        {
+          "href": "#how-it-works",
+          "label": "See How It Works"
+        },
+        {
+          "href": "/ai-solutions",
+          "label": "Private AI solutions →"
+        },
+        {
+          "href": "/solutions/ai-knowledge-base",
+          "label": "Knowledge management and training →"
+        },
+        {
+          "href": "/ai-erp",
+          "label": "AI + ERP integration →"
+        },
+        {
+          "href": "/contact",
+          "label": "Schedule a Corporate AI Assessment →"
+        },
+        {
+          "href": "/contact",
+          "label": "Schedule a Corporate AI Assessment"
+        }
+      ],
+      "schemas": [
+        "BreadcrumbList",
+        "WebPage",
+        "Service",
+        [
+          "Organization",
+          "ProfessionalService"
+        ],
+        "WebSite"
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/ai-erp",
+        "/ai-solutions",
+        "/corporate-culture-intelligence",
+        "/erp-solutions",
+        "/ai-erp",
+        "/website-design",
+        "/equipment",
+        "/solutions/business-automation",
+        "/industries",
+        "/industries/distribution",
+        "/industries/hvac-field-service",
+        "/industries/construction",
+        "/industries/retail",
+        "/industries/manufacturing",
+        "/industries/professional-services",
+        "/industries/restaurants",
+        "/resources",
+        "/pricing",
+        "/about",
+        "/login?next=%2Faccount",
+        "/assessment",
+        "/",
+        "/solutions",
+        "/contact",
+        "#how-it-works",
+        "/ai-solutions",
+        "/solutions/ai-knowledge-base",
+        "/ai-erp",
+        "/contact",
+        "/contact",
+        "/contact",
+        "/",
+        "/free-account",
+        "/how-yudaro-works",
+        "/case-studies",
+        "/trust",
+        "tel:+12812588000",
+        "mailto:info@yudaro.com",
+        "/ai-solutions",
+        "/erp-solutions",
+        "/ai-erp",
+        "/solutions/business-automation",
+        "/solutions",
+        "/industries",
+        "/resources",
+        "/locations/houston",
+        "/about",
+        "/contact",
+        "/privacy",
+        "/terms"
+      ],
+      "bytes": 76888
     },
     {
       "path": "/equipment",
@@ -592,6 +1019,21 @@
         "Your business already has the data. Let’s turn it into intelligence."
       ],
       "words": 714,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "https://www.gmktec.com/products/amd-ryzen%E2%84%A2-ai-max-395-evo-x2-ai-mini-pc",
+          "label": "View the EVO-X2 on GMKtec"
+        },
+        {
+          "href": "/contact?service=equipment",
+          "label": "Discuss your requirements"
+        }
+      ],
       "schemas": [
         "WebPage",
         "Service",
@@ -606,6 +1048,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -647,7 +1090,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 97077
+      "bytes": 100419
     },
     {
       "path": "/erp-solutions",
@@ -674,6 +1117,7 @@
         "What does implementation look like?",
         "How much does implementation cost?",
         "Timing, preparation and ongoing support",
+        "Corporate Culture Intelligence",
         "Questions before you start",
         "Sources and scope",
         "Plan your next step",
@@ -681,7 +1125,58 @@
         "One platform, connected across your operation.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 737,
+      "words": 789,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/contact",
+          "label": "Discuss your requirements"
+        },
+        {
+          "href": "https://www.odoo.com/documentation/19.0/",
+          "label": "Odoo 19 documentation: verify your installed edition and version"
+        },
+        {
+          "href": "/corporate-culture-intelligence",
+          "label": "Explore Corporate Culture Intelligence →"
+        },
+        {
+          "href": "/solutions/odoo-migration",
+          "label": "Plan data migration →"
+        },
+        {
+          "href": "/solutions/odoo-integration",
+          "label": "Connect existing systems →"
+        },
+        {
+          "href": "/solutions/odoo-customization",
+          "label": "Evaluate customization →"
+        },
+        {
+          "href": "/resources/odoo-implementation-planning",
+          "label": "Cost and timeline guide →"
+        },
+        {
+          "href": "/pricing",
+          "label": "Compare planning-level prices →"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your requirements →"
+        },
+        {
+          "href": "/resources/ai-erp",
+          "label": "AI ERP architecture and implementation guide →"
+        },
+        {
+          "href": "/contact",
+          "label": "Schedule a Consultation"
+        }
+      ],
       "schemas": [
         "BreadcrumbList",
         "WebPage",
@@ -697,6 +1192,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -719,12 +1215,14 @@
         "/solutions",
         "/contact",
         "https://www.odoo.com/documentation/19.0/",
+        "/corporate-culture-intelligence",
         "/solutions/odoo-migration",
         "/solutions/odoo-integration",
         "/solutions/odoo-customization",
         "/resources/odoo-implementation-planning",
         "/pricing",
         "/contact",
+        "/resources/ai-erp",
         "/contact",
         "/showcase/odoo/crm.webp",
         "/showcase/odoo/sales.webp",
@@ -753,7 +1251,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 118057
+      "bytes": 122867
     },
     {
       "path": "/free-account",
@@ -767,6 +1265,21 @@
         "Your business already has the data. Let’s turn it into intelligence."
       ],
       "words": 89,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/login?next=%2Faccount",
+          "label": "Create Free Account"
+        },
+        {
+          "href": "/assessment",
+          "label": "Start Assessment"
+        }
+      ],
       "schemas": [
         [
           "Organization",
@@ -779,6 +1292,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -820,7 +1334,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 55154
+      "bytes": 58345
     },
     {
       "path": "/how-yudaro-works",
@@ -839,6 +1353,17 @@
         "Your business already has the data. Let’s turn it into intelligence."
       ],
       "words": 248,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
       "schemas": [
         [
           "Organization",
@@ -851,6 +1376,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -891,7 +1417,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 60254
+      "bytes": 63445
     },
     {
       "path": "/industries",
@@ -911,6 +1437,41 @@
         "Your business already has the data. Let’s turn it into intelligence."
       ],
       "words": 237,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/industries/distribution",
+          "label": "Explore the workflow"
+        },
+        {
+          "href": "/industries/manufacturing",
+          "label": "Explore the workflow"
+        },
+        {
+          "href": "/industries/retail",
+          "label": "Explore the workflow"
+        },
+        {
+          "href": "/industries/construction",
+          "label": "Explore the workflow"
+        },
+        {
+          "href": "/industries/hvac-field-service",
+          "label": "Explore the workflow"
+        },
+        {
+          "href": "/industries/professional-services",
+          "label": "Explore the workflow"
+        },
+        {
+          "href": "/industries/restaurants",
+          "label": "Explore restaurant workflows"
+        }
+      ],
       "schemas": [
         [
           "Organization",
@@ -923,6 +1484,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -969,7 +1531,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 60460
+      "bytes": 63651
     },
     {
       "path": "/industries/construction",
@@ -985,12 +1547,68 @@
         "Where private AI and automation can help",
         "How Yudaro scopes implementation",
         "Measure results and prepare for discovery",
+        "Corporate Culture Intelligence",
         "Questions before you start",
         "Plan your next step",
         "Start with one workflow worth improving.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 420,
+      "words": 465,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/industries",
+          "label": "Industries"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your project"
+        },
+        {
+          "href": "/assessment",
+          "label": "Take the free assessment"
+        },
+        {
+          "href": "/corporate-culture-intelligence",
+          "label": "Explore Corporate Culture Intelligence →"
+        },
+        {
+          "href": "/erp-solutions",
+          "label": "Odoo ERP implementation →"
+        },
+        {
+          "href": "/ai-solutions",
+          "label": "Private AI implementation →"
+        },
+        {
+          "href": "/solutions/business-automation",
+          "label": "Business workflow automation →"
+        },
+        {
+          "href": "/resources/industries/construction",
+          "label": "Practical construction guide →"
+        },
+        {
+          "href": "/pricing",
+          "label": "Compare planning-level prices →"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your requirements →"
+        },
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
       "schemas": [
         "BreadcrumbList",
         "WebPage",
@@ -1006,6 +1624,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -1028,6 +1647,7 @@
         "/industries",
         "/contact",
         "/assessment",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-solutions",
         "/solutions/business-automation",
@@ -1056,7 +1676,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 62569
+      "bytes": 67108
     },
     {
       "path": "/industries/distribution",
@@ -1072,12 +1692,68 @@
         "Where private AI and automation can help",
         "How Yudaro scopes implementation",
         "Measure results and prepare for discovery",
+        "Corporate Culture Intelligence",
         "Questions before you start",
         "Plan your next step",
         "Start with one workflow worth improving.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 420,
+      "words": 469,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/industries",
+          "label": "Industries"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your project"
+        },
+        {
+          "href": "/assessment",
+          "label": "Take the free assessment"
+        },
+        {
+          "href": "/corporate-culture-intelligence",
+          "label": "Explore Corporate Culture Intelligence →"
+        },
+        {
+          "href": "/erp-solutions",
+          "label": "Odoo ERP implementation →"
+        },
+        {
+          "href": "/ai-solutions",
+          "label": "Private AI implementation →"
+        },
+        {
+          "href": "/solutions/business-automation",
+          "label": "Business workflow automation →"
+        },
+        {
+          "href": "/resources/industries/wholesale-distribution",
+          "label": "Practical distribution guide →"
+        },
+        {
+          "href": "/pricing",
+          "label": "Compare planning-level prices →"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your requirements →"
+        },
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
       "schemas": [
         "BreadcrumbList",
         "WebPage",
@@ -1093,6 +1769,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -1115,6 +1792,7 @@
         "/industries",
         "/contact",
         "/assessment",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-solutions",
         "/solutions/business-automation",
@@ -1143,7 +1821,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 62896
+      "bytes": 67475
     },
     {
       "path": "/industries/hvac-field-service",
@@ -1159,12 +1837,68 @@
         "Where private AI and automation can help",
         "How Yudaro scopes implementation",
         "Measure results and prepare for discovery",
+        "Corporate Culture Intelligence",
         "Questions before you start",
         "Plan your next step",
         "Start with one workflow worth improving.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 433,
+      "words": 477,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/industries",
+          "label": "Industries"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your project"
+        },
+        {
+          "href": "/assessment",
+          "label": "Take the free assessment"
+        },
+        {
+          "href": "/corporate-culture-intelligence",
+          "label": "Explore Corporate Culture Intelligence →"
+        },
+        {
+          "href": "/erp-solutions",
+          "label": "Odoo ERP implementation →"
+        },
+        {
+          "href": "/ai-solutions",
+          "label": "Private AI implementation →"
+        },
+        {
+          "href": "/solutions/business-automation",
+          "label": "Business workflow automation →"
+        },
+        {
+          "href": "/resources/industries/hvac-field-service",
+          "label": "Practical hvac & field service guide →"
+        },
+        {
+          "href": "/pricing",
+          "label": "Compare planning-level prices →"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your requirements →"
+        },
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
       "schemas": [
         "BreadcrumbList",
         "WebPage",
@@ -1180,6 +1914,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -1202,6 +1937,7 @@
         "/industries",
         "/contact",
         "/assessment",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-solutions",
         "/solutions/business-automation",
@@ -1230,7 +1966,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 63001
+      "bytes": 67743
     },
     {
       "path": "/industries/manufacturing",
@@ -1246,12 +1982,68 @@
         "Where private AI and automation can help",
         "How Yudaro scopes implementation",
         "Measure results and prepare for discovery",
+        "Corporate Culture Intelligence",
         "Questions before you start",
         "Plan your next step",
         "Start with one workflow worth improving.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 422,
+      "words": 475,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/industries",
+          "label": "Industries"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your project"
+        },
+        {
+          "href": "/assessment",
+          "label": "Take the free assessment"
+        },
+        {
+          "href": "/corporate-culture-intelligence",
+          "label": "Explore Corporate Culture Intelligence →"
+        },
+        {
+          "href": "/erp-solutions",
+          "label": "Odoo ERP implementation →"
+        },
+        {
+          "href": "/ai-solutions",
+          "label": "Private AI implementation →"
+        },
+        {
+          "href": "/solutions/business-automation",
+          "label": "Business workflow automation →"
+        },
+        {
+          "href": "/resources/industries/manufacturing",
+          "label": "Practical manufacturing guide →"
+        },
+        {
+          "href": "/pricing",
+          "label": "Compare planning-level prices →"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your requirements →"
+        },
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
       "schemas": [
         "BreadcrumbList",
         "WebPage",
@@ -1267,6 +2059,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -1289,6 +2082,7 @@
         "/industries",
         "/contact",
         "/assessment",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-solutions",
         "/solutions/business-automation",
@@ -1317,7 +2111,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 62788
+      "bytes": 67407
     },
     {
       "path": "/industries/professional-services",
@@ -1333,12 +2127,68 @@
         "Where private AI and automation can help",
         "How Yudaro scopes implementation",
         "Measure results and prepare for discovery",
+        "Corporate Culture Intelligence",
         "Questions before you start",
         "Plan your next step",
         "Start with one workflow worth improving.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 429,
+      "words": 474,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/industries",
+          "label": "Industries"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your project"
+        },
+        {
+          "href": "/assessment",
+          "label": "Take the free assessment"
+        },
+        {
+          "href": "/corporate-culture-intelligence",
+          "label": "Explore Corporate Culture Intelligence →"
+        },
+        {
+          "href": "/erp-solutions",
+          "label": "Odoo ERP implementation →"
+        },
+        {
+          "href": "/ai-solutions",
+          "label": "Private AI implementation →"
+        },
+        {
+          "href": "/solutions/business-automation",
+          "label": "Business workflow automation →"
+        },
+        {
+          "href": "/resources/industries/professional-services",
+          "label": "Practical professional services guide →"
+        },
+        {
+          "href": "/pricing",
+          "label": "Compare planning-level prices →"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your requirements →"
+        },
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
       "schemas": [
         "BreadcrumbList",
         "WebPage",
@@ -1354,6 +2204,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -1376,6 +2227,7 @@
         "/industries",
         "/contact",
         "/assessment",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-solutions",
         "/solutions/business-automation",
@@ -1404,7 +2256,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 62978
+      "bytes": 67714
     },
     {
       "path": "/industries/restaurants",
@@ -1420,9 +2272,73 @@
         "Odoo POS and ERP, or integration with your existing POS.",
         "Your restaurant's knowledge—available when employees need it.",
         "See the risks, priorities, and potential opportunity in your restaurant.",
+        "Bring your company’s way of working into everyday guidance.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 656,
+      "words": 712,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/industries",
+          "label": "Industries"
+        },
+        {
+          "href": "/assessment?industry=restaurant",
+          "label": "Take the Free Restaurant Assessment"
+        },
+        {
+          "href": "/contact?service=restaurants",
+          "label": "Talk with Yudaro"
+        },
+        {
+          "href": "/showcase/restaurant-pos/floor-plan.webp",
+          "label": ""
+        },
+        {
+          "href": "/showcase/restaurant-pos/guest-seating.webp",
+          "label": ""
+        },
+        {
+          "href": "/showcase/restaurant-pos/pos-register.webp",
+          "label": ""
+        },
+        {
+          "href": "/showcase/restaurant-pos/payment-receipt.webp",
+          "label": ""
+        },
+        {
+          "href": "/showcase/restaurant-pos/customer-payments.webp",
+          "label": ""
+        },
+        {
+          "href": "/showcase/restaurant-pos/vendor-bills.webp",
+          "label": ""
+        },
+        {
+          "href": "/showcase/restaurant-pos/inventory.webp",
+          "label": ""
+        },
+        {
+          "href": "/pricing#restaurant-pos-package",
+          "label": "See the $899 + tax promotion"
+        },
+        {
+          "href": "/assessment?industry=restaurant",
+          "label": "Start Restaurant AI & ERP Assessment"
+        },
+        {
+          "href": "/corporate-culture-intelligence",
+          "label": "Explore Corporate Culture Intelligence →"
+        }
+      ],
       "schemas": [
         "BreadcrumbList",
         "Service",
@@ -1437,6 +2353,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -1468,6 +2385,7 @@
         "/showcase/restaurant-pos/inventory.webp",
         "/pricing#restaurant-pos-package",
         "/assessment?industry=restaurant",
+        "/corporate-culture-intelligence",
         "/contact",
         "/",
         "/free-account",
@@ -1489,7 +2407,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 91579
+      "bytes": 96142
     },
     {
       "path": "/industries/retail",
@@ -1505,12 +2423,68 @@
         "Where private AI and automation can help",
         "How Yudaro scopes implementation",
         "Measure results and prepare for discovery",
+        "Corporate Culture Intelligence",
         "Questions before you start",
         "Plan your next step",
         "Start with one workflow worth improving.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 422,
+      "words": 469,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/industries",
+          "label": "Industries"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your project"
+        },
+        {
+          "href": "/assessment",
+          "label": "Take the free assessment"
+        },
+        {
+          "href": "/corporate-culture-intelligence",
+          "label": "Explore Corporate Culture Intelligence →"
+        },
+        {
+          "href": "/erp-solutions",
+          "label": "Odoo ERP implementation →"
+        },
+        {
+          "href": "/ai-solutions",
+          "label": "Private AI implementation →"
+        },
+        {
+          "href": "/solutions/business-automation",
+          "label": "Business workflow automation →"
+        },
+        {
+          "href": "/resources/industries/retail",
+          "label": "Practical retail guide →"
+        },
+        {
+          "href": "/pricing",
+          "label": "Compare planning-level prices →"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your requirements →"
+        },
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
       "schemas": [
         "BreadcrumbList",
         "WebPage",
@@ -1526,6 +2500,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -1548,6 +2523,7 @@
         "/industries",
         "/contact",
         "/assessment",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-solutions",
         "/solutions/business-automation",
@@ -1576,7 +2552,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 62035
+      "bytes": 66725
     },
     {
       "path": "/locations/houston",
@@ -1592,12 +2568,60 @@
         "What happens in the first consultation?",
         "Contact Yudaro in Stafford",
         "Plan around the working day",
+        "What should a Houston-area discovery meeting cover?",
         "Questions before you start",
         "Plan your next step",
         "Start with one workflow worth improving.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 505,
+      "words": 569,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your project"
+        },
+        {
+          "href": "/assessment",
+          "label": "Take the free assessment"
+        },
+        {
+          "href": "/erp-solutions",
+          "label": "Odoo ERP implementation →"
+        },
+        {
+          "href": "/ai-solutions",
+          "label": "Private AI implementation →"
+        },
+        {
+          "href": "/solutions/business-automation",
+          "label": "Business workflow automation →"
+        },
+        {
+          "href": "/industries",
+          "label": "Industry workflows →"
+        },
+        {
+          "href": "/pricing",
+          "label": "Compare planning-level prices →"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your requirements →"
+        },
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
       "schemas": [
         "BreadcrumbList",
         "WebPage",
@@ -1613,6 +2637,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -1662,7 +2687,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 64178
+      "bytes": 68549
     },
     {
       "path": "/methodology/ai-erp-readiness",
@@ -1680,6 +2705,17 @@
         "Your business already has the data. Let’s turn it into intelligence."
       ],
       "words": 193,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
       "schemas": [
         [
           "Organization",
@@ -1692,6 +2728,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -1732,7 +2769,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 52636
+      "bytes": 55827
     },
     {
       "path": "/methodology/roi-calculator",
@@ -1750,6 +2787,17 @@
         "Your business already has the data. Let’s turn it into intelligence."
       ],
       "words": 168,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
       "schemas": [
         [
           "Organization",
@@ -1762,6 +2810,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -1802,7 +2851,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 49348
+      "bytes": 52539
     },
     {
       "path": "/pricing",
@@ -1821,6 +2870,73 @@
         "Your business already has the data. Let’s turn it into intelligence."
       ],
       "words": 542,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/contact",
+          "label": "Request a scoped estimate"
+        },
+        {
+          "href": "/promotions/restaurant-pos-package.webp",
+          "label": ""
+        },
+        {
+          "href": "/contact?service=restaurant-pos",
+          "label": "Ask about this package"
+        },
+        {
+          "href": "/industries/restaurants#odoo-restaurant",
+          "label": "Explore Odoo for restaurants →"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss this package"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss this package"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss this package"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss this package"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss this package"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss this package"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss this package"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss this package"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss this package"
+        },
+        {
+          "href": "/resources/guides",
+          "label": "Read the cost and implementation planning guide"
+        },
+        {
+          "href": "/contact",
+          "label": "Schedule a Consultation"
+        }
+      ],
       "schemas": [
         [
           "Organization",
@@ -1833,6 +2949,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -1887,7 +3004,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 106143
+      "bytes": 109334
     },
     {
       "path": "/privacy",
@@ -1907,6 +3024,17 @@
         "Your business already has the data. Let’s turn it into intelligence."
       ],
       "words": 255,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
       "schemas": [
         [
           "Organization",
@@ -1919,6 +3047,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -1959,7 +3088,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 50471
+      "bytes": 53662
     },
     {
       "path": "/resources",
@@ -1972,7 +3101,90 @@
         "Browse practical guides",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 434,
+      "words": 496,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/resources/architecture",
+          "label": "Explore the architecture library and implementation evidence standards"
+        },
+        {
+          "href": "/resources/odoo-implementation-planning",
+          "label": "Odoo Implementation Cost, Timeline & Readiness Separate software, implementation, migration and support costs. Use a scope checklist and acceptance gates to plan an Odoo rollout."
+        },
+        {
+          "href": "/resources/private-ai-security",
+          "label": "Private AI Permissions & Deployment Checklist Review document permissions, data flows, evaluation, backups and approvals before deploying a private AI assistant."
+        },
+        {
+          "href": "/resources/faqs",
+          "label": "Private AI, Odoo & Automation Questions Practical answers about private AI, Odoo implementation, AI ERP integration, pricing and readiness."
+        },
+        {
+          "href": "/resources/ai-erp",
+          "label": "AI ERP Systems: A Practical Architecture and Implementation Guide Understand AI ERP architecture, read-only queries, RAG, approval-controlled actions and implementation evaluation with practical examples and source references."
+        },
+        {
+          "href": "/resources/architecture/private-ai-odoo",
+          "label": "Private AI + Odoo: A Controlled Reference Architecture Trace identity, document retrieval, read-only Odoo tools and approval-controlled writes through a private AI reference architecture with failure tests."
+        },
+        {
+          "href": "/resources/private-ai",
+          "label": "What is private AI for a business? A practical guide to private AI, company knowledge search, permissions, local hardware, cost drivers, and implementation readiness."
+        },
+        {
+          "href": "/resources/odoo-erp",
+          "label": "What is Odoo ERP, and when does it fit? A business guide to Odoo modules, Community versus Enterprise, implementation, migration, cost, and operating fit."
+        },
+        {
+          "href": "/resources/ai-erp",
+          "label": "What does AI + ERP integration actually mean? How governed AI can retrieve ERP data, combine it with company knowledge, prepare actions, and preserve human approval."
+        },
+        {
+          "href": "/resources/business-automation",
+          "label": "Which business workflows should be automated? A practical framework for choosing automation candidates, defining controls, and avoiding automation of broken processes."
+        },
+        {
+          "href": "/resources/comparisons",
+          "label": "Private AI, public AI, and ERP choices compared Fair comparisons for Private AI versus ChatGPT, local versus cloud AI, Odoo editions, and Odoo versus QuickBooks."
+        },
+        {
+          "href": "/resources/guides",
+          "label": "Planning cost, timing, and scope for AI and ERP A buyer guide to Private AI cost, Odoo implementation cost, AI + ERP timing, discovery inputs, and ongoing support."
+        },
+        {
+          "href": "/resources/industries/wholesale-distribution",
+          "label": "AI, ERP, and automation for Wholesale & Distribution A practical guide to inventory accuracy, customer-specific pricing, purchasing, replenishment, fulfillment, returns, and warehouse procedures for wholesale & distribution businesses."
+        },
+        {
+          "href": "/resources/industries/hvac-field-service",
+          "label": "AI, ERP, and automation for HVAC & Field Service A practical guide to dispatch, equipment history, maintenance plans, parts, warranties, field procedures, and invoicing for hvac & field service businesses."
+        },
+        {
+          "href": "/resources/industries/construction",
+          "label": "AI, ERP, and automation for Construction A practical guide to job cost, change orders, purchasing commitments, field documents, schedule, and approvals for construction businesses."
+        },
+        {
+          "href": "/resources/industries/manufacturing",
+          "label": "AI, ERP, and automation for Manufacturing A practical guide to material requirements, production planning, work orders, quality procedures, revision control, and production exceptions for manufacturing businesses."
+        },
+        {
+          "href": "/resources/industries/retail",
+          "label": "AI, ERP, and automation for Retail A practical guide to multi-location inventory, products, purchasing, returns, customer records, and replenishment for retail businesses."
+        },
+        {
+          "href": "/resources/industries/professional-services",
+          "label": "AI, ERP, and automation for Professional Services A practical guide to opportunities, scope, resources, time, delivery standards, recurring work, and billing for professional services businesses."
+        },
+        {
+          "href": "/resources/industries/restaurants",
+          "label": "AI, ERP, and automation for Restaurant A practical guide to food cost, vendor pricing, purchasing, inventory, labor, waste, recipes, training, and management reporting for restaurant businesses."
+        }
+      ],
       "schemas": [
         [
           "Organization",
@@ -1985,6 +3197,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -2003,9 +3216,12 @@
         "/about",
         "/login?next=%2Faccount",
         "/assessment",
+        "/resources/architecture",
         "/resources/odoo-implementation-planning",
         "/resources/private-ai-security",
         "/resources/faqs",
+        "/resources/ai-erp",
+        "/resources/architecture/private-ai-odoo",
         "/resources/private-ai",
         "/resources/odoo-erp",
         "/resources/ai-erp",
@@ -2040,29 +3256,109 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 63461
+      "bytes": 68426
     },
     {
       "path": "/resources/ai-erp",
       "status": 200,
-      "title": "What does AI + ERP integration actually mean? | Yudaro",
-      "description": "How governed AI can retrieve ERP data, combine it with company knowledge, prepare actions, and preserve human approval.",
+      "title": "AI ERP Systems: A Practical Architecture and Implementation Guide | Yudaro",
+      "description": "Understand AI ERP architecture, read-only queries, RAG, approval-controlled actions and implementation evaluation with practical examples and source references.",
       "canonical": "https://yudaro.com/resources/ai-erp",
-      "h1": "What does AI + ERP integration actually mean?",
+      "h1": "AI ERP Systems: A Practical Architecture and Implementation Guide",
       "h2": [
-        "What this means for a business",
-        "Real-world example",
-        "Limitations and what to consider",
-        "Common questions",
-        "Implementation context",
-        "Related Yudaro resources",
-        "Talk to Yudaro about your workflow",
+        "What is an AI ERP system?",
+        "How is AI ERP different from traditional ERP?",
+        "How does an LLM interact with Odoo?",
+        "What should a natural-language query return?",
+        "When should AI be read-only, and when may it write?",
+        "What is RAG, and how does it relate to live ERP data?",
+        "How are permissions, approvals and audit trails enforced?",
+        "What does this look like across business functions?",
+        "How should an AI ERP pilot be evaluated?",
+        "What determines implementation cost and readiness?",
+        "What are the limits of this guide?",
+        "Corporate Culture Intelligence",
+        "Sources and scope",
+        "Plan your next step",
+        "Start with one workflow worth improving.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 397,
+      "words": 1339,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/resources",
+          "label": "Resources"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your project"
+        },
+        {
+          "href": "/assessment",
+          "label": "Take the free assessment"
+        },
+        {
+          "href": "/about",
+          "label": "Yudaro AI & ERP Systems"
+        },
+        {
+          "href": "https://www.odoo.com/documentation/19.0/developer/reference/external_api.html",
+          "label": "Odoo 19 JSON-2 API: version and access requirements"
+        },
+        {
+          "href": "https://www.odoo.com/documentation/19.0/developer/reference/backend/security.html",
+          "label": "Odoo 19 security: access rights and record rules"
+        },
+        {
+          "href": "/corporate-culture-intelligence",
+          "label": "Explore Corporate Culture Intelligence →"
+        },
+        {
+          "href": "/ai-erp",
+          "label": "Discuss an AI + ERP implementation →"
+        },
+        {
+          "href": "/resources/architecture/private-ai-odoo",
+          "label": "Inspect the private AI and Odoo reference architecture →"
+        },
+        {
+          "href": "/ai-solutions",
+          "label": "Private AI services →"
+        },
+        {
+          "href": "/erp-solutions",
+          "label": "Odoo ERP implementation →"
+        },
+        {
+          "href": "/solutions/business-automation",
+          "label": "Business automation →"
+        },
+        {
+          "href": "/case-studies",
+          "label": "Evidence and case-study standards →"
+        },
+        {
+          "href": "/resources/architecture",
+          "label": "Browse the architecture library →"
+        },
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
       "schemas": [
-        "Article",
         "BreadcrumbList",
+        "WebPage",
+        "Article",
         [
           "Organization",
           "ProfessionalService"
@@ -2074,6 +3370,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -2094,13 +3391,20 @@
         "/assessment",
         "/",
         "/resources",
-        "/resources/odoo-implementation-planning",
-        "/resources/private-ai-security",
-        "/resources/faqs",
+        "/contact",
+        "/assessment",
+        "/about",
+        "https://www.odoo.com/documentation/19.0/developer/reference/external_api.html",
+        "https://www.odoo.com/documentation/19.0/developer/reference/backend/security.html",
+        "/corporate-culture-intelligence",
+        "/ai-erp",
+        "/resources/architecture/private-ai-odoo",
         "/ai-solutions",
         "/erp-solutions",
-        "/ai-erp",
-        "/assessment",
+        "/solutions/business-automation",
+        "/case-studies",
+        "/resources/architecture",
+        "/contact",
         "/contact",
         "/",
         "/free-account",
@@ -2122,29 +3426,70 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 60397
+      "bytes": 90948
     },
     {
-      "path": "/resources/business-automation",
+      "path": "/resources/architecture",
       "status": 200,
-      "title": "Which business workflows should be automated? | Yudaro",
-      "description": "A practical framework for choosing automation candidates, defining controls, and avoiding automation of broken processes.",
-      "canonical": "https://yudaro.com/resources/business-automation",
-      "h1": "Which business workflows should be automated?",
+      "title": "AI + ERP Architecture Library | Yudaro",
+      "description": "Explore Yudaro’s private AI and Odoo reference design, system boundaries, approval workflows and criteria for technical implementation evidence.",
+      "canonical": "https://yudaro.com/resources/architecture",
+      "h1": "AI + ERP Architecture Library",
       "h2": [
-        "What this means for a business",
-        "Real-world example",
-        "Limitations and what to consider",
-        "Common questions",
-        "Implementation context",
-        "Related Yudaro resources",
-        "Talk to Yudaro about your workflow",
+        "Start with identity, evidence and execution",
+        "What qualifies an implementation article for this library?",
+        "How should teams use a reference design?",
+        "Plan your next step",
+        "Start with one workflow worth improving.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 388,
+      "words": 255,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/resources",
+          "label": "Resources"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your project"
+        },
+        {
+          "href": "/assessment",
+          "label": "Take the free assessment"
+        },
+        {
+          "href": "/resources/architecture/private-ai-odoo",
+          "label": "Read the private AI + Odoo architecture →"
+        },
+        {
+          "href": "/resources/ai-erp",
+          "label": "AI ERP systems guide →"
+        },
+        {
+          "href": "/case-studies",
+          "label": "Evidence standards and case studies →"
+        },
+        {
+          "href": "/solutions/odoo-integration",
+          "label": "Plan an Odoo integration →"
+        },
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
       "schemas": [
-        "Article",
         "BreadcrumbList",
+        "WebPage",
         [
           "Organization",
           "ProfessionalService"
@@ -2156,6 +3501,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -2176,6 +3522,288 @@
         "/assessment",
         "/",
         "/resources",
+        "/contact",
+        "/assessment",
+        "/resources/architecture/private-ai-odoo",
+        "/resources/ai-erp",
+        "/case-studies",
+        "/solutions/odoo-integration",
+        "/contact",
+        "/contact",
+        "/",
+        "/free-account",
+        "/how-yudaro-works",
+        "/case-studies",
+        "/trust",
+        "tel:+12812588000",
+        "mailto:info@yudaro.com",
+        "/ai-solutions",
+        "/erp-solutions",
+        "/ai-erp",
+        "/solutions/business-automation",
+        "/solutions",
+        "/industries",
+        "/resources",
+        "/locations/houston",
+        "/about",
+        "/contact",
+        "/privacy",
+        "/terms"
+      ],
+      "bytes": 57646
+    },
+    {
+      "path": "/resources/architecture/private-ai-odoo",
+      "status": 200,
+      "title": "Private AI + Odoo: A Controlled Reference Architecture | Yudaro",
+      "description": "Trace identity, document retrieval, read-only Odoo tools and approval-controlled writes through a private AI reference architecture with failure tests.",
+      "canonical": "https://yudaro.com/resources/architecture/private-ai-odoo",
+      "h1": "Private AI + Odoo: A Controlled Reference Architecture",
+      "h2": [
+        "What are the trust boundaries in a private AI and Odoo integration?",
+        "Which component owns each decision?",
+        "How does a read-only request travel through the system?",
+        "How is a proposed write made reviewable?",
+        "What tests belong in acceptance?",
+        "What must be decided before deployment?",
+        "Where do Open WebUI and other chat interfaces fit?",
+        "Sources and scope",
+        "Plan your next step",
+        "Start with one workflow worth improving.",
+        "Your business already has the data. Let’s turn it into intelligence."
+      ],
+      "words": 878,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/resources",
+          "label": "Resources"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your project"
+        },
+        {
+          "href": "/assessment",
+          "label": "Take the free assessment"
+        },
+        {
+          "href": "/about",
+          "label": "Yudaro AI & ERP Systems"
+        },
+        {
+          "href": "https://www.odoo.com/documentation/19.0/developer/reference/external_api.html",
+          "label": "Odoo 19 JSON-2 API: version and access requirements"
+        },
+        {
+          "href": "https://www.odoo.com/documentation/19.0/developer/reference/backend/security.html",
+          "label": "Odoo 19 security: access rights and record rules"
+        },
+        {
+          "href": "/resources/ai-erp",
+          "label": "AI ERP systems guide →"
+        },
+        {
+          "href": "/resources/architecture",
+          "label": "Architecture library →"
+        },
+        {
+          "href": "/solutions/odoo-integration",
+          "label": "Odoo integration services →"
+        },
+        {
+          "href": "/resources/private-ai-security",
+          "label": "Private AI security planning →"
+        },
+        {
+          "href": "/ai-erp",
+          "label": "AI + ERP implementation →"
+        },
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
+      "schemas": [
+        "BreadcrumbList",
+        "WebPage",
+        "Article",
+        [
+          "Organization",
+          "ProfessionalService"
+        ],
+        "WebSite"
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/ai-erp",
+        "/ai-solutions",
+        "/corporate-culture-intelligence",
+        "/erp-solutions",
+        "/ai-erp",
+        "/website-design",
+        "/equipment",
+        "/solutions/business-automation",
+        "/industries",
+        "/industries/distribution",
+        "/industries/hvac-field-service",
+        "/industries/construction",
+        "/industries/retail",
+        "/industries/manufacturing",
+        "/industries/professional-services",
+        "/industries/restaurants",
+        "/resources",
+        "/pricing",
+        "/about",
+        "/login?next=%2Faccount",
+        "/assessment",
+        "/",
+        "/resources",
+        "/contact",
+        "/assessment",
+        "/about",
+        "https://www.odoo.com/documentation/19.0/developer/reference/external_api.html",
+        "https://www.odoo.com/documentation/19.0/developer/reference/backend/security.html",
+        "/resources/ai-erp",
+        "/resources/architecture",
+        "/solutions/odoo-integration",
+        "/resources/private-ai-security",
+        "/ai-erp",
+        "/contact",
+        "/contact",
+        "/",
+        "/free-account",
+        "/how-yudaro-works",
+        "/case-studies",
+        "/trust",
+        "tel:+12812588000",
+        "mailto:info@yudaro.com",
+        "/ai-solutions",
+        "/erp-solutions",
+        "/ai-erp",
+        "/solutions/business-automation",
+        "/solutions",
+        "/industries",
+        "/resources",
+        "/locations/houston",
+        "/about",
+        "/contact",
+        "/privacy",
+        "/terms"
+      ],
+      "bytes": 79836
+    },
+    {
+      "path": "/resources/business-automation",
+      "status": 200,
+      "title": "Which business workflows should be automated? | Yudaro",
+      "description": "A practical framework for choosing automation candidates, defining controls, and avoiding automation of broken processes.",
+      "canonical": "https://yudaro.com/resources/business-automation",
+      "h1": "Which business workflows should be automated?",
+      "h2": [
+        "What this means for a business",
+        "Real-world example",
+        "Limitations and what to consider",
+        "Common questions",
+        "Implementation context",
+        "Related Yudaro resources",
+        "Talk to Yudaro about your workflow",
+        "Your business already has the data. Let’s turn it into intelligence."
+      ],
+      "words": 393,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/resources",
+          "label": "Resources"
+        },
+        {
+          "href": "/about",
+          "label": "Yudaro AI & ERP Systems"
+        },
+        {
+          "href": "/resources/odoo-implementation-planning",
+          "label": "Plan an ERP rollout"
+        },
+        {
+          "href": "/resources/private-ai-security",
+          "label": "Review private AI controls"
+        },
+        {
+          "href": "/resources/faqs",
+          "label": "Read common questions"
+        },
+        {
+          "href": "/resources/ai-erp",
+          "label": "AI + ERP guide"
+        },
+        {
+          "href": "/erp-solutions",
+          "label": "ERP solutions"
+        },
+        {
+          "href": "/contact?service=automation",
+          "label": "Discuss a workflow"
+        },
+        {
+          "href": "/assessment",
+          "label": "Talk to Yudaro about your workflow"
+        }
+      ],
+      "schemas": [
+        "WebPage",
+        "Article",
+        "BreadcrumbList",
+        [
+          "Organization",
+          "ProfessionalService"
+        ],
+        "WebSite"
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/ai-erp",
+        "/ai-solutions",
+        "/corporate-culture-intelligence",
+        "/erp-solutions",
+        "/ai-erp",
+        "/website-design",
+        "/equipment",
+        "/solutions/business-automation",
+        "/industries",
+        "/industries/distribution",
+        "/industries/hvac-field-service",
+        "/industries/construction",
+        "/industries/retail",
+        "/industries/manufacturing",
+        "/industries/professional-services",
+        "/industries/restaurants",
+        "/resources",
+        "/pricing",
+        "/about",
+        "/login?next=%2Faccount",
+        "/assessment",
+        "/",
+        "/resources",
+        "/about",
         "/resources/odoo-implementation-planning",
         "/resources/private-ai-security",
         "/resources/faqs",
@@ -2204,7 +3832,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 60479
+      "bytes": 63410
     },
     {
       "path": "/resources/comparisons",
@@ -2221,11 +3849,64 @@
         "Compare the operating model",
         "Implementation context",
         "Related Yudaro resources",
+        "Bring your company’s way of working into everyday guidance.",
         "Talk to Yudaro about your workflow",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 519,
+      "words": 603,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/resources",
+          "label": "Resources"
+        },
+        {
+          "href": "/about",
+          "label": "Yudaro AI & ERP Systems"
+        },
+        {
+          "href": "/resources/odoo-implementation-planning",
+          "label": "Plan an ERP rollout"
+        },
+        {
+          "href": "/resources/private-ai-security",
+          "label": "Review private AI controls"
+        },
+        {
+          "href": "/resources/faqs",
+          "label": "Read common questions"
+        },
+        {
+          "href": "/resources/private-ai",
+          "label": "Private AI guide"
+        },
+        {
+          "href": "/resources/odoo-erp",
+          "label": "Odoo ERP guide"
+        },
+        {
+          "href": "/pricing",
+          "label": "Pricing"
+        },
+        {
+          "href": "/corporate-culture-intelligence",
+          "label": "Explore Corporate Culture Intelligence →"
+        },
+        {
+          "href": "/assessment",
+          "label": "Talk to Yudaro about your workflow"
+        }
+      ],
       "schemas": [
+        "WebPage",
         "Article",
         "BreadcrumbList",
         [
@@ -2239,6 +3920,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -2259,12 +3941,14 @@
         "/assessment",
         "/",
         "/resources",
+        "/about",
         "/resources/odoo-implementation-planning",
         "/resources/private-ai-security",
         "/resources/faqs",
         "/resources/private-ai",
         "/resources/odoo-erp",
         "/pricing",
+        "/corporate-culture-intelligence",
         "/assessment",
         "/contact",
         "/",
@@ -2287,7 +3971,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 64350
+      "bytes": 69277
     },
     {
       "path": "/resources/faqs",
@@ -2306,7 +3990,62 @@
         "Start with one workflow worth improving.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 433,
+      "words": 434,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/resources",
+          "label": "Resources"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your project"
+        },
+        {
+          "href": "/assessment",
+          "label": "Take the free assessment"
+        },
+        {
+          "href": "/about",
+          "label": "Yudaro AI & ERP Systems"
+        },
+        {
+          "href": "/ai-solutions",
+          "label": "Private AI implementation →"
+        },
+        {
+          "href": "/erp-solutions",
+          "label": "Odoo ERP implementation →"
+        },
+        {
+          "href": "/ai-erp",
+          "label": "AI + ERP integration →"
+        },
+        {
+          "href": "/solutions/business-automation",
+          "label": "Business workflow automation →"
+        },
+        {
+          "href": "/resources/odoo-implementation-planning",
+          "label": "Cost and timing →"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your requirements →"
+        },
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
       "schemas": [
         "BreadcrumbList",
         "WebPage",
@@ -2322,6 +4061,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -2373,7 +4113,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 60605
+      "bytes": 64297
     },
     {
       "path": "/resources/guides",
@@ -2392,8 +4132,56 @@
         "Talk to Yudaro about your workflow",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 392,
+      "words": 397,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/resources",
+          "label": "Resources"
+        },
+        {
+          "href": "/about",
+          "label": "Yudaro AI & ERP Systems"
+        },
+        {
+          "href": "/resources/odoo-implementation-planning",
+          "label": "Plan an ERP rollout"
+        },
+        {
+          "href": "/resources/private-ai-security",
+          "label": "Review private AI controls"
+        },
+        {
+          "href": "/resources/faqs",
+          "label": "Read common questions"
+        },
+        {
+          "href": "/pricing",
+          "label": "Current planning prices"
+        },
+        {
+          "href": "/equipment",
+          "label": "Equipment guidance"
+        },
+        {
+          "href": "/contact",
+          "label": "Book discovery"
+        },
+        {
+          "href": "/assessment",
+          "label": "Talk to Yudaro about your workflow"
+        }
+      ],
       "schemas": [
+        "WebPage",
         "Article",
         "BreadcrumbList",
         [
@@ -2407,6 +4195,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -2427,6 +4216,7 @@
         "/assessment",
         "/",
         "/resources",
+        "/about",
         "/resources/odoo-implementation-planning",
         "/resources/private-ai-security",
         "/resources/faqs",
@@ -2455,7 +4245,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 60413
+      "bytes": 63480
     },
     {
       "path": "/resources/industries/construction",
@@ -2474,8 +4264,60 @@
         "Talk to Yudaro about your workflow",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 397,
+      "words": 400,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/resources",
+          "label": "Resources"
+        },
+        {
+          "href": "/about",
+          "label": "Yudaro AI & ERP Systems"
+        },
+        {
+          "href": "/resources/odoo-implementation-planning",
+          "label": "Plan an ERP rollout"
+        },
+        {
+          "href": "/resources/private-ai-security",
+          "label": "Review private AI controls"
+        },
+        {
+          "href": "/resources/faqs",
+          "label": "Read common questions"
+        },
+        {
+          "href": "/ai-solutions",
+          "label": "Private AI solutions"
+        },
+        {
+          "href": "/erp-solutions",
+          "label": "Odoo ERP solutions"
+        },
+        {
+          "href": "/ai-erp",
+          "label": "AI + ERP integration"
+        },
+        {
+          "href": "/industries",
+          "label": "All industries"
+        },
+        {
+          "href": "/assessment",
+          "label": "Talk to Yudaro about your workflow"
+        }
+      ],
       "schemas": [
+        "WebPage",
         "Article",
         "BreadcrumbList",
         [
@@ -2489,6 +4331,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -2509,6 +4352,7 @@
         "/assessment",
         "/",
         "/resources",
+        "/about",
         "/resources/odoo-implementation-planning",
         "/resources/private-ai-security",
         "/resources/faqs",
@@ -2538,7 +4382,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 61412
+      "bytes": 64363
     },
     {
       "path": "/resources/industries/hvac-field-service",
@@ -2557,8 +4401,60 @@
         "Talk to Yudaro about your workflow",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 412,
+      "words": 415,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/resources",
+          "label": "Resources"
+        },
+        {
+          "href": "/about",
+          "label": "Yudaro AI & ERP Systems"
+        },
+        {
+          "href": "/resources/odoo-implementation-planning",
+          "label": "Plan an ERP rollout"
+        },
+        {
+          "href": "/resources/private-ai-security",
+          "label": "Review private AI controls"
+        },
+        {
+          "href": "/resources/faqs",
+          "label": "Read common questions"
+        },
+        {
+          "href": "/ai-solutions",
+          "label": "Private AI solutions"
+        },
+        {
+          "href": "/erp-solutions",
+          "label": "Odoo ERP solutions"
+        },
+        {
+          "href": "/ai-erp",
+          "label": "AI + ERP integration"
+        },
+        {
+          "href": "/industries",
+          "label": "All industries"
+        },
+        {
+          "href": "/assessment",
+          "label": "Talk to Yudaro about your workflow"
+        }
+      ],
       "schemas": [
+        "WebPage",
         "Article",
         "BreadcrumbList",
         [
@@ -2572,6 +4468,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -2592,6 +4489,7 @@
         "/assessment",
         "/",
         "/resources",
+        "/about",
         "/resources/odoo-implementation-planning",
         "/resources/private-ai-security",
         "/resources/faqs",
@@ -2621,7 +4519,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 61750
+      "bytes": 65003
     },
     {
       "path": "/resources/industries/manufacturing",
@@ -2640,8 +4538,60 @@
         "Talk to Yudaro about your workflow",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 401,
+      "words": 404,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/resources",
+          "label": "Resources"
+        },
+        {
+          "href": "/about",
+          "label": "Yudaro AI & ERP Systems"
+        },
+        {
+          "href": "/resources/odoo-implementation-planning",
+          "label": "Plan an ERP rollout"
+        },
+        {
+          "href": "/resources/private-ai-security",
+          "label": "Review private AI controls"
+        },
+        {
+          "href": "/resources/faqs",
+          "label": "Read common questions"
+        },
+        {
+          "href": "/ai-solutions",
+          "label": "Private AI solutions"
+        },
+        {
+          "href": "/erp-solutions",
+          "label": "Odoo ERP solutions"
+        },
+        {
+          "href": "/ai-erp",
+          "label": "AI + ERP integration"
+        },
+        {
+          "href": "/industries",
+          "label": "All industries"
+        },
+        {
+          "href": "/assessment",
+          "label": "Talk to Yudaro about your workflow"
+        }
+      ],
       "schemas": [
+        "WebPage",
         "Article",
         "BreadcrumbList",
         [
@@ -2655,6 +4605,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -2675,6 +4626,7 @@
         "/assessment",
         "/",
         "/resources",
+        "/about",
         "/resources/odoo-implementation-planning",
         "/resources/private-ai-security",
         "/resources/faqs",
@@ -2704,7 +4656,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 61606
+      "bytes": 64861
     },
     {
       "path": "/resources/industries/professional-services",
@@ -2723,8 +4675,60 @@
         "Talk to Yudaro about your workflow",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 400,
+      "words": 403,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/resources",
+          "label": "Resources"
+        },
+        {
+          "href": "/about",
+          "label": "Yudaro AI & ERP Systems"
+        },
+        {
+          "href": "/resources/odoo-implementation-planning",
+          "label": "Plan an ERP rollout"
+        },
+        {
+          "href": "/resources/private-ai-security",
+          "label": "Review private AI controls"
+        },
+        {
+          "href": "/resources/faqs",
+          "label": "Read common questions"
+        },
+        {
+          "href": "/ai-solutions",
+          "label": "Private AI solutions"
+        },
+        {
+          "href": "/erp-solutions",
+          "label": "Odoo ERP solutions"
+        },
+        {
+          "href": "/ai-erp",
+          "label": "AI + ERP integration"
+        },
+        {
+          "href": "/industries",
+          "label": "All industries"
+        },
+        {
+          "href": "/assessment",
+          "label": "Talk to Yudaro about your workflow"
+        }
+      ],
       "schemas": [
+        "WebPage",
         "Article",
         "BreadcrumbList",
         [
@@ -2738,6 +4742,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -2758,6 +4763,7 @@
         "/assessment",
         "/",
         "/resources",
+        "/about",
         "/resources/odoo-implementation-planning",
         "/resources/private-ai-security",
         "/resources/faqs",
@@ -2787,7 +4793,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 61539
+      "bytes": 64793
     },
     {
       "path": "/resources/industries/restaurants",
@@ -2806,8 +4812,60 @@
         "Talk to Yudaro about your workflow",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 401,
+      "words": 404,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/resources",
+          "label": "Resources"
+        },
+        {
+          "href": "/about",
+          "label": "Yudaro AI & ERP Systems"
+        },
+        {
+          "href": "/resources/odoo-implementation-planning",
+          "label": "Plan an ERP rollout"
+        },
+        {
+          "href": "/resources/private-ai-security",
+          "label": "Review private AI controls"
+        },
+        {
+          "href": "/resources/faqs",
+          "label": "Read common questions"
+        },
+        {
+          "href": "/ai-solutions",
+          "label": "Private AI solutions"
+        },
+        {
+          "href": "/erp-solutions",
+          "label": "Odoo ERP solutions"
+        },
+        {
+          "href": "/ai-erp",
+          "label": "AI + ERP integration"
+        },
+        {
+          "href": "/industries",
+          "label": "All industries"
+        },
+        {
+          "href": "/assessment",
+          "label": "Talk to Yudaro about your workflow"
+        }
+      ],
       "schemas": [
+        "WebPage",
         "Article",
         "BreadcrumbList",
         [
@@ -2821,6 +4879,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -2841,6 +4900,7 @@
         "/assessment",
         "/",
         "/resources",
+        "/about",
         "/resources/odoo-implementation-planning",
         "/resources/private-ai-security",
         "/resources/faqs",
@@ -2870,7 +4930,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 61545
+      "bytes": 64544
     },
     {
       "path": "/resources/industries/retail",
@@ -2889,8 +4949,60 @@
         "Talk to Yudaro about your workflow",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 393,
+      "words": 396,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/resources",
+          "label": "Resources"
+        },
+        {
+          "href": "/about",
+          "label": "Yudaro AI & ERP Systems"
+        },
+        {
+          "href": "/resources/odoo-implementation-planning",
+          "label": "Plan an ERP rollout"
+        },
+        {
+          "href": "/resources/private-ai-security",
+          "label": "Review private AI controls"
+        },
+        {
+          "href": "/resources/faqs",
+          "label": "Read common questions"
+        },
+        {
+          "href": "/ai-solutions",
+          "label": "Private AI solutions"
+        },
+        {
+          "href": "/erp-solutions",
+          "label": "Odoo ERP solutions"
+        },
+        {
+          "href": "/ai-erp",
+          "label": "AI + ERP integration"
+        },
+        {
+          "href": "/industries",
+          "label": "All industries"
+        },
+        {
+          "href": "/assessment",
+          "label": "Talk to Yudaro about your workflow"
+        }
+      ],
       "schemas": [
+        "WebPage",
         "Article",
         "BreadcrumbList",
         [
@@ -2904,6 +5016,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -2924,6 +5037,7 @@
         "/assessment",
         "/",
         "/resources",
+        "/about",
         "/resources/odoo-implementation-planning",
         "/resources/private-ai-security",
         "/resources/faqs",
@@ -2953,7 +5067,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 61202
+      "bytes": 64099
     },
     {
       "path": "/resources/industries/wholesale-distribution",
@@ -2972,8 +5086,60 @@
         "Talk to Yudaro about your workflow",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 407,
+      "words": 410,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/resources",
+          "label": "Resources"
+        },
+        {
+          "href": "/about",
+          "label": "Yudaro AI & ERP Systems"
+        },
+        {
+          "href": "/resources/odoo-implementation-planning",
+          "label": "Plan an ERP rollout"
+        },
+        {
+          "href": "/resources/private-ai-security",
+          "label": "Review private AI controls"
+        },
+        {
+          "href": "/resources/faqs",
+          "label": "Read common questions"
+        },
+        {
+          "href": "/ai-solutions",
+          "label": "Private AI solutions"
+        },
+        {
+          "href": "/erp-solutions",
+          "label": "Odoo ERP solutions"
+        },
+        {
+          "href": "/ai-erp",
+          "label": "AI + ERP integration"
+        },
+        {
+          "href": "/industries",
+          "label": "All industries"
+        },
+        {
+          "href": "/assessment",
+          "label": "Talk to Yudaro about your workflow"
+        }
+      ],
       "schemas": [
+        "WebPage",
         "Article",
         "BreadcrumbList",
         [
@@ -2987,6 +5153,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -3007,6 +5174,7 @@
         "/assessment",
         "/",
         "/resources",
+        "/about",
         "/resources/odoo-implementation-planning",
         "/resources/private-ai-security",
         "/resources/faqs",
@@ -3036,7 +5204,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 62152
+      "bytes": 65528
     },
     {
       "path": "/resources/odoo-erp",
@@ -3055,8 +5223,56 @@
         "Talk to Yudaro about your workflow",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 421,
+      "words": 426,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/resources",
+          "label": "Resources"
+        },
+        {
+          "href": "/about",
+          "label": "Yudaro AI & ERP Systems"
+        },
+        {
+          "href": "/resources/odoo-implementation-planning",
+          "label": "Plan an ERP rollout"
+        },
+        {
+          "href": "/resources/private-ai-security",
+          "label": "Review private AI controls"
+        },
+        {
+          "href": "/resources/faqs",
+          "label": "Read common questions"
+        },
+        {
+          "href": "/erp-solutions",
+          "label": "ERP solutions"
+        },
+        {
+          "href": "/pricing",
+          "label": "ERP pricing"
+        },
+        {
+          "href": "/erp-solutions#showcase",
+          "label": "Odoo screenshots"
+        },
+        {
+          "href": "/assessment",
+          "label": "Talk to Yudaro about your workflow"
+        }
+      ],
       "schemas": [
+        "WebPage",
         "Article",
         "BreadcrumbList",
         [
@@ -3070,6 +5286,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -3090,6 +5307,7 @@
         "/assessment",
         "/",
         "/resources",
+        "/about",
         "/resources/odoo-implementation-planning",
         "/resources/private-ai-security",
         "/resources/faqs",
@@ -3118,7 +5336,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 60817
+      "bytes": 63891
     },
     {
       "path": "/resources/odoo-implementation-planning",
@@ -3139,7 +5357,62 @@
         "Start with one workflow worth improving.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 464,
+      "words": 465,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/resources",
+          "label": "Resources"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your project"
+        },
+        {
+          "href": "/assessment",
+          "label": "Take the free assessment"
+        },
+        {
+          "href": "/about",
+          "label": "Yudaro AI & ERP Systems"
+        },
+        {
+          "href": "https://www.odoo.com/documentation/19.0/",
+          "label": "Odoo 19 documentation: verify your installed edition and version"
+        },
+        {
+          "href": "https://yudaro.com/pricing",
+          "label": "Yudaro planning prices"
+        },
+        {
+          "href": "/erp-solutions",
+          "label": "Odoo ERP implementation →"
+        },
+        {
+          "href": "/solutions/odoo-migration",
+          "label": "Migration planning →"
+        },
+        {
+          "href": "/pricing",
+          "label": "Compare planning-level prices →"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your requirements →"
+        },
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
       "schemas": [
         "BreadcrumbList",
         "WebPage",
@@ -3155,6 +5428,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -3206,7 +5480,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 63492
+      "bytes": 67282
     },
     {
       "path": "/resources/private-ai",
@@ -3222,11 +5496,64 @@
         "Common questions",
         "Implementation context",
         "Related Yudaro resources",
+        "Bring your company’s way of working into everyday guidance.",
         "Talk to Yudaro about your workflow",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 404,
+      "words": 465,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/resources",
+          "label": "Resources"
+        },
+        {
+          "href": "/about",
+          "label": "Yudaro AI & ERP Systems"
+        },
+        {
+          "href": "/resources/odoo-implementation-planning",
+          "label": "Plan an ERP rollout"
+        },
+        {
+          "href": "/resources/private-ai-security",
+          "label": "Review private AI controls"
+        },
+        {
+          "href": "/resources/faqs",
+          "label": "Read common questions"
+        },
+        {
+          "href": "/ai-solutions",
+          "label": "Private AI solutions"
+        },
+        {
+          "href": "/equipment",
+          "label": "Private AI equipment"
+        },
+        {
+          "href": "/pricing",
+          "label": "Private AI pricing"
+        },
+        {
+          "href": "/corporate-culture-intelligence",
+          "label": "Explore Corporate Culture Intelligence →"
+        },
+        {
+          "href": "/assessment",
+          "label": "Talk to Yudaro about your workflow"
+        }
+      ],
       "schemas": [
+        "WebPage",
         "Article",
         "BreadcrumbList",
         [
@@ -3240,6 +5567,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -3260,12 +5588,14 @@
         "/assessment",
         "/",
         "/resources",
+        "/about",
         "/resources/odoo-implementation-planning",
         "/resources/private-ai-security",
         "/resources/faqs",
         "/ai-solutions",
         "/equipment",
         "/pricing",
+        "/corporate-culture-intelligence",
         "/assessment",
         "/contact",
         "/",
@@ -3288,7 +5618,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 60472
+      "bytes": 64935
     },
     {
       "path": "/resources/private-ai-security",
@@ -3308,7 +5638,54 @@
         "Start with one workflow worth improving.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 418,
+      "words": 419,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/resources",
+          "label": "Resources"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your project"
+        },
+        {
+          "href": "/assessment",
+          "label": "Take the free assessment"
+        },
+        {
+          "href": "/about",
+          "label": "Yudaro AI & ERP Systems"
+        },
+        {
+          "href": "/ai-solutions",
+          "label": "Private AI implementation →"
+        },
+        {
+          "href": "/solutions/ai-knowledge-base",
+          "label": "Governed knowledge search →"
+        },
+        {
+          "href": "/trust",
+          "label": "Trust and data practices →"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your requirements →"
+        },
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
       "schemas": [
         "BreadcrumbList",
         "WebPage",
@@ -3324,6 +5701,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -3373,7 +5751,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 61296
+      "bytes": 65050
     },
     {
       "path": "/solutions",
@@ -3386,12 +5764,84 @@
         "Find the missing foundation",
         "Design for the operating lifecycle",
         "Start small enough to measure",
+        "Corporate Culture Intelligence",
         "Questions before you start",
         "Plan your next step",
         "Start with one workflow worth improving.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 297,
+      "words": 385,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your project"
+        },
+        {
+          "href": "/assessment",
+          "label": "Take the free assessment"
+        },
+        {
+          "href": "/corporate-culture-intelligence",
+          "label": "Explore Corporate Culture Intelligence →"
+        },
+        {
+          "href": "/ai-solutions",
+          "label": "Private AI implementation →"
+        },
+        {
+          "href": "/erp-solutions",
+          "label": "Odoo ERP implementation →"
+        },
+        {
+          "href": "/ai-erp",
+          "label": "AI + ERP integration →"
+        },
+        {
+          "href": "/solutions/business-automation",
+          "label": "Business workflow automation →"
+        },
+        {
+          "href": "/solutions/ai-knowledge-base",
+          "label": "Knowledge base and document search →"
+        },
+        {
+          "href": "/solutions/odoo-migration",
+          "label": "Data migration →"
+        },
+        {
+          "href": "/solutions/odoo-integration",
+          "label": "System integration →"
+        },
+        {
+          "href": "/solutions/odoo-customization",
+          "label": "Customization →"
+        },
+        {
+          "href": "/website-design",
+          "label": "Website design →"
+        },
+        {
+          "href": "/locations/houston",
+          "label": "Houston-area services →"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your requirements →"
+        },
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
       "schemas": [
         "BreadcrumbList",
         "WebPage",
@@ -3406,6 +5856,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -3427,6 +5878,7 @@
         "/",
         "/contact",
         "/assessment",
+        "/corporate-culture-intelligence",
         "/ai-solutions",
         "/erp-solutions",
         "/ai-erp",
@@ -3460,7 +5912,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 57196
+      "bytes": 63615
     },
     {
       "path": "/solutions/ai-knowledge-base",
@@ -3475,12 +5927,64 @@
         "Different questions require different sources",
         "Pilot with deliberate failure cases",
         "Prepare files, budget and operations",
+        "Corporate Culture Intelligence",
         "Questions before you start",
         "Plan your next step",
         "Start with one workflow worth improving.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 424,
+      "words": 469,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/solutions",
+          "label": "Solutions"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your project"
+        },
+        {
+          "href": "/assessment",
+          "label": "Take the free assessment"
+        },
+        {
+          "href": "/corporate-culture-intelligence",
+          "label": "Explore Corporate Culture Intelligence →"
+        },
+        {
+          "href": "/ai-solutions",
+          "label": "Private AI implementation →"
+        },
+        {
+          "href": "/resources/private-ai-security",
+          "label": "Permission and data-flow checklist →"
+        },
+        {
+          "href": "/ai-erp",
+          "label": "AI + ERP integration →"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your requirements →"
+        },
+        {
+          "href": "/resources/ai-erp",
+          "label": "AI ERP architecture and implementation guide →"
+        },
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
       "schemas": [
         "BreadcrumbList",
         "WebPage",
@@ -3496,6 +6000,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -3518,10 +6023,12 @@
         "/solutions",
         "/contact",
         "/assessment",
+        "/corporate-culture-intelligence",
         "/ai-solutions",
         "/resources/private-ai-security",
         "/ai-erp",
         "/contact",
+        "/resources/ai-erp",
         "/contact",
         "/contact",
         "/",
@@ -3544,7 +6051,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 62785
+      "bytes": 67677
     },
     {
       "path": "/solutions/business-automation",
@@ -3564,7 +6071,58 @@
         "Start with one workflow worth improving.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 460,
+      "words": 467,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/solutions",
+          "label": "Solutions"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your project"
+        },
+        {
+          "href": "/assessment",
+          "label": "Take the free assessment"
+        },
+        {
+          "href": "/erp-solutions",
+          "label": "Odoo ERP implementation →"
+        },
+        {
+          "href": "/ai-erp",
+          "label": "AI + ERP integration →"
+        },
+        {
+          "href": "/resources/business-automation",
+          "label": "Choose automation candidates →"
+        },
+        {
+          "href": "/locations/houston",
+          "label": "Houston-area consulting →"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your requirements →"
+        },
+        {
+          "href": "/resources/ai-erp",
+          "label": "AI ERP architecture and implementation guide →"
+        },
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
       "schemas": [
         "BreadcrumbList",
         "WebPage",
@@ -3580,6 +6138,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -3607,6 +6166,7 @@
         "/resources/business-automation",
         "/locations/houston",
         "/contact",
+        "/resources/ai-erp",
         "/contact",
         "/contact",
         "/",
@@ -3629,7 +6189,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 64095
+      "bytes": 67860
     },
     {
       "path": "/solutions/odoo-customization",
@@ -3651,6 +6211,53 @@
         "Your business already has the data. Let’s turn it into intelligence."
       ],
       "words": 387,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/solutions",
+          "label": "Solutions"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your project"
+        },
+        {
+          "href": "/assessment",
+          "label": "Take the free assessment"
+        },
+        {
+          "href": "https://www.odoo.com/documentation/19.0/",
+          "label": "Odoo 19 documentation: verify your installed edition and version"
+        },
+        {
+          "href": "/erp-solutions",
+          "label": "Odoo ERP implementation →"
+        },
+        {
+          "href": "/solutions/odoo-integration",
+          "label": "Integration design →"
+        },
+        {
+          "href": "/solutions/odoo-migration",
+          "label": "Migration planning →"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your requirements →"
+        },
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
       "schemas": [
         "BreadcrumbList",
         "WebPage",
@@ -3666,6 +6273,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -3715,7 +6323,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 60571
+      "bytes": 63824
     },
     {
       "path": "/solutions/odoo-integration",
@@ -3736,7 +6344,58 @@
         "Start with one workflow worth improving.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 432,
+      "words": 439,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/solutions",
+          "label": "Solutions"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your project"
+        },
+        {
+          "href": "/assessment",
+          "label": "Take the free assessment"
+        },
+        {
+          "href": "https://www.odoo.com/documentation/19.0/developer/reference/external_api.html",
+          "label": "Odoo 19 external API documentation"
+        },
+        {
+          "href": "/ai-erp",
+          "label": "AI + ERP integration →"
+        },
+        {
+          "href": "/erp-solutions",
+          "label": "Odoo ERP implementation →"
+        },
+        {
+          "href": "/solutions/odoo-customization",
+          "label": "Configuration and extensions →"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your requirements →"
+        },
+        {
+          "href": "/resources/ai-erp",
+          "label": "AI ERP architecture and implementation guide →"
+        },
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
       "schemas": [
         "BreadcrumbList",
         "WebPage",
@@ -3752,6 +6411,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -3779,6 +6439,7 @@
         "/erp-solutions",
         "/solutions/odoo-customization",
         "/contact",
+        "/resources/ai-erp",
         "/contact",
         "/contact",
         "/",
@@ -3801,7 +6462,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 61205
+      "bytes": 64964
     },
     {
       "path": "/solutions/odoo-migration",
@@ -3823,6 +6484,53 @@
         "Your business already has the data. Let’s turn it into intelligence."
       ],
       "words": 440,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/solutions",
+          "label": "Solutions"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your project"
+        },
+        {
+          "href": "/assessment",
+          "label": "Take the free assessment"
+        },
+        {
+          "href": "https://www.odoo.com/documentation/19.0/",
+          "label": "Odoo 19 documentation: verify your installed edition and version"
+        },
+        {
+          "href": "/erp-solutions",
+          "label": "Odoo ERP implementation →"
+        },
+        {
+          "href": "/resources/odoo-implementation-planning",
+          "label": "Cost and dependency planning →"
+        },
+        {
+          "href": "/solutions/odoo-integration",
+          "label": "Review integrations →"
+        },
+        {
+          "href": "/contact",
+          "label": "Discuss your requirements →"
+        },
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
       "schemas": [
         "BreadcrumbList",
         "WebPage",
@@ -3838,6 +6546,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -3887,7 +6596,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 61102
+      "bytes": 64347
     },
     {
       "path": "/terms",
@@ -3906,6 +6615,17 @@
         "Your business already has the data. Let’s turn it into intelligence."
       ],
       "words": 181,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
       "schemas": [
         [
           "Organization",
@@ -3918,6 +6638,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -3958,7 +6679,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 49073
+      "bytes": 52264
     },
     {
       "path": "/trust",
@@ -3979,6 +6700,17 @@
         "Your business already has the data. Let’s turn it into intelligence."
       ],
       "words": 294,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/contact",
+          "label": "Request a consultation"
+        }
+      ],
       "schemas": [
         [
           "Organization",
@@ -3991,6 +6723,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -4031,7 +6764,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 51739
+      "bytes": 54930
     },
     {
       "path": "/website-design",
@@ -4047,6 +6780,33 @@
         "Your business already has the data. Let’s turn it into intelligence."
       ],
       "words": 352,
+      "metaRobots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "xRobotsTag": "",
+      "mainLinks": [
+        {
+          "href": "/contact",
+          "label": "Discuss your website"
+        },
+        {
+          "href": "/contact?service=website-design&package=Foundation",
+          "label": "Request a proposal"
+        },
+        {
+          "href": "/contact?service=website-design&package=Growth",
+          "label": "Request a proposal"
+        },
+        {
+          "href": "/contact?service=website-design&package=Commerce%20%26%20Custom",
+          "label": "Request a proposal"
+        },
+        {
+          "href": "/contact?service=website-design",
+          "label": "Start a website project"
+        }
+      ],
       "schemas": [
         "WebPage",
         "Service",
@@ -4061,6 +6821,7 @@
         "/",
         "/ai-erp",
         "/ai-solutions",
+        "/corporate-culture-intelligence",
         "/erp-solutions",
         "/ai-erp",
         "/website-design",
@@ -4105,7 +6866,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 83186
+      "bytes": 86538
     }
   ]
 }

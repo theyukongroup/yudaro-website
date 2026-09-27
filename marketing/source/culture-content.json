@@ -1,0 +1,171 @@
+{
+  "primary": "Turn your company’s experience, values, and way of solving problems into intelligence every employee can use.",
+  "steps": [
+    [
+      "Ask",
+      "Employee questions and workplace situations"
+    ],
+    [
+      "Answer",
+      "Corporate AI provides source-based guidance"
+    ],
+    [
+      "Review",
+      "Employees and managers offer corrections or ratings"
+    ],
+    [
+      "Approve",
+      "Authorized leaders review important feedback"
+    ],
+    [
+      "Improve",
+      "Approved knowledge is refined and versioned"
+    ],
+    [
+      "Share",
+      "Future answers become more consistent and company-aligned"
+    ]
+  ],
+  "examples": [
+    [
+      "Sales",
+      "How should we respond when a long-term customer requests a price below our approved margin?"
+    ],
+    [
+      "Operations",
+      "What should we do when an urgent order conflicts with the normal delivery schedule?"
+    ],
+    [
+      "Customer Service",
+      "How does our company prefer complaints to be acknowledged and escalated?"
+    ],
+    [
+      "Human Resources",
+      "How should a new employee handle a situation that conflicts with company values?"
+    ],
+    [
+      "Purchasing",
+      "When should we prioritize supplier reliability over the lowest price?"
+    ],
+    [
+      "Management",
+      "What approach has our company used successfully in similar situations?"
+    ]
+  ],
+  "service": {
+    "path": "/corporate-culture-intelligence",
+    "title": "Corporate Culture Intelligence | Private Corporate AI",
+    "description": "Turn approved knowledge, leadership principles and governed feedback into Corporate AI guidance aligned with your company’s culture and way of working.",
+    "eyebrow": "PRIVATE AI + ERP / CORPORATE CULTURE INTELLIGENCE",
+    "intro": "Turn your company’s experience, values, and way of solving problems into intelligence every employee can use.",
+    "kind": "Service",
+    "dateModified": "2026-09-26",
+    "sections": [
+      {
+        "title": "Your best thinking should not depend on who is in the room",
+        "body": "Company culture often lives in an owner’s experience, managers’ judgment, informal conversations, scattered documents and long-term employees’ memories. New employees may receive different answers from different departments. When experienced people leave, their practical knowledge can leave with them."
+      },
+      {
+        "title": "A company-aligned knowledge layer",
+        "body": "Yudaro’s Corporate Culture Intelligence methodology connects approved company knowledge, operating procedures, leadership guidance, structured employee feedback and permissioned ERP information within Private AI and ERP Business Transformation. Your company already has a culture. Yudaro helps capture it, strengthen it, and make it available at the moment every employee needs guidance.",
+        "items": [
+          "Capture approved decisions, service standards, training materials and departmental terminology.",
+          "Keep knowledge owners accountable for review, correction and retirement.",
+          "Provide role-appropriate guidance grounded in approved sources; cite those sources when available.",
+          "Treat ERP transactions separately: guidance does not itself authorize a change to business records."
+        ]
+      },
+      {
+        "title": "The same values. Guidance for each role.",
+        "body": "Illustrative questions combine approved policy, past experience, role permissions and leadership principles. Answers depend on the sources and controls implemented for your organization.",
+        "table": {
+          "headers": [
+            "Department",
+            "A practical question"
+          ],
+          "rows": [
+            [
+              "Sales",
+              "How should we respond when a long-term customer requests a price below our approved margin?"
+            ],
+            [
+              "Operations",
+              "What should we do when an urgent order conflicts with the normal delivery schedule?"
+            ],
+            [
+              "Customer Service",
+              "How does our company prefer complaints to be acknowledged and escalated?"
+            ],
+            [
+              "Human Resources",
+              "How should a new employee handle a situation that conflicts with company values?"
+            ],
+            [
+              "Purchasing",
+              "When should we prioritize supplier reliability over the lowest price?"
+            ],
+            [
+              "Management",
+              "What approach has our company used successfully in similar situations?"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Built on trust and human oversight",
+        "body": "We scope these controls as part of the implementation, then configure and test them before launch. This is a service methodology, not a claim that every deployment already includes every capability.",
+        "items": [
+          "Private deployment options: assess local or controlled infrastructure, data flows and sensitive-data protection.",
+          "Role-based access: test document, department and ERP permissions for each role.",
+          "Administrative approval: administrators choose what may become organizational knowledge; sensitive conversations can be excluded.",
+          "Source attribution: link important guidance to approved internal sources when available and escalate unsupported answers.",
+          "Knowledge lifecycle: assign owners, version changes, set review or expiration dates, and support correction or retirement.",
+          "Feedback review and audit history: record authorized approvals and changes according to the agreed retention policy.",
+          "Human oversight: AI supports management judgment. Leadership can update policies, values and preferred practices as a healthy culture evolves."
+        ]
+      },
+      {
+        "title": "Preserve experience. Make daily work more consistent.",
+        "body": "The intended outcomes are practical: faster onboarding, fewer repeated questions to managers, more consistent service and better coordination across departments. Establish a baseline and evaluate the pilot before expanding.",
+        "items": [
+          "Preserve institutional knowledge and reduce reliance on individual memory.",
+          "Give teams faster access to approved procedures and training guidance.",
+          "Align everyday decisions with current company values and operating priorities.",
+          "Scale access to leadership knowledge through reviewed feedback and approved updates."
+        ]
+      }
+    ],
+    "faqs": [
+      [
+        "Does Corporate AI automatically learn from every conversation?",
+        "No. Yudaro’s approach learns from governed feedback and approved organizational knowledge. Administrators control eligible information, sensitive conversations can be excluded, and authorized people approve changes before they become shared guidance."
+      ],
+      [
+        "Does this require retraining a model?",
+        "Not necessarily. Approved source updates, retrieval configuration and reviewed guidance can improve answers without training on employee conversations. The appropriate approach is agreed during implementation."
+      ],
+      [
+        "Can different departments see different information?",
+        "Yes, role-appropriate access is an implementation requirement. Source permissions and ERP access must be configured and tested; leadership principles can be shared without exposing restricted records."
+      ]
+    ],
+    "related": [
+      {
+        "href": "/ai-solutions",
+        "label": "Private AI solutions"
+      },
+      {
+        "href": "/solutions/ai-knowledge-base",
+        "label": "Knowledge management and training"
+      },
+      {
+        "href": "/ai-erp",
+        "label": "AI + ERP integration"
+      },
+      {
+        "href": "/contact",
+        "label": "Schedule a Corporate AI Assessment"
+      }
+    ]
+  }
+}

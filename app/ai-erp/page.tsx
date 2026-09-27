@@ -1,3 +1,4 @@
+import { CultureContext } from '@/components/corporate-culture';
 import Link from 'next/link';
 import { ArchitectureDiagram } from '@/components/architecture-diagram';
 import { Breadcrumbs, PageSchema } from '@/components/structured-data';
@@ -467,6 +468,7 @@ export default function Page() {
             </a>
           </div>
         </section>
+        <CultureContext />
       </SolutionPage>
       <PageSchema
         path="/ai-erp"
