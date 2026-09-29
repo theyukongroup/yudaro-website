@@ -179,6 +179,10 @@
       {
         "title": "Corporate Culture Intelligence",
         "body": "Connect operational records with approved decision principles: a stock exception or margin question can draw on current ERP context and company policy. Yudaro scopes role permissions, reviewed feedback and human approval within Private AI + ERP transformation."
+      },
+      {
+        "title": "Restaurant POS and ERP are separate purchases",
+        "body": "The $899 + tax Restaurant POS Package covers front-of-house hardware and POS setup. $29.99/user/month is POS Support & Platform Service only. Restaurant ERP implementation is not included. The separate Restaurant ERP Implementation Package costs $5,000 one-time plus $300/month for ERP Management, Maintenance & Support for up to 5 users, according to agreed implementation scope. Additional customization may be quoted separately. Private AI + Automation has custom pricing and separate scope."
       }
     ],
     "faqs": [
@@ -227,9 +231,13 @@
       {
         "href": "/resources/ai-erp",
         "label": "AI ERP architecture and implementation guide"
+      },
+      {
+        "label": "Compare restaurant POS, ERP and AI",
+        "href": "/industries/restaurants#restaurant-ladder-title"
       }
     ],
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-09-29",
     "sources": [
       {
         "href": "https://www.odoo.com/documentation/19.0/",
@@ -1569,6 +1577,10 @@
       {
         "title": "What should a proposal explain?",
         "body": "Define outcomes, deliverables, exclusions, users, systems, migration, security responsibilities, acceptance, training and support. Clarify licenses and infrastructure separately. Name dependencies and approval gates in the timeline, and make cost assumptions visible."
+      },
+      {
+        "title": "Restaurant POS and ERP are separate purchases",
+        "body": "The $899 + tax Restaurant POS Package covers front-of-house hardware and POS setup. $29.99/user/month is POS Support & Platform Service only. Restaurant ERP implementation is not included. The separate Restaurant ERP Implementation Package costs $5,000 one-time plus $300/month for ERP Management, Maintenance & Support for up to 5 users, according to agreed implementation scope. Additional customization may be quoted separately. Private AI + Automation has custom pricing and separate scope."
       }
     ],
     "faqs": [
@@ -1621,10 +1633,36 @@
       {
         "href": "/contact",
         "label": "Discuss your requirements"
+      },
+      {
+        "label": "Compare restaurant POS, ERP and AI",
+        "href": "/industries/restaurants#restaurant-ladder-title"
       }
     ],
-    "dateModified": "2026-09-24",
-    "datePublished": "2026-09-24"
+    "dateModified": "2026-09-29",
+    "datePublished": "2026-09-24",
+    "questions": [
+      [
+        "Is the full Odoo ERP system included with the $899 POS Package?",
+        "No. The $899 Restaurant POS Package is a standalone front-of-house POS solution. Full Odoo ERP implementation is a separate service starting at $5,000."
+      ],
+      [
+        "What does the $29.99 monthly fee include?",
+        "The $29.99 per-user monthly fee covers POS Support & Platform Service only. It does not include ERP implementation, ERP maintenance, or full Odoo ERP usage."
+      ],
+      [
+        "What does the $300 ERP monthly fee include?",
+        "The $300 monthly fee covers ERP Management, Maintenance & Support for up to 5 users, according to the agreed ERP implementation scope."
+      ],
+      [
+        "Do I have to buy ERP or Private AI with the POS package?",
+        "No. ERP is an optional separate purchase. Private AI and automation have separate scope and custom pricing. The systems can work together through an agreed integration."
+      ],
+      [
+        "Does $5,000 include unlimited customization?",
+        "No. ERP work follows the agreed implementation scope. Additional customization may be quoted separately."
+      ]
+    ]
   },
   {
     "path": "/solutions",
@@ -1702,6 +1740,10 @@
             ]
           ]
         }
+      },
+      {
+        "title": "Restaurant POS and ERP are separate purchases",
+        "body": "The $899 + tax Restaurant POS Package covers front-of-house hardware and POS setup. $29.99/user/month is POS Support & Platform Service only. Restaurant ERP implementation is not included. The separate Restaurant ERP Implementation Package costs $5,000 one-time plus $300/month for ERP Management, Maintenance & Support for up to 5 users, according to agreed implementation scope. Additional customization may be quoted separately. Private AI + Automation has custom pricing and separate scope."
       }
     ],
     "faqs": [
@@ -1758,9 +1800,13 @@
       {
         "href": "/contact",
         "label": "Discuss your requirements"
+      },
+      {
+        "label": "Compare restaurant POS, ERP and AI",
+        "href": "/industries/restaurants#restaurant-ladder-title"
       }
     ],
-    "dateModified": "2026-09-26"
+    "dateModified": "2026-09-29"
   },
   {
     "path": "/resources/ai-erp",

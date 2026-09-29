@@ -1,6 +1,6 @@
 {
   "target": "https://yudaro.com",
-  "checkedAt": "2026-09-27T03:17:50.503Z",
+  "checkedAt": "2026-09-29T19:03:44.861Z",
   "checkCount": 1167,
   "passed": 1167,
   "failures": [],
@@ -809,7 +809,7 @@
         "Talk with our Stafford team",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 138,
+      "words": 142,
       "metaRobots": [
         "index, follow",
         "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
@@ -871,7 +871,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 50669
+      "bytes": 50768
     },
     {
       "path": "/corporate-culture-intelligence",
@@ -1118,14 +1118,16 @@
         "How much does implementation cost?",
         "Timing, preparation and ongoing support",
         "Corporate Culture Intelligence",
+        "Restaurant POS and ERP are separate purchases",
         "Questions before you start",
         "Sources and scope",
         "Plan your next step",
+        "Restaurant ERP Implementation",
         "Bring your systems, people, and knowledge together.",
         "One platform, connected across your operation.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 789,
+      "words": 1001,
       "metaRobots": [
         "index, follow",
         "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
@@ -1171,6 +1173,14 @@
         {
           "href": "/resources/ai-erp",
           "label": "AI ERP architecture and implementation guide →"
+        },
+        {
+          "href": "/industries/restaurants#restaurant-ladder-title",
+          "label": "Compare restaurant POS, ERP and AI →"
+        },
+        {
+          "href": "/contact?service=restaurant-erp",
+          "label": "Schedule an ERP Consultation"
         },
         {
           "href": "/contact",
@@ -1223,6 +1233,8 @@
         "/pricing",
         "/contact",
         "/resources/ai-erp",
+        "/industries/restaurants#restaurant-ladder-title",
+        "/contact?service=restaurant-erp",
         "/contact",
         "/showcase/odoo/crm.webp",
         "/showcase/odoo/sales.webp",
@@ -1251,7 +1263,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 122867
+      "bytes": 132586
     },
     {
       "path": "/free-account",
@@ -2266,16 +2278,20 @@
       "canonical": "https://yudaro.com/industries/restaurants",
       "h1": "Turn Restaurant Data Into Better Decisions",
       "h2": [
-        "From the first guest to the back office.",
+        "POS runs the checkout counter. ERP runs the business.",
+        "Restaurant POS Package — $899 + tax",
+        "Restaurant ERP Implementation",
+        "POS and ERP pricing questions",
+        "Front-of-house POS. Separately scoped back-office ERP.",
         "One operation. Many places for margin to disappear.",
         "Make-to-order and buffet operations require different logic.",
-        "Odoo POS and ERP, or integration with your existing POS.",
+        "POS first. ERP and Private AI by separate scope.",
         "Your restaurant's knowledge—available when employees need it.",
         "See the risks, priorities, and potential opportunity in your restaurant.",
         "Bring your company’s way of working into everyday guidance.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 712,
+      "words": 1318,
       "metaRobots": [
         "index, follow",
         "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
@@ -2297,6 +2313,26 @@
         {
           "href": "/contact?service=restaurants",
           "label": "Talk with Yudaro"
+        },
+        {
+          "href": "/contact?service=restaurant-pos",
+          "label": "Get the $899 Restaurant POS Package →"
+        },
+        {
+          "href": "/contact?service=restaurant-erp",
+          "label": "Schedule an ERP Consultation →"
+        },
+        {
+          "href": "/ai-solutions",
+          "label": "Explore Private AI & Automation →"
+        },
+        {
+          "href": "/contact?service=restaurant-pos",
+          "label": "Get the $899 Restaurant POS Package"
+        },
+        {
+          "href": "/contact?service=restaurant-erp",
+          "label": "Schedule an ERP Consultation"
         },
         {
           "href": "/showcase/restaurant-pos/floor-plan.webp",
@@ -2327,8 +2363,8 @@
           "label": ""
         },
         {
-          "href": "/pricing#restaurant-pos-package",
-          "label": "See the $899 + tax promotion"
+          "href": "/contact?service=restaurant-erp",
+          "label": "Schedule an ERP Consultation"
         },
         {
           "href": "/assessment?industry=restaurant",
@@ -2376,6 +2412,11 @@
         "/industries",
         "/assessment?industry=restaurant",
         "/contact?service=restaurants",
+        "/contact?service=restaurant-pos",
+        "/contact?service=restaurant-erp",
+        "/ai-solutions",
+        "/contact?service=restaurant-pos",
+        "/contact?service=restaurant-erp",
         "/showcase/restaurant-pos/floor-plan.webp",
         "/showcase/restaurant-pos/guest-seating.webp",
         "/showcase/restaurant-pos/pos-register.webp",
@@ -2383,7 +2424,7 @@
         "/showcase/restaurant-pos/customer-payments.webp",
         "/showcase/restaurant-pos/vendor-bills.webp",
         "/showcase/restaurant-pos/inventory.webp",
-        "/pricing#restaurant-pos-package",
+        "/contact?service=restaurant-erp",
         "/assessment?industry=restaurant",
         "/corporate-culture-intelligence",
         "/contact",
@@ -2407,7 +2448,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 96142
+      "bytes": 126695
     },
     {
       "path": "/industries/retail",
@@ -2861,15 +2902,18 @@
       "canonical": "https://yudaro.com/pricing",
       "h1": "Practical investment levels for serious business systems.",
       "h2": [
-        "Your restaurant. Ready for service.",
+        "POS runs the checkout counter. ERP runs the business.",
+        "Restaurant POS Package — $899 + tax",
+        "Restaurant ERP Implementation",
+        "POS and ERP pricing questions",
         "Company AI implementation",
         "Company ERP setup",
-        "Monthly maintenance and improvement",
+        "ERP support and managed services",
         "What affects final pricing?",
         "Start with a focused discovery conversation.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 542,
+      "words": 1092,
       "metaRobots": [
         "index, follow",
         "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
@@ -2881,16 +2925,24 @@
           "label": "Request a scoped estimate"
         },
         {
-          "href": "/promotions/restaurant-pos-package.webp",
-          "label": ""
+          "href": "/contact?service=restaurant-pos",
+          "label": "Get the $899 Restaurant POS Package →"
+        },
+        {
+          "href": "/contact?service=restaurant-erp",
+          "label": "Schedule an ERP Consultation →"
+        },
+        {
+          "href": "/ai-solutions",
+          "label": "Explore Private AI & Automation →"
         },
         {
           "href": "/contact?service=restaurant-pos",
-          "label": "Ask about this package"
+          "label": "Get the $899 Restaurant POS Package"
         },
         {
-          "href": "/industries/restaurants#odoo-restaurant",
-          "label": "Explore Odoo for restaurants →"
+          "href": "/contact?service=restaurant-erp",
+          "label": "Schedule an ERP Consultation"
         },
         {
           "href": "/contact",
@@ -2969,9 +3021,11 @@
         "/login?next=%2Faccount",
         "/assessment",
         "/contact",
-        "/promotions/restaurant-pos-package.webp",
         "/contact?service=restaurant-pos",
-        "/industries/restaurants#odoo-restaurant",
+        "/contact?service=restaurant-erp",
+        "/ai-solutions",
+        "/contact?service=restaurant-pos",
+        "/contact?service=restaurant-erp",
         "/contact",
         "/contact",
         "/contact",
@@ -3004,7 +3058,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 109334
+      "bytes": 134670
     },
     {
       "path": "/privacy",
@@ -3985,12 +4039,13 @@
         "What is an AI ERP system?",
         "Can a business run AI locally?",
         "What should a proposal explain?",
+        "Restaurant POS and ERP are separate purchases",
         "Questions before you start",
         "Plan your next step",
         "Start with one workflow worth improving.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 434,
+      "words": 518,
       "metaRobots": [
         "index, follow",
         "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
@@ -4042,6 +4097,10 @@
           "label": "Discuss your requirements →"
         },
         {
+          "href": "/industries/restaurants#restaurant-ladder-title",
+          "label": "Compare restaurant POS, ERP and AI →"
+        },
+        {
           "href": "/contact",
           "label": "Request a consultation"
         }
@@ -4091,6 +4150,7 @@
         "/solutions/business-automation",
         "/resources/odoo-implementation-planning",
         "/contact",
+        "/industries/restaurants#restaurant-ladder-title",
         "/contact",
         "/contact",
         "/",
@@ -4113,7 +4173,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 64297
+      "bytes": 66026
     },
     {
       "path": "/resources/guides",
@@ -5765,12 +5825,13 @@
         "Design for the operating lifecycle",
         "Start small enough to measure",
         "Corporate Culture Intelligence",
+        "Restaurant POS and ERP are separate purchases",
         "Questions before you start",
         "Plan your next step",
         "Start with one workflow worth improving.",
         "Your business already has the data. Let’s turn it into intelligence."
       ],
-      "words": 385,
+      "words": 469,
       "metaRobots": [
         "index, follow",
         "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
@@ -5838,6 +5899,10 @@
           "label": "Discuss your requirements →"
         },
         {
+          "href": "/industries/restaurants#restaurant-ladder-title",
+          "label": "Compare restaurant POS, ERP and AI →"
+        },
+        {
           "href": "/contact",
           "label": "Request a consultation"
         }
@@ -5890,6 +5955,7 @@
         "/website-design",
         "/locations/houston",
         "/contact",
+        "/industries/restaurants#restaurant-ladder-title",
         "/contact",
         "/contact",
         "/",
@@ -5912,7 +5978,7 @@
         "/privacy",
         "/terms"
       ],
-      "bytes": 63615
+      "bytes": 65409
     },
     {
       "path": "/solutions/ai-knowledge-base",

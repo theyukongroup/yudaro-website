@@ -40,10 +40,13 @@ function localize(value: unknown, messages: Record<string, string>): unknown {
 
 export default function ContactContent({
   messages = {},
+  initialInterest = '',
 }: {
   messages?: Record<string, string>;
+  initialInterest?: string;
 }) {
   const [sent, setSent] = useState(false);
+  const [interest, setInterest] = useState(initialInterest);
   const [error, setError] = useState('');
   const content = sent ? (
     <main>
@@ -151,10 +154,17 @@ export default function ContactContent({
           </label>
           <label>
             Interested In *
-            <select required name="interest" defaultValue="">
+            <select
+              required
+              name="interest"
+              value={interest}
+              onChange={(event) => setInterest(event.target.value)}
+            >
               <option value="" disabled>
                 Select an area
               </option>
+              <option>Restaurant POS</option>
+              <option>Restaurant ERP</option>
               <option>Private AI</option>
               <option>ERP</option>
               <option>AI + ERP</option>

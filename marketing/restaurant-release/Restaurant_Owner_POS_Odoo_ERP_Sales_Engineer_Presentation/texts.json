@@ -1,0 +1,4733 @@
+[
+  {
+    "id": "sh/7qp4be9c",
+    "slide": 1,
+    "text": "RESTAURANT OWNER PRESENTATION",
+    "pos": {
+      "left": 62.4,
+      "top": 59.52,
+      "width": 261.12,
+      "height": 27.84
+    },
+    "style": {
+      "fontSize": 11.07,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/65g3298r",
+    "slide": 1,
+    "text": "Build a restaurant\nthat is easier to run",
+    "pos": {
+      "left": 62.4,
+      "top": 105.6,
+      "width": 628.8,
+      "height": 136.32
+    },
+    "style": {
+      "fontSize": 53.33,
+      "typeface": "Aptos Display",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ts7md4r2",
+    "slide": 1,
+    "text": "POS + Odoo ERP designed around your daily operation — not another sales pitch.",
+    "pos": {
+      "left": 66.24,
+      "top": 266.88,
+      "width": 604.8,
+      "height": 53.76
+    },
+    "style": {
+      "fontSize": 21.33,
+      "typeface": "Aptos",
+      "color": "#F8F4FF",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/sryl4zqx",
+    "slide": 1,
+    "text": "$899 + tax POS package  •  $7,500 restaurant Odoo ERP implementation",
+    "pos": {
+      "left": 65.28,
+      "top": 602.88,
+      "width": 628.8,
+      "height": 43.2
+    },
+    "style": {
+      "fontSize": 17.33,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/fu94fe98",
+    "slide": 1,
+    "text": "Yudaro.com  •  Restaurant POS + Odoo ERP",
+    "pos": {
+      "left": 52.8,
+      "top": 679.68,
+      "width": 518.4,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/utg3698n",
+    "slide": 1,
+    "text": "01",
+    "pos": {
+      "left": 1185.6,
+      "top": 676.8,
+      "width": 40.32,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ozy1ofad",
+    "slide": 2,
+    "text": "We know this is not just about software",
+    "pos": {
+      "left": 52.8,
+      "top": 29.76,
+      "width": 638.4,
+      "height": 41.28
+    },
+    "style": {
+      "fontSize": 32,
+      "typeface": "Aptos Display",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/b29kza94",
+    "slide": 2,
+    "text": "A restaurant owner carries pressure that a normal POS sales conversation usually ignores.",
+    "pos": {
+      "left": 55.68,
+      "top": 77.76,
+      "width": 657.6,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 11.2,
+      "typeface": "Aptos",
+      "color": "#6B7280",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/x4r21kru",
+    "slide": 2,
+    "text": "The hard part is not taking payment.\nThe hard part is controlling the business.",
+    "pos": {
+      "left": 65.28,
+      "top": 148.8,
+      "width": 580.8,
+      "height": 120
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/w3i1sfa9",
+    "slide": 2,
+    "text": "Receipts pile up. Inventory does not match sales. Managers answer questions manually. Delivery apps create reconciliation work. Staff training repeats again and again.",
+    "pos": {
+      "left": 69.12,
+      "top": 302.4,
+      "width": 556.8,
+      "height": 117.12
+    },
+    "style": {
+      "fontSize": 20.67,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/r65knqtk",
+    "slide": 2,
+    "text": "So our first job is to listen before showing screens.",
+    "pos": {
+      "left": 69.12,
+      "top": 481.92,
+      "width": 542.4,
+      "height": 55.68
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/q5wjelsz",
+    "slide": 2,
+    "text": "Yudaro.com  •  Restaurant POS + Odoo ERP",
+    "pos": {
+      "left": 52.8,
+      "top": 679.68,
+      "width": 518.4,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ove9o7yd",
+    "slide": 2,
+    "text": "02",
+    "pos": {
+      "left": 1185.6,
+      "top": 676.8,
+      "width": 40.32,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/cza94vmx",
+    "slide": 3,
+    "text": "Our promise to the owner",
+    "pos": {
+      "left": 52.8,
+      "top": 29.76,
+      "width": 638.4,
+      "height": 41.28
+    },
+    "style": {
+      "fontSize": 32,
+      "typeface": "Aptos Display",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/d0jax03i",
+    "slide": 3,
+    "text": "We start in your shoes, then build the system around how your restaurant really works.",
+    "pos": {
+      "left": 55.68,
+      "top": 77.76,
+      "width": 657.6,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 11.2,
+      "typeface": "Aptos",
+      "color": "#6B7280",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/obq90bml",
+    "slide": 3,
+    "text": "We ask about your current process first.",
+    "pos": {
+      "left": 628.8,
+      "top": 142.08,
+      "width": 561.6,
+      "height": 46.08
+    },
+    "style": {
+      "fontSize": 21.33,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/pcjqtg36",
+    "slide": 3,
+    "text": "We identify where money and time are leaking.",
+    "pos": {
+      "left": 628.8,
+      "top": 220.8,
+      "width": 561.6,
+      "height": 46.08
+    },
+    "style": {
+      "fontSize": 21.33,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/m5cra54z",
+    "slide": 3,
+    "text": "We show only the screens that solve your problem.",
+    "pos": {
+      "left": 628.8,
+      "top": 299.52,
+      "width": 561.6,
+      "height": 46.08
+    },
+    "style": {
+      "fontSize": 21.33,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/n6ls3alk",
+    "slide": 3,
+    "text": "We train your staff so the system is actually used.",
+    "pos": {
+      "left": 628.8,
+      "top": 378.24,
+      "width": 561.6,
+      "height": 46.08
+    },
+    "style": {
+      "fontSize": 21.33,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/n2l4fq98",
+    "slide": 3,
+    "text": "This is not “buy our POS.”\nThis is “let’s make the restaurant easier to control.”",
+    "pos": {
+      "left": 628.8,
+      "top": 513.6,
+      "width": 561.6,
+      "height": 91.2
+    },
+    "style": {
+      "fontSize": 28,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/m1c3mlsn",
+    "slide": 3,
+    "text": "Yudaro.com  •  Restaurant POS + Odoo ERP",
+    "pos": {
+      "left": 52.8,
+      "top": 679.68,
+      "width": 518.4,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/943mhgre",
+    "slide": 3,
+    "text": "03",
+    "pos": {
+      "left": 1185.6,
+      "top": 676.8,
+      "width": 40.32,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/1cj2d8b6",
+    "slide": 4,
+    "text": "What usually hurts inside a restaurant operation",
+    "pos": {
+      "left": 52.8,
+      "top": 29.76,
+      "width": 638.4,
+      "height": 41.28
+    },
+    "style": {
+      "fontSize": 32,
+      "typeface": "Aptos Display",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/0ba143al",
+    "slide": 4,
+    "text": "Most owners do not need more technology. They need fewer blind spots.",
+    "pos": {
+      "left": 55.68,
+      "top": 77.76,
+      "width": 657.6,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 11.2,
+      "typeface": "Aptos",
+      "color": "#6B7280",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/doj29oba",
+    "slide": 4,
+    "text": "Sales",
+    "pos": {
+      "left": 69.12,
+      "top": 139.2,
+      "width": 268.8,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/sna103ap",
+    "slide": 4,
+    "text": "Can I trust the daily number?",
+    "pos": {
+      "left": 69.12,
+      "top": 172.8,
+      "width": 268.8,
+      "height": 45.12
+    },
+    "style": {
+      "fontSize": 16.27,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/3ihk3et8",
+    "slide": 4,
+    "text": "Inventory",
+    "pos": {
+      "left": 381.12,
+      "top": 139.2,
+      "width": 268.8,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ih8ju9sn",
+    "slide": 4,
+    "text": "Why does stock not match sales?",
+    "pos": {
+      "left": 381.12,
+      "top": 172.8,
+      "width": 268.8,
+      "height": 45.12
+    },
+    "style": {
+      "fontSize": 16.27,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/kbm987y5",
+    "slide": 4,
+    "text": "Labor",
+    "pos": {
+      "left": 69.12,
+      "top": 266.88,
+      "width": 268.8,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/5cva1cfq",
+    "slide": 4,
+    "text": "Who is over-scheduled or under-performing?",
+    "pos": {
+      "left": 69.12,
+      "top": 300.48,
+      "width": 268.8,
+      "height": 45.12
+    },
+    "style": {
+      "fontSize": 16.27,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/i94r6xgz",
+    "slide": 4,
+    "text": "Kitchen",
+    "pos": {
+      "left": 381.12,
+      "top": 266.88,
+      "width": 268.8,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/jadsz2xk",
+    "slide": 4,
+    "text": "Where do orders get delayed or lost?",
+    "pos": {
+      "left": 381.12,
+      "top": 300.48,
+      "width": 268.8,
+      "height": 45.12
+    },
+    "style": {
+      "fontSize": 16.27,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/w72947yt",
+    "slide": 4,
+    "text": "Purchasing",
+    "pos": {
+      "left": 69.12,
+      "top": 394.56,
+      "width": 268.8,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/x8vaxsfe",
+    "slide": 4,
+    "text": "What should we reorder before it is too late?",
+    "pos": {
+      "left": 69.12,
+      "top": 428.16,
+      "width": 268.8,
+      "height": 45.12
+    },
+    "style": {
+      "fontSize": 16.27,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/a5kr2xg3",
+    "slide": 4,
+    "text": "Owner visibility",
+    "pos": {
+      "left": 381.12,
+      "top": 394.56,
+      "width": 268.8,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/v6tsv2xo",
+    "slide": 4,
+    "text": "Can I see the restaurant from home?",
+    "pos": {
+      "left": 381.12,
+      "top": 428.16,
+      "width": 268.8,
+      "height": 45.12
+    },
+    "style": {
+      "fontSize": 16.27,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/g36tgryd",
+    "slide": 4,
+    "text": "Yudaro.com  •  Restaurant POS + Odoo ERP",
+    "pos": {
+      "left": 52.8,
+      "top": 679.68,
+      "width": 518.4,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/h4fa9wfy",
+    "slide": 4,
+    "text": "04",
+    "pos": {
+      "left": 1185.6,
+      "top": 676.8,
+      "width": 40.32,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/dgbulwnm",
+    "slide": 5,
+    "text": "Front of house: fast, clean, easy for staff",
+    "pos": {
+      "left": 52.8,
+      "top": 29.76,
+      "width": 638.4,
+      "height": 41.28
+    },
+    "style": {
+      "fontSize": 32,
+      "typeface": "Aptos Display",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/cf2tcr61",
+    "slide": 5,
+    "text": "The POS should reduce pressure during rush hours, not create new confusion.",
+    "pos": {
+      "left": 55.68,
+      "top": 77.76,
+      "width": 657.6,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 11.2,
+      "typeface": "Aptos",
+      "color": "#6B7280",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/l4bupwny",
+    "slide": 5,
+    "text": "Sample Restaurant POS screen",
+    "pos": {
+      "left": 686.4,
+      "top": 120,
+      "width": 513.6,
+      "height": 29.76
+    },
+    "style": {
+      "fontSize": 11.47,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/n6dcr65o",
+    "slide": 5,
+    "text": "Table 12",
+    "pos": {
+      "left": 702.72,
+      "top": 167.04,
+      "width": 86.4,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 10,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/m5kbi1oj",
+    "slide": 5,
+    "text": "Server: Mia",
+    "pos": {
+      "left": 796.8,
+      "top": 167.04,
+      "width": 115.2,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 10,
+      "typeface": "Aptos",
+      "color": "#6B7280",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/w32dkbuh",
+    "slide": 5,
+    "text": "Spicy Beef Noodle",
+    "pos": {
+      "left": 701.76,
+      "top": 200.64,
+      "width": 195.17,
+      "height": 24
+    },
+    "style": {
+      "fontSize": 8.93,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/x4vedgvm",
+    "slide": 5,
+    "text": "Pork Dumplings",
+    "pos": {
+      "left": 701.76,
+      "top": 235.2,
+      "width": 195.17,
+      "height": 24
+    },
+    "style": {
+      "fontSize": 8.93,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ahkvi1cb",
+    "slide": 5,
+    "text": "Iced Tea",
+    "pos": {
+      "left": 701.76,
+      "top": 269.76,
+      "width": 195.17,
+      "height": 24
+    },
+    "style": {
+      "fontSize": 8.93,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/v2twb6dw",
+    "slide": 5,
+    "text": "Add chili oil",
+    "pos": {
+      "left": 701.76,
+      "top": 304.32,
+      "width": 195.17,
+      "height": 24
+    },
+    "style": {
+      "fontSize": 8.93,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/k7mxovud",
+    "slide": 5,
+    "text": "TOTAL\n$32.40",
+    "pos": {
+      "left": 705.6,
+      "top": 526.08,
+      "width": 159.22,
+      "height": 69.12
+    },
+    "style": {
+      "fontSize": 18.27,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/58vehgvy",
+    "slide": 5,
+    "text": "Mains",
+    "pos": {
+      "left": 927.79,
+      "top": 170.88,
+      "width": 51.36,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 8.27,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/i54fmlc7",
+    "slide": 5,
+    "text": "Sides",
+    "pos": {
+      "left": 989.42,
+      "top": 170.88,
+      "width": 51.36,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 8.27,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/j6dwfqds",
+    "slide": 5,
+    "text": "Drinks",
+    "pos": {
+      "left": 1051.06,
+      "top": 170.88,
+      "width": 51.36,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 8.27,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/sb6xsvu9",
+    "slide": 5,
+    "text": "Dessert",
+    "pos": {
+      "left": 1112.69,
+      "top": 170.88,
+      "width": 51.36,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 8.27,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/tcfel0vu",
+    "slide": 5,
+    "text": "Noodle",
+    "pos": {
+      "left": 927.79,
+      "top": 208.32,
+      "width": 51.36,
+      "height": 36.48
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/hgrmpwj2",
+    "slide": 5,
+    "text": "Rice",
+    "pos": {
+      "left": 989.42,
+      "top": 208.32,
+      "width": 51.36,
+      "height": 36.48
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/gfi5grih",
+    "slide": 5,
+    "text": "Soup",
+    "pos": {
+      "left": 1051.06,
+      "top": 208.32,
+      "width": 51.36,
+      "height": 36.48
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/fe94nm1w",
+    "slide": 5,
+    "text": "Fish",
+    "pos": {
+      "left": 1112.69,
+      "top": 208.32,
+      "width": 51.36,
+      "height": 36.48
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ud0ne10b",
+    "slide": 5,
+    "text": "Tea",
+    "pos": {
+      "left": 927.79,
+      "top": 262.08,
+      "width": 51.36,
+      "height": 36.48
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/pkr6tgjy",
+    "slide": 5,
+    "text": "Soda",
+    "pos": {
+      "left": 989.42,
+      "top": 262.08,
+      "width": 51.36,
+      "height": 36.48
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/4ji5kbid",
+    "slide": 5,
+    "text": "Cake",
+    "pos": {
+      "left": 1051.06,
+      "top": 262.08,
+      "width": 51.36,
+      "height": 36.48
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/3i94r61s",
+    "slide": 5,
+    "text": "Boba",
+    "pos": {
+      "left": 1112.69,
+      "top": 262.08,
+      "width": 51.36,
+      "height": 36.48
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/2h0ni107",
+    "slide": 5,
+    "text": "Wings",
+    "pos": {
+      "left": 927.79,
+      "top": 315.84,
+      "width": 51.36,
+      "height": 36.48
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/5o7mhcju",
+    "slide": 5,
+    "text": "Salad",
+    "pos": {
+      "left": 989.42,
+      "top": 315.84,
+      "width": 51.36,
+      "height": 36.48
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/kny587i9",
+    "slide": 5,
+    "text": "Bao",
+    "pos": {
+      "left": 1051.06,
+      "top": 315.84,
+      "width": 51.36,
+      "height": 36.48
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/atcjidg7",
+    "slide": 5,
+    "text": "Steak",
+    "pos": {
+      "left": 1112.69,
+      "top": 315.84,
+      "width": 51.36,
+      "height": 36.48
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/vu5kbihc",
+    "slide": 5,
+    "text": "Send to Kitchen",
+    "pos": {
+      "left": 938.06,
+      "top": 567.36,
+      "width": 210.58,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 9.87,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/wve1knyx",
+    "slide": 5,
+    "text": "$899 + tax",
+    "pos": {
+      "left": 78.72,
+      "top": 151.68,
+      "width": 432,
+      "height": 62.4
+    },
+    "style": {
+      "fontSize": 50.67,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/xwn2dszi",
+    "slide": 5,
+    "text": "POS hardware package",
+    "pos": {
+      "left": 80.64,
+      "top": 218.88,
+      "width": 403.2,
+      "height": 33.6
+    },
+    "style": {
+      "fontSize": 24,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ihw3mxg3",
+    "slide": 5,
+    "text": "•",
+    "pos": {
+      "left": 86.4,
+      "top": 292.8,
+      "width": 17.28,
+      "height": 24
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ji5kf2ho",
+    "slide": 5,
+    "text": "Fast order entry",
+    "pos": {
+      "left": 110.4,
+      "top": 292.8,
+      "width": 513.6,
+      "height": 29.76
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/kjelony9",
+    "slide": 5,
+    "text": "•",
+    "pos": {
+      "left": 86.4,
+      "top": 342.72,
+      "width": 17.28,
+      "height": 24
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/5kn2hszu",
+    "slide": 5,
+    "text": "Menu categories and modifiers",
+    "pos": {
+      "left": 110.4,
+      "top": 342.72,
+      "width": 513.6,
+      "height": 29.76
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/e1sjatgz",
+    "slide": 5,
+    "text": "•",
+    "pos": {
+      "left": 86.4,
+      "top": 392.64,
+      "width": 17.28,
+      "height": 24
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/zmlk3yhk",
+    "slide": 5,
+    "text": "Receipt and kitchen workflow",
+    "pos": {
+      "left": 110.4,
+      "top": 392.64,
+      "width": 513.6,
+      "height": 29.76
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/fid07u98",
+    "slide": 5,
+    "text": "•",
+    "pos": {
+      "left": 86.4,
+      "top": 442.56,
+      "width": 17.28,
+      "height": 24
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ehkzepsn",
+    "slide": 5,
+    "text": "Payment-ready checkout",
+    "pos": {
+      "left": 110.4,
+      "top": 442.56,
+      "width": 513.6,
+      "height": 29.76
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/1kvi94re",
+    "slide": 5,
+    "text": "•",
+    "pos": {
+      "left": 86.4,
+      "top": 492.48,
+      "width": 17.28,
+      "height": 24
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/gjmhgzqt",
+    "slide": 5,
+    "text": "Simple staff training",
+    "pos": {
+      "left": 110.4,
+      "top": 492.48,
+      "width": 513.6,
+      "height": 29.76
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/3md0bu94",
+    "slide": 5,
+    "text": "The POS handles what happens at the counter.",
+    "pos": {
+      "left": 82.56,
+      "top": 593.28,
+      "width": 523.2,
+      "height": 46.08
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/2l4zip8j",
+    "slide": 5,
+    "text": "Yudaro.com  •  Restaurant POS + Odoo ERP",
+    "pos": {
+      "left": 52.8,
+      "top": 679.68,
+      "width": 518.4,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/povid4ra",
+    "slide": 5,
+    "text": "05",
+    "pos": {
+      "left": 1185.6,
+      "top": 676.8,
+      "width": 40.32,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/yhg7epsj",
+    "slide": 6,
+    "text": "Kitchen flow: fewer missed tickets, fewer arguments",
+    "pos": {
+      "left": 52.8,
+      "top": 29.76,
+      "width": 638.4,
+      "height": 41.28
+    },
+    "style": {
+      "fontSize": 32,
+      "typeface": "Aptos Display",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/zi98nu94",
+    "slide": 6,
+    "text": "The system should make the team calmer when the restaurant is busy.",
+    "pos": {
+      "left": 55.68,
+      "top": 77.76,
+      "width": 657.6,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 11.2,
+      "typeface": "Aptos",
+      "color": "#6B7280",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/7m98ru9g",
+    "slide": 6,
+    "text": "Kitchen Display / Order Status",
+    "pos": {
+      "left": 672,
+      "top": 139.2,
+      "width": 489.6,
+      "height": 29.76
+    },
+    "style": {
+      "fontSize": 11.47,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/pc76hkr2",
+    "slide": 6,
+    "text": "Table 12",
+    "pos": {
+      "left": 689.28,
+      "top": 193.92,
+      "width": 81.6,
+      "height": 28.8
+    },
+    "style": {
+      "fontSize": 9.6,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/h4bupgn6",
+    "slide": 6,
+    "text": "Beef Noodle",
+    "pos": {
+      "left": 779.52,
+      "top": 193.92,
+      "width": 205.63,
+      "height": 28.8
+    },
+    "style": {
+      "fontSize": 10,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/w32twb6l",
+    "slide": 6,
+    "text": "Preparing",
+    "pos": {
+      "left": 1070.4,
+      "top": 193.92,
+      "width": 72,
+      "height": 28.8
+    },
+    "style": {
+      "fontSize": 8.8,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/v2tcn650",
+    "slide": 6,
+    "text": "Table 8",
+    "pos": {
+      "left": 689.28,
+      "top": 265.92,
+      "width": 81.6,
+      "height": 28.8
+    },
+    "style": {
+      "fontSize": 9.6,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/u1kbu1ov",
+    "slide": 6,
+    "text": "Fried Rice",
+    "pos": {
+      "left": 779.52,
+      "top": 265.92,
+      "width": 205.63,
+      "height": 28.8
+    },
+    "style": {
+      "fontSize": 10,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/5svutgni",
+    "slide": 6,
+    "text": "Ready",
+    "pos": {
+      "left": 1070.4,
+      "top": 265.92,
+      "width": 72,
+      "height": 28.8
+    },
+    "style": {
+      "fontSize": 8.8,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/47mt0b6x",
+    "slide": 6,
+    "text": "Table 5",
+    "pos": {
+      "left": 689.28,
+      "top": 337.92,
+      "width": 81.6,
+      "height": 28.8
+    },
+    "style": {
+      "fontSize": 9.6,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/j6dcr65c",
+    "slide": 6,
+    "text": "Dumplings",
+    "pos": {
+      "left": 779.52,
+      "top": 337.92,
+      "width": 205.63,
+      "height": 28.8
+    },
+    "style": {
+      "fontSize": 10,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/i54bylor",
+    "slide": 6,
+    "text": "New",
+    "pos": {
+      "left": 1070.4,
+      "top": 337.92,
+      "width": 72,
+      "height": 28.8
+    },
+    "style": {
+      "fontSize": 8.8,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/twfux0ne",
+    "slide": 6,
+    "text": "No shouting. No lost tickets. Orders move cleanly from server to kitchen.",
+    "pos": {
+      "left": 689.28,
+      "top": 478.08,
+      "width": 455.04,
+      "height": 55.68
+    },
+    "style": {
+      "fontSize": 10.4,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/svmt4v6t",
+    "slide": 6,
+    "text": "Server order → kitchen screen → preparation status → payment → inventory movement",
+    "pos": {
+      "left": 676.8,
+      "top": 590.4,
+      "width": 489.6,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/cbe5g3ih",
+    "slide": 6,
+    "text": "Yudaro.com  •  Restaurant POS + Odoo ERP",
+    "pos": {
+      "left": 52.8,
+      "top": 679.68,
+      "width": 518.4,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/dcnm98zm",
+    "slide": 6,
+    "text": "06",
+    "pos": {
+      "left": 1185.6,
+      "top": 676.8,
+      "width": 40.32,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/cb2tkvap",
+    "slide": 7,
+    "text": "Behind the POS: Odoo ERP connects the business",
+    "pos": {
+      "left": 52.8,
+      "top": 29.76,
+      "width": 638.4,
+      "height": 41.28
+    },
+    "style": {
+      "fontSize": 32,
+      "typeface": "Aptos Display",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/dcbud0ra",
+    "slide": 7,
+    "text": "The $7,500 implementation builds the operating system behind the restaurant.",
+    "pos": {
+      "left": 55.68,
+      "top": 77.76,
+      "width": 657.6,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 11.2,
+      "typeface": "Aptos",
+      "color": "#6B7280",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/kzmdova1",
+    "slide": 7,
+    "text": "Order",
+    "pos": {
+      "left": 81.6,
+      "top": 580.8,
+      "width": 125.76,
+      "height": 27.84
+    },
+    "style": {
+      "fontSize": 11.07,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/l0vuh0rm",
+    "slide": 7,
+    "text": "Kitchen",
+    "pos": {
+      "left": 244.8,
+      "top": 580.8,
+      "width": 125.76,
+      "height": 27.84
+    },
+    "style": {
+      "fontSize": 11.07,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/eh0ba1sr",
+    "slide": 7,
+    "text": "Payment",
+    "pos": {
+      "left": 408,
+      "top": 580.8,
+      "width": 125.76,
+      "height": 27.84
+    },
+    "style": {
+      "fontSize": 11.07,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/fi9c369c",
+    "slide": 7,
+    "text": "Inventory",
+    "pos": {
+      "left": 571.2,
+      "top": 580.8,
+      "width": 125.76,
+      "height": 27.84
+    },
+    "style": {
+      "fontSize": 11.07,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/baxkjqlk",
+    "slide": 7,
+    "text": "Purchasing",
+    "pos": {
+      "left": 734.4,
+      "top": 580.8,
+      "width": 125.76,
+      "height": 27.84
+    },
+    "style": {
+      "fontSize": 11.07,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/a9ojq5kz",
+    "slide": 7,
+    "text": "Finance",
+    "pos": {
+      "left": 897.6,
+      "top": 580.8,
+      "width": 125.76,
+      "height": 27.84
+    },
+    "style": {
+      "fontSize": 11.07,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/xcz2l03q",
+    "slide": 7,
+    "text": "Owner dashboard",
+    "pos": {
+      "left": 1060.8,
+      "top": 580.8,
+      "width": 125.76,
+      "height": 27.84
+    },
+    "style": {
+      "fontSize": 11.07,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/cbq1sv25",
+    "slide": 7,
+    "text": "Yudaro.com  •  Restaurant POS + Odoo ERP",
+    "pos": {
+      "left": 52.8,
+      "top": 679.68,
+      "width": 518.4,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/n6x0fqlo",
+    "slide": 7,
+    "text": "07",
+    "pos": {
+      "left": 1185.6,
+      "top": 676.8,
+      "width": 40.32,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/18byd4zy",
+    "slide": 8,
+    "text": "Inventory and purchasing: stop guessing what to buy",
+    "pos": {
+      "left": 52.8,
+      "top": 29.76,
+      "width": 638.4,
+      "height": 41.28
+    },
+    "style": {
+      "fontSize": 32,
+      "typeface": "Aptos Display",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/g72x4zyd",
+    "slide": 8,
+    "text": "When sales and stock connect, purchasing becomes less reactive.",
+    "pos": {
+      "left": 55.68,
+      "top": 77.76,
+      "width": 657.6,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 11.2,
+      "typeface": "Aptos",
+      "color": "#6B7280",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/tkby9kzm",
+    "slide": 8,
+    "text": "Odoo Inventory screen",
+    "pos": {
+      "left": 72,
+      "top": 129.6,
+      "width": 398.4,
+      "height": 29.76
+    },
+    "style": {
+      "fontSize": 11.47,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/je9g3ahk",
+    "slide": 8,
+    "text": "Chicken",
+    "pos": {
+      "left": 89.28,
+      "top": 183.36,
+      "width": 115.54,
+      "height": 23.04
+    },
+    "style": {
+      "fontSize": 9.07,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/98rehwve",
+    "slide": 8,
+    "text": "Rice",
+    "pos": {
+      "left": 89.28,
+      "top": 225.6,
+      "width": 115.54,
+      "height": 23.04
+    },
+    "style": {
+      "fontSize": 9.07,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/0jydkreh",
+    "slide": 8,
+    "text": "Oil",
+    "pos": {
+      "left": 89.28,
+      "top": 267.84,
+      "width": 115.54,
+      "height": 23.04
+    },
+    "style": {
+      "fontSize": 9.07,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/zipwbmdc",
+    "slide": 8,
+    "text": "Vegetables",
+    "pos": {
+      "left": 89.28,
+      "top": 310.08,
+      "width": 115.54,
+      "height": 23.04
+    },
+    "style": {
+      "fontSize": 9.07,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/tw7e9gnq",
+    "slide": 8,
+    "text": "Sauce",
+    "pos": {
+      "left": 89.28,
+      "top": 352.32,
+      "width": 115.54,
+      "height": 23.04
+    },
+    "style": {
+      "fontSize": 9.07,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/6twve1oz",
+    "slide": 8,
+    "text": "Low-stock alerts\nSuggested purchase list\nVariance report",
+    "pos": {
+      "left": 89.28,
+      "top": 529.92,
+      "width": 363.84,
+      "height": 69.12
+    },
+    "style": {
+      "fontSize": 10.93,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/kredcr6t",
+    "slide": 8,
+    "text": "Purchase List",
+    "pos": {
+      "left": 494.4,
+      "top": 129.6,
+      "width": 331.2,
+      "height": 29.76
+    },
+    "style": {
+      "fontSize": 11.47,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/i5wva1o3",
+    "slide": 8,
+    "text": "Tomatoes  3 cases",
+    "pos": {
+      "left": 513.6,
+      "top": 187.2,
+      "width": 292.8,
+      "height": 25.92
+    },
+    "style": {
+      "fontSize": 9.6,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/x4ne1wni",
+    "slide": 8,
+    "text": "Cooking oil  2 tins",
+    "pos": {
+      "left": 513.6,
+      "top": 228.48,
+      "width": 292.8,
+      "height": 25.92
+    },
+    "style": {
+      "fontSize": 9.6,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/w3ed8r6x",
+    "slide": 8,
+    "text": "Rice  10 bags",
+    "pos": {
+      "left": 513.6,
+      "top": 269.76,
+      "width": 292.8,
+      "height": 25.92
+    },
+    "style": {
+      "fontSize": 9.6,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/m9sb2x4v",
+    "slide": 8,
+    "text": "Chicken  80 lb",
+    "pos": {
+      "left": 513.6,
+      "top": 311.04,
+      "width": 292.8,
+      "height": 25.92
+    },
+    "style": {
+      "fontSize": 9.6,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/na1sb2lg",
+    "slide": 8,
+    "text": "Create purchase order",
+    "pos": {
+      "left": 515.52,
+      "top": 549.12,
+      "width": 288.96,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 11.33,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/9w3uds36",
+    "slide": 8,
+    "text": "Goal: know what is low, what is moving, and what needs to be ordered before it becomes a crisis.",
+    "pos": {
+      "left": 84.48,
+      "top": 638.4,
+      "width": 744,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 16.67,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/y5sbed4j",
+    "slide": 8,
+    "text": "Yudaro.com  •  Restaurant POS + Odoo ERP",
+    "pos": {
+      "left": 52.8,
+      "top": 679.68,
+      "width": 518.4,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/z61s7il4",
+    "slide": 8,
+    "text": "08",
+    "pos": {
+      "left": 1185.6,
+      "top": 676.8,
+      "width": 40.32,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/1cfmhgne",
+    "slide": 9,
+    "text": "Owner view: see the restaurant without being trapped inside it",
+    "pos": {
+      "left": 52.8,
+      "top": 29.76,
+      "width": 638.4,
+      "height": 41.28
+    },
+    "style": {
+      "fontSize": 32,
+      "typeface": "Aptos Display",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/0b65obm9",
+    "slide": 9,
+    "text": "The owner should not need five phone calls to know what happened today.",
+    "pos": {
+      "left": 55.68,
+      "top": 77.76,
+      "width": 657.6,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 11.2,
+      "typeface": "Aptos",
+      "color": "#6B7280",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ofq5svm5",
+    "slide": 9,
+    "text": "Mobile owner view",
+    "pos": {
+      "left": 676.8,
+      "top": 129.6,
+      "width": 235.2,
+      "height": 29.76
+    },
+    "style": {
+      "fontSize": 11.47,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/p0ji9kf2",
+    "slide": 9,
+    "text": "Today",
+    "pos": {
+      "left": 766.18,
+      "top": 225.6,
+      "width": 51.74,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/2xsjepgb",
+    "slide": 9,
+    "text": "$7,842",
+    "pos": {
+      "left": 763.82,
+      "top": 257.28,
+      "width": 58.8,
+      "height": 31.68
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/bml0buxs",
+    "slide": 9,
+    "text": "Low stock: oil\nVoids: 2\nLabor: 21%",
+    "pos": {
+      "left": 765,
+      "top": 460.8,
+      "width": 58.8,
+      "height": 62.4
+    },
+    "style": {
+      "fontSize": 7.73,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/lsn2h4fa",
+    "slide": 9,
+    "text": "Odoo Dashboard",
+    "pos": {
+      "left": 936,
+      "top": 129.6,
+      "width": 268.8,
+      "height": 29.76
+    },
+    "style": {
+      "fontSize": 11.47,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/87a18zqt",
+    "slide": 9,
+    "text": "$52,300",
+    "pos": {
+      "left": 959.04,
+      "top": 185.28,
+      "width": 158.4,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 22.67,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/76h0zup8",
+    "slide": 9,
+    "text": "This week sales",
+    "pos": {
+      "left": 960.96,
+      "top": 220.8,
+      "width": 172.8,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Aptos",
+      "color": "#6B7280",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/cf6h0fql",
+    "slide": 9,
+    "text": "Food cost 28%\nLabor 22%\nDiscounts $318\nVoids $74",
+    "pos": {
+      "left": 1099.97,
+      "top": 189.12,
+      "width": 86.02,
+      "height": 172.8
+    },
+    "style": {
+      "fontSize": 10.93,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/2l4faloj",
+    "slide": 9,
+    "text": "Owner view: sales, labor, inventory, purchasing, finance",
+    "pos": {
+      "left": 960,
+      "top": 559.68,
+      "width": 220.8,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 9.47,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/nmdg3q54",
+    "slide": 9,
+    "text": "At 11 PM, you should be able to see sales, labor, food cost, voids, discounts, and low-stock alerts.",
+    "pos": {
+      "left": 78.72,
+      "top": 600,
+      "width": 499.2,
+      "height": 49.92
+    },
+    "style": {
+      "fontSize": 17.33,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/onmxcv69",
+    "slide": 9,
+    "text": "Yudaro.com  •  Restaurant POS + Odoo ERP",
+    "pos": {
+      "left": 52.8,
+      "top": 679.68,
+      "width": 518.4,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/pofy50nu",
+    "slide": 9,
+    "text": "09",
+    "pos": {
+      "left": 1185.6,
+      "top": 676.8,
+      "width": 40.32,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/xc3mho32",
+    "slide": 10,
+    "text": "Labor and permissions: control without micromanaging",
+    "pos": {
+      "left": 52.8,
+      "top": 29.76,
+      "width": 638.4,
+      "height": 41.28
+    },
+    "style": {
+      "fontSize": 32,
+      "typeface": "Aptos Display",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/cbu58j2h",
+    "slide": 10,
+    "text": "Different roles need different access. The system should protect the owner and guide the staff.",
+    "pos": {
+      "left": 55.68,
+      "top": 77.76,
+      "width": 657.6,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 11.2,
+      "typeface": "Aptos",
+      "color": "#6B7280",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/l036l83y",
+    "slide": 10,
+    "text": "Staff schedule screen",
+    "pos": {
+      "left": 72,
+      "top": 129.6,
+      "width": 384,
+      "height": 29.76
+    },
+    "style": {
+      "fontSize": 11.47,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/725onyl4",
+    "slide": 10,
+    "text": "Mon",
+    "pos": {
+      "left": 96,
+      "top": 185.28,
+      "width": 63.36,
+      "height": 24
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/m1cnetkj",
+    "slide": 10,
+    "text": "Tue",
+    "pos": {
+      "left": 163.2,
+      "top": 185.28,
+      "width": 63.36,
+      "height": 24
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/s7yt4b21",
+    "slide": 10,
+    "text": "Wed",
+    "pos": {
+      "left": 230.4,
+      "top": 185.28,
+      "width": 63.36,
+      "height": 24
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/d87uxg3m",
+    "slide": 10,
+    "text": "Thu",
+    "pos": {
+      "left": 297.6,
+      "top": 185.28,
+      "width": 63.36,
+      "height": 24
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/q5gb21kb",
+    "slide": 10,
+    "text": "Fri",
+    "pos": {
+      "left": 364.8,
+      "top": 185.28,
+      "width": 63.36,
+      "height": 24
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/r6pcv6lw",
+    "slide": 10,
+    "text": "Lunch",
+    "pos": {
+      "left": 91.2,
+      "top": 219.84,
+      "width": 62.4,
+      "height": 25.92
+    },
+    "style": {
+      "fontSize": 8.4,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/0bit8b2d",
+    "slide": 10,
+    "text": "Mia",
+    "pos": {
+      "left": 163.2,
+      "top": 219.84,
+      "width": 50.88,
+      "height": 25.92
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/1cru1g3y",
+    "slide": 10,
+    "text": "Ken",
+    "pos": {
+      "left": 217.92,
+      "top": 219.84,
+      "width": 50.88,
+      "height": 25.92
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/e9gb61k7",
+    "slide": 10,
+    "text": "Luis",
+    "pos": {
+      "left": 272.64,
+      "top": 219.84,
+      "width": 50.88,
+      "height": 25.92
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/fapcz6ls",
+    "slide": 10,
+    "text": "Ada",
+    "pos": {
+      "left": 327.36,
+      "top": 219.84,
+      "width": 50.88,
+      "height": 25.92
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ozitcv29",
+    "slide": 10,
+    "text": "Sam",
+    "pos": {
+      "left": 382.08,
+      "top": 219.84,
+      "width": 50.88,
+      "height": 25.92
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/p0ru503u",
+    "slide": 10,
+    "text": "Dinner",
+    "pos": {
+      "left": 91.2,
+      "top": 272.64,
+      "width": 62.4,
+      "height": 25.92
+    },
+    "style": {
+      "fontSize": 8.4,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/xwnupgvy",
+    "slide": 10,
+    "text": "Ken",
+    "pos": {
+      "left": 163.2,
+      "top": 272.64,
+      "width": 50.88,
+      "height": 25.92
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/wvetgbud",
+    "slide": 10,
+    "text": "Luis",
+    "pos": {
+      "left": 217.92,
+      "top": 272.64,
+      "width": 50.88,
+      "height": 25.92
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/bu5cnqd8",
+    "slide": 10,
+    "text": "Ada",
+    "pos": {
+      "left": 272.64,
+      "top": 272.64,
+      "width": 50.88,
+      "height": 25.92
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/atwbelcn",
+    "slide": 10,
+    "text": "Sam",
+    "pos": {
+      "left": 327.36,
+      "top": 272.64,
+      "width": 50.88,
+      "height": 25.92
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/lk7ut0va",
+    "slide": 10,
+    "text": "Mia",
+    "pos": {
+      "left": 382.08,
+      "top": 272.64,
+      "width": 50.88,
+      "height": 25.92
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/kjytkvup",
+    "slide": 10,
+    "text": "Close",
+    "pos": {
+      "left": 91.2,
+      "top": 325.44,
+      "width": 62.4,
+      "height": 25.92
+    },
+    "style": {
+      "fontSize": 8.4,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/jypcrqd4",
+    "slide": 10,
+    "text": "Luis",
+    "pos": {
+      "left": 163.2,
+      "top": 325.44,
+      "width": 50.88,
+      "height": 25.92
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/yxgbilcj",
+    "slide": 10,
+    "text": "Ada",
+    "pos": {
+      "left": 217.92,
+      "top": 325.44,
+      "width": 50.88,
+      "height": 25.92
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/1o3ahwvq",
+    "slide": 10,
+    "text": "Sam",
+    "pos": {
+      "left": 272.64,
+      "top": 325.44,
+      "width": 50.88,
+      "height": 25.92
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/0nut8rul",
+    "slide": 10,
+    "text": "Mia",
+    "pos": {
+      "left": 327.36,
+      "top": 325.44,
+      "width": 50.88,
+      "height": 25.92
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/q9srixs3",
+    "slide": 10,
+    "text": "Ken",
+    "pos": {
+      "left": 382.08,
+      "top": 325.44,
+      "width": 50.88,
+      "height": 25.92
+    },
+    "style": {
+      "fontSize": 8.13,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/cva9k7a9",
+    "slide": 10,
+    "text": "Owner",
+    "pos": {
+      "left": 523.2,
+      "top": 168,
+      "width": 134.4,
+      "height": 33.6
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/dwjqtcbu",
+    "slide": 10,
+    "text": "Full dashboard, reports, settings",
+    "pos": {
+      "left": 667.2,
+      "top": 168,
+      "width": 465.6,
+      "height": 33.6
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/exsrmhsf",
+    "slide": 10,
+    "text": "Manager",
+    "pos": {
+      "left": 523.2,
+      "top": 246.72,
+      "width": 134.4,
+      "height": 33.6
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/zyl8vmt0",
+    "slide": 10,
+    "text": "Daily sales, shift close, inventory adjustments",
+    "pos": {
+      "left": 667.2,
+      "top": 246.72,
+      "width": 465.6,
+      "height": 33.6
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/0zu9ora5",
+    "slide": 10,
+    "text": "Cashier",
+    "pos": {
+      "left": 523.2,
+      "top": 325.44,
+      "width": 134.4,
+      "height": 33.6
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/103qxcbq",
+    "slide": 10,
+    "text": "Orders, payment, receipt",
+    "pos": {
+      "left": 667.2,
+      "top": 325.44,
+      "width": 465.6,
+      "height": 33.6
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/u187adsv",
+    "slide": 10,
+    "text": "Kitchen",
+    "pos": {
+      "left": 523.2,
+      "top": 404.16,
+      "width": 134.4,
+      "height": 33.6
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/f2h8jitg",
+    "slide": 10,
+    "text": "Order status only",
+    "pos": {
+      "left": 667.2,
+      "top": 404.16,
+      "width": 465.6,
+      "height": 33.6
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/bmpgrah8",
+    "slide": 10,
+    "text": "Fewer “who changed this?” problems. More accountability.",
+    "pos": {
+      "left": 513.6,
+      "top": 561.6,
+      "width": 643.2,
+      "height": 48
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/algfy50n",
+    "slide": 10,
+    "text": "Yudaro.com  •  Restaurant POS + Odoo ERP",
+    "pos": {
+      "left": 52.8,
+      "top": 679.68,
+      "width": 518.4,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/xo7ytkzy",
+    "slide": 10,
+    "text": "10",
+    "pos": {
+      "left": 1185.6,
+      "top": 676.8,
+      "width": 40.32,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/xcryxg7y",
+    "slide": 11,
+    "text": "Food cost and leakage: measure the hidden losses",
+    "pos": {
+      "left": 52.8,
+      "top": 29.76,
+      "width": 638.4,
+      "height": 41.28
+    },
+    "style": {
+      "fontSize": 32,
+      "typeface": "Aptos Display",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/wbih4b6d",
+    "slide": 11,
+    "text": "A restaurant can be busy and still leak profit quietly.",
+    "pos": {
+      "left": 55.68,
+      "top": 77.76,
+      "width": 657.6,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 11.2,
+      "typeface": "Aptos",
+      "color": "#6B7280",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/250zy18b",
+    "slide": 11,
+    "text": "Example monthly leakage",
+    "pos": {
+      "left": 81.6,
+      "top": 132.48,
+      "width": 460.8,
+      "height": 33.6
+    },
+    "style": {
+      "fontSize": 24,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/98rytw72",
+    "slide": 11,
+    "text": "Order mistakes",
+    "pos": {
+      "left": 86.4,
+      "top": 180.48,
+      "width": 326.4,
+      "height": 34.56
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/o7ih0r6h",
+    "slide": 11,
+    "text": "$400",
+    "pos": {
+      "left": 436.8,
+      "top": 180.48,
+      "width": 110.4,
+      "height": 34.56
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/72t03qp0",
+    "slide": 11,
+    "text": "Food waste",
+    "pos": {
+      "left": 86.4,
+      "top": 233.28,
+      "width": 326.4,
+      "height": 34.56
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/61kzalof",
+    "slide": 11,
+    "text": "$600",
+    "pos": {
+      "left": 436.8,
+      "top": 233.28,
+      "width": 110.4,
+      "height": 34.56
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ofqtgnyt",
+    "slide": 11,
+    "text": "Inventory mismatch",
+    "pos": {
+      "left": 86.4,
+      "top": 286.08,
+      "width": 326.4,
+      "height": 34.56
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/9gza9sze",
+    "slide": 11,
+    "text": "$750",
+    "pos": {
+      "left": 436.8,
+      "top": 286.08,
+      "width": 110.4,
+      "height": 34.56
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/mdobedg3",
+    "slide": 11,
+    "text": "Manual admin",
+    "pos": {
+      "left": 86.4,
+      "top": 338.88,
+      "width": 326.4,
+      "height": 34.56
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/nehs7iho",
+    "slide": 11,
+    "text": "$800",
+    "pos": {
+      "left": 436.8,
+      "top": 338.88,
+      "width": 110.4,
+      "height": 34.56
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/0b6tc3yx",
+    "slide": 11,
+    "text": "Delivery reconciliation",
+    "pos": {
+      "left": 86.4,
+      "top": 391.68,
+      "width": 326.4,
+      "height": 34.56
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/1cfa58zi",
+    "slide": 11,
+    "text": "$400",
+    "pos": {
+      "left": 436.8,
+      "top": 391.68,
+      "width": 110.4,
+      "height": 34.56
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/epobatgr",
+    "slide": 11,
+    "text": "$2,950 / month",
+    "pos": {
+      "left": 86.4,
+      "top": 470.4,
+      "width": 460.8,
+      "height": 55.68
+    },
+    "style": {
+      "fontSize": 32,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/zaxs3yhc",
+    "slide": 11,
+    "text": "$35,400 / year",
+    "pos": {
+      "left": 86.4,
+      "top": 535.68,
+      "width": 460.8,
+      "height": 45.12
+    },
+    "style": {
+      "fontSize": 24,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/dofa18z6",
+    "slide": 11,
+    "text": "Odoo Cost Control Dashboard",
+    "pos": {
+      "left": 638.4,
+      "top": 129.6,
+      "width": 547.2,
+      "height": 29.76
+    },
+    "style": {
+      "fontSize": 11.47,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/87ehgv6d",
+    "slide": 11,
+    "text": "$52,300",
+    "pos": {
+      "left": 661.44,
+      "top": 185.28,
+      "width": 158.4,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 22.67,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/7650nq5s",
+    "slide": 11,
+    "text": "This week sales",
+    "pos": {
+      "left": 663.36,
+      "top": 220.8,
+      "width": 172.8,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Aptos",
+      "color": "#6B7280",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/4zyhofml",
+    "slide": 11,
+    "text": "Food cost 28%\nLabor 22%\nDiscounts $318\nVoids $74",
+    "pos": {
+      "left": 972.19,
+      "top": 189.12,
+      "width": 175.1,
+      "height": 172.8
+    },
+    "style": {
+      "fontSize": 10.93,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/m58fih43",
+    "slide": 11,
+    "text": "Owner view: sales, labor, inventory, purchasing, finance",
+    "pos": {
+      "left": 662.4,
+      "top": 569.28,
+      "width": 499.2,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 9.47,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/n61wbmlo",
+    "slide": 11,
+    "text": "Yudaro.com  •  Restaurant POS + Odoo ERP",
+    "pos": {
+      "left": 52.8,
+      "top": 679.68,
+      "width": 518.4,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/o7axk7m9",
+    "slide": 11,
+    "text": "11",
+    "pos": {
+      "left": 1185.6,
+      "top": 676.8,
+      "width": 40.32,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/1gbm9s3a",
+    "slide": 12,
+    "text": "Why there are two investments",
+    "pos": {
+      "left": 52.8,
+      "top": 29.76,
+      "width": 638.4,
+      "height": 41.28
+    },
+    "style": {
+      "fontSize": 32,
+      "typeface": "Aptos Display",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/0f2lgnmp",
+    "slide": 12,
+    "text": "One system takes orders. The other connects the restaurant business.",
+    "pos": {
+      "left": 55.68,
+      "top": 77.76,
+      "width": 657.6,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 11.2,
+      "typeface": "Aptos",
+      "color": "#6B7280",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/sb2lcnmd",
+    "slide": 12,
+    "text": "$899 + tax",
+    "pos": {
+      "left": 103.68,
+      "top": 184.32,
+      "width": 316.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 42.67,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/b6d4f2lc",
+    "slide": 12,
+    "text": "POS package",
+    "pos": {
+      "left": 105.6,
+      "top": 244.8,
+      "width": 316.8,
+      "height": 30.72
+    },
+    "style": {
+      "fontSize": 24,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/a543mx4r",
+    "slide": 12,
+    "text": "•",
+    "pos": {
+      "left": 111.36,
+      "top": 304.32,
+      "width": 17.28,
+      "height": 24
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/wvupgz6t",
+    "slide": 12,
+    "text": "Order entry",
+    "pos": {
+      "left": 135.36,
+      "top": 304.32,
+      "width": 412.8,
+      "height": 29.76
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/xw3q94ne",
+    "slide": 12,
+    "text": "•",
+    "pos": {
+      "left": 111.36,
+      "top": 347.52,
+      "width": 17.28,
+      "height": 24
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/atc7epon",
+    "slide": 12,
+    "text": "Receipt and kitchen flow",
+    "pos": {
+      "left": 135.36,
+      "top": 347.52,
+      "width": 412.8,
+      "height": 29.76
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/bulo7u58",
+    "slide": 12,
+    "text": "•",
+    "pos": {
+      "left": 111.36,
+      "top": 390.72,
+      "width": 17.28,
+      "height": 24
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/orapcf6h",
+    "slide": 12,
+    "text": "Checkout and payment-ready setup",
+    "pos": {
+      "left": 135.36,
+      "top": 390.72,
+      "width": 412.8,
+      "height": 29.76
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/9sj65kn2",
+    "slide": 12,
+    "text": "•",
+    "pos": {
+      "left": 111.36,
+      "top": 433.92,
+      "width": 17.28,
+      "height": 24
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/mps7a5or",
+    "slide": 12,
+    "text": "Fast staff use",
+    "pos": {
+      "left": 135.36,
+      "top": 433.92,
+      "width": 412.8,
+      "height": 29.76
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/nq1o3a5w",
+    "slide": 12,
+    "text": "$7,500",
+    "pos": {
+      "left": 705.6,
+      "top": 184.32,
+      "width": 316.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 42.67,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/0nap8f6l",
+    "slide": 12,
+    "text": "Odoo ERP implementation",
+    "pos": {
+      "left": 707.52,
+      "top": 244.8,
+      "width": 403.2,
+      "height": 30.72
+    },
+    "style": {
+      "fontSize": 24,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/1oj61kn6",
+    "slide": 12,
+    "text": "•",
+    "pos": {
+      "left": 712.32,
+      "top": 304.32,
+      "width": 17.28,
+      "height": 24
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/hkbm5wzu",
+    "slide": 12,
+    "text": "Inventory and purchasing",
+    "pos": {
+      "left": 736.32,
+      "top": 304.32,
+      "width": 422.4,
+      "height": 29.76
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/gj25cry9",
+    "slide": 12,
+    "text": "•",
+    "pos": {
+      "left": 712.32,
+      "top": 347.52,
+      "width": 17.28,
+      "height": 24
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/fit436ho",
+    "slide": 12,
+    "text": "Reporting dashboards",
+    "pos": {
+      "left": 736.32,
+      "top": 347.52,
+      "width": 422.4,
+      "height": 29.76
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/uh0na1g3",
+    "slide": 12,
+    "text": "•",
+    "pos": {
+      "left": 712.32,
+      "top": 390.72,
+      "width": 17.28,
+      "height": 24
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/tgrm1wzy",
+    "slide": 12,
+    "text": "User permissions",
+    "pos": {
+      "left": 736.32,
+      "top": 390.72,
+      "width": 422.4,
+      "height": 29.76
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/sfi58ryd",
+    "slide": 12,
+    "text": "•",
+    "pos": {
+      "left": 712.32,
+      "top": 433.92,
+      "width": 17.28,
+      "height": 24
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/7u94zmhs",
+    "slide": 12,
+    "text": "Workflow setup, testing, training",
+    "pos": {
+      "left": 736.32,
+      "top": 433.92,
+      "width": 422.4,
+      "height": 29.76
+    },
+    "style": {
+      "fontSize": 18,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/6t0n6hg7",
+    "slide": 12,
+    "text": "The POS records transactions. The ERP turns those transactions into control.",
+    "pos": {
+      "left": 163.2,
+      "top": 609.6,
+      "width": 955.2,
+      "height": 48
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/dcv6dgz2",
+    "slide": 12,
+    "text": "Yudaro.com  •  Restaurant POS + Odoo ERP",
+    "pos": {
+      "left": 52.8,
+      "top": 679.68,
+      "width": 518.4,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/cbm5kbyh",
+    "slide": 12,
+    "text": "12",
+    "pos": {
+      "left": 1185.6,
+      "top": 676.8,
+      "width": 40.32,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/q50nydsj",
+    "slide": 13,
+    "text": "Implementation roadmap: we do not disappear after payment",
+    "pos": {
+      "left": 52.8,
+      "top": 29.76,
+      "width": 638.4,
+      "height": 41.28
+    },
+    "style": {
+      "fontSize": 32,
+      "typeface": "Aptos Display",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/bq9orito",
+    "slide": 13,
+    "text": "The value comes from setup, training, testing, and making sure your team can actually use it.",
+    "pos": {
+      "left": 55.68,
+      "top": 77.76,
+      "width": 657.6,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 11.2,
+      "typeface": "Aptos",
+      "color": "#6B7280",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/21gnuts7",
+    "slide": 13,
+    "text": "1",
+    "pos": {
+      "left": 85.44,
+      "top": 224.64,
+      "width": 24,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 13.33,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/32ponyts",
+    "slide": 13,
+    "text": "Discovery",
+    "pos": {
+      "left": 80.64,
+      "top": 295.68,
+      "width": 103.68,
+      "height": 43.2
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/1076lobm",
+    "slide": 13,
+    "text": "2",
+    "pos": {
+      "left": 234.24,
+      "top": 224.64,
+      "width": 24,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 13.33,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/hcfy9k3u",
+    "slide": 13,
+    "text": "Menu setup",
+    "pos": {
+      "left": 229.44,
+      "top": 295.68,
+      "width": 103.68,
+      "height": 43.2
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/vaxg7ulo",
+    "slide": 13,
+    "text": "3",
+    "pos": {
+      "left": 383.04,
+      "top": 224.64,
+      "width": 24,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 13.33,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/u9ofyp43",
+    "slide": 13,
+    "text": "POS install",
+    "pos": {
+      "left": 378.24,
+      "top": 295.68,
+      "width": 103.68,
+      "height": 43.2
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/876xwfmx",
+    "slide": 13,
+    "text": "4",
+    "pos": {
+      "left": 531.84,
+      "top": 224.64,
+      "width": 24,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 13.33,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/7mdg3als",
+    "slide": 13,
+    "text": "Odoo ERP config",
+    "pos": {
+      "left": 527.04,
+      "top": 295.68,
+      "width": 103.68,
+      "height": 43.2
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/lkvy103m",
+    "slide": 13,
+    "text": "5",
+    "pos": {
+      "left": 680.64,
+      "top": 224.64,
+      "width": 24,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 13.33,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/kjmxsfm1",
+    "slide": 13,
+    "text": "Testing",
+    "pos": {
+      "left": 675.84,
+      "top": 295.68,
+      "width": 103.68,
+      "height": 43.2
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/xozyhkbi",
+    "slide": 13,
+    "text": "6",
+    "pos": {
+      "left": 829.44,
+      "top": 224.64,
+      "width": 24,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 13.33,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/q18f65cr",
+    "slide": 13,
+    "text": "Staff training",
+    "pos": {
+      "left": 824.64,
+      "top": 295.68,
+      "width": 103.68,
+      "height": 43.2
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/oz6x4vul",
+    "slide": 13,
+    "text": "7",
+    "pos": {
+      "left": 978.24,
+      "top": 224.64,
+      "width": 24,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 13.33,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/p0zyd0b6",
+    "slide": 13,
+    "text": "Go-live",
+    "pos": {
+      "left": 973.44,
+      "top": 295.68,
+      "width": 103.68,
+      "height": 43.2
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/3yxgbqdg",
+    "slide": 13,
+    "text": "8",
+    "pos": {
+      "left": 1127.04,
+      "top": 224.64,
+      "width": 24,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 13.33,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/8vahgzu5",
+    "slide": 13,
+    "text": "Review",
+    "pos": {
+      "left": 1122.24,
+      "top": 295.68,
+      "width": 103.68,
+      "height": 43.2
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/jqlkfyds",
+    "slide": 13,
+    "text": "We train the real people who will touch the system every day: owner, manager, cashier, kitchen, and back office.",
+    "pos": {
+      "left": 532.8,
+      "top": 436.8,
+      "width": 643.2,
+      "height": 96
+    },
+    "style": {
+      "fontSize": 25.33,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ipcjmtw7",
+    "slide": 13,
+    "text": "Yudaro.com  •  Restaurant POS + Odoo ERP",
+    "pos": {
+      "left": 52.8,
+      "top": 679.68,
+      "width": 518.4,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/5cn2h8vy",
+    "slide": 13,
+    "text": "13",
+    "pos": {
+      "left": 1185.6,
+      "top": 676.8,
+      "width": 40.32,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/xc7eds76",
+    "slide": 14,
+    "text": "What we need from you to make this successful",
+    "pos": {
+      "left": 52.8,
+      "top": 29.76,
+      "width": 638.4,
+      "height": 41.28
+    },
+    "style": {
+      "fontSize": 32,
+      "typeface": "Aptos Display",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/wbydknq1",
+    "slide": 14,
+    "text": "A smooth project needs your restaurant knowledge. We bring the technical system; you bring the real operation.",
+    "pos": {
+      "left": 55.68,
+      "top": 77.76,
+      "width": 657.6,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 11.2,
+      "typeface": "Aptos",
+      "color": "#6B7280",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/5grehs7i",
+    "slide": 14,
+    "text": "Menu list and prices",
+    "pos": {
+      "left": 84.48,
+      "top": 139.2,
+      "width": 614.4,
+      "height": 38.4
+    },
+    "style": {
+      "fontSize": 20.67,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/kfidonqx",
+    "slide": 14,
+    "text": "Tax and payment rules",
+    "pos": {
+      "left": 84.48,
+      "top": 206.4,
+      "width": 614.4,
+      "height": 38.4
+    },
+    "style": {
+      "fontSize": 20.67,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/zi5c3y98",
+    "slide": 14,
+    "text": "Current inventory categories",
+    "pos": {
+      "left": 84.48,
+      "top": 273.6,
+      "width": 614.4,
+      "height": 38.4
+    },
+    "style": {
+      "fontSize": 20.67,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ehwvat8n",
+    "slide": 14,
+    "text": "Vendor list and purchasing habits",
+    "pos": {
+      "left": 84.48,
+      "top": 340.8,
+      "width": 614.4,
+      "height": 38.4
+    },
+    "style": {
+      "fontSize": 20.67,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/c3e1gjyd",
+    "slide": 14,
+    "text": "Manager approval rules",
+    "pos": {
+      "left": 84.48,
+      "top": 408,
+      "width": 614.4,
+      "height": 38.4
+    },
+    "style": {
+      "fontSize": 20.67,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/x4ni9ofy",
+    "slide": 14,
+    "text": "Reports you want to see every day",
+    "pos": {
+      "left": 84.48,
+      "top": 475.2,
+      "width": 614.4,
+      "height": 38.4
+    },
+    "style": {
+      "fontSize": 20.67,
+      "typeface": "Aptos",
+      "color": "#231F20",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/a1wze9g7",
+    "slide": 14,
+    "text": "We do not expect you to become technical. We translate your operation into the system.",
+    "pos": {
+      "left": 91.2,
+      "top": 590.4,
+      "width": 595.2,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 21.33,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/b2507exs",
+    "slide": 14,
+    "text": "Yudaro.com  •  Restaurant POS + Odoo ERP",
+    "pos": {
+      "left": 52.8,
+      "top": 679.68,
+      "width": 518.4,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/kre1k3y9",
+    "slide": 14,
+    "text": "14",
+    "pos": {
+      "left": 1185.6,
+      "top": 676.8,
+      "width": 40.32,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/547mhg3m",
+    "slide": 15,
+    "text": "The decision is not “Do I need another system?”",
+    "pos": {
+      "left": 52.8,
+      "top": 29.76,
+      "width": 638.4,
+      "height": 41.28
+    },
+    "style": {
+      "fontSize": 32,
+      "typeface": "Aptos Display",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/k3y5ov21",
+    "slide": 15,
+    "text": "The better question is: “Do I want a smoother restaurant with better control?”",
+    "pos": {
+      "left": 55.68,
+      "top": 77.76,
+      "width": 657.6,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 11.2,
+      "typeface": "Aptos",
+      "color": "#6B7280",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/t87ml0ji",
+    "slide": 15,
+    "text": "Today’s choice",
+    "pos": {
+      "left": 676.8,
+      "top": 136.32,
+      "width": 211.2,
+      "height": 28.8
+    },
+    "style": {
+      "fontSize": 21.33,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/s7y5sv2x",
+    "slide": 15,
+    "text": "Stay with separate tools, manual checks, and after-hours guesswork.",
+    "pos": {
+      "left": 676.8,
+      "top": 182.4,
+      "width": 480,
+      "height": 69.12
+    },
+    "style": {
+      "fontSize": 24,
+      "typeface": "Aptos",
+      "color": "#E84E4E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/na5476l8",
+    "slide": 15,
+    "text": "Or build one connected flow: order → kitchen → payment → inventory → purchasing → reports.",
+    "pos": {
+      "left": 676.8,
+      "top": 292.8,
+      "width": 480,
+      "height": 91.2
+    },
+    "style": {
+      "fontSize": 24,
+      "typeface": "Aptos",
+      "color": "#6B3BE5",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/m9c3e1kn",
+    "slide": 15,
+    "text": "Our recommendation: start with POS setup and ERP discovery.",
+    "pos": {
+      "left": 676.8,
+      "top": 504,
+      "width": 480,
+      "height": 55.68
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/wrm9kvep",
+    "slide": 15,
+    "text": "Yudaro.com  •  Restaurant POS + Odoo ERP",
+    "pos": {
+      "left": 52.8,
+      "top": 679.68,
+      "width": 518.4,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/hsvat0fa",
+    "slide": 15,
+    "text": "15",
+    "pos": {
+      "left": 1185.6,
+      "top": 676.8,
+      "width": 40.32,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ytkf2h8j",
+    "slide": 16,
+    "text": "NEXT STEP",
+    "pos": {
+      "left": 69.12,
+      "top": 69.12,
+      "width": 139.2,
+      "height": 27.84
+    },
+    "style": {
+      "fontSize": 11.07,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/zutgvm94",
+    "slide": 16,
+    "text": "Let’s make the restaurant\neasier to run.",
+    "pos": {
+      "left": 69.12,
+      "top": 122.88,
+      "width": 576,
+      "height": 113.28
+    },
+    "style": {
+      "fontSize": 50.67,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/kv2h4rqp",
+    "slide": 16,
+    "text": "1. Confirm POS package: $899 + tax\n2. Schedule ERP discovery\n3. Collect menu / inventory / vendor information\n4. Start setup, testing, and staff training",
+    "pos": {
+      "left": 74.88,
+      "top": 307.2,
+      "width": 537.6,
+      "height": 139.2
+    },
+    "style": {
+      "fontSize": 24,
+      "typeface": "Aptos",
+      "color": "#171429",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/lwbyxwra",
+    "slide": 16,
+    "text": "The goal is not more software. The goal is a smoother business.",
+    "pos": {
+      "left": 74.88,
+      "top": 583.68,
+      "width": 585.6,
+      "height": 48
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Aptos",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ip4zel83",
+    "slide": 16,
+    "text": "Yudaro.com  •  Restaurant POS + Odoo ERP",
+    "pos": {
+      "left": 52.8,
+      "top": 679.68,
+      "width": 518.4,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/3qdg7qpo",
+    "slide": 16,
+    "text": "16",
+    "pos": {
+      "left": 1185.6,
+      "top": 676.8,
+      "width": 40.32,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Aptos",
+      "color": "#8A819F",
+      "bold": true,
+      "alignment": "left"
+    }
+  }
+]

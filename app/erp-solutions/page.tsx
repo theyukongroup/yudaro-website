@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { RestaurantERP } from '@/components/restaurant-offer';
 import { ContentSections } from '@/components/search-content';
 import { contentByPath } from '@/lib/search-content';
 import { PageSchema, Breadcrumbs } from '@/components/structured-data';
@@ -153,6 +154,7 @@ export default function Page() {
         }))}
       >
         <ContentSections entry={detail} />
+        <RestaurantERP />
       </SolutionPage>
       <ScreenshotGallery
         eyebrow="ODOO SHOWCASE"

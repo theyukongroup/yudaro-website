@@ -1,0 +1,6039 @@
+[
+  {
+    "id": "sh/7qp4be9c",
+    "slide": 1,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/65g3298r",
+    "slide": 1,
+    "text": "Official Commercial Launch",
+    "pos": {
+      "left": 69.12,
+      "top": 196.8,
+      "width": 547.2,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Arial",
+      "color": "#E8D8C4",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ts7md4r2",
+    "slide": 1,
+    "text": "Yudaro AI & ERP Systems",
+    "pos": {
+      "left": 67.2,
+      "top": 238.08,
+      "width": 768,
+      "height": 82.56
+    },
+    "style": {
+      "fontSize": 50.67,
+      "typeface": "Arial",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/sryl4zqx",
+    "slide": 1,
+    "text": "Presentation to Andy • Wednesday, September 30, 2026",
+    "pos": {
+      "left": 72,
+      "top": 330.24,
+      "width": 652.8,
+      "height": 24
+    },
+    "style": {
+      "fontSize": 16.27,
+      "typeface": "Arial",
+      "color": "#DCE9FF",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/utg3698n",
+    "slide": 1,
+    "text": "ERP connects the data. AI connects the dots. Sales turns it into revenue.",
+    "pos": {
+      "left": 72,
+      "top": 408,
+      "width": 566.4,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 22.67,
+      "typeface": "Arial",
+      "color": "#FFF5DF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ozmd8r65",
+    "slide": 1,
+    "text": "1",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ozy1ofad",
+    "slide": 2,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/b29kza94",
+    "slide": 2,
+    "text": "01 / WEDNESDAY OUTCOME",
+    "pos": {
+      "left": 883.2,
+      "top": 52.8,
+      "width": 297.6,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/a10jqpsj",
+    "slide": 2,
+    "text": "What Andy must understand in 10 minutes",
+    "pos": {
+      "left": 69.12,
+      "top": 76.8,
+      "width": 748.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/x4r21kru",
+    "slide": 2,
+    "text": "The launch presentation should be a business decision meeting, not a feature tour.",
+    "pos": {
+      "left": 71.04,
+      "top": 134.4,
+      "width": 700.8,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ove9o7yd",
+    "slide": 2,
+    "text": "1",
+    "pos": {
+      "left": 81.6,
+      "top": 201.12,
+      "width": 40.32,
+      "height": 9.6
+    },
+    "style": {
+      "fontSize": 10.67,
+      "typeface": "Arial",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/9wnqhczy",
+    "slide": 2,
+    "text": "Yudaro is ready to move from build mode to sales mode.",
+    "pos": {
+      "left": 136.32,
+      "top": 193.92,
+      "width": 518.4,
+      "height": 34.56
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/nu58f2hs",
+    "slide": 2,
+    "text": "2",
+    "pos": {
+      "left": 81.6,
+      "top": 279.84,
+      "width": 40.32,
+      "height": 9.6
+    },
+    "style": {
+      "fontSize": 10.67,
+      "typeface": "Arial",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/wjy9sry9",
+    "slide": 2,
+    "text": "The $899 offer is a restaurant POS promotion only.",
+    "pos": {
+      "left": 136.32,
+      "top": 272.64,
+      "width": 518.4,
+      "height": 34.56
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ahwrqhgj",
+    "slide": 2,
+    "text": "3",
+    "pos": {
+      "left": 81.6,
+      "top": 358.56,
+      "width": 40.32,
+      "height": 9.6
+    },
+    "style": {
+      "fontSize": 10.67,
+      "typeface": "Arial",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/bip8jmho",
+    "slide": 2,
+    "text": "ERP, Private AI, automation and websites are separate professional services.",
+    "pos": {
+      "left": 136.32,
+      "top": 351.36,
+      "width": 518.4,
+      "height": 34.56
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/do3q9szq",
+    "slide": 2,
+    "text": "4",
+    "pos": {
+      "left": 81.6,
+      "top": 437.28,
+      "width": 40.32,
+      "height": 9.6
+    },
+    "style": {
+      "fontSize": 10.67,
+      "typeface": "Arial",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/t8byxkn2",
+    "slide": 2,
+    "text": "The next 30 days should focus on repeatable demos, scripts and first prospects.",
+    "pos": {
+      "left": 136.32,
+      "top": 430.08,
+      "width": 518.4,
+      "height": 34.56
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/gbmxszmt",
+    "slide": 2,
+    "text": "2",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/d0jax03i",
+    "slide": 3,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/298ryl4v",
+    "slide": 3,
+    "text": "02 / POSITIONING",
+    "pos": {
+      "left": 883.2,
+      "top": 52.8,
+      "width": 297.6,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/3ah8rqlg",
+    "slide": 3,
+    "text": "Yudaro in one sentence",
+    "pos": {
+      "left": 69.12,
+      "top": 76.8,
+      "width": 748.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/obq90bml",
+    "slide": 3,
+    "text": "A clear positioning line anchors the entire presentation.",
+    "pos": {
+      "left": 71.04,
+      "top": 134.4,
+      "width": 700.8,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/m5cra54z",
+    "slide": 3,
+    "text": "Yudaro helps growing businesses connect people, knowledge, data and daily operations through Private AI, Odoo ERP, automation, POS solutions and practical implementation support.",
+    "pos": {
+      "left": 117.12,
+      "top": 228.48,
+      "width": 1036.8,
+      "height": 92.16
+    },
+    "style": {
+      "fontSize": 33.33,
+      "typeface": "Arial",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/n2l4fq98",
+    "slide": 3,
+    "text": "PRIVATE AI",
+    "pos": {
+      "left": 169.92,
+      "top": 427.68,
+      "width": 106.56,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 10,
+      "typeface": "Arial",
+      "color": "#1E6BFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/943mhgre",
+    "slide": 3,
+    "text": "ODOO ERP",
+    "pos": {
+      "left": 313.92,
+      "top": 427.68,
+      "width": 96.96,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 10,
+      "typeface": "Arial",
+      "color": "#0E8174",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/v6l4jq94",
+    "slide": 3,
+    "text": "POS SOLUTIONS",
+    "pos": {
+      "left": 449.28,
+      "top": 427.68,
+      "width": 125.76,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 10,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/x8nml0ra",
+    "slide": 3,
+    "text": "AUTOMATION",
+    "pos": {
+      "left": 612.48,
+      "top": 427.68,
+      "width": 116.16,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 10,
+      "typeface": "Arial",
+      "color": "#E67A2E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ja54na9g",
+    "slide": 3,
+    "text": "WEBSITES",
+    "pos": {
+      "left": 766.08,
+      "top": 427.68,
+      "width": 87.36,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 10,
+      "typeface": "Arial",
+      "color": "#389B6B",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/e10f2twf",
+    "slide": 3,
+    "text": "IMPLEMENTATION",
+    "pos": {
+      "left": 889.92,
+      "top": 427.68,
+      "width": 142.08,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 10,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/03ix43e5",
+    "slide": 3,
+    "text": "Avoid: “We sell software.”\nUse: “We improve how the business works.”",
+    "pos": {
+      "left": 314.88,
+      "top": 532.8,
+      "width": 647.04,
+      "height": 44.16
+    },
+    "style": {
+      "fontSize": 14.67,
+      "typeface": "Arial",
+      "color": "#5A3E2C",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/re9g7yxo",
+    "slide": 3,
+    "text": "3",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/0ba143al",
+    "slide": 4,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/rm1k7yt4",
+    "slide": 4,
+    "text": "03 / READY ASSETS",
+    "pos": {
+      "left": 883.2,
+      "top": 52.8,
+      "width": 297.6,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ql8jytsj",
+    "slide": 4,
+    "text": "The launch package already has real assets",
+    "pos": {
+      "left": 69.12,
+      "top": 76.8,
+      "width": 748.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/doj29oba",
+    "slide": 4,
+    "text": "Wednesday should show that Yudaro is not just an idea.",
+    "pos": {
+      "left": 71.04,
+      "top": 134.4,
+      "width": 700.8,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/3ihk3et8",
+    "slide": 4,
+    "text": "Website",
+    "pos": {
+      "left": 108.48,
+      "top": 179.52,
+      "width": 120,
+      "height": 14.4
+    },
+    "style": {
+      "fontSize": 11.6,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ih8ju9sn",
+    "slide": 4,
+    "text": "Yudaro.com positioning, solution pages, industries and assessment path",
+    "pos": {
+      "left": 235.2,
+      "top": 177.12,
+      "width": 345.6,
+      "height": 21.12
+    },
+    "style": {
+      "fontSize": 12.13,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/5cva1cfq",
+    "slide": 4,
+    "text": "Catalog",
+    "pos": {
+      "left": 108.48,
+      "top": 264,
+      "width": 120,
+      "height": 14.4
+    },
+    "style": {
+      "fontSize": 11.6,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/i94r6xgz",
+    "slide": 4,
+    "text": "Fuller explanation of AI + ERP services and implementation logic",
+    "pos": {
+      "left": 235.2,
+      "top": 261.6,
+      "width": 345.6,
+      "height": 21.12
+    },
+    "style": {
+      "fontSize": 12.13,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/w72947yt",
+    "slide": 4,
+    "text": "Brochure",
+    "pos": {
+      "left": 108.48,
+      "top": 348.48,
+      "width": 120,
+      "height": 14.4
+    },
+    "style": {
+      "fontSize": 11.6,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/x8vaxsfe",
+    "slide": 4,
+    "text": "Shorter leave-behind for owners and managers",
+    "pos": {
+      "left": 235.2,
+      "top": 346.08,
+      "width": 345.6,
+      "height": 21.12
+    },
+    "style": {
+      "fontSize": 12.13,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/v6tsv2xo",
+    "slide": 4,
+    "text": "Restaurant POS",
+    "pos": {
+      "left": 108.48,
+      "top": 432.96,
+      "width": 120,
+      "height": 14.4
+    },
+    "style": {
+      "fontSize": 11.6,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/g36tgryd",
+    "slide": 4,
+    "text": "$899 + tax promotion for restaurants; ERP not included",
+    "pos": {
+      "left": 235.2,
+      "top": 430.56,
+      "width": 345.6,
+      "height": 21.12
+    },
+    "style": {
+      "fontSize": 12.13,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/p0batw72",
+    "slide": 4,
+    "text": "Retail POS",
+    "pos": {
+      "left": 665.28,
+      "top": 179.52,
+      "width": 120,
+      "height": 14.4
+    },
+    "style": {
+      "fontSize": 11.6,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/oz29krqh",
+    "slide": 4,
+    "text": "Capability demo and future custom retail quote path",
+    "pos": {
+      "left": 792,
+      "top": 177.12,
+      "width": 345.6,
+      "height": 21.12
+    },
+    "style": {
+      "fontSize": 12.13,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/2xkrih8b",
+    "slide": 4,
+    "text": "Private AI",
+    "pos": {
+      "left": 665.28,
+      "top": 264,
+      "width": 120,
+      "height": 14.4
+    },
+    "style": {
+      "fontSize": 11.6,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/1wbapc7q",
+    "slide": 4,
+    "text": "Open WebUI-style private knowledge and SOP assistant",
+    "pos": {
+      "left": 792,
+      "top": 261.6,
+      "width": 345.6,
+      "height": 21.12
+    },
+    "style": {
+      "fontSize": 12.13,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/fu9sn2p0",
+    "slide": 4,
+    "text": "Odoo ERP",
+    "pos": {
+      "left": 665.28,
+      "top": 348.48,
+      "width": 120,
+      "height": 14.4
+    },
+    "style": {
+      "fontSize": 11.6,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/et0reh8f",
+    "slide": 4,
+    "text": "Business process demo: CRM, sales, inventory, purchasing, reporting",
+    "pos": {
+      "left": 792,
+      "top": 346.08,
+      "width": 345.6,
+      "height": 21.12
+    },
+    "style": {
+      "fontSize": 12.13,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/sri9s7q9",
+    "slide": 4,
+    "text": "Integration",
+    "pos": {
+      "left": 665.28,
+      "top": 432.96,
+      "width": 120,
+      "height": 14.4
+    },
+    "style": {
+      "fontSize": 11.6,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ilwf69kv",
+    "slide": 4,
+    "text": "AI questions connected to ERP data with human approval",
+    "pos": {
+      "left": 792,
+      "top": 430.56,
+      "width": 345.6,
+      "height": 21.12
+    },
+    "style": {
+      "fontSize": 12.13,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/knex8j21",
+    "slide": 4,
+    "text": "Launch standard: one story, one message, one offer ladder.",
+    "pos": {
+      "left": 310.08,
+      "top": 564.48,
+      "width": 656.64,
+      "height": 30.72
+    },
+    "style": {
+      "fontSize": 14.67,
+      "typeface": "Arial",
+      "color": "#162335",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/5ony1oj6",
+    "slide": 4,
+    "text": "4",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/cf2tcr61",
+    "slide": 5,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/z2tcnm5s",
+    "slide": 5,
+    "text": "04 / CUSTOMER PAIN",
+    "pos": {
+      "left": 883.2,
+      "top": 52.8,
+      "width": 297.6,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/yhkbe1o7",
+    "slide": 5,
+    "text": "The customer problem is operational friction",
+    "pos": {
+      "left": 69.12,
+      "top": 76.8,
+      "width": 748.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/l4bupwny",
+    "slide": 5,
+    "text": "Use plain business language before showing technology.",
+    "pos": {
+      "left": 71.04,
+      "top": 134.4,
+      "width": 700.8,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/m5kbi1oj",
+    "slide": 5,
+    "text": "• Sales, inventory and purchasing live in different systems\n• Managers depend on people asking the right person at the right time\n• SOPs and procedures are hard to find when employees need them\n• Reports exist, but owners do not get answers fast enough\n• Every improvement becomes another manual spreadsheet",
+    "pos": {
+      "left": 86.4,
+      "top": 196.8,
+      "width": 552,
+      "height": 268.8
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/x4vedgvm",
+    "slide": 5,
+    "text": "Yudaro answer: connect the business system, then make knowledge usable through Private AI.",
+    "pos": {
+      "left": 103.68,
+      "top": 523.2,
+      "width": 517.44,
+      "height": 48
+    },
+    "style": {
+      "fontSize": 14.67,
+      "typeface": "Arial",
+      "color": "#5A3E2C",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/4ji5kbid",
+    "slide": 5,
+    "text": "5",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/zi98nu94",
+    "slide": 6,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/87ipkzal",
+    "slide": 6,
+    "text": "05 / OFFER ARCHITECTURE",
+    "pos": {
+      "left": 883.2,
+      "top": 52.8,
+      "width": 297.6,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/98rqt4r6",
+    "slide": 6,
+    "text": "Separate the offer into two commercial tracks",
+    "pos": {
+      "left": 69.12,
+      "top": 76.8,
+      "width": 748.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ml07i9sv",
+    "slide": 6,
+    "text": "This prevents the $899 POS offer from being confused with ERP implementation.",
+    "pos": {
+      "left": 71.04,
+      "top": 134.4,
+      "width": 700.8,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/h4bupgn6",
+    "slide": 6,
+    "text": "TRACK 1",
+    "pos": {
+      "left": 107.52,
+      "top": 228.48,
+      "width": 105.6,
+      "height": 14.4
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/w32twb6l",
+    "slide": 6,
+    "text": "$899 Restaurant POS Promotion",
+    "pos": {
+      "left": 107.52,
+      "top": 259.2,
+      "width": 441.6,
+      "height": 34.56
+    },
+    "style": {
+      "fontSize": 26.67,
+      "typeface": "Arial",
+      "color": "#5A3E2C",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/v2tcn650",
+    "slide": 6,
+    "text": "A simple, concrete restaurant POS package to generate leads and immediate sales.",
+    "pos": {
+      "left": 107.52,
+      "top": 305.28,
+      "width": 432,
+      "height": 44.16
+    },
+    "style": {
+      "fontSize": 15.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/5svutgni",
+    "slide": 6,
+    "text": "TRACK 2",
+    "pos": {
+      "left": 708.48,
+      "top": 228.48,
+      "width": 105.6,
+      "height": 14.4
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Arial",
+      "color": "#0E8174",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/47mt0b6x",
+    "slide": 6,
+    "text": "AI & ERP Transformation Services",
+    "pos": {
+      "left": 708.48,
+      "top": 259.2,
+      "width": 451.2,
+      "height": 34.56
+    },
+    "style": {
+      "fontSize": 26.67,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/j6dcr65c",
+    "slide": 6,
+    "text": "Higher-value professional services for Odoo, Private AI, integration and automation.",
+    "pos": {
+      "left": 708.48,
+      "top": 305.28,
+      "width": 432,
+      "height": 44.16
+    },
+    "style": {
+      "fontSize": 15.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/twfux0ne",
+    "slide": 6,
+    "text": "Core correction: $899 restaurant POS does not include actual ERP implementation for restaurant or retail.",
+    "pos": {
+      "left": 228.48,
+      "top": 511.68,
+      "width": 824.64,
+      "height": 45.12
+    },
+    "style": {
+      "fontSize": 14.67,
+      "typeface": "Arial",
+      "color": "#C44B3D",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/lg76d8zy",
+    "slide": 6,
+    "text": "6",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/dcbud0ra",
+    "slide": 7,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ydkbm5sv",
+    "slide": 7,
+    "text": "06 / RESTAURANT POS",
+    "pos": {
+      "left": 883.2,
+      "top": 52.8,
+      "width": 297.6,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/zedcfa9g",
+    "slide": 7,
+    "text": "$899 Restaurant POS Promotion",
+    "pos": {
+      "left": 69.12,
+      "top": 76.8,
+      "width": 748.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/kzmdova1",
+    "slide": 7,
+    "text": "Position it as an easy, practical restaurant POS sale — not an ERP project.",
+    "pos": {
+      "left": 71.04,
+      "top": 134.4,
+      "width": 700.8,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/baxkjqlk",
+    "slide": 7,
+    "text": "$899 + tax",
+    "pos": {
+      "left": 113.28,
+      "top": 195.84,
+      "width": 201.6,
+      "height": 40.32
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/a9ojq5kz",
+    "slide": 7,
+    "text": "restaurant POS promotion",
+    "pos": {
+      "left": 321.6,
+      "top": 209.28,
+      "width": 201.6,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 14.67,
+      "typeface": "Arial",
+      "color": "#DCE9FF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/xcz2l03q",
+    "slide": 7,
+    "text": "• Restaurant POS setup package\n• Ordering / checkout workflow\n• Receipt printer / cash drawer / card reader support as configured\n• Menu and basic product setup within defined package scope",
+    "pos": {
+      "left": 92.16,
+      "top": 313.92,
+      "width": 489.6,
+      "height": 163.2
+    },
+    "style": {
+      "fontSize": 16.27,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/n6x0fqlo",
+    "slide": 7,
+    "text": "Important: ERP implementation, Odoo customization, accounting workflow, inventory automation and AI integration are quoted separately.",
+    "pos": {
+      "left": 109.44,
+      "top": 528.96,
+      "width": 455.04,
+      "height": 53.76
+    },
+    "style": {
+      "fontSize": 14.67,
+      "typeface": "Arial",
+      "color": "#5A3E2C",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/r2dkrq5g",
+    "slide": 7,
+    "text": "7",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/g72x4zyd",
+    "slide": 8,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ri9g7uhw",
+    "slide": 8,
+    "text": "07 / SCOPE BOUNDARY",
+    "pos": {
+      "left": 883.2,
+      "top": 52.8,
+      "width": 297.6,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/6h0fypgb",
+    "slide": 8,
+    "text": "What the $899 promotion includes — and excludes",
+    "pos": {
+      "left": 69.12,
+      "top": 76.8,
+      "width": 748.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/tkby9kzm",
+    "slide": 8,
+    "text": "This slide protects sales, delivery and customer expectations.",
+    "pos": {
+      "left": 71.04,
+      "top": 134.4,
+      "width": 700.8,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/je9g3ahk",
+    "slide": 8,
+    "text": "Included",
+    "pos": {
+      "left": 115.2,
+      "top": 206.4,
+      "width": 153.6,
+      "height": 28.8
+    },
+    "style": {
+      "fontSize": 24,
+      "typeface": "Arial",
+      "color": "#389B6B",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/id0fu50z",
+    "slide": 8,
+    "text": "• Restaurant POS station configuration\n• Basic menu/product setup per defined package\n• Checkout, receipt and payment workflow testing\n• Short operator handoff/training",
+    "pos": {
+      "left": 115.2,
+      "top": 264,
+      "width": 436.8,
+      "height": 172.8
+    },
+    "style": {
+      "fontSize": 17.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/98rehwve",
+    "slide": 8,
+    "text": "Not included",
+    "pos": {
+      "left": 705.6,
+      "top": 206.4,
+      "width": 211.2,
+      "height": 28.8
+    },
+    "style": {
+      "fontSize": 24,
+      "typeface": "Arial",
+      "color": "#C44B3D",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/m5gvmhwn",
+    "slide": 8,
+    "text": "• Odoo ERP implementation\n• Accounting/inventory/purchasing customization\n• Private AI or AI/Odoo integration\n• Retail ERP implementation\n• Custom reports, automations or data migration",
+    "pos": {
+      "left": 705.6,
+      "top": 264,
+      "width": 441.6,
+      "height": 201.6
+    },
+    "style": {
+      "fontSize": 17.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/0jydkreh",
+    "slide": 8,
+    "text": "Sales rule: never say “ERP included” when presenting the $899 restaurant POS promotion.",
+    "pos": {
+      "left": 324.48,
+      "top": 593.28,
+      "width": 627.84,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 14.67,
+      "typeface": "Arial",
+      "color": "#5A3E2C",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/kredcr6t",
+    "slide": 8,
+    "text": "8",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/0b65obm9",
+    "slide": 9,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/nex4jq5k",
+    "slide": 9,
+    "text": "08 / RETAIL POS",
+    "pos": {
+      "left": 883.2,
+      "top": 52.8,
+      "width": 297.6,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/mdonql4z",
+    "slide": 9,
+    "text": "Retail POS is a capability, not the $899 promotion",
+    "pos": {
+      "left": 69.12,
+      "top": 76.8,
+      "width": 748.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/9gzml0nq",
+    "slide": 9,
+    "text": "Show the capability; quote retail separately after discovery.",
+    "pos": {
+      "left": 71.04,
+      "top": 134.4,
+      "width": 700.8,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/oza1gfyh",
+    "slide": 9,
+    "text": "Retail POS path",
+    "pos": {
+      "left": 724.8,
+      "top": 196.8,
+      "width": 326.4,
+      "height": 34.56
+    },
+    "style": {
+      "fontSize": 29.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/p0ji9kf2",
+    "slide": 9,
+    "text": "• Discovery by store type\n• Hardware and barcode needs\n• Inventory and replenishment requirements\n• Integration need: none, light or full ERP\n• Separate quote based on scope",
+    "pos": {
+      "left": 727.68,
+      "top": 257.28,
+      "width": 393.6,
+      "height": 192
+    },
+    "style": {
+      "fontSize": 17.07,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/3y107axw",
+    "slide": 9,
+    "text": "Use retail POS to open the discussion, but do not attach it to the restaurant $899 price unless a separate retail bundle is approved.",
+    "pos": {
+      "left": 713.28,
+      "top": 567.36,
+      "width": 421.44,
+      "height": 44.16
+    },
+    "style": {
+      "fontSize": 14.67,
+      "typeface": "Arial",
+      "color": "#5A3E2C",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/wba1cjqp",
+    "slide": 9,
+    "text": "9",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/cbu58j2h",
+    "slide": 10,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/zelojyl8",
+    "slide": 10,
+    "text": "09 / DIGITAL PRESENCE",
+    "pos": {
+      "left": 883.2,
+      "top": 52.8,
+      "width": 297.6,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ydcnatkn",
+    "slide": 10,
+    "text": "Yudaro.com is the credibility anchor",
+    "pos": {
+      "left": 69.12,
+      "top": 76.8,
+      "width": 748.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/l036l83y",
+    "slide": 10,
+    "text": "The site explains the broader AI + ERP company behind the POS promotion.",
+    "pos": {
+      "left": 71.04,
+      "top": 134.4,
+      "width": 700.8,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/q5gb21kb",
+    "slide": 10,
+    "text": "yudaro.com",
+    "pos": {
+      "left": 187.2,
+      "top": 149.76,
+      "width": 211.2,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/r6pcv6lw",
+    "slide": 10,
+    "text": "AI + ERP systems.\nBuilt around your business.",
+    "pos": {
+      "left": 110.4,
+      "top": 206.4,
+      "width": 508.8,
+      "height": 81.6
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/0bit8b2d",
+    "slide": 10,
+    "text": "Private AI • Odoo ERP • AI ERP Integration • Automation • Website Design • Equipment",
+    "pos": {
+      "left": 113.28,
+      "top": 320.64,
+      "width": 547.2,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/e9gb61k7",
+    "slide": 10,
+    "text": "Free Assessment",
+    "pos": {
+      "left": 136.32,
+      "top": 416.64,
+      "width": 144,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 10.67,
+      "typeface": "Arial",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ozitcv29",
+    "slide": 10,
+    "text": "Explore AI ERP",
+    "pos": {
+      "left": 341.76,
+      "top": 416.64,
+      "width": 134.4,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 10.67,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/p0ru503u",
+    "slide": 10,
+    "text": "• Public credibility before sales calls\n• Consistent message for catalog and brochure\n• Explains the larger AI + ERP services behind POS\n• Supports assessment-driven selling",
+    "pos": {
+      "left": 779.52,
+      "top": 196.8,
+      "width": 384,
+      "height": 201.6
+    },
+    "style": {
+      "fontSize": 17.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/wvetgbud",
+    "slide": 10,
+    "text": "On Wednesday, present the site as the front door to Yudaro, not as a finished encyclopedia.",
+    "pos": {
+      "left": 790.08,
+      "top": 502.08,
+      "width": 368.64,
+      "height": 38.4
+    },
+    "style": {
+      "fontSize": 14.67,
+      "typeface": "Arial",
+      "color": "#162335",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/kjytkvup",
+    "slide": 10,
+    "text": "10",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/wbih4b6d",
+    "slide": 11,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/n69grmpw",
+    "slide": 11,
+    "text": "10 / CATALOG & BROCHURE",
+    "pos": {
+      "left": 883.2,
+      "top": 52.8,
+      "width": 297.6,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/250zy18b",
+    "slide": 11,
+    "text": "Catalog and brochure support two sales moments",
+    "pos": {
+      "left": 69.12,
+      "top": 76.8,
+      "width": 748.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/98rytw72",
+    "slide": 11,
+    "text": "Use each asset for the right depth of conversation.",
+    "pos": {
+      "left": 71.04,
+      "top": 134.4,
+      "width": 700.8,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/72t03qp0",
+    "slide": 11,
+    "text": "CATALOG",
+    "pos": {
+      "left": 129.6,
+      "top": 192,
+      "width": 201.6,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 22.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ofqtgnyt",
+    "slide": 11,
+    "text": "AI + ERP\nTransformation",
+    "pos": {
+      "left": 155.52,
+      "top": 270.72,
+      "width": 259.2,
+      "height": 36.48
+    },
+    "style": {
+      "fontSize": 24,
+      "typeface": "Arial",
+      "color": "#162335",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/9gza9sze",
+    "slide": 11,
+    "text": "Long-form explanation\nImplementation logic\nUse cases by function\nTechnical trust builder",
+    "pos": {
+      "left": 132.48,
+      "top": 395.52,
+      "width": 307.2,
+      "height": 105.6
+    },
+    "style": {
+      "fontSize": 17.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/nehs7iho",
+    "slide": 11,
+    "text": "BROCHURE",
+    "pos": {
+      "left": 609.6,
+      "top": 192,
+      "width": 182.4,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 22.67,
+      "typeface": "Arial",
+      "color": "#0E8174",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/1cfa58zi",
+    "slide": 11,
+    "text": "Quick\nLeave-Behind",
+    "pos": {
+      "left": 631.68,
+      "top": 270.72,
+      "width": 158.4,
+      "height": 34.56
+    },
+    "style": {
+      "fontSize": 24,
+      "typeface": "Arial",
+      "color": "#0E8174",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/epobatgr",
+    "slide": 11,
+    "text": "Short message\nVisual summary\nOwner-friendly language\nCall to assessment",
+    "pos": {
+      "left": 607.68,
+      "top": 395.52,
+      "width": 201.6,
+      "height": 105.6
+    },
+    "style": {
+      "fontSize": 16.53,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/cn6t83y1",
+    "slide": 11,
+    "text": "Catalog explains. Brochure reminds. Demo convinces.",
+    "pos": {
+      "left": 934.08,
+      "top": 266.88,
+      "width": 210.24,
+      "height": 95.04
+    },
+    "style": {
+      "fontSize": 14.67,
+      "typeface": "Arial",
+      "color": "#5A3E2C",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/tsnip0ny",
+    "slide": 11,
+    "text": "Do not overload the brochure with technical details; leave those to catalog and live demo.",
+    "pos": {
+      "left": 934.08,
+      "top": 430.08,
+      "width": 210.24,
+      "height": 72.96
+    },
+    "style": {
+      "fontSize": 14.67,
+      "typeface": "Arial",
+      "color": "#C44B3D",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/k3uhcb6h",
+    "slide": 11,
+    "text": "11",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/0f2lgnmp",
+    "slide": 12,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ra943il8",
+    "slide": 12,
+    "text": "11 / PRIVATE AI",
+    "pos": {
+      "left": 883.2,
+      "top": 52.8,
+      "width": 297.6,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/q903ad4n",
+    "slide": 12,
+    "text": "Private Open WebUI AI functions",
+    "pos": {
+      "left": 69.12,
+      "top": 76.8,
+      "width": 748.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/dcbm583y",
+    "slide": 12,
+    "text": "Present Private AI as business memory, SOP search and management assistance.",
+    "pos": {
+      "left": 71.04,
+      "top": 134.4,
+      "width": 700.8,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/wvupgz6t",
+    "slide": 12,
+    "text": "Example questions",
+    "pos": {
+      "left": 758.4,
+      "top": 199.68,
+      "width": 240,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 24,
+      "typeface": "Arial",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/atc7epon",
+    "slide": 12,
+    "text": "Show the receiving SOP.",
+    "pos": {
+      "left": 775.68,
+      "top": 261.12,
+      "width": 330.24,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 11.73,
+      "typeface": "Arial",
+      "color": "#DCE9FF",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/orapcf6h",
+    "slide": 12,
+    "text": "Summarize yesterday’s sales.",
+    "pos": {
+      "left": 775.68,
+      "top": 316.8,
+      "width": 330.24,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 11.73,
+      "typeface": "Arial",
+      "color": "#DCE9FF",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/mps7a5or",
+    "slide": 12,
+    "text": "Which items need attention?",
+    "pos": {
+      "left": 775.68,
+      "top": 372.48,
+      "width": 330.24,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 11.73,
+      "typeface": "Arial",
+      "color": "#DCE9FF",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/0nap8f6l",
+    "slide": 12,
+    "text": "Draft a follow-up to this customer.",
+    "pos": {
+      "left": 775.68,
+      "top": 428.16,
+      "width": 330.24,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 11.73,
+      "typeface": "Arial",
+      "color": "#DCE9FF",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/hkbm5wzu",
+    "slide": 12,
+    "text": "Key message: the AI should answer from approved company knowledge, permissions and business context — not from generic guessing.",
+    "pos": {
+      "left": 742.08,
+      "top": 574.08,
+      "width": 397.44,
+      "height": 44.16
+    },
+    "style": {
+      "fontSize": 14.67,
+      "typeface": "Arial",
+      "color": "#162335",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/sfi58ryd",
+    "slide": 12,
+    "text": "12",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/bq9orito",
+    "slide": 13,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/o3i5w3ad",
+    "slide": 13,
+    "text": "12 / CORPORATE CULTURE INTELLIGENCE",
+    "pos": {
+      "left": 883.2,
+      "top": 52.8,
+      "width": 297.6,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/p4r6p8by",
+    "slide": 13,
+    "text": "Corporate Culture Intelligence",
+    "pos": {
+      "left": 69.12,
+      "top": 76.8,
+      "width": 748.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/21gnuts7",
+    "slide": 13,
+    "text": "A differentiator: the company’s way of thinking becomes reusable.",
+    "pos": {
+      "left": 71.04,
+      "top": 134.4,
+      "width": 700.8,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/gzy5s3a1",
+    "slide": 13,
+    "text": "Leadership principles",
+    "pos": {
+      "left": 120,
+      "top": 244.8,
+      "width": 201.6,
+      "height": 21.12
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Arial",
+      "color": "#5A3E2C",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/hcfy9k3u",
+    "slide": 13,
+    "text": "Corporate AI",
+    "pos": {
+      "left": 551.04,
+      "top": 213.12,
+      "width": 192,
+      "height": 34.56
+    },
+    "style": {
+      "fontSize": 29.33,
+      "typeface": "Arial",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/gb6x0zm9",
+    "slide": 13,
+    "text": "approved knowledge + ERP context + role permissions",
+    "pos": {
+      "left": 552,
+      "top": 266.88,
+      "width": 192,
+      "height": 36.48
+    },
+    "style": {
+      "fontSize": 10.93,
+      "typeface": "Arial",
+      "color": "#DCE9FF",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/u9ofyp43",
+    "slide": 13,
+    "text": "Role-based guidance",
+    "pos": {
+      "left": 967.68,
+      "top": 244.8,
+      "width": 196.8,
+      "height": 21.12
+    },
+    "style": {
+      "fontSize": 18.67,
+      "typeface": "Arial",
+      "color": "#389B6B",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/6l4fu547",
+    "slide": 13,
+    "text": "SOPs",
+    "pos": {
+      "left": 102.72,
+      "top": 445.92,
+      "width": 96.96,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 10,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/kjmxsfm1",
+    "slide": 13,
+    "text": "approved answers",
+    "pos": {
+      "left": 251.52,
+      "top": 445.92,
+      "width": 96.96,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 10,
+      "typeface": "Arial",
+      "color": "#0E8174",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/xozyhkbi",
+    "slide": 13,
+    "text": "employee feedback",
+    "pos": {
+      "left": 400.32,
+      "top": 445.92,
+      "width": 96.96,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 10,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/bmhgfatc",
+    "slide": 13,
+    "text": "manager decisions",
+    "pos": {
+      "left": 549.12,
+      "top": 445.92,
+      "width": 96.96,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 10,
+      "typeface": "Arial",
+      "color": "#0E8174",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/p0zyd0b6",
+    "slide": 13,
+    "text": "sales",
+    "pos": {
+      "left": 697.92,
+      "top": 445.92,
+      "width": 61.44,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 10,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/3yxgbqdg",
+    "slide": 13,
+    "text": "operations",
+    "pos": {
+      "left": 798.72,
+      "top": 445.92,
+      "width": 61.44,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 10,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/9wjyp4bq",
+    "slide": 13,
+    "text": "HR",
+    "pos": {
+      "left": 899.52,
+      "top": 445.92,
+      "width": 61.44,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 10,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ipcjmtw7",
+    "slide": 13,
+    "text": "finance",
+    "pos": {
+      "left": 1000.32,
+      "top": 445.92,
+      "width": 61.44,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 10,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/4re1o3ed",
+    "slide": 13,
+    "text": "service",
+    "pos": {
+      "left": 1101.12,
+      "top": 445.92,
+      "width": 61.44,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 10,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/6dwjqtw3",
+    "slide": 13,
+    "text": "This is the concept that makes Yudaro more than software installation: the system learns how the company prefers to solve problems.",
+    "pos": {
+      "left": 233.28,
+      "top": 563.52,
+      "width": 819.84,
+      "height": 38.4
+    },
+    "style": {
+      "fontSize": 14.67,
+      "typeface": "Arial",
+      "color": "#162335",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/tgn2l8vu",
+    "slide": 13,
+    "text": "13",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/wbydknq1",
+    "slide": 14,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/jepwf2pc",
+    "slide": 14,
+    "text": "13 / ODOO ERP",
+    "pos": {
+      "left": 883.2,
+      "top": 52.8,
+      "width": 297.6,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/idgvmx8r",
+    "slide": 14,
+    "text": "Odoo ERP demonstration",
+    "pos": {
+      "left": 69.12,
+      "top": 76.8,
+      "width": 748.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/5grehs7i",
+    "slide": 14,
+    "text": "Show Odoo as the operating backbone, not a confusing module list.",
+    "pos": {
+      "left": 71.04,
+      "top": 134.4,
+      "width": 700.8,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/c3e1gjyd",
+    "slide": 14,
+    "text": "CRM",
+    "pos": {
+      "left": 113.28,
+      "top": 192,
+      "width": 105.6,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Arial",
+      "color": "#0E8174",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/x4ni9ofy",
+    "slide": 14,
+    "text": "lead → quotation",
+    "pos": {
+      "left": 228.48,
+      "top": 191.04,
+      "width": 259.2,
+      "height": 13.44
+    },
+    "style": {
+      "fontSize": 13.6,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/b2507exs",
+    "slide": 14,
+    "text": "Sales",
+    "pos": {
+      "left": 113.28,
+      "top": 266.88,
+      "width": 105.6,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Arial",
+      "color": "#0E8174",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/kre1k3y9",
+    "slide": 14,
+    "text": "order → invoice",
+    "pos": {
+      "left": 228.48,
+      "top": 265.92,
+      "width": 259.2,
+      "height": 13.44
+    },
+    "style": {
+      "fontSize": 13.6,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/y5wjitgj",
+    "slide": 14,
+    "text": "Inventory",
+    "pos": {
+      "left": 113.28,
+      "top": 341.76,
+      "width": 105.6,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Arial",
+      "color": "#0E8174",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/z650byxo",
+    "slide": 14,
+    "text": "stock → replenishment",
+    "pos": {
+      "left": 228.48,
+      "top": 340.8,
+      "width": 259.2,
+      "height": 13.44
+    },
+    "style": {
+      "fontSize": 13.6,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/1w3i14fq",
+    "slide": 14,
+    "text": "Purchasing",
+    "pos": {
+      "left": 113.28,
+      "top": 416.64,
+      "width": 105.6,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Arial",
+      "color": "#0E8174",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/hsvy50re",
+    "slide": 14,
+    "text": "vendor → PO",
+    "pos": {
+      "left": 228.48,
+      "top": 415.68,
+      "width": 259.2,
+      "height": 13.44
+    },
+    "style": {
+      "fontSize": 13.6,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/fqdg3q98",
+    "slide": 14,
+    "text": "Reports",
+    "pos": {
+      "left": 113.28,
+      "top": 491.52,
+      "width": 105.6,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Arial",
+      "color": "#0E8174",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/up4fal83",
+    "slide": 14,
+    "text": "owner answers",
+    "pos": {
+      "left": 228.48,
+      "top": 490.56,
+      "width": 259.2,
+      "height": 13.44
+    },
+    "style": {
+      "fontSize": 13.6,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/4vmh0vq5",
+    "slide": 14,
+    "text": "Demo rule: use one realistic customer process from order to report. Do not wander through every Odoo menu.",
+    "pos": {
+      "left": 108.48,
+      "top": 583.68,
+      "width": 431.04,
+      "height": 30.72
+    },
+    "style": {
+      "fontSize": 14.67,
+      "typeface": "Arial",
+      "color": "#5A3E2C",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/2t4fyl8z",
+    "slide": 14,
+    "text": "14",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/k3y5ov21",
+    "slide": 15,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/76p4jqls",
+    "slide": 15,
+    "text": "14 / AI + ERP",
+    "pos": {
+      "left": 883.2,
+      "top": 52.8,
+      "width": 297.6,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/65gnqlk7",
+    "slide": 15,
+    "text": "AI + ERP: the high-value service story",
+    "pos": {
+      "left": 69.12,
+      "top": 76.8,
+      "width": 748.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/t87ml0ji",
+    "slide": 15,
+    "text": "POS sells the door-opener; AI + ERP sells the transformation.",
+    "pos": {
+      "left": 71.04,
+      "top": 134.4,
+      "width": 700.8,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/upkrilwj",
+    "slide": 15,
+    "text": "01",
+    "pos": {
+      "left": 91.2,
+      "top": 319.68,
+      "width": 33.6,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/vqdsrqx4",
+    "slide": 15,
+    "text": "Order / transaction",
+    "pos": {
+      "left": 97.92,
+      "top": 343.68,
+      "width": 144,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 14,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/5wvax0f6",
+    "slide": 15,
+    "text": "02",
+    "pos": {
+      "left": 326.4,
+      "top": 319.68,
+      "width": 33.6,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/it4rm5wv",
+    "slide": 15,
+    "text": "ERP records data",
+    "pos": {
+      "left": 333.12,
+      "top": 343.68,
+      "width": 144,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 14,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/0z29cbyh",
+    "slide": 15,
+    "text": "03",
+    "pos": {
+      "left": 561.6,
+      "top": 319.68,
+      "width": 33.6,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Arial",
+      "color": "#D59A42",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/l0bqlgf2",
+    "slide": 15,
+    "text": "AI understands context",
+    "pos": {
+      "left": 568.32,
+      "top": 343.68,
+      "width": 144,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 14,
+      "typeface": "Arial",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/gjax03m9",
+    "slide": 15,
+    "text": "04",
+    "pos": {
+      "left": 796.8,
+      "top": 319.68,
+      "width": 33.6,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/fi1grylo",
+    "slide": 15,
+    "text": "Manager approves",
+    "pos": {
+      "left": 803.52,
+      "top": 343.68,
+      "width": 144,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 14,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/p8jyx83q",
+    "slide": 15,
+    "text": "05",
+    "pos": {
+      "left": 1032,
+      "top": 319.68,
+      "width": 33.6,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 9.33,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/o7ah4nm5",
+    "slide": 15,
+    "text": "Work moves",
+    "pos": {
+      "left": 1038.72,
+      "top": 343.68,
+      "width": 144,
+      "height": 19.2
+    },
+    "style": {
+      "fontSize": 14,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/361gvilk",
+    "slide": 15,
+    "text": "• Show me last month’s sales by salesperson\n• Which customers have not ordered in 60 days?\n• Which inventory items are running low?\n• Generate a purchasing recommendation for approval",
+    "pos": {
+      "left": 115.2,
+      "top": 168,
+      "width": 528,
+      "height": 96
+    },
+    "style": {
+      "fontSize": 15.6,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/dc3y1s3m",
+    "slide": 15,
+    "text": "Position this as a separate service package after discovery, implementation planning and data-access confirmation.",
+    "pos": {
+      "left": 314.88,
+      "top": 521.28,
+      "width": 647.04,
+      "height": 37.44
+    },
+    "style": {
+      "fontSize": 14.67,
+      "typeface": "Arial",
+      "color": "#C44B3D",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/cbuh8nmh",
+    "slide": 15,
+    "text": "15",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/9kby1g7m",
+    "slide": 16,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ytkf2h8j",
+    "slide": 16,
+    "text": "15 / GOLDEN DEMO",
+    "pos": {
+      "left": 883.2,
+      "top": 52.8,
+      "width": 297.6,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/zutgvm94",
+    "slide": 16,
+    "text": "Wednesday demo should follow one customer story",
+    "pos": {
+      "left": 69.12,
+      "top": 76.8,
+      "width": 748.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/kv2h4rqp",
+    "slide": 16,
+    "text": "A connected narrative is easier to understand than six disconnected demos.",
+    "pos": {
+      "left": 71.04,
+      "top": 134.4,
+      "width": 700.8,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ip4zel83",
+    "slide": 16,
+    "text": "1",
+    "pos": {
+      "left": 91.2,
+      "top": 165.12,
+      "width": 40.32,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 10.67,
+      "typeface": "Arial",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/3qdg7qpo",
+    "slide": 16,
+    "text": "Restaurant owner pain",
+    "pos": {
+      "left": 148.8,
+      "top": 157.44,
+      "width": 211.2,
+      "height": 17.28
+    },
+    "style": {
+      "fontSize": 16.27,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/fm1gzq5o",
+    "slide": 16,
+    "text": "Slow reporting, manual work, scattered knowledge",
+    "pos": {
+      "left": 379.2,
+      "top": 159.36,
+      "width": 403.2,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 12.93,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/1ojy10ne",
+    "slide": 16,
+    "text": "2",
+    "pos": {
+      "left": 91.2,
+      "top": 243.84,
+      "width": 40.32,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 10.67,
+      "typeface": "Arial",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/gnax8v6t",
+    "slide": 16,
+    "text": "$899 POS promotion",
+    "pos": {
+      "left": 148.8,
+      "top": 236.16,
+      "width": 211.2,
+      "height": 17.28
+    },
+    "style": {
+      "fontSize": 16.27,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/nqlg3a5k",
+    "slide": 16,
+    "text": "Practical POS solution, no ERP included",
+    "pos": {
+      "left": 379.2,
+      "top": 238.08,
+      "width": 403.2,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 12.93,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ps3y5knq",
+    "slide": 16,
+    "text": "3",
+    "pos": {
+      "left": 91.2,
+      "top": 322.56,
+      "width": 40.32,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 10.67,
+      "typeface": "Arial",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/oruhcf65",
+    "slide": 16,
+    "text": "Odoo service option",
+    "pos": {
+      "left": 148.8,
+      "top": 314.88,
+      "width": 211.2,
+      "height": 17.28
+    },
+    "style": {
+      "fontSize": 16.27,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/bulg7u5g",
+    "slide": 16,
+    "text": "If owner needs inventory/accounting/workflow",
+    "pos": {
+      "left": 379.2,
+      "top": 316.8,
+      "width": 403.2,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 12.93,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/mpgj6t8j",
+    "slide": 16,
+    "text": "4",
+    "pos": {
+      "left": 91.2,
+      "top": 401.28,
+      "width": 40.32,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 10.67,
+      "typeface": "Arial",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/7qp0zepo",
+    "slide": 16,
+    "text": "Private AI option",
+    "pos": {
+      "left": 148.8,
+      "top": 393.6,
+      "width": 211.2,
+      "height": 17.28
+    },
+    "style": {
+      "fontSize": 16.27,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/8by18jq9",
+    "slide": 16,
+    "text": "SOP search, training, management questions",
+    "pos": {
+      "left": 379.2,
+      "top": 395.52,
+      "width": 403.2,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 12.93,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ylwj2987",
+    "slide": 16,
+    "text": "5",
+    "pos": {
+      "left": 91.2,
+      "top": 480,
+      "width": 40.32,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 10.67,
+      "typeface": "Arial",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/zm50veps",
+    "slide": 16,
+    "text": "AI + ERP option",
+    "pos": {
+      "left": 148.8,
+      "top": 472.32,
+      "width": 211.2,
+      "height": 17.28
+    },
+    "style": {
+      "fontSize": 16.27,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/kne14jqd",
+    "slide": 16,
+    "text": "Natural-language insight from real business data",
+    "pos": {
+      "left": 379.2,
+      "top": 474.24,
+      "width": 403.2,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 12.93,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/69k32xsn",
+    "slide": 16,
+    "text": "16",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/gbedwfmx",
+    "slide": 17,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/rm5czq50",
+    "slide": 17,
+    "text": "16 / DEMO SAFEGUARDS",
+    "pos": {
+      "left": 883.2,
+      "top": 52.8,
+      "width": 297.6,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/6lwvql4v",
+    "slide": 17,
+    "text": "Only demonstrate what is stable",
+    "pos": {
+      "left": 69.12,
+      "top": 76.8,
+      "width": 748.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/t8ne10n6",
+    "slide": 17,
+    "text": "A polished backup beats a broken live demo.",
+    "pos": {
+      "left": 71.04,
+      "top": 134.4,
+      "width": 700.8,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/4by9or6l",
+    "slide": 17,
+    "text": "Live demo",
+    "pos": {
+      "left": 113.28,
+      "top": 187.2,
+      "width": 134.4,
+      "height": 13.44
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/pc7qhwn6",
+    "slide": 17,
+    "text": "Use a pre-tested account and sample data.",
+    "pos": {
+      "left": 264,
+      "top": 185.28,
+      "width": 307.2,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 13.07,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/3ap8fm50",
+    "slide": 17,
+    "text": "Screenshot backup",
+    "pos": {
+      "left": 113.28,
+      "top": 268.8,
+      "width": 134.4,
+      "height": 13.44
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/gnepkr69",
+    "slide": 17,
+    "text": "Every live step has a clean screenshot fallback.",
+    "pos": {
+      "left": 264,
+      "top": 266.88,
+      "width": 307.2,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 13.07,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ulw7ihoj",
+    "slide": 17,
+    "text": "Recorded clip",
+    "pos": {
+      "left": 113.28,
+      "top": 350.4,
+      "width": 134.4,
+      "height": 13.44
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/fm58bm54",
+    "slide": 17,
+    "text": "Record key AI + ERP moment as backup.",
+    "pos": {
+      "left": 264,
+      "top": 348.48,
+      "width": 307.2,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 13.07,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/14rqpgne",
+    "slide": 17,
+    "text": "No surprises",
+    "pos": {
+      "left": 113.28,
+      "top": 432,
+      "width": 134.4,
+      "height": 13.44
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/90nq9gfi",
+    "slide": 17,
+    "text": "Avoid unstable experimental features.",
+    "pos": {
+      "left": 264,
+      "top": 430.08,
+      "width": 307.2,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 13.07,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ny5876xc",
+    "slide": 17,
+    "text": "Wednesday objective: confidence. Avoid anything that creates doubt about delivery discipline.",
+    "pos": {
+      "left": 108.48,
+      "top": 545.28,
+      "width": 464.64,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 14.67,
+      "typeface": "Arial",
+      "color": "#5A3E2C",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/0vepcbyl",
+    "slide": 17,
+    "text": "17",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/hsn2l4bu",
+    "slide": 18,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/itw3upcf",
+    "slide": 18,
+    "text": "17 / PRICING LOGIC",
+    "pos": {
+      "left": 883.2,
+      "top": 52.8,
+      "width": 297.6,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/je5knut0",
+    "slide": 18,
+    "text": "Revenue ladder after the POS promotion",
+    "pos": {
+      "left": 69.12,
+      "top": 76.8,
+      "width": 748.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/4felwzu5",
+    "slide": 18,
+    "text": "The $899 offer should open the door to higher-value engagements when the need is real.",
+    "pos": {
+      "left": 71.04,
+      "top": 134.4,
+      "width": 700.8,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/6hw3y9sb",
+    "slide": 18,
+    "text": "$899 + tax",
+    "pos": {
+      "left": 103.68,
+      "top": 226.56,
+      "width": 211.2,
+      "height": 30.72
+    },
+    "style": {
+      "fontSize": 26.67,
+      "typeface": "Arial",
+      "color": "#5A3E2C",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/rip4retw",
+    "slide": 18,
+    "text": "Restaurant POS promotion",
+    "pos": {
+      "left": 105.6,
+      "top": 295.68,
+      "width": 201.6,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 17.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/fapkr6pw",
+    "slide": 18,
+    "text": "defined package, no ERP",
+    "pos": {
+      "left": 111.36,
+      "top": 369.6,
+      "width": 192,
+      "height": 34.56
+    },
+    "style": {
+      "fontSize": 12.4,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/gbylkbqh",
+    "slide": 18,
+    "text": "Assessment",
+    "pos": {
+      "left": 396.48,
+      "top": 226.56,
+      "width": 211.2,
+      "height": 30.72
+    },
+    "style": {
+      "fontSize": 26.67,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/7mpknmp0",
+    "slide": 18,
+    "text": "Business process review",
+    "pos": {
+      "left": 398.4,
+      "top": 295.68,
+      "width": 201.6,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 17.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/6lg3e18f",
+    "slide": 18,
+    "text": "pain points, data, workflow",
+    "pos": {
+      "left": 404.16,
+      "top": 369.6,
+      "width": 192,
+      "height": 34.56
+    },
+    "style": {
+      "fontSize": 12.4,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/bi94zqp4",
+    "slide": 18,
+    "text": "Project Quote",
+    "pos": {
+      "left": 689.28,
+      "top": 226.56,
+      "width": 211.2,
+      "height": 30.72
+    },
+    "style": {
+      "fontSize": 26.67,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/qh03ql8j",
+    "slide": 18,
+    "text": "Odoo / AI / integration",
+    "pos": {
+      "left": 691.2,
+      "top": 295.68,
+      "width": 201.6,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 17.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/md4nipsr",
+    "slide": 18,
+    "text": "scope-based implementation",
+    "pos": {
+      "left": 696.96,
+      "top": 369.6,
+      "width": 192,
+      "height": 34.56
+    },
+    "style": {
+      "fontSize": 12.4,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/90v6t4ri",
+    "slide": 18,
+    "text": "Monthly Support",
+    "pos": {
+      "left": 982.08,
+      "top": 226.56,
+      "width": 211.2,
+      "height": 30.72
+    },
+    "style": {
+      "fontSize": 26.67,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/a14nm9s3",
+    "slide": 18,
+    "text": "Managed improvement",
+    "pos": {
+      "left": 984,
+      "top": 295.68,
+      "width": 201.6,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 17.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/v2xovu9o",
+    "slide": 18,
+    "text": "support, training, optimization",
+    "pos": {
+      "left": 989.76,
+      "top": 369.6,
+      "width": 192,
+      "height": 34.56
+    },
+    "style": {
+      "fontSize": 12.4,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/x4f6x4re",
+    "slide": 18,
+    "text": "Do not overpromise the ladder. Move up only when the customer has real operational need and budget.",
+    "pos": {
+      "left": 281.28,
+      "top": 545.28,
+      "width": 714.24,
+      "height": 38.4
+    },
+    "style": {
+      "fontSize": 14.67,
+      "typeface": "Arial",
+      "color": "#C44B3D",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/q5kna5sz",
+    "slide": 18,
+    "text": "18",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/8v2pobax",
+    "slide": 19,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/vitozqt8",
+    "slide": 19,
+    "text": "18 / TARGET MARKET",
+    "pos": {
+      "left": 883.2,
+      "top": 52.8,
+      "width": 297.6,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ahk7qls3",
+    "slide": 19,
+    "text": "Target customers for the first sales wave",
+    "pos": {
+      "left": 69.12,
+      "top": 76.8,
+      "width": 748.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/xkbq10be",
+    "slide": 19,
+    "text": "Start where pain is visible and demos are easy to understand.",
+    "pos": {
+      "left": 71.04,
+      "top": 134.4,
+      "width": 700.8,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/wj2psvat",
+    "slide": 19,
+    "text": "Restaurants",
+    "pos": {
+      "left": 100.8,
+      "top": 161.28,
+      "width": 211.2,
+      "height": 17.28
+    },
+    "style": {
+      "fontSize": 16.8,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/il47u5sz",
+    "slide": 19,
+    "text": "POS pain, order workflow, owner reporting",
+    "pos": {
+      "left": 384,
+      "top": 161.28,
+      "width": 528,
+      "height": 17.28
+    },
+    "style": {
+      "fontSize": 15.2,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/cri1gnql",
+    "slide": 19,
+    "text": "Retail showrooms",
+    "pos": {
+      "left": 100.8,
+      "top": 242.88,
+      "width": 211.2,
+      "height": 17.28
+    },
+    "style": {
+      "fontSize": 16.8,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/qpgjex8f",
+    "slide": 19,
+    "text": "POS, inventory, website and replenishment",
+    "pos": {
+      "left": 384,
+      "top": 242.88,
+      "width": 528,
+      "height": 17.28
+    },
+    "style": {
+      "fontSize": 15.2,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/rqp07290",
+    "slide": 19,
+    "text": "Wholesale / distribution",
+    "pos": {
+      "left": 100.8,
+      "top": 324.48,
+      "width": 211.2,
+      "height": 17.28
+    },
+    "style": {
+      "fontSize": 16.8,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/1gridcr2",
+    "slide": 19,
+    "text": "inventory, purchasing, sales reports, delivery workflow",
+    "pos": {
+      "left": 384,
+      "top": 324.48,
+      "width": 528,
+      "height": 17.28
+    },
+    "style": {
+      "fontSize": 15.2,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/et0jix8r",
+    "slide": 19,
+    "text": "Field-service companies",
+    "pos": {
+      "left": 100.8,
+      "top": 406.08,
+      "width": 211.2,
+      "height": 17.28
+    },
+    "style": {
+      "fontSize": 16.8,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/oj21o7qt",
+    "slide": 19,
+    "text": "dispatch, service records, reporting",
+    "pos": {
+      "left": 384,
+      "top": 406.08,
+      "width": 528,
+      "height": 17.28
+    },
+    "style": {
+      "fontSize": 15.2,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/9kb2hcre",
+    "slide": 19,
+    "text": "Construction / remodelers",
+    "pos": {
+      "left": 100.8,
+      "top": 487.68,
+      "width": 211.2,
+      "height": 17.28
+    },
+    "style": {
+      "fontSize": 16.8,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/wfy1s7ix",
+    "slide": 19,
+    "text": "project tracking, quotes, cost visibility",
+    "pos": {
+      "left": 384,
+      "top": 487.68,
+      "width": 528,
+      "height": 17.28
+    },
+    "style": {
+      "fontSize": 15.2,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/k3y1wri9",
+    "slide": 19,
+    "text": "Early sales should prioritize prospects who can understand the demo within 15 minutes.",
+    "pos": {
+      "left": 118.08,
+      "top": 600,
+      "width": 723.84,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 14.67,
+      "typeface": "Arial",
+      "color": "#162335",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/i1gjuh03",
+    "slide": 19,
+    "text": "19",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/rq50vmp8",
+    "slide": 20,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/4nu1krqh",
+    "slide": 20,
+    "text": "19 / SALES CONVERSATION",
+    "pos": {
+      "left": 883.2,
+      "top": 52.8,
+      "width": 297.6,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/po3itc72",
+    "slide": 20,
+    "text": "Sales talk track: diagnose before proposing",
+    "pos": {
+      "left": 69.12,
+      "top": 76.8,
+      "width": 748.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/2lczih8r",
+    "slide": 20,
+    "text": "The first meeting should expose operational pain, not dump technology.",
+    "pos": {
+      "left": 71.04,
+      "top": 134.4,
+      "width": 700.8,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/gjuhg7ql",
+    "slide": 20,
+    "text": "Where do orders, inventory and reports break down today?",
+    "pos": {
+      "left": 120,
+      "top": 161.28,
+      "width": 619.2,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 14.4,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/dkfmp4zy",
+    "slide": 20,
+    "text": "What do managers ask you for that takes too long to answer?",
+    "pos": {
+      "left": 120,
+      "top": 230.4,
+      "width": 619.2,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 14.4,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/rid4nuhs",
+    "slide": 20,
+    "text": "Which employee knowledge is hard to transfer to new staff?",
+    "pos": {
+      "left": 120,
+      "top": 299.52,
+      "width": 619.2,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 14.4,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/pwvmlkzm",
+    "slide": 20,
+    "text": "Which manual spreadsheet would you eliminate first?",
+    "pos": {
+      "left": 120,
+      "top": 368.64,
+      "width": 619.2,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 14.4,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/3ud4juhg",
+    "slide": 20,
+    "text": "If one report could appear every morning, what would it be?",
+    "pos": {
+      "left": 120,
+      "top": 437.76,
+      "width": 619.2,
+      "height": 11.52
+    },
+    "style": {
+      "fontSize": 14.4,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/hsvmhkzq",
+    "slide": 20,
+    "text": "Then offer the correct path: $899 restaurant POS, retail POS quote, ERP project, Private AI project, or AI + ERP integration.",
+    "pos": {
+      "left": 111.36,
+      "top": 554.88,
+      "width": 637.44,
+      "height": 38.4
+    },
+    "style": {
+      "fontSize": 14.67,
+      "typeface": "Arial",
+      "color": "#5A3E2C",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/l8fm907a",
+    "slide": 20,
+    "text": "20",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/0f2lon6p",
+    "slide": 21,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ra9kryp8",
+    "slide": 21,
+    "text": "20 / 30-DAY LAUNCH",
+    "pos": {
+      "left": 883.2,
+      "top": 52.8,
+      "width": 297.6,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/qp03yt8n",
+    "slide": 21,
+    "text": "30-day transition from launch to sales",
+    "pos": {
+      "left": 69.12,
+      "top": 76.8,
+      "width": 748.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/dcb2t87y",
+    "slide": 21,
+    "text": "The Wednesday decision should trigger a short, disciplined sales sprint.",
+    "pos": {
+      "left": 71.04,
+      "top": 134.4,
+      "width": 700.8,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/b6d432pc",
+    "slide": 21,
+    "text": "Days 1–7",
+    "pos": {
+      "left": 105.6,
+      "top": 227.52,
+      "width": 206.4,
+      "height": 21.12
+    },
+    "style": {
+      "fontSize": 17.33,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/al43uxor",
+    "slide": 21,
+    "text": "Finalize offer language",
+    "pos": {
+      "left": 110.4,
+      "top": 286.08,
+      "width": 196.8,
+      "height": 40.32
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/4jax4nqd",
+    "slide": 21,
+    "text": "POS scope, exclusions, one-page flyer, quote template",
+    "pos": {
+      "left": 110.4,
+      "top": 368.64,
+      "width": 196.8,
+      "height": 59.52
+    },
+    "style": {
+      "fontSize": 12.27,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ixsf2d87",
+    "slide": 21,
+    "text": "Days 8–14",
+    "pos": {
+      "left": 398.4,
+      "top": 227.52,
+      "width": 206.4,
+      "height": 21.12
+    },
+    "style": {
+      "fontSize": 17.33,
+      "typeface": "Arial",
+      "color": "#389B6B",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/jy1gbi9s",
+    "slide": 21,
+    "text": "Build demo discipline",
+    "pos": {
+      "left": 403.2,
+      "top": 286.08,
+      "width": 196.8,
+      "height": 40.32
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/wvax03q1",
+    "slide": 21,
+    "text": "sample data, backup screenshots, owner script",
+    "pos": {
+      "left": 403.2,
+      "top": 368.64,
+      "width": 196.8,
+      "height": 59.52
+    },
+    "style": {
+      "fontSize": 12.27,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/utsfyt8v",
+    "slide": 21,
+    "text": "Days 15–21",
+    "pos": {
+      "left": 691.2,
+      "top": 227.52,
+      "width": 206.4,
+      "height": 21.12
+    },
+    "style": {
+      "fontSize": 17.33,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/vu1w7y9g",
+    "slide": 21,
+    "text": "Prospect and present",
+    "pos": {
+      "left": 696,
+      "top": 286.08,
+      "width": 196.8,
+      "height": 40.32
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/8rqxw3q5",
+    "slide": 21,
+    "text": "restaurant list, retail list, first demos",
+    "pos": {
+      "left": 696,
+      "top": 368.64,
+      "width": 196.8,
+      "height": 59.52
+    },
+    "style": {
+      "fontSize": 12.27,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/porutkje",
+    "slide": 21,
+    "text": "Days 22–30",
+    "pos": {
+      "left": 984,
+      "top": 227.52,
+      "width": 206.4,
+      "height": 21.12
+    },
+    "style": {
+      "fontSize": 17.33,
+      "typeface": "Arial",
+      "color": "#389B6B",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/onid0f2t",
+    "slide": 21,
+    "text": "Refine and close",
+    "pos": {
+      "left": 988.8,
+      "top": 286.08,
+      "width": 196.8,
+      "height": 40.32
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/nm9cru18",
+    "slide": 21,
+    "text": "objections, pricing adjustments, first case story",
+    "pos": {
+      "left": 988.8,
+      "top": 368.64,
+      "width": 196.8,
+      "height": 59.52
+    },
+    "style": {
+      "fontSize": 12.27,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/1kru5kj2",
+    "slide": 21,
+    "text": "By day 30, Yudaro should know which message sells, which objections appear, and which package needs refinement.",
+    "pos": {
+      "left": 242.88,
+      "top": 561.6,
+      "width": 791.04,
+      "height": 38.4
+    },
+    "style": {
+      "fontSize": 14.67,
+      "typeface": "Arial",
+      "color": "#162335",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/0jidwf2x",
+    "slide": 21,
+    "text": "21",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/7a18rydc",
+    "slide": 22,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/k7qpgjul",
+    "slide": 22,
+    "text": "21 / RUN OF SHOW",
+    "pos": {
+      "left": 883.2,
+      "top": 52.8,
+      "width": 297.6,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/58zqpov6",
+    "slide": 22,
+    "text": "Wednesday presentation run-of-show",
+    "pos": {
+      "left": 69.12,
+      "top": 76.8,
+      "width": 748.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/il87etcv",
+    "slide": 22,
+    "text": "Keep time tight and momentum high.",
+    "pos": {
+      "left": 71.04,
+      "top": 134.4,
+      "width": 700.8,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/jmh8nyd0",
+    "slide": 22,
+    "text": "0–5 min",
+    "pos": {
+      "left": 96,
+      "top": 139.2,
+      "width": 124.8,
+      "height": 13.44
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/p43q1sva",
+    "slide": 22,
+    "text": "Why Yudaro now",
+    "pos": {
+      "left": 283.2,
+      "top": 138.24,
+      "width": 451.2,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 13.6,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/p4z6tcri",
+    "slide": 22,
+    "text": "5–10 min",
+    "pos": {
+      "left": 96,
+      "top": 194.88,
+      "width": 124.8,
+      "height": 13.44
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/3ixor29c",
+    "slide": 22,
+    "text": "Website, catalog, brochure",
+    "pos": {
+      "left": 283.2,
+      "top": 193.92,
+      "width": 451.2,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 13.6,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/2honyx8r",
+    "slide": 22,
+    "text": "10–18 min",
+    "pos": {
+      "left": 96,
+      "top": 250.56,
+      "width": 124.8,
+      "height": 13.44
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/gf65w7ql",
+    "slide": 22,
+    "text": "$899 restaurant POS promotion",
+    "pos": {
+      "left": 283.2,
+      "top": 249.6,
+      "width": 451.2,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 13.6,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/fexon290",
+    "slide": 22,
+    "text": "18–25 min",
+    "pos": {
+      "left": 96,
+      "top": 306.24,
+      "width": 124.8,
+      "height": 13.44
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/1cj61w7q",
+    "slide": 22,
+    "text": "Retail POS capability",
+    "pos": {
+      "left": 283.2,
+      "top": 305.28,
+      "width": 451.2,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 13.6,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/0bap8rq5",
+    "slide": 22,
+    "text": "25–35 min",
+    "pos": {
+      "left": 96,
+      "top": 361.92,
+      "width": 124.8,
+      "height": 13.44
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/lsrit4jy",
+    "slide": 22,
+    "text": "Odoo ERP demo",
+    "pos": {
+      "left": 283.2,
+      "top": 360.96,
+      "width": 451.2,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 13.6,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/yp0zipk7",
+    "slide": 22,
+    "text": "35–43 min",
+    "pos": {
+      "left": 96,
+      "top": 417.6,
+      "width": 124.8,
+      "height": 13.44
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/wnihgf2h",
+    "slide": 22,
+    "text": "Private AI + AI/Odoo demo",
+    "pos": {
+      "left": 283.2,
+      "top": 416.64,
+      "width": 451.2,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 13.6,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/xoripkj2",
+    "slide": 22,
+    "text": "43–50 min",
+    "pos": {
+      "left": 96,
+      "top": 473.28,
+      "width": 124.8,
+      "height": 13.44
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/bm9gnu1w",
+    "slide": 22,
+    "text": "Pricing ladder and sales plan",
+    "pos": {
+      "left": 283.2,
+      "top": 472.32,
+      "width": 451.2,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 13.6,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ozyhcf25",
+    "slide": 22,
+    "text": "50–60 min",
+    "pos": {
+      "left": 96,
+      "top": 528.96,
+      "width": 124.8,
+      "height": 13.44
+    },
+    "style": {
+      "fontSize": 12.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/rup0va5s",
+    "slide": 22,
+    "text": "Andy decision and next steps",
+    "pos": {
+      "left": 283.2,
+      "top": 528,
+      "width": 451.2,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 13.6,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/zyp0za5o",
+    "slide": 22,
+    "text": "22",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/8zm9k7y5",
+    "slide": 23,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/v2d8fmhw",
+    "slide": 23,
+    "text": "22 / RISK CONTROL",
+    "pos": {
+      "left": 883.2,
+      "top": 52.8,
+      "width": 297.6,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/a14rmhgb",
+    "slide": 23,
+    "text": "Do not let these mistakes enter the sales script",
+    "pos": {
+      "left": 69.12,
+      "top": 76.8,
+      "width": 748.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/xovqhcz2",
+    "slide": 23,
+    "text": "The first few customer conversations will define Yudaro’s credibility.",
+    "pos": {
+      "left": 71.04,
+      "top": 134.4,
+      "width": 700.8,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/jqd8jmhs",
+    "slide": 23,
+    "text": "Mistake",
+    "pos": {
+      "left": 110.4,
+      "top": 160.8,
+      "width": 336,
+      "height": 9.6
+    },
+    "style": {
+      "fontSize": 11.33,
+      "typeface": "Arial",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ip4rqhgn",
+    "slide": 23,
+    "text": "Correction",
+    "pos": {
+      "left": 484.8,
+      "top": 160.8,
+      "width": 633.6,
+      "height": 9.6
+    },
+    "style": {
+      "fontSize": 11.33,
+      "typeface": "Arial",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/tc7at436",
+    "slide": 23,
+    "text": "“$899 includes ERP.”",
+    "pos": {
+      "left": 110.4,
+      "top": 229.92,
+      "width": 336,
+      "height": 9.6
+    },
+    "style": {
+      "fontSize": 12.27,
+      "typeface": "Arial",
+      "color": "#C44B3D",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/69gry94v",
+    "slide": 23,
+    "text": "$899 is restaurant POS only. ERP is separate.",
+    "pos": {
+      "left": 484.8,
+      "top": 229.92,
+      "width": 633.6,
+      "height": 9.6
+    },
+    "style": {
+      "fontSize": 12.27,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/0fi94jmx",
+    "slide": 23,
+    "text": "“AI will automate everything.”",
+    "pos": {
+      "left": 110.4,
+      "top": 299.04,
+      "width": 336,
+      "height": 9.6
+    },
+    "style": {
+      "fontSize": 12.27,
+      "typeface": "Arial",
+      "color": "#C44B3D",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/1graxo3i",
+    "slide": 23,
+    "text": "AI assists; human approval stays in the loop.",
+    "pos": {
+      "left": 484.8,
+      "top": 299.04,
+      "width": 633.6,
+      "height": 9.6
+    },
+    "style": {
+      "fontSize": 12.27,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/fepsvelc",
+    "slide": 23,
+    "text": "“Retail uses same package.”",
+    "pos": {
+      "left": 110.4,
+      "top": 368.16,
+      "width": 336,
+      "height": 9.6
+    },
+    "style": {
+      "fontSize": 12.27,
+      "typeface": "Arial",
+      "color": "#C44B3D",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/oji9832t",
+    "slide": 23,
+    "text": "Retail POS requires separate scope and quote.",
+    "pos": {
+      "left": 484.8,
+      "top": 368.16,
+      "width": 633.6,
+      "height": 9.6
+    },
+    "style": {
+      "fontSize": 12.27,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/x0nalovi",
+    "slide": 23,
+    "text": "“Odoo is one-size-fits-all.”",
+    "pos": {
+      "left": 110.4,
+      "top": 437.28,
+      "width": 336,
+      "height": 9.6
+    },
+    "style": {
+      "fontSize": 12.27,
+      "typeface": "Arial",
+      "color": "#C44B3D",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/wze9cjud",
+    "slide": 23,
+    "text": "Odoo must be configured around the business process.",
+    "pos": {
+      "left": 484.8,
+      "top": 437.28,
+      "width": 633.6,
+      "height": 9.6
+    },
+    "style": {
+      "fontSize": 12.27,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/axwratc7",
+    "slide": 23,
+    "text": "“We can promise every integration.”",
+    "pos": {
+      "left": 110.4,
+      "top": 506.4,
+      "width": 336,
+      "height": 9.6
+    },
+    "style": {
+      "fontSize": 12.27,
+      "typeface": "Arial",
+      "color": "#C44B3D",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/l47ap8vu",
+    "slide": 23,
+    "text": "Integration depends on data access, API, scope and budget.",
+    "pos": {
+      "left": 484.8,
+      "top": 506.4,
+      "width": 633.6,
+      "height": 9.6
+    },
+    "style": {
+      "fontSize": 12.27,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/j2psnydo",
+    "slide": 23,
+    "text": "Credibility is protected by clean boundaries. Boundaries also make upselling easier.",
+    "pos": {
+      "left": 223.68,
+      "top": 598.08,
+      "width": 819.84,
+      "height": 23.04
+    },
+    "style": {
+      "fontSize": 14.67,
+      "typeface": "Arial",
+      "color": "#5A3E2C",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/y1gretc3",
+    "slide": 23,
+    "text": "23",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/0r6p4nul",
+    "slide": 24,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/nux8zidc",
+    "slide": 24,
+    "text": "23 / DECISION",
+    "pos": {
+      "left": 883.2,
+      "top": 52.8,
+      "width": 297.6,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/2to76dcr",
+    "slide": 24,
+    "text": "The decision requested from Andy",
+    "pos": {
+      "left": 69.12,
+      "top": 76.8,
+      "width": 748.8,
+      "height": 52.8
+    },
+    "style": {
+      "fontSize": 37.33,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/9wzq1svi",
+    "slide": 24,
+    "text": "End the meeting with clear action, ownership and timeline.",
+    "pos": {
+      "left": 71.04,
+      "top": 134.4,
+      "width": 700.8,
+      "height": 32.64
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#5D6670",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/3ydonyd8",
+    "slide": 24,
+    "text": "Approve commercial launch",
+    "pos": {
+      "left": 115.2,
+      "top": 178.56,
+      "width": 230.4,
+      "height": 13.44
+    },
+    "style": {
+      "fontSize": 13.6,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/ix47utcn",
+    "slide": 24,
+    "text": "Move Yudaro from development mode to active sales conversations.",
+    "pos": {
+      "left": 364.8,
+      "top": 177.6,
+      "width": 364.8,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 13.07,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/9wni1wjq",
+    "slide": 24,
+    "text": "Approve offer language",
+    "pos": {
+      "left": 115.2,
+      "top": 266.88,
+      "width": 230.4,
+      "height": 13.44
+    },
+    "style": {
+      "fontSize": 13.6,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/mtwz6h0f",
+    "slide": 24,
+    "text": "$899 restaurant POS only; ERP and AI services quoted separately.",
+    "pos": {
+      "left": 364.8,
+      "top": 265.92,
+      "width": 364.8,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 13.07,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/wzyhcrih",
+    "slide": 24,
+    "text": "Approve first sales targets",
+    "pos": {
+      "left": 115.2,
+      "top": 355.2,
+      "width": 230.4,
+      "height": 13.44
+    },
+    "style": {
+      "fontSize": 13.6,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/x07i5wj2",
+    "slide": 24,
+    "text": "Restaurants first, then retail and operational businesses.",
+    "pos": {
+      "left": 364.8,
+      "top": 354.24,
+      "width": 364.8,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 13.07,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/vyp03m1w",
+    "slide": 24,
+    "text": "Approve 30-day sprint",
+    "pos": {
+      "left": 115.2,
+      "top": 443.52,
+      "width": 230.4,
+      "height": 13.44
+    },
+    "style": {
+      "fontSize": 13.6,
+      "typeface": "Arial",
+      "color": "#B97936",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/c3uh07id",
+    "slide": 24,
+    "text": "Demo discipline, prospecting, objection tracking and package refinement.",
+    "pos": {
+      "left": 364.8,
+      "top": 442.56,
+      "width": 364.8,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 13.07,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/rmtofup4",
+    "slide": 24,
+    "text": "Question to close: “Are we ready to begin controlled sales outreach after this launch?”",
+    "pos": {
+      "left": 108.48,
+      "top": 593.28,
+      "width": 632.64,
+      "height": 26.88
+    },
+    "style": {
+      "fontSize": 14.67,
+      "typeface": "Arial",
+      "color": "#162335",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/gbmpcz61",
+    "slide": 24,
+    "text": "24",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/napsr6x0",
+    "slide": 25,
+    "text": "Yudaro",
+    "pos": {
+      "left": 49.92,
+      "top": 32.64,
+      "width": 148.8,
+      "height": 24.96
+    },
+    "style": {
+      "fontSize": 20,
+      "typeface": "Arial",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/29wby1wf",
+    "slide": 25,
+    "text": "Launch message",
+    "pos": {
+      "left": 72,
+      "top": 139.2,
+      "width": 201.6,
+      "height": 21.12
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#D59A42",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/pc7atgf6",
+    "slide": 25,
+    "text": "Yudaro is ready to move from capability to commercialization.",
+    "pos": {
+      "left": 72,
+      "top": 196.8,
+      "width": 720,
+      "height": 94.08
+    },
+    "style": {
+      "fontSize": 44,
+      "typeface": "Arial",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/obyt0bel",
+    "slide": 25,
+    "text": "The $899 restaurant POS promotion opens doors.\nThe AI + ERP service model creates the larger opportunity.",
+    "pos": {
+      "left": 74.88,
+      "top": 340.8,
+      "width": 633.6,
+      "height": 55.68
+    },
+    "style": {
+      "fontSize": 24,
+      "typeface": "Arial",
+      "color": "#FFF5DF",
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/elwbu1wj",
+    "slide": 25,
+    "text": "Next: sales sprint",
+    "pos": {
+      "left": 107.52,
+      "top": 497.28,
+      "width": 307.2,
+      "height": 15.36
+    },
+    "style": {
+      "fontSize": 16,
+      "typeface": "Arial",
+      "color": "#19232E",
+      "bold": true,
+      "alignment": "left"
+    }
+  },
+  {
+    "id": "sh/s761kret",
+    "slide": 25,
+    "text": "25",
+    "pos": {
+      "left": 1243.2,
+      "top": 692.16,
+      "width": 83.99,
+      "height": 31.5
+    },
+    "style": {
+      "fontSize": 8.67,
+      "typeface": "Arial",
+      "color": "#776653",
+      "alignment": "left"
+    }
+  }
+]

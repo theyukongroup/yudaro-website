@@ -1,9 +1,20 @@
 import Link from 'next/link';
 import ContactContent from '@/components/contact-content';
-export default function ContactPage() {
+export default async function ContactPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ service?: string }>;
+}) {
+  const { service } = await searchParams;
+  const initialInterest =
+    service === 'restaurant-pos'
+      ? 'Restaurant POS'
+      : service === 'restaurant-erp'
+        ? 'Restaurant ERP'
+        : '';
   return (
     <>
-      <ContactContent />
+      <ContactContent key={initialInterest} initialInterest={initialInterest} />
       <section className="section-shell search-local">
         <h2>Talk with our Stafford team</h2>
         <p>

@@ -28,6 +28,14 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      ...[
+        '/catalog/yudaro-catalog-2026-46-pages-september.pdf',
+        '/catalog/yudaro-catalog-2026-corporate-culture.pdf',
+      ].map((source) => ({
+        source,
+        destination: '/catalog/yudaro-catalog-2026.pdf',
+        permanent: false,
+      })),
       // The apex is canonical. Every other hostname we own lands on it in one
       // hop, keeping path and query so old sign-in links still work.
       ...['www.yudaro.com', 'yudaro.ai', 'www.yudaro.ai'].map((host) => ({

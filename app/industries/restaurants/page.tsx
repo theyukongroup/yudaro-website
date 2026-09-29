@@ -1,6 +1,12 @@
 import { CultureContext } from '@/components/corporate-culture';
 import { Breadcrumbs } from '@/components/structured-data';
-import { OdooRestaurantShowcase } from '@/components/restaurant-offer';
+import {
+  OdooRestaurantShowcase,
+  RestaurantPromotion,
+  RestaurantERP,
+  RestaurantLadder,
+  RestaurantPackageFAQ,
+} from '@/components/restaurant-offer';
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -97,6 +103,10 @@ export default function RestaurantIndustryPage() {
           />
         </div>
       </section>
+      <RestaurantLadder />
+      <RestaurantPromotion />
+      <RestaurantERP />
+      <RestaurantPackageFAQ />
       <OdooRestaurantShowcase />
       <section className="restaurant-challenge-section section-shell">
         <div className="section-head">
@@ -185,22 +195,24 @@ export default function RestaurantIndustryPage() {
       <section className="restaurant-architecture section-shell">
         <div>
           <span className="section-index">RESTAURANT ERP</span>
-          <h2>Odoo POS and ERP, or integration with your existing POS.</h2>
+          <h2>POS first. ERP and Private AI by separate scope.</h2>
           <p>
-            Choose a configured Odoo restaurant POS with connected back-office
-            ERP, or retain your existing POS and integrate approved data. Yudaro
-            scopes purchasing, inventory, accounting, reporting and private AI
-            around the systems and workflows your team needs.
+            The $899 Restaurant POS Package runs front-of-house sales. When you
+            need back-office control, the separate $5,000 Restaurant ERP
+            Implementation Package can connect approved POS data with inventory,
+            purchasing and reporting. ERP Management, Maintenance &amp; Support
+            costs $300/month for up to 5 users. Private AI and automation are
+            separately scoped.
           </p>
         </div>
         <div className="restaurant-flow">
           <span>POS / Online Orders</span>
           <i>↓</i>
-          <span>Yudaro Integration Layer</span>
+          <span>Optional, separately scoped integration</span>
           <i>↓</i>
-          <span>Odoo ERP</span>
+          <span>Restaurant ERP / separate purchase</span>
           <i>↓</i>
-          <span>Private AI / Analytics</span>
+          <span>Private AI / Analytics / custom scope</span>
         </div>
       </section>
       <section className="restaurant-private-section">
