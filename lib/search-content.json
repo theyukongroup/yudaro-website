@@ -1,9 +1,9 @@
 [
   {
     "path": "/ai-solutions",
-    "title": "Private AI for Business: Implementation & Knowledge Search",
-    "description": "Private AI implementation for company documents, SOPs and training. Plan permissions, deployment and costs with Yudaro in Houston and across Texas.",
-    "intro": "Give employees a practical way to find approved company information while keeping deployment, access and review decisions under your control.",
+    "title": "Yudaro AI: Private AI for Business & Company Knowledge",
+    "description": "Yudaro AI provides private business AI grounded in company documents, SOPs, operational knowledge, permissions, and internal workflows.",
+    "intro": "Yudaro AI is Yudaro's private business AI service grounded in approved company documents, SOPs, operational knowledge, permissions, and business data. Deploy on dedicated customer hardware or controlled infrastructure to fit your requirements.",
     "eyebrow": "BUILT AROUND YOUR OPERATION",
     "kind": "Service",
     "sections": [
@@ -116,13 +116,13 @@
         "label": "AI ERP architecture and implementation guide"
       }
     ],
-    "dateModified": "2026-09-26"
+    "dateModified": "2026-10-01"
   },
   {
     "path": "/erp-solutions",
-    "title": "Odoo ERP Implementation & Consulting",
-    "description": "Connect sales, inventory, purchasing and operations with Yudaro Odoo consulting, migration, training and support in Houston, Texas and the US.",
-    "intro": "Make orders, stock, purchasing and financial handoffs work from a consistent operational record.",
+    "title": "Yudaro ERP: Odoo Implementation & Consulting",
+    "description": "Yudaro provides Odoo ERP implementation and consulting for businesses connecting sales, inventory, purchasing, operations, and business data.",
+    "intro": "Yudaro ERP helps growing businesses connect sales, inventory, purchasing, operations, and business data through ERP implementation and consulting, including Odoo, tailored to your business workflows.",
     "eyebrow": "BUILT AROUND YOUR OPERATION",
     "kind": "Service",
     "sections": [
@@ -237,7 +237,7 @@
         "href": "/industries/restaurants#restaurant-ladder-title"
       }
     ],
-    "dateModified": "2026-09-29",
+    "dateModified": "2026-10-01",
     "sources": [
       {
         "href": "https://www.odoo.com/documentation/19.0/",
@@ -358,7 +358,13 @@
     "sections": [
       {
         "title": "What is Odoo data migration?",
-        "body": "Odoo migration moves agreed master data, opening balances and operational records into a target environment. It can also involve changing Odoo versions or hosting. Mapping, cleanup, trial imports and reconciliation establish whether the business can operate correctly; copying a spreadsheet alone does not."
+        "body": "Odoo migration moves agreed master data, opening balances and operational records into a target environment. It can also involve changing Odoo versions or hosting. Mapping, cleanup, trial imports and reconciliation establish whether the business can operate correctly; copying a spreadsheet alone does not.",
+        "links": [
+          {
+            "text": "Odoo migration",
+            "href": "/erp-solutions"
+          }
+        ]
       },
       {
         "title": "Decide what moves and what remains an archive",
@@ -429,7 +435,7 @@
         "label": "Discuss your requirements"
       }
     ],
-    "dateModified": "2026-09-24",
+    "dateModified": "2026-10-01",
     "sources": [
       {
         "href": "https://www.odoo.com/documentation/19.0/",
@@ -629,7 +635,13 @@
     "sections": [
       {
         "title": "What is an AI knowledge base?",
-        "body": "An AI knowledge base combines an approved document collection, retrieval and an assistant that explains relevant evidence. It helps locate SOPs, compare product guidance and understand training. It does not make every document current or correct; source ownership, revisions, access rules and citations remain essential."
+        "body": "An AI knowledge base combines an approved document collection, retrieval and an assistant that explains relevant evidence. It helps locate SOPs, compare product guidance and understand training. It does not make every document current or correct; source ownership, revisions, access rules and citations remain essential.",
+        "links": [
+          {
+            "text": "AI knowledge base",
+            "href": "/ai-solutions"
+          }
+        ]
       },
       {
         "title": "How does search become an answer?",
@@ -718,7 +730,7 @@
         "label": "AI ERP architecture and implementation guide"
       }
     ],
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-10-01",
     "image": "/ai-solutions/sop-search.webp"
   },
   {
@@ -731,7 +743,7 @@
     "sections": [
       {
         "title": "A local starting point for connected operations",
-        "body": "Yudaro AI & ERP Systems serves the Houston metropolitan area, including Stafford, Sugar Land, Missouri City and Katy, with services also available across Texas and the United States. Discuss your team’s location, onsite requirements and remote collaboration needs when arranging discovery. Onsite availability is agreed for each engagement."
+        "body": "Yudaro serves the Houston metropolitan area, including Stafford, Sugar Land, Missouri City and Katy, with services also available across Texas and the United States. Discuss your team’s location, onsite requirements and remote collaboration needs when arranging discovery. Onsite availability is agreed for each engagement."
       },
       {
         "title": "Which Houston-area operations do we support?",
@@ -768,7 +780,21 @@
       },
       {
         "title": "Private AI, ERP or automation: where should you start?",
-        "body": "If orders and stock conflict, begin with an ERP fit-gap review. If reliable records exist but employees cannot find procedures, a private knowledge pilot may be more useful. If an agreed task is repeatedly re-entered, begin with automation. Assess the options together without treating every project as full replacement."
+        "body": "If orders and stock conflict, begin with Odoo ERP implementation planning. If reliable records exist but employees cannot find procedures, Private AI for business may be more useful. Use AI + ERP integration to connect approved knowledge with operational data and workflows. Assess the options together without treating every project as full replacement.",
+        "links": [
+          {
+            "text": "Odoo ERP implementation",
+            "href": "/erp-solutions"
+          },
+          {
+            "text": "Private AI for business",
+            "href": "/ai-solutions"
+          },
+          {
+            "text": "AI + ERP integration",
+            "href": "/ai-erp"
+          }
+        ]
       },
       {
         "title": "What happens in the first consultation?",
@@ -823,7 +849,7 @@
         "label": "Discuss your requirements"
       }
     ],
-    "dateModified": "2026-09-24",
+    "dateModified": "2026-10-01",
     "image": "/about/business-before-software.webp"
   },
   {
@@ -853,6 +879,12 @@
           "Multi-warehouse stock, locations and transfers",
           "Customer pricing, units, supplier references and returns",
           "Partial deliveries and approved substitutions"
+        ],
+        "links": [
+          {
+            "text": "Odoo",
+            "href": "/erp-solutions"
+          }
         ]
       },
       {
@@ -912,7 +944,7 @@
         "label": "Discuss your requirements"
       }
     ],
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-10-01",
     "image": "/industries/wholesale-distribution.webp"
   },
   {
@@ -942,6 +974,12 @@
           "BOM and routing ownership and controlled revisions",
           "Shortages, subcontract work and exceptions",
           "Quality holds, scrap and traceability"
+        ],
+        "links": [
+          {
+            "text": "Odoo",
+            "href": "/erp-solutions"
+          }
         ]
       },
       {
@@ -1001,7 +1039,7 @@
         "label": "Discuss your requirements"
       }
     ],
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-10-01",
     "image": "/industries/manufacturing.webp"
   },
   {
@@ -1031,6 +1069,12 @@
           "Shared products, prices and location-level stock",
           "Cross-channel returns and discount approvals",
           "Ecommerce, payment providers and store closing"
+        ],
+        "links": [
+          {
+            "text": "Odoo",
+            "href": "/erp-solutions"
+          }
         ]
       },
       {
@@ -1090,7 +1134,7 @@
         "label": "Discuss your requirements"
       }
     ],
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-10-01",
     "image": "/industries/retail.webp"
   },
   {
@@ -1120,6 +1164,12 @@
           "Cost codes and purchasing commitments",
           "Timesheets, subcontract records and milestones",
           "Controlled drawings, submittals and change logs"
+        ],
+        "links": [
+          {
+            "text": "Odoo",
+            "href": "/erp-solutions"
+          }
         ]
       },
       {
@@ -1179,7 +1229,7 @@
         "label": "Discuss your requirements"
       }
     ],
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-10-01",
     "image": "/industries/construction.webp"
   },
   {
@@ -1399,7 +1449,13 @@
               "Integrations and upgrades"
             ]
           ]
-        }
+        },
+        "links": [
+          {
+            "text": "ERP Core",
+            "href": "/erp-solutions"
+          }
+        ]
       },
       {
         "title": "A timeline is an acceptance plan",
@@ -1452,7 +1508,7 @@
         "label": "Discuss your requirements"
       }
     ],
-    "dateModified": "2026-09-24",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-09-24",
     "sources": [
       {

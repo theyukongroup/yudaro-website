@@ -5,14 +5,32 @@ import Image from 'next/image';
 import { Breadcrumbs, PageSchema, StructuredData } from './structured-data';
 import { SITE_URL } from '@/lib/seo';
 import { verifiedPeople } from '@/lib/editorial-people';
-import type { SearchContent } from '@/lib/search-content';
+import type { ReactNode } from 'react';
+import type { ContentSection, SearchContent } from '@/lib/search-content';
+function sectionBody(section: ContentSection): ReactNode {
+  const parts: ReactNode[] = [];
+  let remaining = section.body;
+  for (const link of section.links ?? []) {
+    const index = remaining.indexOf(link.text);
+    if (index < 0) continue;
+    parts.push(remaining.slice(0, index));
+    parts.push(
+      <Link prefetch={false} key={link.href + link.text} href={link.href}>
+        {link.text}
+      </Link>,
+    );
+    remaining = remaining.slice(index + link.text.length);
+  }
+  return [...parts, remaining];
+}
+
 export function ContentSections({ entry }: { entry: SearchContent }) {
   return (
     <div className="search-sections section-shell">
       {entry.sections.map((s, i) => (
         <section id={`section-${i + 1}`} key={s.title}>
           <h2>{s.title}</h2>
-          <p>{s.body}</p>
+          <p>{sectionBody(s)}</p>
           {s.diagram && <ArchitectureDiagram variant={s.diagram} />}
           {s.items && (
             <ul>

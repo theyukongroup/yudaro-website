@@ -14,8 +14,8 @@ import {
 } from 'lucide-react';
 import { pageMetadata, SITE_URL } from '@/lib/seo';
 export const metadata = pageMetadata(
-  'AI ERP Systems & Integration for Business',
-  'Learn how Yudaro connects Private AI with Odoo ERP data, permissions, and human-approved workflows for practical business operations.',
+  'Yudaro AI ERP | AI + Odoo ERP Integration',
+  'Yudaro connects Private AI with Odoo ERP, business data, permissions, and workflows to create controlled AI + ERP business systems.',
   '/ai-erp',
 );
 const items = [
@@ -187,8 +187,8 @@ export default function Page() {
       />
       <SolutionPage
         eyebrow="AI ERP SYSTEMS & INTEGRATION"
-        title="AI ERP: connect intelligence with business operations."
-        intro="AI ERP connects a governed AI layer to the records, knowledge, permissions, and workflows that run a business. Yudaro designs this connection around Odoo ERP, Private AI, and human accountability."
+        title="Yudaro AI ERP: Connecting Intelligence with Operations"
+        intro="Yudaro AI ERP connects Private AI with Odoo ERP, business data, permissions, and operational workflows. Human approval, scoped access, and audit controls keep write actions accountable to your team."
         quote="Which customers have not ordered in 60 days, and prepare a follow-up list for the sales team?"
         items={items.map(([title, body], i) => ({
           title,
@@ -472,7 +472,7 @@ export default function Page() {
       </SolutionPage>
       <PageSchema
         path="/ai-erp"
-        title="AI ERP Systems & Integration for Business"
+        title="Yudaro AI ERP: AI + Odoo ERP Integration"
         description="Private AI and Odoo ERP integration with scoped tools and human-approved workflows."
       />
       <script

@@ -2,6 +2,7 @@ import entries from './search-content.json';
 export type ContentSection = {
   title: string;
   body: string;
+  links?: { text: string; href: string }[];
   items?: string[];
   diagram?: 'read' | 'write';
   table?: { headers: string[]; rows: string[][] };

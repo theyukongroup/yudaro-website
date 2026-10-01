@@ -83,9 +83,10 @@ export function pageMetadata(
   path: string,
 ): Metadata {
   const canonical = `${SITE_URL}${path || '/'}`;
-  const fullTitle = title.startsWith('Yudaro |') ? title : `${title} | Yudaro`;
+  const brandedTitle = /^Yudaro(?: AI(?: ERP| \+ ERP)?| ERP)? \| /.test(title);
+  const fullTitle = brandedTitle ? title : `${title} | Yudaro`;
   return {
-    title: title.startsWith('Yudaro |') ? { absolute: title } : title,
+    title: brandedTitle ? { absolute: title } : title,
     description,
     alternates: { canonical },
     openGraph: {

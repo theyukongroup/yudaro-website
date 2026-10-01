@@ -5,8 +5,8 @@ import { ArrowDown, ArrowUpRight, Check } from 'lucide-react';
 import { pageMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = pageMetadata(
-  'About Yudaro AI & ERP Systems',
-  'Yudaro serves operational small and midsize businesses with Private AI, Odoo ERP, AI ERP integration, automation, and practical implementation support.',
+  'About Yudaro: AI + ERP Implementation Company',
+  'Yudaro is a Houston-area AI + ERP implementation company providing Private AI, Odoo ERP implementation, integration, and business automation.',
   '/about',
 );
 
@@ -57,10 +57,10 @@ export default function AboutPage() {
           <span className="eyebrow">ABOUT YUDARO</span>
           <h1>Technology should fit the business. Not the other way around.</h1>
           <p>
-            Yudaro AI &amp; ERP Systems helps established small and medium-sized
-            businesses modernize with Private AI, Odoo ERP, AI ERP integration,
-            and business automation—without losing the knowledge, discipline,
-            and relationships that made them successful.
+            Yudaro is an AI + ERP implementation company based in the Houston
+            area. We provide Private AI, Odoo ERP implementation, AI + ERP
+            integration, and business automation for growing businesses. We
+            connect company knowledge with daily operations.
           </p>
           <a className="about-scroll" href="#our-approach">
             See how we work <ArrowDown size={16} />

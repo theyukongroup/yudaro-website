@@ -8,7 +8,7 @@ import { SolutionPage } from '@/components/solution-page';
 import { ScreenshotGallery } from '@/components/screenshot-gallery';
 import { pageMetadata } from '@/lib/seo';
 export const metadata = pageMetadata(
-  detail.title,
+  'Yudaro ERP | Odoo ERP Implementation & Consulting',
   detail.description,
   detail.path,
 );
@@ -134,7 +134,7 @@ export default function Page() {
         items={[
           { href: '/', label: 'Home' },
           { href: '/solutions', label: 'Solutions' },
-          { href: detail.path, label: detail.title },
+          { href: detail.path, label: 'Odoo ERP Implementation & Consulting' },
         ]}
       />
       <PageSchema
@@ -146,7 +146,7 @@ export default function Page() {
       <SolutionPage
         eyebrow="ERP SOLUTIONS"
         title={detail.title}
-        intro="Yudaro designs and implements ERP systems that connect your teams, workflows, and data. We work with platforms including Odoo, while keeping the focus on the right long-term system for your operation."
+        intro={detail.intro}
         items={names.map((title, i) => ({
           title,
           body: bodies[i],

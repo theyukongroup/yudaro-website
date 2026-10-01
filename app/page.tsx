@@ -31,8 +31,8 @@ import { MagneticLink } from '@/components/motion-system';
 import type { Metadata } from 'next';
 import { pageMetadata } from '@/lib/seo';
 export const metadata: Metadata = pageMetadata(
-  'AI + ERP Systems | Private AI & Odoo ERP',
-  'Yudaro connects Private AI, Corporate Culture Intelligence and Odoo ERP. Turn approved company knowledge into guidance and connected operations.',
+  'Yudaro AI + ERP | Private AI & Odoo ERP Implementation',
+  'Yudaro provides Private AI, Odoo ERP implementation, AI + ERP integration, and business automation for growing companies.',
   '',
 );
 const problems = [
@@ -172,19 +172,19 @@ export default function Home() {
         <div className="hero-grid" />
         <div className="hero-copy">
           <div className="eyebrow">
-            <Sparkles size={14} /> AI + ERP, engineered around your business
+            <Sparkles size={14} /> Built around your business.
           </div>
           <h1>
-            AI + ERP systems.
+            Yudaro
             <br />
-            Built around
+            AI + ERP
             <br />
-            <span>your business.</span>
+            <span>Systems</span>
           </h1>
           <p>
-            Yudaro AI &amp; ERP Systems combines Private AI, Odoo ERP, AI ERP
-            integration, and business automation to help growing companies
-            connect knowledge with daily operations.
+            Yudaro is an AI + ERP implementation company providing Private AI,
+            Odoo ERP implementation, AI + ERP integration, and business
+            automation for growing companies.
           </p>
           <div className="actions">
             <MagneticLink href="/assessment">
@@ -206,14 +206,14 @@ export default function Home() {
         <div>
           <span className="section-index">01 / THE OPPORTUNITY</span>
           <h2>
-            Disconnected systems.
+            What is
             <br />
-            Disconnected decisions.
+            Yudaro?
           </h2>
         </div>
         <p>
-          Disconnected systems create friction. Yudaro connects the knowledge
-          your team relies on with the systems that move your business forward.
+          Yudaro connects company knowledge, operational data, and workflows
+          through Private AI, Odoo ERP implementation, and AI + ERP integration.
         </p>
       </section>
       <section
@@ -262,13 +262,12 @@ export default function Home() {
             Now make it usable.
           </h2>
           <p>
-            Build a private AI system around your internal documents, SOPs,
-            product information, and business expertise. Deploy on dedicated
-            customer hardware or controlled infrastructure based on your
-            requirements.
+            Yudaro AI builds private business AI around company documents, SOPs,
+            knowledge, and permissions. Deploy on dedicated customer hardware or
+            controlled infrastructure based on your requirements.
           </p>
           <Link className="text-link" href="/ai-solutions">
-            Explore AI solutions <ArrowRight size={16} />
+            Explore Yudaro AI <ArrowRight size={16} />
           </Link>
         </div>
         <div className="private-ai-visual">
@@ -295,8 +294,9 @@ export default function Home() {
           <span className="section-index">03 / ERP SYSTEMS</span>
           <h2>A connected platform for every part of your operation.</h2>
           <p>
-            We consult, implement, and customize modern ERP systems—including
-            Odoo—without forcing your business into a one-size-fits-all model.
+            <Link href="/erp-solutions">Yudaro ERP</Link> provides ERP
+            implementation and consulting, including Odoo, for connected
+            business operations.
           </p>
         </div>
         <ERPModules />
@@ -327,8 +327,8 @@ export default function Home() {
               AI connects the dots.
             </h2>
             <p>
-              Connect natural-language intelligence to real operational data
-              across CRM, sales, inventory, purchasing, accounting, and
+              Yudaro AI ERP connects Private AI with ERP data and workflows,
+              maintaining permissions and human approval across business
               operations.
             </p>
           </div>

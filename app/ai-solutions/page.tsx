@@ -7,7 +7,7 @@ import { SolutionPage } from '@/components/solution-page';
 import { ScreenshotGallery } from '@/components/screenshot-gallery';
 import { pageMetadata } from '@/lib/seo';
 export const metadata = pageMetadata(
-  detail.title,
+  'Yudaro AI | Private AI for Business & Company Knowledge',
   detail.description,
   detail.path,
 );
@@ -114,7 +114,10 @@ export default function Page() {
         items={[
           { href: '/', label: 'Home' },
           { href: '/solutions', label: 'Solutions' },
-          { href: detail.path, label: detail.title },
+          {
+            href: detail.path,
+            label: 'Private AI for Business: Implementation & Knowledge Search',
+          },
         ]}
       />
       <PageSchema
@@ -126,7 +129,7 @@ export default function Page() {
       <SolutionPage
         eyebrow="PRIVATE ENTERPRISE AI"
         title={detail.title}
-        intro="Yudaro creates private enterprise AI systems grounded in your documents, SOPs, products, and operating knowledge. Deployments may run on dedicated customer hardware or controlled infrastructure depending on your requirements."
+        intro={detail.intro}
         items={items}
       >
         <ContentSections entry={detail} />

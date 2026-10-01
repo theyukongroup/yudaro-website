@@ -242,12 +242,12 @@ export default async function RootLayout({
                 {
                   '@type': ['Organization', 'ProfessionalService'],
                   '@id': `${SITE_URL}/#organization`,
-                  name: 'Yudaro AI & ERP Systems',
-                  alternateName: 'Yudaro',
+                  name: 'Yudaro',
+                  sameAs: ['https://www.linkedin.com/company/yudaro/'],
                   description:
-                    'Private AI, Odoo ERP implementation and business automation for Houston-area, Texas and US businesses.',
+                    'Yudaro is an AI + ERP implementation company providing Private AI, Odoo ERP implementation, AI + ERP integration, and business automation.',
                   email: 'info@yudaro.com',
-                  url: SITE_URL,
+                  url: `${SITE_URL}/`,
                   logo: `${SITE_URL}/yudaro-logo-2026.png`,
                   image: `${SITE_URL}/yudaro-social.png`,
                   telephone: '+1-281-258-8000',
@@ -280,12 +280,12 @@ export default async function RootLayout({
                     '@type': 'OfferCatalog',
                     name: 'Yudaro business technology services',
                     itemListElement: [
-                      ['/ai-solutions', 'Private enterprise AI solutions'],
+                      ['/ai-solutions', 'Yudaro AI: Private AI for Business'],
                       [
                         '/erp-solutions',
-                        'ERP consulting and Odoo implementation',
+                        'Yudaro ERP: Odoo Implementation & Consulting',
                       ],
-                      ['/ai-erp', 'AI and ERP integration'],
+                      ['/ai-erp', 'Yudaro AI ERP: AI + Odoo ERP Integration'],
                       [
                         '/solutions/business-automation',
                         'Business workflow automation',
@@ -306,7 +306,7 @@ export default async function RootLayout({
                 {
                   '@type': 'WebSite',
                   '@id': `${SITE_URL}/#website`,
-                  url: SITE_URL,
+                  url: `${SITE_URL}/`,
                   name: 'Yudaro',
                   publisher: { '@id': `${SITE_URL}/#organization` },
                   inLanguage: ['en-US', 'zh-CN', 'zh-TW', 'es'],
