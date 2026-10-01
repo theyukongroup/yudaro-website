@@ -150,7 +150,7 @@ await pool(urls, async (url) => {
   check(ids.length === new Set(ids).size, `${path}: no duplicate schema IDs`);
   const entity = schemas.find((s) => s['@id'] === canonical + '/#organization');
   check(
-    entity?.name === 'Yudaro AI & ERP Systems' &&
+    entity?.name === 'Yudaro' &&
       entity?.address?.addressLocality === 'Stafford',
     `${path}: consistent business identity`,
   );

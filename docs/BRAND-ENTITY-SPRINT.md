@@ -123,3 +123,9 @@ All five core pages retain their section counts. At 1440px every measured sectio
 No redesign was performed. No existing interaction behavior, CSS, component layout, navigation, responsive rules, animations, form behavior, assets, URL slugs or migration logic was changed. No duplicate landing pages were created. Only contextual links add the requested navigation opportunities in existing copy.
 
 Existing unrelated lint issues are outside this sprint. Existing FAQ markup and secondary page metadata are retained. No Search Console submission, deployment, or ranking claim is included.
+
+## Publication — 2026-10-01
+
+Published commit d3bc400 to main. Vercel deployment EiiN17TPajgEYCSbmbD6zYDUzY5b completed successfully and https://yudaro.com serves the updated titles and entity data. The 13-page brand audit passed against production.
+
+The initial GitHub SEO gate exposed a missed assertion in scripts/seo-audit.mjs: it still expected the old Organization name. Updated that exact-name assertion to Yudaro, preserving the Stafford address check. The full production audit then passed **1,167/1,167 checks across 53 indexable routes**. Build, TypeScript, IndexNow, restaurant and SQL tests passed in GitHub. This publication supersedes the earlier local-only status in this report.
