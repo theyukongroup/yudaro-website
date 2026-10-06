@@ -21,9 +21,13 @@ export default async function ContactPage({
           Yudaro AI &amp; ERP Systems · 13366 Murphy Road, Stafford, TX 77477.
         </p>
         <p>
-          <a href="tel:+12812588000">281-258-8000</a>
+          <a href="tel:+18328682880">832-868-2880</a>
           {' · '}
           <a href="mailto:info@yudaro.com">info@yudaro.com</a>
+          {' · '}
+          <a href="https://maps.app.goo.gl/hLXsxHprmSoHsLo88?g_st=ic">
+            Yudaro on Google Maps
+          </a>
         </p>
         <p>
           Serving Houston-area businesses and projects across Texas and the

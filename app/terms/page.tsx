@@ -5,5 +5,5 @@ export default function Page(){return <AuthorityPage eyebrow="TERMS OF USE" titl
 {title:'Illustrative outputs',body:'Assessment scores, productivity estimates, recommendations, and scenarios depend on user-provided assumptions. They do not guarantee results, savings, timing, suitability, or implementation success.'},
 {title:'Accounts and acceptable use',body:'Users are responsible for authorized account use and accurate submissions. Do not attempt unauthorized access, interfere with the service, upload unlawful material, or misuse another person’s information.'},
 {title:'Engagement scope',body:'A consultation request starts a suitability discussion only. Scope, fees, deliverables, responsibilities, warranties, security requirements, and support are established in a separate written agreement.'},
-{title:'Changes and contact',body:'The website and these terms may change as services evolve. For questions, call 281-258-8000.'}
+{title:'Changes and contact',body:'The website and these terms may change as services evolve. For questions, call 832-868-2880.'}
 ]} />}

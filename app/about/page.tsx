@@ -220,6 +220,14 @@ export default function AboutPage() {
               <Link prefetch={false} href="/case-studies">
                 Understand our evidence standard
               </Link>
+              {' · '}
+              <a href="https://www.linkedin.com/company/yudaro/">
+                Yudaro on LinkedIn
+              </a>
+              {' · '}
+              <a href="https://maps.app.goo.gl/hLXsxHprmSoHsLo88?g_st=ic">
+                Yudaro on Google Maps
+              </a>
             </p>
           </div>
         </section>

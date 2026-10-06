@@ -25,7 +25,7 @@ def head(c,k,title,sub='',page=None):
  p(c,374,36,195,'YUDARO / RESTAURANT SOLUTIONS',7,col=MUTED)
  box(c,42,74,528,1,'#DCE8EB',0);p(c,42,94,528,k,8,True,TEAL);p(c,42,117,528,title,27,True,maxh=76)
  if sub:p(c,42,191,528,sub,10,col=MUTED,maxh=43)
- box(c,42,742,528,1,'#DCE8EB',0);p(c,42,752,400,'Yudaro  /  www.yudaro.com  /  281-258-8000',8,col=MUTED)
+ box(c,42,742,528,1,'#DCE8EB',0);p(c,42,752,400,'Yudaro  /  www.yudaro.com  /  832-868-2880',8,col=MUTED)
  if page:p(c,515,752,60,f'{page:02} / 48',8,col=MUTED)
  c.linkURL('https://yudaro.com/industries/restaurants',(42,20,400,44))
 def bullets(c,x,y,w,items,size=10,gap=8,col=NAVY):
@@ -96,7 +96,7 @@ def brochure4(c):
  p(c,42,620,528,'Understand. Build. Improve.',19,True)
  p(c,42,652,528,'Schedule a Corporate AI Assessment  →  yudaro.com/contact',11,True,TEAL)
  c.linkURL('https://yudaro.com/contact',(42,112,570,147))
- p(c,42,682,528,'info@yudaro.com  /  281-258-8000',12,True);p(c,42,707,528,'13366 Murphy Road, Stafford, TX 77477',9,col=MUTED)
+ p(c,42,682,528,'info@yudaro.com  /  832-868-2880',12,True);p(c,42,707,528,'13366 Murphy Road, Stafford, TX 77477',9,col=MUTED)
 
 def make(fn):
  b=io.BytesIO();c=canvas.Canvas(b,pagesize=(612,792));fn(c);c.save();return f.open(stream=b.getvalue(),filetype='pdf')

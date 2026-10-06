@@ -10,7 +10,7 @@ export default function Page() {
     <AuthorityPage
       eyebrow="PRIVACY & DATA"
       title="Clear expectations for information you share."
-      intro="This policy explains current website practices. Yudaro does not sell personal information. For questions or requests, call 281-258-8000."
+      intro="This policy explains current website practices. Yudaro does not sell personal information. For questions or requests, call 832-868-2880."
       sections={[
         {
           title: 'Information collected',
@@ -34,7 +34,7 @@ export default function Page() {
         },
         {
           title: 'Contact',
-          body: 'Yudaro AI & ERP Systems, 13366 Murphy Road, Stafford, TX 77477. Phone: 281-258-8000. ',
+          body: 'Yudaro AI & ERP Systems, 13366 Murphy Road, Stafford, TX 77477. Phone: 832-868-2880. ',
         },
       ]}
     />

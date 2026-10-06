@@ -194,14 +194,20 @@ export default async function RootLayout({
                   Stafford, TX 77477
                 </span>
               </span>
-              <Link href="tel:+12812588000">
+              <Link href="tel:+18328682880">
                 <Phone size={16} />
-                281-258-8000
+                832-868-2880
               </Link>
               <Link href="mailto:info@yudaro.com">
                 <Mail size={16} />
                 Contact our team
               </Link>
+              <a href="https://www.linkedin.com/company/yudaro/">
+                Yudaro on LinkedIn
+              </a>
+              <a href="https://maps.app.goo.gl/hLXsxHprmSoHsLo88?g_st=ic">
+                Yudaro on Google Maps
+              </a>
             </address>
             <nav
               className="footer-search-links"
@@ -250,7 +256,7 @@ export default async function RootLayout({
                   url: `${SITE_URL}/`,
                   logo: `${SITE_URL}/yudaro-logo-2026.png`,
                   image: `${SITE_URL}/yudaro-social.png`,
-                  telephone: '+1-281-258-8000',
+                  telephone: '+1-832-868-2880',
                   address: {
                     '@type': 'PostalAddress',
                     streetAddress: '13366 Murphy Road',
