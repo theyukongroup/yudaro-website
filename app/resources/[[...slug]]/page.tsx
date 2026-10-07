@@ -117,6 +117,15 @@ export async function generateMetadata({
   const extra = contentByPath.get(path);
   if (extra) {
     const metadata = pageMetadata(extra.title, extra.description, path);
+    if (extra.kind === 'Article') {
+      metadata.openGraph = {
+        ...metadata.openGraph,
+        type: 'article',
+        publishedTime: extra.datePublished,
+        modifiedTime: extra.dateModified,
+        authors: [`${SITE_URL}/about`],
+      };
+    }
     if (locale !== 'en')
       metadata.robots = {
         index: false,
@@ -184,6 +193,11 @@ export default async function ResourcePage({
         </section>
         <section className="resource-library section-shell">
           <h2>{l.browse}</h2>
+          <p>
+            <Link prefetch={false} href="/resources/blog">
+              Read the Yudaro blog: practical pilot tests and migration checklists
+            </Link>
+          </p>
           <p>
             <Link prefetch={false} href="/resources/architecture">
               Explore the architecture library and implementation evidence

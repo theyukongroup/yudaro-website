@@ -328,18 +328,18 @@ export default function Page() {
                 </article>
               ))}
             </div>
-            <a className="text-link" href="/contact?service=ai-erp">
+            <Link prefetch={false} className="text-link" href="/contact?service=ai-erp">
               Discuss your highest-value workflow <ArrowRight size={16} />
-            </a>
+            </Link>
           </div>
         </section>
         <section className="section-shell ai-erp-guardrails">
           <div>
             <span className="section-index">DESIGNED FOR TRUST</span>
             <h2>Automation should be powerful, observable, and reversible.</h2>
-            <a className="text-link" href="/resources/ai-erp">
+            <Link prefetch={false} className="text-link" href="/resources/ai-erp">
               Read the practical AI + ERP guide <ArrowRight size={16} />
-            </a>
+            </Link>
           </div>
           <ul>
             {[
@@ -407,6 +407,10 @@ export default function Page() {
               Review the reference architecture and failure tests
             </Link>
             {' · '}
+            <Link prefetch={false} href="/resources/ai-odoo-inventory-answers">
+              Test inventory answers and their evidence
+            </Link>
+            {' · '}
             <Link prefetch={false} href="/case-studies">
               Understand our evidence standards
             </Link>
@@ -445,27 +449,27 @@ export default function Page() {
               </div>
               <div>
                 <h3>Continue your research</h3>
-                <a href="/resources/private-ai">
+                <Link prefetch={false} href="/resources/private-ai">
                   Private AI for business <ArrowRight size={15} />
-                </a>
-                <a href="/resources/odoo-erp">
+                </Link>
+                <Link prefetch={false} href="/resources/odoo-erp">
                   Odoo ERP implementation <ArrowRight size={15} />
-                </a>
-                <a href="/resources/comparisons">
+                </Link>
+                <Link prefetch={false} href="/resources/comparisons">
                   Private AI, ChatGPT, and ERP comparisons{' '}
                   <ArrowRight size={15} />
-                </a>
-                <a href="/resources/guides">
+                </Link>
+                <Link prefetch={false} href="/resources/guides">
                   AI ERP cost and planning <ArrowRight size={15} />
-                </a>
-                <a href="/industries">
+                </Link>
+                <Link prefetch={false} href="/industries">
                   AI ERP by industry <ArrowRight size={15} />
-                </a>
+                </Link>
               </div>
             </div>
-            <a className="button primary" href="/assessment">
+            <Link prefetch={false} className="button primary" href="/assessment">
               Get My Free AI + ERP Assessment <ArrowRight size={17} />
-            </a>
+            </Link>
           </div>
         </section>
         <CultureContext />

@@ -150,6 +150,9 @@ export function SearchPage({ entry }: { entry: SearchContent }) {
             </Link>
           </div>
           {entry.kind === 'Article' && <ArticleCredits entry={entry} />}
+          {entry.editorialNote && (
+            <p className="search-byline">{entry.editorialNote}</p>
+          )}
         </div>
         {entry.image && (
           <Image
@@ -194,6 +197,7 @@ export function SearchPage({ entry }: { entry: SearchContent }) {
             '@id': `${SITE_URL}${entry.path}#article`,
             headline: entry.title,
             description: entry.description,
+            inLanguage: 'en-US',
             datePublished: entry.datePublished,
             dateModified: entry.dateModified,
             ...articleCreditSchema(entry),

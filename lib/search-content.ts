@@ -21,6 +21,7 @@ export type SearchContent = {
   reviewerId?: string;
   datePublished?: string;
   dateModified: string;
+  editorialNote?: string;
   sources?: { href: string; label: string }[];
   image?: string;
 };

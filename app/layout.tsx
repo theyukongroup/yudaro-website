@@ -221,6 +221,7 @@ export default async function RootLayout({
                 ['/solutions', 'All solutions'],
                 ['/industries', 'Industries'],
                 ['/resources', 'Resources'],
+                ['/resources/blog', 'Blog'],
                 ['/locations/houston', 'Houston-area services'],
                 ['/about', 'About'],
                 ['/contact', 'Contact'],
