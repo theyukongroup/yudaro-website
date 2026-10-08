@@ -8,6 +8,7 @@ import { verifiedPeople } from '@/lib/editorial-people';
 import { PageSchema } from '@/components/structured-data';
 import { contentByPath, searchContent } from '@/lib/search-content';
 import { SearchPage } from '@/components/search-content';
+import { BlogIndex } from '@/components/blog-index';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { ArrowRight } from 'lucide-react';
@@ -172,7 +173,13 @@ export default async function ResourcePage({
   const entry = resourceBySlug.get(key);
   const l = labels[locale];
   const extra = contentByPath.get(`/resources/${key}`);
-  if (extra) return <SearchPage entry={extra} />;
+  if (extra) {
+    return extra.path === '/resources/blog' ? (
+      <BlogIndex entry={extra} />
+    ) : (
+      <SearchPage entry={extra} />
+    );
+  }
   if (key && !entry) notFound();
   if (!entry) {
     const groups = [
