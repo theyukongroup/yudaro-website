@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import ContactContent from '@/components/contact-content';
+import { OfficialProfileLinks } from '@/components/official-profile-links';
 export default async function ContactPage({
   searchParams,
 }: {
@@ -33,6 +34,9 @@ export default async function ContactPage({
           Serving Houston-area businesses and projects across Texas and the
           United States. Describe your systems and goals; please do not submit
           passwords or sensitive customer data.
+        </p>
+        <p>
+          Official profiles: <OfficialProfileLinks inline />
         </p>
         <Link prefetch={false} href="/locations/houston">
           Houston-area consulting and implementation

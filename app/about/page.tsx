@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import { ArrowDown, ArrowUpRight, Check } from 'lucide-react';
 import { pageMetadata } from '@/lib/seo';
+import { OfficialProfileLinks } from '@/components/official-profile-links';
 
 export const metadata: Metadata = pageMetadata(
   'About Yudaro: AI + ERP Implementation Company',
@@ -221,9 +222,7 @@ export default function AboutPage() {
                 Understand our evidence standard
               </Link>
               {' · '}
-              <a href="https://www.linkedin.com/company/yudaro/">
-                Yudaro on LinkedIn
-              </a>
+              <OfficialProfileLinks inline />
               {' · '}
               <a href="https://maps.app.goo.gl/hLXsxHprmSoHsLo88?g_st=ic">
                 Yudaro on Google Maps

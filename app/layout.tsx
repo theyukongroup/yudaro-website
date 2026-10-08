@@ -32,6 +32,8 @@ import { SearchAnalytics } from '@/components/search-analytics';
 import { MotionSystem } from '@/components/motion-system';
 import { DesktopNavigation } from '@/components/desktop-navigation';
 import { FlowLine } from '@/components/yudaro-visuals';
+import { OfficialProfileLinks } from '@/components/official-profile-links';
+import { officialSocialProfiles } from '@/lib/official-profiles';
 
 const sans = Manrope({ variable: '--font-sans', subsets: ['latin'] });
 const mono = Geist_Mono({ variable: '--font-mono', subsets: ['latin'] });
@@ -202,9 +204,7 @@ export default async function RootLayout({
                 <Mail size={16} />
                 Contact our team
               </Link>
-              <a href="https://www.linkedin.com/company/yudaro/">
-                Yudaro on LinkedIn
-              </a>
+              <OfficialProfileLinks />
               <a href="https://maps.app.goo.gl/hLXsxHprmSoHsLo88?g_st=ic">
                 Yudaro on Google Maps
               </a>
@@ -250,7 +250,7 @@ export default async function RootLayout({
                   '@type': ['Organization', 'ProfessionalService'],
                   '@id': `${SITE_URL}/#organization`,
                   name: 'Yudaro',
-                  sameAs: ['https://www.linkedin.com/company/yudaro/'],
+                  sameAs: officialSocialProfiles.map(({ url }) => url),
                   description:
                     'Yudaro is an AI + ERP implementation company providing Private AI, Odoo ERP implementation, AI + ERP integration, and business automation.',
                   email: 'info@yudaro.com',
