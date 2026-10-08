@@ -4,6 +4,7 @@ import { ArticleCredits, articleCreditSchema } from './article-credits';
 import Image from 'next/image';
 import { Breadcrumbs, PageSchema, StructuredData } from './structured-data';
 import { SITE_URL } from '@/lib/seo';
+import { ResourceArticleContent } from './resource-editorial';
 import { verifiedPeople } from '@/lib/editorial-people';
 import type { ReactNode } from 'react';
 import type { ContentSection, SearchContent } from '@/lib/search-content';
@@ -24,11 +25,42 @@ function sectionBody(section: ContentSection): ReactNode {
   return [...parts, remaining];
 }
 
-export function ContentSections({ entry }: { entry: SearchContent }) {
+function SourcesContent({ entry }: { entry: SearchContent }) {
+  return (
+    <>
+      <p>
+        General implementation guidance and illustrative workflows, not verified
+        client results. Vendor capabilities depend on version, edition, plan and
+        configuration.
+      </p>
+      <ul>
+        {entry.sources?.map((source) => (
+          <li key={source.href}>
+            <Link prefetch={false} href={source.href}>
+              {source.label}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </>
+  );
+}
+export function ContentSections({
+  entry,
+  editorial = false,
+}: {
+  entry: SearchContent;
+  editorial?: boolean;
+}) {
   return (
     <div className="search-sections section-shell">
       {entry.sections.map((s, i) => (
         <section id={`section-${i + 1}`} key={s.title}>
+          {editorial && !/^\d+[.)]\s/.test(s.title) && (
+            <span className="resource-section-number">
+              SECTION {String(i + 1).padStart(2, '0')}
+            </span>
+          )}
           <h2>{s.title}</h2>
           <p>{sectionBody(s)}</p>
           {s.diagram && <ArchitectureDiagram variant={s.diagram} />}
@@ -40,7 +72,12 @@ export function ContentSections({ entry }: { entry: SearchContent }) {
             </ul>
           )}
           {s.table && (
-            <div className="search-table">
+            <div
+              className="search-table"
+              role={editorial ? 'region' : undefined}
+              tabIndex={editorial ? 0 : undefined}
+              aria-label={editorial ? s.title + ' table' : undefined}
+            >
               <table>
                 <thead>
                   <tr>
@@ -69,10 +106,15 @@ export function ContentSections({ entry }: { entry: SearchContent }) {
               </table>
             </div>
           )}
+          {editorial && s.table && (
+            <p className="resource-table-hint">
+              Scroll horizontally to read the full table.
+            </p>
+          )}
         </section>
       ))}
       {entry.faqs.length > 0 && (
-        <section>
+        <section id={editorial ? 'questions' : undefined}>
           <h2>Questions before you start</h2>
           {entry.faqs.map(([q, a]) => (
             <details key={q}>
@@ -83,26 +125,29 @@ export function ContentSections({ entry }: { entry: SearchContent }) {
         </section>
       )}
       {entry.sources && (
-        <section className="search-sources">
-          <h2>Sources and scope</h2>
-          <p>
-            General implementation guidance and illustrative workflows, not
-            verified client results. Vendor capabilities depend on version,
-            edition, plan and configuration.
-          </p>
-          <ul>
-            {entry.sources.map((s) => (
-              <li key={s.href}>
-                <Link prefetch={false} href={s.href}>
-                  {s.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
+        <section
+          className="search-sources"
+          id={editorial ? 'sources' : undefined}
+        >
+          {editorial ? (
+            <details className="resource-source-disclosure">
+              <summary>
+                <h2>Sources and scope</h2>
+              </summary>
+              <SourcesContent entry={entry} />
+            </details>
+          ) : (
+            <>
+              <h2>Sources and scope</h2>
+              <SourcesContent entry={entry} />
+            </>
+          )}
         </section>
       )}
-      <aside>
-        <h2>Plan your next step</h2>
+      <aside id={editorial ? 'related-resources' : undefined}>
+        <h2>
+          {editorial ? 'Explore related resources' : 'Plan your next step'}
+        </h2>
         <div className="search-related">
           {entry.related.map((link) => (
             <Link prefetch={false} key={link.href} href={link.href}>
@@ -115,7 +160,13 @@ export function ContentSections({ entry }: { entry: SearchContent }) {
     </div>
   );
 }
-export function SearchPage({ entry }: { entry: SearchContent }) {
+export function SearchPage({
+  entry,
+  editorial = false,
+}: {
+  entry: SearchContent;
+  editorial?: boolean;
+}) {
   const parent = entry.path.startsWith('/resources/')
     ? { href: '/resources', label: 'Resources' }
     : entry.path.startsWith('/industries/')
@@ -125,60 +176,72 @@ export function SearchPage({ entry }: { entry: SearchContent }) {
         : null;
   return (
     <main className="search-page">
-      <Breadcrumbs
-        items={[
-          { href: '/', label: 'Home' },
-          ...(parent ? [parent] : []),
-          { href: entry.path, label: entry.title },
-        ]}
-      />
-      <header className="section-shell search-hero">
-        <div>
-          <span className="section-index">{entry.eyebrow}</span>
-          <h1>{entry.title}</h1>
-          <p>{entry.intro}</p>
-          <div className="actions">
-            <Link prefetch={false} className="button primary" href="/contact">
-              Discuss your project
-            </Link>
-            <Link
-              prefetch={false}
-              className="button secondary"
-              href="/assessment"
-            >
-              Take the free assessment
-            </Link>
-          </div>
-          {entry.kind === 'Article' && <ArticleCredits entry={entry} />}
-          {entry.editorialNote && (
-            <p className="search-byline">{entry.editorialNote}</p>
-          )}
-        </div>
-        {entry.image && (
-          <Image
-            src={entry.image}
-            alt=""
-            width={800}
-            height={600}
-            sizes="(max-width: 800px) 100vw, 40vw"
-            priority
+      {editorial ? (
+        <ResourceArticleContent entry={entry}>
+          <ContentSections entry={entry} editorial />
+        </ResourceArticleContent>
+      ) : (
+        <>
+          <Breadcrumbs
+            items={[
+              { href: '/', label: 'Home' },
+              ...(parent ? [parent] : []),
+              { href: entry.path, label: entry.title },
+            ]}
           />
-        )}
-      </header>
-      <ContentSections entry={entry} />
-      <section className="mini-cta section-shell">
-        <div>
-          <span className="section-index">BUILD A PRACTICAL PLAN</span>
-          <h2>Start with one workflow worth improving.</h2>
-          <p>
-            Bring your systems, sample records and operating priorities. We will
-            discuss fit, scope and the next decision.
-          </p>
-        </div>
-        <Link prefetch={false} href="/contact" className="button primary">
-          Request a consultation
-        </Link>
-      </section>
+          <header className="section-shell search-hero">
+            <div>
+              <span className="section-index">{entry.eyebrow}</span>
+              <h1>{entry.title}</h1>
+              <p>{entry.intro}</p>
+              <div className="actions">
+                <Link
+                  prefetch={false}
+                  className="button primary"
+                  href="/contact"
+                >
+                  Discuss your project
+                </Link>
+                <Link
+                  prefetch={false}
+                  className="button secondary"
+                  href="/assessment"
+                >
+                  Take the free assessment
+                </Link>
+              </div>
+              {entry.kind === 'Article' && <ArticleCredits entry={entry} />}
+              {entry.editorialNote && (
+                <p className="search-byline">{entry.editorialNote}</p>
+              )}
+            </div>
+            {entry.image && (
+              <Image
+                src={entry.image}
+                alt=""
+                width={800}
+                height={600}
+                sizes="(max-width: 800px) 100vw, 40vw"
+                priority
+              />
+            )}
+          </header>
+          <ContentSections entry={entry} />
+          <section className="mini-cta section-shell">
+            <div>
+              <span className="section-index">BUILD A PRACTICAL PLAN</span>
+              <h2>Start with one workflow worth improving.</h2>
+              <p>
+                Bring your systems, sample records and operating priorities. We
+                will discuss fit, scope and the next decision.
+              </p>
+            </div>
+            <Link prefetch={false} href="/contact" className="button primary">
+              Request a consultation
+            </Link>
+          </section>
+        </>
+      )}
       <PageSchema
         path={entry.path}
         title={entry.title}

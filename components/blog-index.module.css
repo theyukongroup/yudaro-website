@@ -85,84 +85,6 @@
   outline-offset: 5px;
   border-color: var(--y-blue);
 }
-.cover {
-  position: relative;
-  isolation: isolate;
-  container-type: inline-size;
-  aspect-ratio: 16 / 9;
-  flex: none;
-  overflow: hidden;
-  border-radius: 19px 19px 0 0;
-  color: var(--y-navy);
-}
-.pilot {
-  color: white;
-  background:
-    radial-gradient(
-      ellipse at 100% 0%,
-      rgba(0, 140, 158, 0.32),
-      transparent 65%
-    ),
-    var(--y-navy);
-  --cover-line: rgba(167, 231, 237, 0.32);
-  --cover-fill: #90d8dd;
-}
-.migration {
-  background: linear-gradient(135deg, #edf8f8, #c6e8ec);
-  --cover-line: rgba(0, 123, 140, 0.3);
-  --cover-fill: rgba(0, 123, 140, 0.12);
-}
-.inventory {
-  background: linear-gradient(135deg, #f1effa, #e0dbf3);
-  --cover-line: rgba(105, 82, 188, 0.32);
-  --cover-fill: rgba(105, 82, 188, 0.16);
-}
-.coverCategory {
-  position: absolute;
-  inset: 22px auto auto 26px;
-  font:
-    500 10px var(--font-mono),
-    monospace;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-}
-.coverHeadline {
-  position: absolute;
-  z-index: 1;
-  inset: 30% 24px auto 26px;
-  font-size: clamp(24px, 8.8cqw, 39px);
-  font-weight: 650;
-  line-height: 1.1;
-  letter-spacing: -0.045em;
-}
-.coverHeadline > span {
-  display: block;
-}
-.coverBrand {
-  position: absolute;
-  inset: auto auto 19px 26px;
-  font:
-    500 9px var(--font-mono),
-    monospace;
-  letter-spacing: 0.075em;
-  text-transform: uppercase;
-}
-.geometry {
-  position: absolute;
-  z-index: -1;
-  width: 43%;
-  right: -6%;
-  bottom: -15%;
-  stroke: var(--cover-line);
-  stroke-width: 1.4;
-}
-.filled {
-  fill: var(--cover-fill);
-}
-.solid {
-  fill: var(--cover-fill);
-  stroke: none;
-}
 .cardBody {
   display: flex;
   flex: 1;
@@ -297,9 +219,6 @@
   .grid {
     grid-template-columns: minmax(0, 1fr);
     gap: 24px;
-  }
-  .coverHeadline {
-    font-size: clamp(24px, 8.8cqw, 44px);
   }
   .cardBody h3 {
     font-size: 22px;

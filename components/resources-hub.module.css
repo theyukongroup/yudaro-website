@@ -1,0 +1,315 @@
+.page {
+  background: var(--y-white, #fff);
+  color: var(--y-navy, #092b46);
+}
+.shell {
+  padding-bottom: clamp(64px, 8vw, 112px);
+}
+.header {
+  padding-block: clamp(48px, 6vw, 80px) clamp(36px, 5vw, 56px);
+}
+.eyebrow {
+  display: block;
+  margin-bottom: 20px;
+  color: var(--y-blue, #075b88);
+  font:
+    600 11px var(--font-mono),
+    monospace;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.header h1 {
+  margin: 0;
+  font-size: clamp(42px, 5.4vw, 68px);
+  line-height: 1.08;
+  letter-spacing: -0.055em;
+}
+.header p {
+  max-width: 730px;
+  margin: 20px 0 0;
+  font-size: clamp(16px, 1.5vw, 19px);
+  line-height: 1.7;
+  color: var(--y-muted, #526976);
+}
+.sectionHeading {
+  padding-top: 20px;
+  margin-bottom: 22px;
+  border-top: 1px solid var(--y-line, #d9e5ee);
+}
+.sectionHeading h2 {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+.collectionGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.collectionGrid article {
+  min-width: 0;
+}
+.collectionCard {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.85fr) minmax(0, 1.15fr);
+  min-height: 218px;
+  height: 100%;
+  overflow: hidden;
+  color: inherit;
+  background: var(--y-white, #fff);
+  border: 1px solid var(--y-line, #d9e5ee);
+  border-radius: 18px;
+  text-decoration: none;
+  transition:
+    border-color 180ms ease,
+    box-shadow 180ms ease;
+}
+.collectionCover {
+  min-width: 0;
+  align-self: stretch;
+}
+.collectionCover > div {
+  height: 100%;
+  min-height: 218px;
+  aspect-ratio: auto;
+  border-radius: 0;
+}
+.collectionBody {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  padding: 24px 25px;
+}
+.collectionBody h3 {
+  margin: 10px 0 11px;
+  font-size: clamp(19px, 1.8vw, 23px);
+  line-height: 1.28;
+  letter-spacing: -0.035em;
+}
+.collectionBody p {
+  margin: 0 0 22px;
+  color: var(--y-muted, #526976);
+  font-size: 13px;
+  line-height: 1.65;
+}
+.category {
+  color: var(--y-blue, #075b88);
+  font-size: 11px;
+  font-weight: 650;
+  line-height: 1.5;
+}
+.readMore {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  width: 100%;
+  margin-top: auto;
+  color: var(--y-blue, #075b88);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+.readMore svg {
+  flex: none;
+}
+.topicNav {
+  padding-block: 27px 28px;
+  margin-top: 34px;
+  border-top: 1px solid var(--y-line, #d9e5ee);
+  border-bottom: 1px solid var(--y-line, #d9e5ee);
+}
+.topicNav > span {
+  display: block;
+  margin-bottom: 13px;
+  color: var(--y-muted, #526976);
+  font-size: 12px;
+  line-height: 1.5;
+}
+.topicNav > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.topicNav a {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 42px;
+  padding: 10px 15px;
+  border: 1px solid var(--y-line, #d9e5ee);
+  border-radius: 9px;
+  color: var(--y-navy, #092b46);
+  font-size: 12px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.topicNav a:hover {
+  border-color: var(--y-blue, #075b88);
+  background: #f4f9fa;
+}
+.group {
+  padding-top: clamp(42px, 5vw, 64px);
+  scroll-margin-top: 110px;
+}
+.group + .group {
+  margin-top: 50px;
+  border-top: 1px solid var(--y-line, #d9e5ee);
+}
+.groupHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 24px;
+  margin-bottom: 26px;
+}
+.groupHeading h2 {
+  margin: 0;
+  font-size: clamp(23px, 2.5vw, 30px);
+  line-height: 1.25;
+  letter-spacing: -0.035em;
+}
+.groupHeading p {
+  margin: 11px 0 0;
+  color: var(--y-muted, #526976);
+  font-size: 14px;
+  line-height: 1.65;
+}
+.count {
+  flex: none;
+  color: var(--y-muted, #526976);
+  font:
+    400 11px var(--font-mono),
+    monospace;
+  line-height: 1.5;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+  align-items: stretch;
+}
+.article {
+  display: flex;
+  min-width: 0;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  color: inherit;
+  background: var(--y-white, #fff);
+  border: 1px solid var(--y-line, #d9e5ee);
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: 0 3px 12px rgba(9, 43, 70, 0.025);
+  transition:
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    transform 180ms ease;
+}
+.cardBody {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 26px 22px;
+}
+.cardBody h3 {
+  margin: 13px 0 12px;
+  font-size: clamp(20px, 1.8vw, 23px);
+  line-height: 1.32;
+  letter-spacing: -0.035em;
+}
+.cardBody p {
+  margin: 0 0 25px;
+  color: var(--y-muted, #526976);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.card:focus-visible,
+.collectionCard:focus-visible,
+.topicNav a:focus-visible {
+  outline: 3px solid var(--y-blue, #075b88);
+  outline-offset: 5px;
+  border-color: var(--y-blue, #075b88);
+}
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .card:hover {
+    transform: translateY(-3px);
+    border-color: #a8c5d2;
+    box-shadow: 0 12px 30px rgba(9, 43, 70, 0.06);
+  }
+  .collectionCard:hover {
+    border-color: #a8c5d2;
+    box-shadow: 0 8px 24px rgba(9, 43, 70, 0.05);
+  }
+}
+@media (max-width: 1050px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+  }
+  .collectionGrid {
+    grid-template-columns: 1fr;
+    max-width: 760px;
+  }
+  .collectionCard {
+    grid-template-columns: minmax(200px, 0.65fr) minmax(0, 1.35fr);
+  }
+}
+@media (max-width: 640px) {
+  .header {
+    padding-block: 42px 34px;
+  }
+  .collectionCard {
+    grid-template-columns: 1fr;
+  }
+  .collectionCover > div {
+    height: auto;
+    min-height: 0;
+    aspect-ratio: 16 / 9;
+  }
+  .collectionBody {
+    padding: 23px 24px;
+  }
+  .topicNav {
+    margin-top: 30px;
+    padding-block: 23px;
+  }
+  .topicNav > div {
+    gap: 8px;
+  }
+  .topicNav a {
+    gap: 8px;
+    font-size: 11px;
+    padding-inline: 12px;
+  }
+  .groupHeading {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .groupHeading p {
+    font-size: 13px;
+  }
+  .group + .group {
+    margin-top: 36px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .cardBody {
+    padding-inline: 24px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .card,
+  .collectionCard {
+    transition: none;
+  }
+}

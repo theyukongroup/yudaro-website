@@ -6,14 +6,21 @@ import {
 } from '@/components/article-credits';
 import { verifiedPeople } from '@/lib/editorial-people';
 import { PageSchema } from '@/components/structured-data';
-import { contentByPath, searchContent } from '@/lib/search-content';
+import { contentByPath } from '@/lib/search-content';
 import { SearchPage } from '@/components/search-content';
 import { BlogIndex } from '@/components/blog-index';
+import { ResourcesHub } from '@/components/resources-hub';
+import {
+  ResourceArchitectureLibrary,
+  ResourceHero,
+  ResourceReadingNav,
+} from '@/components/resource-editorial';
+import resourceStyles from '@/components/resource-editorial.module.css';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { ArrowRight } from 'lucide-react';
 import { isLocale, type Locale } from '@/lib/i18n';
-import { resourceBySlug, resourceEntries } from '@/lib/resource-content';
+import { resourceBySlug } from '@/lib/resource-content';
 import { localizedUrls, pageMetadata, SITE_URL } from '@/lib/seo';
 
 type Params = { slug?: string[] };
@@ -174,90 +181,19 @@ export default async function ResourcePage({
   const l = labels[locale];
   const extra = contentByPath.get(`/resources/${key}`);
   if (extra) {
-    return extra.path === '/resources/blog' ? (
-      <BlogIndex entry={extra} />
-    ) : (
-      <SearchPage entry={extra} />
-    );
+    if (extra.path === '/resources/blog') return <BlogIndex entry={extra} />;
+    if (extra.path === '/resources/architecture')
+      return <ResourceArchitectureLibrary entry={extra} />;
+    return <SearchPage entry={extra} editorial={extra.kind === 'Article'} />;
   }
   if (key && !entry) notFound();
-  if (!entry) {
-    const groups = [
-      'Private AI',
-      'Odoo ERP',
-      'AI + ERP',
-      'Business Automation',
-      'Comparisons',
-      'Buyer Guides',
-      'Industries',
-    ];
+  if (!entry)
     return (
-      <main className="resource-page">
-        <section className="resource-hero section-shell">
-          <span className="section-index">YUDARO / {l.resources}</span>
-          <h1>{l.resources}</h1>
-          <p>{l.intro}</p>
-        </section>
-        <section className="resource-library section-shell">
-          <h2>{l.browse}</h2>
-          <p>
-            <Link prefetch={false} href="/resources/blog">
-              Read the Yudaro blog: practical pilot tests and migration checklists
-            </Link>
-          </p>
-          <p>
-            <Link prefetch={false} href="/resources/architecture">
-              Explore the architecture library and implementation evidence
-              standards
-            </Link>
-          </p>
-          <div className="resource-group">
-            <h3>Implementation and readiness</h3>
-            <div>
-              {searchContent
-                .filter((e) => e.kind === 'Article')
-                .map((e) => (
-                  <Link prefetch={false} href={e.path} key={e.path}>
-                    <strong>{e.title}</strong>
-                    <span>{e.description}</span>
-                  </Link>
-                ))}
-            </div>
-          </div>
-          {groups.map((group) => (
-            <div className="resource-group" key={group}>
-              <h3>{group}</h3>
-              <div>
-                {(group === 'Industries'
-                  ? [
-                      ...resourceEntries.filter(
-                        (x) =>
-                          x.pillar === group &&
-                          x.slug !== 'industries/restaurants',
-                      ),
-                      resourceBySlug.get('industries/restaurants')!,
-                    ].filter(Boolean)
-                  : resourceEntries.filter((x) => x.pillar === group)
-                ).map((x) => (
-                  <a
-                    href={localeUrl(`/resources/${x.slug}`, locale).replace(
-                      SITE_URL,
-                      '',
-                    )}
-                    key={x.slug}
-                  >
-                    <strong>{x.copy[locale].title}</strong>
-                    <span>{x.copy[locale].description}</span>
-                    <ArrowRight size={17} />
-                  </a>
-                ))}
-              </div>
-            </div>
-          ))}
-        </section>
-      </main>
+      <ResourcesHub
+        locale={locale}
+        labels={l as { resources: string; intro: string; browse: string }}
+      />
     );
-  }
   const c = entry.copy[locale];
   const path = `/resources/${entry.slug}`;
   const canonical = localeUrl(path, locale);
@@ -303,7 +239,7 @@ export default async function ResourcePage({
   const href = (value: string) =>
     localeUrl(value, locale).replace(SITE_URL, '');
   return (
-    <main className="resource-page">
+    <main className={resourceStyles.legacy}>
       <article>
         <nav className="breadcrumbs section-shell" aria-label="Breadcrumb">
           <a href={href('/')}>{l.home}</a>
@@ -312,10 +248,12 @@ export default async function ResourcePage({
           <span>/</span>
           <span aria-current="page">{c.title}</span>
         </nav>
-        <header className="resource-hero section-shell">
-          <span className="section-index">{entry.pillar}</span>
-          <h1>{c.title}</h1>
-          <p className="resource-deck">{c.description}</p>
+        <ResourceHero
+          title={c.title}
+          intro={c.description}
+          path={path}
+          eyebrow={entry.pillar}
+        >
           <ArticleCredits
             entry={{
               ...entry,
@@ -323,130 +261,160 @@ export default async function ResourcePage({
               dateModified: entry.dateModified ?? '2026-09-05',
             }}
           />
-        </header>
-        <section className="answer-block section-shell">
-          <span>{l.answer}</span>
-          <p>{c.answer}</p>
-        </section>
-        <div className="resource-body section-shell">
-          <section>
-            <h2>{l.meaning}</h2>
-            <p>{c.operations}</p>
-          </section>
-          <section>
-            <h2>{l.example}</h2>
-            <p>{c.example}</p>
-          </section>
-          <section>
-            <h2>{l.limits}</h2>
-            <p>{c.limits}</p>
-          </section>
-          <section>
-            <h2>{l.questions}</h2>
-            {c.questions.map(([q, a]) => (
-              <div className="resource-faq" key={q}>
-                <h3>{q}</h3>
-                <p>{a}</p>
-              </div>
-            ))}
-          </section>
-          {locale === 'en' && entry.slug === 'comparisons' && (
-            <section>
-              <h2>Compare the operating model</h2>
-              <div className="search-table">
-                <table>
-                  <thead>
-                    <tr>
-                      <th scope="col">Choice</th>
-                      <th scope="col">Consider</th>
-                      <th scope="col">Verify before deciding</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {[
-                      [
-                        'Private AI vs public AI',
-                        'Control of sources, infrastructure and external data paths',
-                        'Provider terms, retention, permissions and actual deployment',
-                      ],
-                      [
-                        'Document search vs Corporate Culture Intelligence',
-                        'Retrieve policies versus apply approved experience and leadership principles',
-                        'Knowledge owners, permissions, reviewed feedback and authorized updates',
-                      ],
-                      [
-                        'Odoo Community vs Enterprise',
-                        'Required modules, hosting, support and maintenance',
-                        'Current edition coverage, licensing and integration access',
-                      ],
-                      [
-                        'ERP vs accounting software',
-                        'Operational transactions across departments versus financial records',
-                        'Whether sales, stock, purchasing and service need a shared record',
-                      ],
-                      [
-                        'Local vs cloud AI',
-                        'Onsite administration versus provider dependence',
-                        'Workload, recovery, connectivity and data processing',
-                      ],
-                      [
-                        'Custom ERP vs Odoo',
-                        'Tailored code versus a configurable platform',
-                        'Lifecycle cost, ownership, upgrades and fit-gap evidence',
-                      ],
-                    ].map((row) => (
-                      <tr key={row[0]}>
-                        <th scope="row">{row[0]}</th>
-                        <td>{row[1]}</td>
-                        <td>{row[2]}</td>
+        </ResourceHero>
+        <div
+          className={['section-shell', resourceStyles.readingLayout].join(' ')}
+        >
+          <ResourceReadingNav
+            sections={[
+              { id: 'quick-answer', label: l.answer },
+              { id: 'section-1', label: l.meaning },
+              { id: 'section-2', label: l.example },
+              { id: 'section-3', label: l.limits },
+              { id: 'questions', label: l.questions },
+              ...(locale === 'en' && entry.slug === 'comparisons'
+                ? [
+                    {
+                      id: 'comparison-table',
+                      label: 'Compare the operating model',
+                    },
+                  ]
+                : []),
+              { id: 'implementation-context', label: 'Implementation context' },
+              { id: 'related-resources', label: l.related },
+            ]}
+          />
+          <div className="resource-body">
+            <section id="quick-answer" className={resourceStyles.quickAnswer}>
+              <span>{l.answer}</span>
+              <p>{c.answer}</p>
+            </section>
+            <section id="section-1">
+              <h2>{l.meaning}</h2>
+              <p>{c.operations}</p>
+            </section>
+            <section id="section-2">
+              <h2>{l.example}</h2>
+              <p>{c.example}</p>
+            </section>
+            <section id="section-3">
+              <h2>{l.limits}</h2>
+              <p>{c.limits}</p>
+            </section>
+            <section id="questions">
+              <h2>{l.questions}</h2>
+              {c.questions.map(([q, a]) => (
+                <details key={q}>
+                  <summary>{q}</summary>
+                  <p>{a}</p>
+                </details>
+              ))}
+            </section>
+            {locale === 'en' && entry.slug === 'comparisons' && (
+              <section id="comparison-table">
+                <h2>Compare the operating model</h2>
+                {/* oxlint-disable jsx-a11y/no-noninteractive-tabindex -- A wide table must be focusable for keyboard scrolling. */}
+                <section
+                  className="search-table"
+
+                  tabIndex={0}
+                  aria-label="Compare the operating model table"
+                >
+                  <table>
+                    <thead>
+                      <tr>
+                        <th scope="col">Choice</th>
+                        <th scope="col">Consider</th>
+                        <th scope="col">Verify before deciding</th>
                       </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
+                    </thead>
+                    <tbody>
+                      {[
+                        [
+                          'Private AI vs public AI',
+                          'Control of sources, infrastructure and external data paths',
+                          'Provider terms, retention, permissions and actual deployment',
+                        ],
+                        [
+                          'Document search vs Corporate Culture Intelligence',
+                          'Retrieve policies versus apply approved experience and leadership principles',
+                          'Knowledge owners, permissions, reviewed feedback and authorized updates',
+                        ],
+                        [
+                          'Odoo Community vs Enterprise',
+                          'Required modules, hosting, support and maintenance',
+                          'Current edition coverage, licensing and integration access',
+                        ],
+                        [
+                          'ERP vs accounting software',
+                          'Operational transactions across departments versus financial records',
+                          'Whether sales, stock, purchasing and service need a shared record',
+                        ],
+                        [
+                          'Local vs cloud AI',
+                          'Onsite administration versus provider dependence',
+                          'Workload, recovery, connectivity and data processing',
+                        ],
+                        [
+                          'Custom ERP vs Odoo',
+                          'Tailored code versus a configurable platform',
+                          'Lifecycle cost, ownership, upgrades and fit-gap evidence',
+                        ],
+                      ].map((row) => (
+                        <tr key={row[0]}>
+                          <th scope="row">{row[0]}</th>
+                          <td>{row[1]}</td>
+                          <td>{row[2]}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </section>
+                {/* oxlint-enable jsx-a11y/no-noninteractive-tabindex */}
+                <p>
+                  These are evaluation criteria, not universal feature or
+                  security rankings. Check the actual editions and contracts.
+                </p>
+              </section>
+            )}
+            <section id="implementation-context">
+              <h2>Implementation context</h2>
               <p>
-                These are evaluation criteria, not universal feature or security
-                rankings. Check the actual editions and contracts.
+                These are general implementation recommendations and
+                illustrative examples, not verified customer results. Yudaro is
+                the organizational author; no individual expert review is
+                claimed. Software capabilities depend on edition, plan, version
+                and configuration.
+              </p>
+              <p>
+                <Link
+                  prefetch={false}
+                  href="/resources/odoo-implementation-planning"
+                >
+                  Plan an ERP rollout
+                </Link>
+                {' · '}
+                <Link prefetch={false} href="/resources/private-ai-security">
+                  Review private AI controls
+                </Link>
+                {' · '}
+                <Link prefetch={false} href="/resources/faqs">
+                  Read common questions
+                </Link>
               </p>
             </section>
-          )}
-          <section>
-            <h2>Implementation context</h2>
-            <p>
-              These are general implementation recommendations and illustrative
-              examples, not verified customer results. Yudaro is the
-              organizational author; no individual expert review is claimed.
-              Software capabilities depend on edition, plan, version and
-              configuration.
-            </p>
-            <p>
-              <Link
-                prefetch={false}
-                href="/resources/odoo-implementation-planning"
-              >
-                Plan an ERP rollout
-              </Link>
-              {' · '}
-              <Link prefetch={false} href="/resources/private-ai-security">
-                Review private AI controls
-              </Link>
-              {' · '}
-              <Link prefetch={false} href="/resources/faqs">
-                Read common questions
-              </Link>
-            </p>
-          </section>
-          <aside>
-            <h2>{l.related}</h2>
-            <div className="resource-related">
-              {entry.related.map((link) => (
-                <a href={href(link.href)} key={link.href}>
-                  {link.label}
-                  <ArrowRight size={16} />
-                </a>
-              ))}
-            </div>
-          </aside>
+            <aside id="related-resources">
+              <h2>{l.related}</h2>
+              <div className="resource-related">
+                {entry.related.map((link) => (
+                  <a href={href(link.href)} key={link.href}>
+                    {link.label}
+                    <ArrowRight size={16} />
+                  </a>
+                ))}
+              </div>
+            </aside>
+          </div>
         </div>
         {['private-ai', 'ai-erp', 'comparisons'].includes(entry.slug) && (
           <CultureContext />
