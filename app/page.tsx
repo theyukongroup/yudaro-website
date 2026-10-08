@@ -30,6 +30,7 @@ import {
 import { MagneticLink } from '@/components/motion-system';
 import type { Metadata } from 'next';
 import { pageMetadata } from '@/lib/seo';
+import { SocialProfileIcons } from '@/components/official-profile-links';
 export const metadata: Metadata = pageMetadata(
   'Yudaro AI + ERP | Private AI & Odoo ERP Implementation',
   'Yudaro provides Private AI, Odoo ERP implementation, AI + ERP integration, and business automation for growing companies.',
@@ -194,6 +195,7 @@ export default function Home() {
               Explore AI ERP
             </Link>
           </div>
+          <SocialProfileIcons />
           <div className="trust-row">
             <span>PRIVATE BY DESIGN</span>
             <span>BUSINESS-FIRST</span>

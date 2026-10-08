@@ -315,6 +315,43 @@ p {
   font-size: 9px;
   flex-wrap: wrap;
 }
+.home-social-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+  width: fit-content;
+  max-width: 100%;
+}
+.home-social-links > span {
+  margin-right: 4px;
+  color: var(--y-muted);
+  font-size: 12px;
+  font-weight: 600;
+}
+.home-social-links > a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
+  border: 1px solid var(--y-line);
+  border-radius: 12px;
+  color: var(--y-blue);
+  background: var(--y-white);
+  transition: background 0.2s, border-color 0.2s;
+}
+.home-social-links > a:hover,
+.home-social-links > a:focus-visible {
+  background: var(--y-mist);
+  border-color: var(--y-blue);
+}
+.home-social-links svg {
+  width: 22px;
+  height: 22px;
+}
 .trust-row span:before {
   content: '✓';
   color: var(--y-cyan);
