@@ -153,7 +153,10 @@ export function DesktopNavigation() {
               <span className="section-index">{group.name}</span>
               <strong>{group.intro}</strong>
               <Link
-                href={group.name === 'Industries' ? '/industries' : '/ai-erp'}
+                href={
+                  group.name === 'Industries' ? '/industries' : '/solutions'
+                }
+                onClick={() => setOpen(null)}
               >
                 Explore {group.name.toLowerCase()} <ArrowUpRight size={16} />
               </Link>

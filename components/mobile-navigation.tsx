@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { ChevronDown, Menu, X } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 import { LanguageSelector } from '@/components/language-runtime';
@@ -8,8 +9,9 @@ import { LanguageSelector } from '@/components/language-runtime';
 type Props = { signedIn: boolean; accountHref: string };
 const groups = [
   {
-    label: 'Services',
+    label: 'Solutions',
     links: [
+      ['All Solutions', '/solutions'],
       ['Private AI', '/ai-solutions'],
       ['Corporate Culture Intelligence', '/corporate-culture-intelligence'],
       ['Odoo ERP', '/erp-solutions'],
@@ -96,7 +98,7 @@ export function MobileNavigation({ signedIn, accountHref }: Props) {
             aria-label="Mobile navigation"
           >
             <div className="mobile-menu-head">
-              <a
+              <Link
                 href="/"
                 onClick={() => setOpen(false)}
                 aria-label="Yudaro home"
@@ -107,7 +109,7 @@ export function MobileNavigation({ signedIn, accountHref }: Props) {
                   width={190}
                   height={95}
                 />
-              </a>
+              </Link>
               <button
                 ref={closeButton}
                 type="button"
@@ -118,7 +120,7 @@ export function MobileNavigation({ signedIn, accountHref }: Props) {
               </button>
             </div>
             <nav aria-label="Complete website navigation">
-              <a href="/">Home</a>
+              <Link href="/">Home</Link>
               {groups.map((group) => (
                 <details key={group.label}>
                   <summary>
@@ -127,16 +129,20 @@ export function MobileNavigation({ signedIn, accountHref }: Props) {
                   </summary>
                   <div>
                     {group.links.map(([label, href]) => (
-                      <a key={href} href={href} onClick={() => setOpen(false)}>
+                      <Link
+                        key={href}
+                        href={href}
+                        onClick={() => setOpen(false)}
+                      >
                         {label}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </details>
               ))}
-              <a href="/pricing">Pricing</a>
-              <a href="/about">About</a>
-              <a href="/contact">Contact</a>
+              <Link href="/pricing">Pricing</Link>
+              <Link href="/about">About</Link>
+              <Link href="/contact">Contact</Link>
             </nav>
             <section className="mobile-member-promo">
               <span>FREE YUDARO BUSINESS TOOLS</span>
@@ -144,29 +150,32 @@ export function MobileNavigation({ signedIn, accountHref }: Props) {
                 See how ready your business is for AI + ERP and receive your
                 personalized recommendations.
               </h2>
-              <a href="/assessment" onClick={() => setOpen(false)}>
+              <Link href="/assessment" onClick={() => setOpen(false)}>
                 {signedIn
                   ? 'View My Business Assessment'
                   : 'Get My Free AI + ERP Assessment'}
-              </a>
+              </Link>
               <small>Free • No credit card required</small>
             </section>
             <section className="mobile-account-controls">
               <b>Account</b>
               {signedIn ? (
                 <>
-                  <a href="/account">My Dashboard</a>
-                  <a href="/account?tool=roadmap">My Roadmap</a>
-                  <a href="/signout-with-chatgpt?return_to=%2F" target="_top">
+                  <Link href="/account">My Dashboard</Link>
+                  <Link href="/account?tool=roadmap">My Roadmap</Link>
+                  <Link
+                    href="/signout-with-chatgpt?return_to=%2F"
+                    target="_top"
+                  >
                     Sign Out
-                  </a>
+                  </Link>
                 </>
               ) : (
                 <>
-                  <a href={accountHref} target="_top">
+                  <Link href={accountHref} target="_top">
                     Sign In
-                  </a>
-                  <a href="/free-account">Create Free Account</a>
+                  </Link>
+                  <Link href="/free-account">Create Free Account</Link>
                 </>
               )}
             </section>
