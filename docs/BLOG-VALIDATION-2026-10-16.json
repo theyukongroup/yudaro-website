@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-16",
+  "sourceChecks": "PASS: three complete articles, unique routes, valid inline link text, existing internal destinations, homepage links and blog discovery links",
+  "typecheck": "PASS: tsc --noEmit, exit 0",
+  "format": "Changed TSX and TS formatted with project formatter; JSON retains existing indentation",
+  "renderedChecks": "PASS: all three new articles returned HTTP 200 with canonical URL, Article schema, homepage link and body text; sitemap returned HTTP 200 and contained all three new URLs. Blog index request timed out in the client during initial compilation, while the server logged HTTP 200. Source-level blog discovery checks passed; rendered index-link inspection and visual QA remain incomplete.",
+  "deployment": "Not deployed by this task",
+  "ranking": "No authenticated Search Console measurements; no numerical Google rank or AI Mode citation claimed"
+}

@@ -16,6 +16,30 @@ type EditorialCard = {
 
 // Display copy belongs to the index; the articles retain their full SEO titles.
 const editorialCards: Record<string, EditorialCard> = {
+  '/resources/ai-erp-email-to-quotation': {
+    title: 'From customer email to a reviewed quote',
+    category: 'AI + ERP',
+    headline: ['Read the request.', 'Review the quote.'],
+    excerpt:
+      'Match products, validate pricing, and keep approval in the quotation workflow.',
+    tone: 'inventory',
+  },
+  '/resources/private-ai-vs-native-erp-ai': {
+    title: 'Private AI or native ERP AI?',
+    category: 'Private AI',
+    headline: ['Choose the task.', 'Trace the data.'],
+    excerpt:
+      'Compare workflow fit, data paths, permissions, and the work of running each option.',
+    tone: 'pilot',
+  },
+  '/resources/houston-ai-erp-implementation-checklist': {
+    title: 'Choosing an AI ERP implementation company',
+    category: 'Implementation',
+    headline: ['Ask for proof.', 'Plan the handoff.'],
+    excerpt:
+      'A Houston buyer checklist for workflow demos, migration evidence, and support responsibilities.',
+    tone: 'migration',
+  },
   '/resources/private-ai-sop-pilot': {
     title: 'How to pilot a private AI SOP assistant',
     category: 'Private AI',

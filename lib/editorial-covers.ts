@@ -5,6 +5,21 @@ export type EditorialVisual = {
 };
 
 const visuals: Record<string, EditorialVisual> = {
+  '/resources/ai-erp-email-to-quotation': {
+    category: 'AI + ERP',
+    headline: ['Read the request.', 'Review the quote.'],
+    tone: 'inventory',
+  },
+  '/resources/private-ai-vs-native-erp-ai': {
+    category: 'Private AI',
+    headline: ['Choose the task.', 'Trace the data.'],
+    tone: 'pilot',
+  },
+  '/resources/houston-ai-erp-implementation-checklist': {
+    category: 'Implementation',
+    headline: ['Ask for proof.', 'Plan the handoff.'],
+    tone: 'migration',
+  },
   '/resources/blog': {
     category: 'Yudaro Journal',
     headline: ['Ideas into', 'practice.'],

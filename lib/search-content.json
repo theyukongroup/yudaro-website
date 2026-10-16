@@ -3197,12 +3197,42 @@
   {
     "path": "/resources/blog",
     "title": "Yudaro Blog: Private AI & Odoo ERP Implementation Guides",
-    "description": "Practical Yudaro articles with SOP pilot tests, Odoo data migration checklists and AI inventory answer examples for business and operations teams.",
+    "description": "Practical Yudaro guides to AI ERP quotations, private AI choices, Houston implementation, SOP pilots, Odoo migration and inventory answers.",
     "eyebrow": "YUDARO / BLOG",
     "intro": "Yudaro is a Private AI and Odoo ERP implementation company based in Stafford, Texas, serving Houston-area businesses. These practical articles help teams prepare data, evaluate AI answers and plan controlled ERP workflows.",
     "kind": "CollectionPage",
-    "dateModified": "2026-10-07",
+    "dateModified": "2026-10-16",
     "sections": [
+      {
+        "title": "AI ERP Quotation Automation: From Customer Email to a Reviewed Odoo Quote",
+        "body": "Plan an email-to-quotation workflow with AI extraction, Odoo product and pricing checks, duplicate protection, and human approval before sending.",
+        "links": [
+          {
+            "text": "AI ERP Quotation Automation: From Customer Email to a Reviewed Odoo Quote",
+            "href": "/resources/ai-erp-email-to-quotation"
+          }
+        ]
+      },
+      {
+        "title": "Private AI vs Native ERP AI: How to Choose for Odoo Business Workflows",
+        "body": "Compare private AI and native ERP AI by workflow fit, data paths, permissions, operating responsibilities and acceptance evidence before choosing.",
+        "links": [
+          {
+            "text": "Private AI vs Native ERP AI: How to Choose for Odoo Business Workflows",
+            "href": "/resources/private-ai-vs-native-erp-ai"
+          }
+        ]
+      },
+      {
+        "title": "Choosing an AI ERP Implementation Company in Houston: A Buyer Checklist",
+        "body": "Evaluate Houston AI ERP implementation proposals with a workflow demo, migration evidence, access tests, scope boundaries and a practical handoff checklist.",
+        "links": [
+          {
+            "text": "Choosing an AI ERP Implementation Company in Houston: A Buyer Checklist",
+            "href": "/resources/houston-ai-erp-implementation-checklist"
+          }
+        ]
+      },
       {
         "title": "Test an SOP assistant before expanding it",
         "body": "How to Pilot a Private AI SOP Assistant explains how to choose approved documents, maintain a source register and evaluate answers with 20 illustrative questions. Use it alongside the security checklist when planning a company knowledge pilot.",
@@ -3262,5 +3292,478 @@
         "label": "Learn about Yudaro"
       }
     ]
+  },
+  {
+    "path": "/resources/ai-erp-email-to-quotation",
+    "title": "AI ERP Quotation Automation: From Customer Email to a Reviewed Odoo Quote",
+    "description": "Plan an email-to-quotation workflow with AI extraction, Odoo product and pricing checks, duplicate protection, and human approval before sending.",
+    "eyebrow": "YUDARO BLOG / AI + ERP",
+    "intro": "AI ERP quotation automation can turn an unstructured customer request into a draft quotation for a salesperson to review. AI interprets the message; ERP records supply customer identity, product references and approved commercial rules. The first useful outcome is a correct, traceable draft. Sending the quote or confirming an order remains a separate authorized step.",
+    "sections": [
+      {
+        "title": "Where quotation work slows down",
+        "body": "A sales inbox often contains more context than a structured order form: shorthand product names, forwarded attachments, delivery preferences and references to earlier purchases. Staff must translate that context into a customer, product, quantity and price. Automating only the typing leaves the difficult matching work untouched. Start by recording which decisions employees make and which source supports each decision. If the requests are already structured and unambiguous, an ordinary import or automation rule may be sufficient."
+      },
+      {
+        "title": "An example: three product lines, one unresolved unit",
+        "body": "Consider an illustrative distributor request: \"Please quote 12 cases of filter A, 6 of the usual B, and 10 replacement C for the north location.\" The workflow can propose matches for A and C, but \"6\" has no confirmed unit and \"usual B\" may refer to several products. The correct draft preserves those uncertainties for the salesperson. It does not infer a case size from a similar customer or silently replace an unavailable item. This example describes a proposed design, not a deployed Yudaro customer result."
+      },
+      {
+        "title": "Define the handoff between AI, ERP and the salesperson",
+        "body": "Give each part of the workflow a clear job. Let language interpretation propose structured fields. Let configured business logic validate them against current permitted records. Let the salesperson resolve exceptions and approve the customer-facing result. Odoo documentation describes AI agents and automation rules, but a complete email-to-quotation workflow still requires installation-specific design and testing.",
+        "table": {
+          "headers": [
+            "Stage",
+            "Required evidence",
+            "Stop condition"
+          ],
+          "rows": [
+            [
+              "Identify request",
+              "Message reference, sender and attachment version",
+              "An attachment cannot be read"
+            ],
+            [
+              "Resolve customer",
+              "Approved customer and delivery location",
+              "Several accounts match"
+            ],
+            [
+              "Match products",
+              "Product identifier, requested unit and quantity",
+              "Alias or unit is ambiguous"
+            ],
+            [
+              "Validate quote",
+              "Current approved pricing and commercial rules",
+              "Required price or term is missing"
+            ],
+            [
+              "Review draft",
+              "Source message, proposed lines and exceptions",
+              "Reviewer has not approved sending"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Use current pricing and keep inventory claims precise",
+        "body": "An old PDF price list should not override the customer pricing rule approved in the ERP. Calculate totals through the configured business logic and present the result for review. Record whether an availability statement reflects current stock, a forecast or an unconfirmed supplier date. A quotation draft does not itself reserve inventory. If a lookup fails, keep the affected line unresolved instead of substituting a remembered number. The inventory answer checklist explains how to make warehouse, unit and timestamp explicit.",
+        "links": [
+          {
+            "text": "inventory answer checklist",
+            "href": "/resources/ai-odoo-inventory-answers"
+          }
+        ]
+      },
+      {
+        "title": "Prevent duplicate drafts and unauthorized actions",
+        "body": "A forwarded request, a retried job and a salesperson clicking twice should not produce three customer quotes. Define how the integration identifies the source request, records processing status and resumes after failure. If the customer changes quantities, preserve the relationship between the original request and the revision. Restrict draft creation separately from sending, order confirmation and other transactions. Before approval, show exactly which customer, lines, quantities and terms will be used. Recheck material changes that happen between draft preparation and approval."
+      },
+      {
+        "title": "Test difficult requests before increasing volume",
+        "body": "Use a business-owned sample of historical requests with sensitive details removed or appropriately controlled. Ask experienced sales staff to establish the expected matches and unresolved questions first. Compare the proposed draft with that reference and retain failure evidence. These suggested tests are an acceptance worksheet, not a universal certification.",
+        "items": [
+          "Two products share a similar name: ask for clarification.",
+          "A customer writes \"same as last time\": verify the intended order and unit.",
+          "A new attachment revises quantity: supersede the correct version.",
+          "The pricing source is unavailable: hold the affected line.",
+          "The request is processed twice: return the existing draft or a visible exception.",
+          "The integration user cannot access the customer: reveal no restricted account details.",
+          "A reviewer changes a price: record who changed it before sending."
+        ]
+      },
+      {
+        "title": "Measure usable drafts rather than generated text",
+        "body": "Track the proportion of drafts accepted without correction, product and unit mismatch counts, review time, duplicate drafts and exception resolution time. Compare similar request types before and during the pilot; simple repeat orders can make averages look better than the underlying improvement. As an illustrative calculation, reducing handling time from 12 to 8 minutes across 100 comparable requests frees 400 minutes before maintenance and exception work. It is not a revenue forecast or a claimed Yudaro result. Include operating costs and ongoing review before deciding whether to expand."
+      },
+      {
+        "title": "Plan the first quotation workflow with Yudaro",
+        "body": "Bring a few representative requests, your product aliases, customer pricing rules and the names of the people who approve quotations. Yudaro can discuss AI + ERP integration around a bounded workflow and clear acceptance evidence. Begin with the Yudaro AI and ERP overview for the broader service approach, then use a consultation to agree which systems, data and actions belong in your first scope.",
+        "links": [
+          {
+            "text": "AI + ERP integration",
+            "href": "/ai-erp"
+          },
+          {
+            "text": "Yudaro AI and ERP overview",
+            "href": "/"
+          },
+          {
+            "text": "a consultation",
+            "href": "/contact"
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      [
+        "Can AI send quotations automatically?",
+        "That is a separate scope decision. Start with reviewed drafts and test permissions, commercial validation, duplicates and failure recovery before considering automated sending."
+      ],
+      [
+        "Does email-to-quotation require replacing the ERP?",
+        "Not necessarily. First check the current ERP interfaces and workflow fit. A supported integration may be sufficient; replacement needs its own business justification."
+      ],
+      [
+        "What should happen when a product name is ambiguous?",
+        "Keep the proposed match unresolved and show the source text to an authorized reviewer. Do not manufacture a product identifier, unit or price."
+      ]
+    ],
+    "related": [
+      {
+        "href": "/",
+        "label": "Explore Yudaro AI and ERP systems"
+      },
+      {
+        "href": "/ai-erp",
+        "label": "Yudaro AI + ERP integration"
+      },
+      {
+        "href": "/resources/industries/wholesale-distribution",
+        "label": "Distribution workflow guide"
+      },
+      {
+        "href": "/resources/private-ai-vs-native-erp-ai",
+        "label": "Choose the AI deployment approach"
+      },
+      {
+        "href": "/resources/blog",
+        "label": "More Yudaro articles"
+      }
+    ],
+    "sources": [
+      {
+        "href": "https://www.odoo.com/documentation/19.0/applications/productivity/ai/agents.html",
+        "label": "Odoo 19 documentation: AI agents and configured tools"
+      },
+      {
+        "href": "https://www.odoo.com/documentation/19.0/applications/productivity/studio/automated_actions.html",
+        "label": "Odoo 19 documentation: automation rules"
+      }
+    ],
+    "kind": "Article",
+    "datePublished": "2026-10-16",
+    "dateModified": "2026-10-16",
+    "editorialNote": "Prepared with AI assistance. Scenarios, calculations and acceptance worksheets are illustrative, not verified client results. Confirm software capabilities against your installed version, edition and configuration."
+  },
+  {
+    "path": "/resources/private-ai-vs-native-erp-ai",
+    "title": "Private AI vs Native ERP AI: How to Choose for Odoo Business Workflows",
+    "description": "Compare private AI and native ERP AI by workflow fit, data paths, permissions, operating responsibilities and acceptance evidence before choosing.",
+    "eyebrow": "YUDARO BLOG / PRIVATE AI",
+    "intro": "Choose between private AI and native ERP AI by the workflow, information boundaries and operating responsibility you need. Native ERP AI describes where capabilities are integrated. Private AI describes the control expected over deployment and data handling. These are different dimensions: an assistant inside an ERP may use an external provider, while a privately deployed assistant may still need controlled ERP access.",
+    "sections": [
+      {
+        "title": "Start with the task rather than the label",
+        "body": "A buyer asking for \"private AI\" may mean local model execution, dedicated infrastructure, approved knowledge access or restrictions on external processing. Those requirements need separate answers. A buyer asking for \"ERP AI\" may need writing help in a record, a management summary or an action across departments. Write a concrete task such as \"help service staff find the current warranty procedure while reading a permitted customer record.\" That statement makes the data and permission questions visible before a product demonstration."
+      },
+      {
+        "title": "Compare the operating choices",
+        "body": "The table offers evaluation questions, not a product security ranking. Native capabilities vary by ERP version, edition, installed applications and provider configuration. Odoo 19 documents AI agents with configured roles and tools; that does not establish identical behavior in every installation or a private deployment by default.",
+        "table": {
+          "headers": [
+            "Question",
+            "Native ERP AI to evaluate",
+            "Private AI integration to evaluate"
+          ],
+          "rows": [
+            [
+              "Where do employees work?",
+              "Assistance within existing ERP screens",
+              "A separate company assistant or integrated interface"
+            ],
+            [
+              "What knowledge is required?",
+              "Context and sources supported by the installed feature",
+              "Approved document retrieval plus scoped live records"
+            ],
+            [
+              "Where is information processed?",
+              "Configured provider and every transmitted field",
+              "Model, retrieval, logs, backups and support access"
+            ],
+            [
+              "Who enforces access?",
+              "ERP roles plus feature-specific controls",
+              "Identity mapping, retrieval filters and ERP permissions"
+            ],
+            [
+              "Who maintains it?",
+              "ERP administrator and relevant vendors",
+              "Named owners for infrastructure, retrieval and integration"
+            ],
+            [
+              "How is success proven?",
+              "Actual feature tested on the required task",
+              "End-to-end workflow tested against agreed evidence"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Draw the complete data path",
+        "body": "Follow one employee question from sign-in through retrieval, model processing, response storage and any business action. Include embeddings or other document-processing services if used, as well as monitoring, backups and remote support. A locally hosted interface alone does not establish that all processing stays local. Equally, an external provider does not tell you the applicable retention or training terms without reviewing the specific agreement and configuration. Request a diagram and written responsibilities that match the proposed deployment, rather than accepting \"private\" as a complete specification."
+      },
+      {
+        "title": "Separate company knowledge from current transactions",
+        "body": "An approved returns procedure can explain how staff should work. It cannot establish whether a specific shipment arrived this morning. A current ERP lookup can provide transaction facts but may not explain an exception policy. A combined workflow retrieves each source for its proper purpose, identifies conflicts and stops when evidence is unavailable. For example, a service employee could receive a cited procedure and an authorized order summary while the manager still approves an exception. This is an illustrative architecture, not a statement that any particular product includes it automatically."
+      },
+      {
+        "title": "Test the same user boundary across both systems",
+        "body": "If employees cannot see a document or customer record in the source system, an assistant should not reveal it in an answer, citation or tool result. Decide how identities map across document repositories and ERP access. Test a permitted user, a restricted user and a user whose access was revoked. Repeat tests for conversation history and cached results under the agreed retention policy. A system prompt telling the model to respect permissions does not replace access enforcement in retrieval and tools. The private AI security guide provides a broader preparation checklist.",
+        "links": [
+          {
+            "text": "private AI security guide",
+            "href": "/resources/private-ai-security"
+          }
+        ]
+      },
+      {
+        "title": "Use a shared pilot to make the comparison fair",
+        "body": "Give both options the same approved questions, source revisions and expected outcomes. Include missing evidence, conflicting documents, unavailable systems and a request to perform an unauthorized action. Record answer quality, source support, response time and staff correction effort. If a native feature already meets the requirement, a separate assistant may add operating work without sufficient benefit. If the task depends on multiple repositories or a required deployment boundary, test whether the proposed integration can satisfy it before committing to a broader rollout."
+      },
+      {
+        "title": "Budget for ownership after the demonstration",
+        "body": "Compare total operating work: software and model usage, infrastructure, document preparation, upgrades, monitoring, recovery tests and integration maintenance. Assign who fixes a stale source, failed lookup or changed permission. Agree how updates are tested and how service resumes during an outage. A smaller initial scope can produce clearer evidence than a broad assistant with many untested sources. Do not treat a vendor subscription price as the complete implementation budget. Ask for assumptions and exclusions alongside each proposal."
+      },
+      {
+        "title": "How Yudaro helps frame the choice",
+        "body": "Yudaro discusses Private AI implementation and Odoo ERP workflows as parts of a business system. Use the Yudaro overview to understand the service areas, review Private AI services for knowledge and deployment needs, and discuss ERP integration when live records or prepared actions are required. Bring your existing ERP version, required sources and data-handling constraints to discovery. The outcome should be a documented choice and testable scope, which may begin with existing features, a separate integration or better source preparation.",
+        "links": [
+          {
+            "text": "Yudaro overview",
+            "href": "/"
+          },
+          {
+            "text": "Private AI services",
+            "href": "/ai-solutions"
+          },
+          {
+            "text": "ERP integration",
+            "href": "/ai-erp"
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      [
+        "Is private AI always on premises?",
+        "No. Buyers use the term for different deployment and control requirements. Specify where models, retrieval, logs and backups operate, and review the actual data paths."
+      ],
+      [
+        "Does native ERP AI remove the need for permissions testing?",
+        "No. Test the installed feature and its connected tools against actual roles, records, documents and denied-access scenarios."
+      ],
+      [
+        "Can a business use both approaches?",
+        "Yes, if each has a clear purpose and consistent identity, access and operating responsibilities. Test the combined workflow rather than assuming the two systems share the same controls."
+      ]
+    ],
+    "related": [
+      {
+        "href": "/",
+        "label": "Yudaro AI and ERP overview"
+      },
+      {
+        "href": "/ai-solutions",
+        "label": "Private AI implementation"
+      },
+      {
+        "href": "/resources/architecture/private-ai-odoo",
+        "label": "Private AI and Odoo reference design"
+      },
+      {
+        "href": "/resources/ai-erp-email-to-quotation",
+        "label": "A reviewed quotation workflow"
+      },
+      {
+        "href": "/contact",
+        "label": "Discuss your deployment requirements"
+      }
+    ],
+    "sources": [
+      {
+        "href": "https://www.odoo.com/documentation/19.0/applications/productivity/ai/agents.html",
+        "label": "Odoo 19 documentation: AI agents and configured tools"
+      },
+      {
+        "href": "https://www.odoo.com/documentation/19.0/applications/productivity/studio/automated_actions.html",
+        "label": "Odoo 19 documentation: automation rules"
+      }
+    ],
+    "kind": "Article",
+    "datePublished": "2026-10-16",
+    "dateModified": "2026-10-16",
+    "editorialNote": "Prepared with AI assistance. Scenarios, calculations and acceptance worksheets are illustrative, not verified client results. Confirm software capabilities against your installed version, edition and configuration."
+  },
+  {
+    "path": "/resources/houston-ai-erp-implementation-checklist",
+    "title": "Choosing an AI ERP Implementation Company in Houston: A Buyer Checklist",
+    "description": "Evaluate Houston AI ERP implementation proposals with a workflow demo, migration evidence, access tests, scope boundaries and a practical handoff checklist.",
+    "eyebrow": "YUDARO BLOG / IMPLEMENTATION",
+    "intro": "When choosing an AI ERP implementation company in Houston, ask each provider to demonstrate one of your real workflows, explain the migration plan, map AI data access and define acceptance evidence. Compare the work required to operate the system after launch. A local address can help coordination, but a useful buying decision depends on workflow fit, delivery responsibilities and demonstrated controls.",
+    "sections": [
+      {
+        "title": "Give every provider the same business brief",
+        "body": "A distribution team in Houston and a field-service team in Sugar Land may both ask for AI ERP, yet need different records, approvals and integrations. Describe the actual process: where work begins, who owns it, what fails and which systems hold the authoritative data. Include locations, user roles, transaction patterns and the business calendar. Ask each provider to respond to that same brief so that a narrow software setup is not mistaken for a complete migration and operating handoff."
+      },
+      {
+        "title": "Ask for evidence in six areas",
+        "body": "Use these questions during discovery and record the answer, supporting artifact and unresolved assumption. This checklist is proposed buying guidance, not a certification program or a ranking of Houston providers.",
+        "table": {
+          "headers": [
+            "Area",
+            "Ask the provider",
+            "Evidence to review"
+          ],
+          "rows": [
+            [
+              "Workflow fit",
+              "Can you walk through our request-to-completion process?",
+              "Demo with normal work and an exception"
+            ],
+            [
+              "ERP foundation",
+              "Which records, modules and integrations are in scope?",
+              "Fit-gap list and system boundaries"
+            ],
+            [
+              "Migration",
+              "How will we know the imported data is correct?",
+              "Trial import, reconciliation and cutover plan"
+            ],
+            [
+              "AI behavior",
+              "What happens when the answer is unavailable?",
+              "Source checks and failure demonstration"
+            ],
+            [
+              "Access and actions",
+              "Who can read, draft, approve and execute?",
+              "Role matrix and denied-access tests"
+            ],
+            [
+              "Handoff",
+              "Who owns updates and incidents after launch?",
+              "Runbook, training and support responsibilities"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Use a workflow demonstration that includes failure",
+        "body": "For an illustrative distributor evaluation, provide a customer request with an ambiguous product name and a required delivery location. Ask the provider to show the proposed customer match, product match, commercial validation and review step. Then remove a permission or make a required source unavailable. The system should expose the unresolved issue without revealing restricted data or inventing a result. A polished demonstration with only complete data does not establish how a production workflow will behave. Use the quotation automation guide to prepare a more detailed sales test.",
+        "links": [
+          {
+            "text": "quotation automation guide",
+            "href": "/resources/ai-erp-email-to-quotation"
+          }
+        ]
+      },
+      {
+        "title": "Treat data migration as a business acceptance task",
+        "body": "A successful upload is not the same as a correct opening position. Identify which customers, suppliers, products, transactions and opening balances belong in scope. Assign business owners to resolve duplicates and approve mappings. Reconcile trial imports against agreed source totals, quantities and sample records before cutover. Plan what happens to work created while the final migration runs and how staff can recover if acceptance fails. The Odoo data migration checklist helps organize identifiers, trial imports and reconciliation evidence.",
+        "links": [
+          {
+            "text": "Odoo data migration checklist",
+            "href": "/resources/odoo-data-migration-checklist"
+          }
+        ]
+      },
+      {
+        "title": "Compare AI architecture and deployment separately",
+        "body": "Ask where the model runs, what information is transmitted, how document access is enforced and which ERP actions are possible. Determine whether the proposed solution uses features already available in the installed ERP, an external assistant or a combination. Request separate permissions for reading, preparing records and executing approved changes. A local implementation team does not by itself establish local data processing. The private AI versus native ERP AI comparison can help translate privacy and workflow preferences into questions that providers can answer concretely.",
+        "links": [
+          {
+            "text": "private AI versus native ERP AI comparison",
+            "href": "/resources/private-ai-vs-native-erp-ai"
+          }
+        ]
+      },
+      {
+        "title": "Read the scope beside the price",
+        "body": "Compare proposals by included work and operating responsibility. Separate software licensing, discovery, configuration, migration, custom integrations, AI infrastructure, training and post-launch support. Record assumptions about source quality, user availability and third-party interfaces. Ask how new requirements affect cost and schedule, what remains manual at launch and who maintains custom work after an upgrade. A low initial amount can reflect a smaller scope rather than a better implementation fit. This article does not quote current vendor prices or project-duration guarantees."
+      },
+      {
+        "title": "Define the launch decision before signing",
+        "body": "Agree what evidence authorizes release and who accepts it. Proposed gates include reconciled opening data, successful role tests, trained process owners and a tested fallback for unavailable AI. Stage the rollout around the business calendar and the team available to respond to issues. Onsite training may be useful for warehouse or service work; confirm travel, remote support coverage and escalation expectations explicitly. Location should support the operating plan, while responsibility remains clear regardless of where a specialist works.",
+        "items": [
+          "Name the person who accepts each workflow and migrated dataset.",
+          "Document which actions remain subject to employee approval.",
+          "Keep a practical fallback for unavailable AI or integrations.",
+          "Assign ownership of sources, permissions, backups and updates.",
+          "Agree the support response process and what the contract actually includes."
+        ]
+      },
+      {
+        "title": "Questions to bring to a Yudaro discovery conversation",
+        "body": "Yudaro is based in Stafford and works with Houston-area businesses on AI and ERP implementation. Start with the Yudaro homepage to review the service areas. For discovery, bring your process brief, current systems, sample data and approval roles. Ask what can be configured, what requires integration and how acceptance will be demonstrated. Use the contact page to discuss your locations and delivery needs. A project proposal should establish the specific scope rather than relying on a broad AI ERP label.",
+        "links": [
+          {
+            "text": "Yudaro homepage",
+            "href": "/"
+          },
+          {
+            "text": "contact page",
+            "href": "/contact"
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      [
+        "Should we choose a Houston provider only because it is nearby?",
+        "Use location as one practical factor for training and coordination. Evaluate workflow fit, evidence, responsibilities and support coverage as part of the same decision."
+      ],
+      [
+        "Can AI be added without an ERP migration?",
+        "Sometimes. A discovery review should determine whether the current system and interfaces can support the required workflow before proposing replacement."
+      ],
+      [
+        "What should we prepare for the first meeting?",
+        "Bring a process outline, current software and version, representative records, locations, user roles, known data problems and the people who approve changes."
+      ]
+    ],
+    "related": [
+      {
+        "href": "/",
+        "label": "Meet Yudaro AI and ERP systems"
+      },
+      {
+        "href": "/erp-solutions",
+        "label": "Odoo ERP implementation services"
+      },
+      {
+        "href": "/ai-erp",
+        "label": "AI and ERP integration"
+      },
+      {
+        "href": "/resources/odoo-implementation-planning",
+        "label": "Plan an Odoo implementation"
+      },
+      {
+        "href": "/contact",
+        "label": "Talk with the Stafford team"
+      }
+    ],
+    "sources": [
+      {
+        "href": "https://yudaro.com/contact",
+        "label": "Yudaro contact and Stafford location"
+      },
+      {
+        "href": "https://www.odoo.com/documentation/19.0/applications/productivity/ai/agents.html",
+        "label": "Odoo 19 documentation: AI agents and configured tools"
+      },
+      {
+        "href": "https://www.odoo.com/documentation/19.0/applications/productivity/studio/automated_actions.html",
+        "label": "Odoo 19 documentation: automation rules"
+      }
+    ],
+    "kind": "Article",
+    "datePublished": "2026-10-16",
+    "dateModified": "2026-10-16",
+    "editorialNote": "Prepared with AI assistance. Scenarios, calculations and acceptance worksheets are illustrative, not verified client results. Confirm software capabilities against your installed version, edition and configuration."
   }
 ]
