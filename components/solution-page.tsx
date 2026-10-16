@@ -17,6 +17,7 @@ export function SolutionPage({
     title: string;
     body: string;
     image?: { src: string; alt: string };
+    illustration?: React.ReactNode;
   }[];
   quote?: string;
   children?: React.ReactNode;
@@ -52,7 +53,11 @@ export function SolutionPage({
       )}
       <section className="section-shell detail-grid">
         {items.map((x, i) => (
-          <article className={x.image ? 'detail-card-image' : ''} key={x.title}>
+          <article
+            className={x.image || x.illustration ? 'detail-card-image' : ''}
+            key={x.title}
+          >
+            {x.illustration}
             {x.image && (
               <div className="detail-visual">
                 <Image
@@ -64,7 +69,7 @@ export function SolutionPage({
                 />
               </div>
             )}
-            <div className={x.image ? 'detail-copy' : ''}>
+            <div className={x.image || x.illustration ? 'detail-copy' : ''}>
               <b>{String(i + 1).padStart(2, '0')}</b>
               <Check size={18} />
               <h2>{x.title}</h2>

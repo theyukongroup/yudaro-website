@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { AIIllustration } from '@/components/ai-illustration';
 import { ContentSections } from '@/components/search-content';
 import { contentByPath } from '@/lib/search-content';
 import { PageSchema, Breadcrumbs } from '@/components/structured-data';
@@ -15,58 +16,72 @@ const items = [
   {
     title: 'Private AI Server',
     body: 'A controlled AI environment designed around your security, performance, and governance requirements.',
-    image: {
-      src: '/ai-solutions/private-ai-server.webp',
-      alt: 'Private server secured inside a locked cabinet',
-    },
+    illustration: (
+      <AIIllustration
+        kind="server"
+        label="Animated illustration of a secure private AI server"
+      />
+    ),
   },
   {
     title: 'Company Knowledge AI',
     body: 'Turn internal documents, product information, policies, and expertise into a reliable knowledge layer.',
-    image: {
-      src: '/ai-solutions/company-knowledge-ai.webp',
-      alt: 'Organized company files and product knowledge connected to a central index',
-    },
+    illustration: (
+      <AIIllustration
+        kind="knowledge"
+        label="Animated illustration of connected company knowledge"
+      />
+    ),
   },
   {
     title: 'SOP Search',
     body: 'Let employees ask precise operational questions and receive answers grounded in approved procedures.',
-    image: {
-      src: '/ai-solutions/sop-search.webp',
-      alt: 'Magnifying glass focused on an approved procedure binder',
-    },
+    illustration: (
+      <AIIllustration
+        kind="search"
+        label="Animated illustration of searching approved procedures"
+      />
+    ),
   },
   {
     title: 'Employee Training AI',
     body: 'Give new and experienced employees on-demand guidance based on company-specific knowledge.',
-    image: {
-      src: '/ai-solutions/employee-training-ai.webp',
-      alt: 'Employee using guided training materials on a tablet',
-    },
+    illustration: (
+      <AIIllustration
+        kind="training"
+        label="Animated illustration of guided employee training"
+      />
+    ),
   },
   {
     title: 'Management AI Assistant',
     body: 'Summarize information, investigate trends, and support faster, better-informed decisions.',
-    image: {
-      src: '/ai-solutions/management-ai-assistant.webp',
-      alt: 'Executive decision dashboard and management briefing materials',
-    },
+    illustration: (
+      <AIIllustration
+        kind="management"
+        label="Animated illustration of an AI management dashboard"
+      />
+    ),
   },
   {
     title: 'Document Intelligence',
     body: 'Extract, compare, classify, and summarize information from business documents at scale.',
-    image: {
-      src: '/ai-solutions/document-intelligence.webp',
-      alt: 'Documents being sorted into classified information groups',
-    },
+    illustration: (
+      <AIIllustration
+        kind="documents"
+        label="Animated illustration of document classification"
+      />
+    ),
   },
   {
     title: 'AI Business Automation',
     body: 'Connect intelligence to workflows so routine requests can trigger controlled, auditable actions.',
-    image: {
-      src: '/ai-solutions/ai-business-automation.webp',
-      alt: 'Connected workflow stations processing a business request',
-    },
+    illustration: (
+      <AIIllustration
+        kind="automation"
+        label="Animated illustration of an approved automated workflow"
+      />
+    ),
   },
 ];
 const screenshots = [

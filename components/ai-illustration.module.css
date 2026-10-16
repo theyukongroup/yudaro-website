@@ -1,0 +1,51 @@
+.frame {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 24px 24px 0 0;
+  color: var(--y-blue, #08649e);
+}
+.frame svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.drift {
+  animation: ai-drift 6s ease-in-out infinite;
+}
+.pulse {
+  animation: ai-pulse 4s ease-in-out infinite;
+}
+.flow {
+  animation: ai-flow 5s linear infinite;
+}
+.scan {
+  animation: ai-scan 6s ease-in-out infinite;
+}
+@keyframes ai-drift {
+  50% {
+    transform: translateY(-5px);
+  }
+}
+@keyframes ai-pulse {
+  50% {
+    opacity: 0.55;
+  }
+}
+@keyframes ai-flow {
+  to {
+    stroke-dashoffset: -60;
+  }
+}
+@keyframes ai-scan {
+  50% {
+    transform: translate(5px, -3px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .frame * {
+    animation: none;
+  }
+}
+:global([data-motion='off']) .frame * {
+  animation: none;
+}
