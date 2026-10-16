@@ -2,7 +2,10 @@ import { CultureContext } from '@/components/corporate-culture';
 import Link from 'next/link';
 import { ArchitectureDiagram } from '@/components/architecture-diagram';
 import { Breadcrumbs, PageSchema } from '@/components/structured-data';
-import Image from 'next/image';
+import {
+  BusinessIllustration,
+  type BusinessScene,
+} from '@/components/business-illustration';
 import { SolutionPage } from '@/components/solution-page';
 import {
   ArrowRight,
@@ -44,31 +47,13 @@ const items = [
     'Use real business outcomes to refine workflows, knowledge, and employee experience over time.',
   ],
 ];
-const images = [
-  {
-    src: '/ai-erp/operational-questions.webp',
-    alt: 'Business leader asking a question about current operational data',
-  },
-  {
-    src: '/ai-erp/create-records.webp',
-    alt: 'Employee preparing governed business records for approval',
-  },
-  {
-    src: '/ai-erp/find-attention.webp',
-    alt: 'Operations manager identifying exceptions across customers, stock, and deliveries',
-  },
-  {
-    src: '/ai-erp/cross-department-automation.webp',
-    alt: 'Connected workflow coordinating multiple business departments',
-  },
-  {
-    src: '/ai-erp/control-accountability.webp',
-    alt: 'Controlled workflow with permissions, approval, references, and audit records',
-  },
-  {
-    src: '/ai-erp/continuous-improvement.webp',
-    alt: 'Team refining an operational workflow using measured outcomes',
-  },
+const scenes: BusinessScene[] = [
+  'knowledge',
+  'approval',
+  'reporting',
+  'integration',
+  'approval',
+  'performance',
 ];
 const flow = [
   [
@@ -193,7 +178,9 @@ export default function Page() {
         items={items.map(([title, body], i) => ({
           title,
           body,
-          image: images[i],
+          illustration: (
+            <BusinessIllustration scene={scenes[i]} label={title} />
+          ),
         }))}
       >
         <section className="section-shell ai-erp-authority">
@@ -239,11 +226,10 @@ export default function Page() {
             </p>
           </div>
           <div className="section-shell ai-erp-section-visual dark">
-            <Image
-              src="/ai-erp/connection-works.webp"
-              alt="Operations leader and technology specialist reviewing connected business information"
-              fill
-              sizes="(max-width: 700px) 100vw, 1200px"
+            <BusinessIllustration
+              scene="integration"
+              label="Private AI connected to approved ERP records and tools"
+              wide
             />
           </div>
           <div className="section-shell ai-erp-pillars">
@@ -283,11 +269,10 @@ export default function Page() {
             </p>
           </div>
           <div className="ai-erp-section-visual">
-            <Image
-              src="/ai-erp/practical-workflow.webp"
-              alt="Employee and manager reviewing a prepared business action before approval"
-              fill
-              sizes="(max-width: 700px) 100vw, 1200px"
+            <BusinessIllustration
+              scene="approval"
+              label="Business requests prepared for human review and approval"
+              wide
             />
           </div>
           <div>
@@ -312,11 +297,10 @@ export default function Page() {
               </p>
             </div>
             <div className="ai-erp-section-visual">
-              <Image
-                src="/ai-erp/creates-value.webp"
-                alt="Cross-functional team using connected information during an operations review"
-                fill
-                sizes="(max-width: 700px) 100vw, 1200px"
+              <BusinessIllustration
+                scene="modules"
+                label="Connected departments working from shared business information"
+                wide
               />
             </div>
             <div className="ai-erp-example-grid">
@@ -328,7 +312,11 @@ export default function Page() {
                 </article>
               ))}
             </div>
-            <Link prefetch={false} className="text-link" href="/contact?service=ai-erp">
+            <Link
+              prefetch={false}
+              className="text-link"
+              href="/contact?service=ai-erp"
+            >
               Discuss your highest-value workflow <ArrowRight size={16} />
             </Link>
           </div>
@@ -337,7 +325,11 @@ export default function Page() {
           <div>
             <span className="section-index">DESIGNED FOR TRUST</span>
             <h2>Automation should be powerful, observable, and reversible.</h2>
-            <Link prefetch={false} className="text-link" href="/resources/ai-erp">
+            <Link
+              prefetch={false}
+              className="text-link"
+              href="/resources/ai-erp"
+            >
               Read the practical AI + ERP guide <ArrowRight size={16} />
             </Link>
           </div>
@@ -467,7 +459,11 @@ export default function Page() {
                 </Link>
               </div>
             </div>
-            <Link prefetch={false} className="button primary" href="/assessment">
+            <Link
+              prefetch={false}
+              className="button primary"
+              href="/assessment"
+            >
               Get My Free AI + ERP Assessment <ArrowRight size={17} />
             </Link>
           </div>

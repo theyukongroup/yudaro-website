@@ -163,9 +163,13 @@ export function ContentSections({
 export function SearchPage({
   entry,
   editorial = false,
+  heroVisual,
+  children,
 }: {
   entry: SearchContent;
   editorial?: boolean;
+  heroVisual?: ReactNode;
+  children?: ReactNode;
 }) {
   const parent = entry.path.startsWith('/resources/')
     ? { href: '/resources', label: 'Resources' }
@@ -215,17 +219,19 @@ export function SearchPage({
                 <p className="search-byline">{entry.editorialNote}</p>
               )}
             </div>
-            {entry.image && (
-              <Image
-                src={entry.image}
-                alt=""
-                width={800}
-                height={600}
-                sizes="(max-width: 800px) 100vw, 40vw"
-                priority
-              />
-            )}
+            {heroVisual ??
+              (entry.image && (
+                <Image
+                  src={entry.image}
+                  alt=""
+                  width={800}
+                  height={600}
+                  sizes="(max-width: 800px) 100vw, 40vw"
+                  priority
+                />
+              ))}
           </header>
+          {children}
           <ContentSections entry={entry} />
           <section className="mini-cta section-shell">
             <div>

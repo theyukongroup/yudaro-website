@@ -1,3 +1,4 @@
+import { IllustratedFeatures } from '@/components/business-illustration';
 import Link from 'next/link';
 import { CultureHub, CultureCycle } from '@/components/corporate-culture';
 import { ContentSections } from '@/components/search-content';
@@ -45,6 +46,26 @@ export default function Page() {
         </div>
         <CultureHub />
       </header>
+      <IllustratedFeatures
+        title="Your company’s knowledge, put to work."
+        items={[
+          {
+            title: 'Capture shared knowledge',
+            body: 'Bring approved procedures, experience, and company principles into a shared knowledge foundation.',
+            scene: 'knowledge',
+          },
+          {
+            title: 'Review and improve',
+            body: 'Let employee questions and corrections inform updates reviewed by authorized people.',
+            scene: 'feedback',
+          },
+          {
+            title: 'Guide every role',
+            body: 'Share consistent, company-specific guidance with the right employees and permissions.',
+            scene: 'approval',
+          },
+        ]}
+      />
       <CultureCycle />
       <ContentSections entry={entry} />
       <section className="mini-cta section-shell">

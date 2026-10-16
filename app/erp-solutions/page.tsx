@@ -1,3 +1,7 @@
+import {
+  BusinessIllustration,
+  type BusinessScene,
+} from '@/components/business-illustration';
 import Link from 'next/link';
 import { RestaurantERP } from '@/components/restaurant-offer';
 import { ContentSections } from '@/components/search-content';
@@ -40,55 +44,19 @@ const bodies = [
   'Move critical records responsibly and prepare employees to work confidently.',
   'Keep the system stable, relevant, and improving as your business evolves.',
 ];
-const images = [
-  {
-    src: '/erp-solutions/erp-consulting-workflow-design.webp',
-    alt: 'Consultants arranging a visual business workflow',
-  },
-  {
-    src: '/erp-solutions/odoo-implementation.webp',
-    alt: 'Modular components forming a connected ERP platform',
-  },
-  {
-    src: '/erp-solutions/crm-sales.webp',
-    alt: 'A customer relationship moving through a structured sales journey',
-  },
-  {
-    src: '/erp-solutions/purchasing-inventory.webp',
-    alt: 'Purchase order, scanner, and inventory prepared for fulfillment',
-  },
-  {
-    src: '/erp-solutions/accounting-integration.webp',
-    alt: 'Balanced operational and financial ledgers',
-  },
-  {
-    src: '/erp-solutions/field-service.webp',
-    alt: 'Field technician coordinating work with tools, parts, and a tablet',
-  },
-  {
-    src: '/erp-solutions/subscriptions-memberships.webp',
-    alt: 'Organized recurring membership and subscription lifecycle',
-  },
-  {
-    src: '/erp-solutions/dashboards-reporting.webp',
-    alt: 'Executive performance dashboard and business reports',
-  },
-  {
-    src: '/erp-solutions/custom-modules.webp',
-    alt: 'A tailored module fitted into a flexible business system',
-  },
-  {
-    src: '/erp-solutions/third-party-integrations.webp',
-    alt: 'Commerce, payment, logistics, and business tools connected through one hub',
-  },
-  {
-    src: '/erp-solutions/data-migration-training.webp',
-    alt: 'Business records moving safely into an organized system during employee training',
-  },
-  {
-    src: '/erp-solutions/maintenance-support.webp',
-    alt: 'Specialist inspecting and maintaining precision system components',
-  },
+const scenes: BusinessScene[] = [
+  'planning',
+  'modules',
+  'sales',
+  'inventory',
+  'finance',
+  'service',
+  'subscriptions',
+  'reporting',
+  'development',
+  'integration',
+  'migration',
+  'support',
 ];
 const screenshots = [
   {
@@ -150,7 +118,9 @@ export default function Page() {
         items={names.map((title, i) => ({
           title,
           body: bodies[i],
-          image: images[i],
+          illustration: (
+            <BusinessIllustration scene={scenes[i]} label={title} />
+          ),
         }))}
       >
         <ContentSections entry={detail} />

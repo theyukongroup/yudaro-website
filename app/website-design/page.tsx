@@ -1,7 +1,10 @@
 import Link from 'next/link';
 import { PageSchema } from '@/components/structured-data';
 import type { Metadata } from 'next';
-import Image from 'next/image';
+import {
+  BusinessIllustration,
+  type BusinessScene,
+} from '@/components/business-illustration';
 import {
   ArrowRight,
   Check,
@@ -51,31 +54,13 @@ const services = [
     'Performance tuning, launch support, and ongoing improvements as your business grows.',
   ],
 ] as const;
-const serviceImages = [
-  {
-    src: '/website-design/strategy-ux.webp',
-    alt: 'Designer arranging website wireframes and a customer journey',
-  },
-  {
-    src: '/website-design/responsive-design.webp',
-    alt: 'Coordinated website displayed across desktop, tablet, and mobile',
-  },
-  {
-    src: '/website-design/custom-development.webp',
-    alt: 'Designer assembling custom website components by hand',
-  },
-  {
-    src: '/website-design/search-foundations.webp',
-    alt: 'Magnifying glass revealing an organized website and analytics structure',
-  },
-  {
-    src: '/website-design/business-integrations.webp',
-    alt: 'Website connected to scheduling, customer, payment, and automation tools',
-  },
-  {
-    src: '/website-design/performance-care.webp',
-    alt: 'Specialist tuning website performance with precision tools',
-  },
+const scenes: BusinessScene[] = [
+  'design',
+  'responsive',
+  'development',
+  'search',
+  'integration',
+  'performance',
 ];
 const packages = [
   {
@@ -157,15 +142,7 @@ export default function Page() {
         <div className="web-service-grid">
           {services.map(([Icon, title, body], i) => (
             <article key={title}>
-              <div className="web-service-image">
-                <Image
-                  src={serviceImages[i].src}
-                  alt={serviceImages[i].alt}
-                  width={760}
-                  height={760}
-                  sizes="(max-width: 640px) 100vw, (max-width: 960px) 50vw, 33vw"
-                />
-              </div>
+              <BusinessIllustration scene={scenes[i]} label={title} />
               <div className="web-service-copy">
                 <span>0{i + 1}</span>
                 <Icon size={23} />
